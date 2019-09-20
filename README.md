@@ -11,7 +11,6 @@
 2. App Name: 
     Gif Maker
 3. App Description (3-5 sentences):
-    1. Explain it to your Grandma or a 5-year old child
     The app will take in live photo or video and allow you to make gif from those video/ live photo. The gif will be able to be store in the local disc. You can save these gif in photo library to upload on instagram or other social media. You can also share your made gifs to the app's community and view other's creation.
 4. Target Audience: (Who would want to use the app?)
     People that like to record their live moment and share as short clips.
