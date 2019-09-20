@@ -21,12 +21,14 @@
 
 Add photos, notes, and sketches from your brain storming session. 
 
-1. Brainstorming (Photo / Sketch)
-    2. 15 min: Mind Map 
-    3. 10 min: Organize ideas
-    4. 10 min: Sketch mock ups 
-2. If you have tons of ideas, set a timer again and keep going.
-3. Don't filter yourself in the brainstorming phase, you want to capture everything and anything
+UX flow: tab bar controller with 2 tabs (community gifs (from server), my gifs (local storage))
+on the Nav bar, there will be a + button to create new gif -> imagepicker from camera or library to import video/ live photo.
+
+imagepicker -> (allow editing of length + sticker? or just loop the video to create gif, need research on this). 
+
+When the user is done with making the gif, it will appear in their "my gifs". In the my gifs tab, there will be collection view cells of the gif playing, tabing on them will trigger action sheet for export to photo library or upload to community.
+
+in the community gif, gifs will be display in collection cells, tapping on them allows saving it to library( will also save to "my gif") or just to "my gif"
 
 ## Project Plan
 1. Add your tasks to your Trello board
