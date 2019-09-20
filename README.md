@@ -19,13 +19,14 @@
 Add photos, notes, and sketches from your brain storming session. 
 
 1. Brainstorming (Photo / Sketch)
-	2. 15 min: Mind Map 
-	3. 10 min: Organize ideas
-	4. 10 min: Sketch mock ups 
-  
+    2. 15 min: Mind Map 
+    3. 10 min: Organize ideas
+    4. 10 min: Sketch mock ups 
+2. If you have tons of ideas, set a timer again and keep going.
+3. Don't filter yourself in the brainstorming phase, you want to capture everything and anything
+
 ## Project Plan
 1. Add your tasks to your Trello board
 2. Organize your Trello board tasks by priority
-3. Plan what you're going to work on first thing the next day
-
-
+3. You won't be able to do everything, focus on a ~3 features / 3-5 screens that you can finish
+4. Re-evaluate your progress each day and plan what you'll work on the next day
