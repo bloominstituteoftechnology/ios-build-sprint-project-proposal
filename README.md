@@ -6,13 +6,13 @@
 
 ## Requirements
 
-1. Team Members:
-2. App Name: 
-3. App Description (3-5 sentences):
+1. Team Members: Luqmaan 
+2. App Name: playerIQ
+3. App Description (3-5 sentences): An app where a sports agent (NFL) can keep track of their current roster of players, including the player's profile pic, and general information as well as copies of documents. Also, the user can create a list of prospects. User also receives alerts about player news. (i will think of more features to incorporate cool frameworks but for right now this is the basic idea)
     1. Explain it to your Grandma or a 5-year old child
-4. Target Audience: (Who would want to use the app?)
-5. Code repository: `<Github URL>`
-6. Trello Board: `<Post your link here>`
+4. Target Audience: (Who would want to use the app?) Sports Agents
+5. Code repository: https://github.com/LuqKhan/playerIQ
+6. Trello Board:  https://trello.com/b/BYC9qP5g/playeriq
 
 ## Brainstorming
 
