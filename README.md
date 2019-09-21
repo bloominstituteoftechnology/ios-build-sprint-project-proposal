@@ -20,7 +20,7 @@
 4. Target Audience: (Who would want to use the app?)
     Anyone who takes movies seriously. This would include bloggers, vloggers, movie reviewers. Anyone can use the app for general movie tracking, but serious movie goers and people who log movies would be our target users.
     
-5. Code repository: `https://github.com/CineScribe/CineScribe/blob/master/README.md` (https://github.com/CineScribe/CineScribe/blob/master/README.md)[CineScribe GitHub]
+5. Code repository: `https://github.com/CineScribe/CineScribe/blob/master/README.md` [https://github.com/CineScribe/CineScribe/blob/master/README.md](CineScribe GitHub)
 6. Trello Board: `https://trello.com/b/jwVgpk3p/cinescribe-app` (https://trello.com/b/jwVgpk3p/cinescribe-app)[CineScribe Trello]
 
 7. Target will be iOS 13
