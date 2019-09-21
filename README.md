@@ -7,12 +7,23 @@
 ## Requirements
 
 1. Team Members:
+    * Jeff Santana
+    * Marlon Raskin
+    
 2. App Name: 
+    We have two ideas for names:
+    * CineScribe
+    
 3. App Description (3-5 sentences):
-    1. Explain it to your Grandma or a 5-year old child
+   This app is a tool that allows serious movie goers and reviewers to get their thoughts and feelings out and recorded fresh after viewing a movie. Notes about the picture are entered in the app and saved for later to edit and expand on.
+   
 4. Target Audience: (Who would want to use the app?)
-5. Code repository: `<Github URL>`
-6. Trello Board: `<Post your link here>`
+    Anyone who takes movies seriously. This would include bloggers, vloggers, movie reviewers. Anyone can use the app for general movie tracking, but serious movie goers and people who log movies would be our target users.
+    
+5. Code repository: `https://github.com/CineScribe/CineScribe/blob/master/README.md` (https://github.com/CineScribe/CineScribe/blob/master/README.md)[CineScribe GitHub]
+6. Trello Board: `https://trello.com/b/jwVgpk3p/cinescribe-app` (https://trello.com/b/jwVgpk3p/cinescribe-app)[CineScribe Trello]
+
+7. Target will be iOS 13
 
 ## Brainstorming
 
