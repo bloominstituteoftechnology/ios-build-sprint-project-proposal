@@ -35,3 +35,5 @@ in the community gif, gifs will be display in collection cells, tapping on them 
 2. Organize your Trello board tasks by priority
 3. You won't be able to do everything, focus on a ~3 features / 3-5 screens that you can finish
 4. Re-evaluate your progress each day and plan what you'll work on the next day
+
+added tasks in daily goal format. will re-evalute after working on the project on monday
