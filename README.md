@@ -9,7 +9,7 @@
 1. Team Members: `<Who's on the team?>`
 2. App Name: `<What's the app name?>`
 3. App Description (3-5 sentences):
-    1. Explain it to your Grandma or a 5-year old child
+    1. `<Explain it to your Grandma or a 5-year old child>`
 4. Target Audience: (Who would want to use the app?)
 5. Github code repository: `<Github URL>`
 6. Github Project/Trello Board: `<Post your Kanban board link>`
