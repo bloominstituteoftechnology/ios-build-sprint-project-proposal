@@ -1,4 +1,4 @@
-# Project Proposal for iOS Build Week
+# Project Proposal for iOS Build Sprint
 
 1. Fork and Clone this repository
 2. Fill out the information below
