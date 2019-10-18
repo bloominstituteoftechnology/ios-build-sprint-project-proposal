@@ -11,7 +11,7 @@
 3. App Description (3-5 sentences):
     `a travel app that allows a comprehensive view , a world map, of the places traveled. The user will be able to see the latest photo taken at that location on the map. The user can also tap on the pin to see all the photos. User can also view the entries in a list view to relive the moment of their travel.`
 4. Your #1 Customer (Who would use your app? Why now?)
-    `Yichin, my girlfriend, she travels to a different country every quarter and would like an app to track her travel photos and experience.
+    `Yichin, my girlfriend, she travels to a different country every quarter and would like an app to track her travel photos and experience.`
 5. Github code repository: `https://github.com/bradleyyin/TravelBook`
 6. Github Project/Trello Board: `https://trello.com/b/oBj9JYi8/travel-app`
 
