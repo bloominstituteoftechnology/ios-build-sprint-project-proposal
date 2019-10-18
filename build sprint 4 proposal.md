@@ -13,7 +13,7 @@
 4. Your #1 Customer (Who would use your app? Why now?)
     `Yichin, my girlfriend, she travels to a different country every quarter and would like an app to track her travel photos and experience.
 5. Github code repository: `https://github.com/bradleyyin/TravelBook`
-6. Github Project/Trello Board: `https://trello.com/b/oBj9JYi8/travel-app>`
+6. Github Project/Trello Board: `https://trello.com/b/oBj9JYi8/travel-app`
 
 ## Part 1: Brainstorming
 
