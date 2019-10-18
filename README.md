@@ -7,7 +7,7 @@
 ## Requirements
 
 1. Team Members: *Dan Morse*
-2. App Name: *80/20 Tracker*
+2. App Name: *80/20 Tracker* (talked with Ben and got approval)
 3. App Description (3-5 sentences):
     *Fitness trackers for endurance athletes aren't hard to come by, but what if you want to train using the 80/20 rule? Finally, there's an app for that! The 80/20 rule says that you should spend 80% of your training time below 90% of your lactate threshold heartrate (roughly 88% of your max heartrate), and as much of the rest above 102% of your lactate threshold heartrate. This app will help you see how well you are doing at following the 80/20 rule and (hopefully) help you plan your coming workouts.
 4. Your #1 Customer (Who would use your app? Why now?)
