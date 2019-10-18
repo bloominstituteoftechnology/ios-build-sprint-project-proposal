@@ -15,6 +15,10 @@
 5. Github code repository: `https://github.com/jonbash/CountdownTracker`
 6. Github Project/Trello Board: `https://github.com/jonbash/CountdownTracker/projects/1`
 
+Description:
+
+> Create a record of some event happening in the future and provide an interface to show how many days, hours, minutes, seconds are left. Let the user add tags or categories to each event. Provide settings to allow the user to decide how granular the countdowns should be. Allow the user to sort/filter the events by tags/categories or show in order of when they will come due.
+
 ## Part 1: Brainstorming
 
 Add photos, notes, and sketches from your brain storming session. 
