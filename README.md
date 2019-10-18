@@ -6,14 +6,14 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members:  Luqmaan Khan
+2. App Name: `FantastyIQ
 3. App Description (3-5 sentences):
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+You can add the players on your fantasy team, the app gives you season projections, game to game projections, and give you trade recomendations.
 4. Your #1 Customer (Who would use your app? Why now?)
-    `<Be specific and focus on a real person>
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+`Many of my friends, play fantasy football, and I used to.
+5. Github code repository: `https://github.com/LuqKhan/FantasyIQ
+6. Github Project/Trello Board: `https://trello.com/b/d2c7GqQP/fantasyiq
 
 ## Part 1: Brainstorming
 
@@ -51,9 +51,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. `Give the user a fantasy points season projection for each player on their roster.
+2. ``Give the user a fantasy points game projection before each game.
+3. ``Give the user a trade recomendation if needed
 
 ## Part 2: Project Plan
 
