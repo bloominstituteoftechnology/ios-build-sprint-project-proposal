@@ -6,14 +6,14 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `Niranjan Kumar`
+2. App Name: `Medication Tracker Lite`
 3. App Description (3-5 sentences):
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    `This is the perfect app for anyone who wants to keep track of the medications they need to take on a daily basis. It’s this simple: input your medication info, the days it needs to be taken, along with a description, and you’re good to go! We’ll make sure to remind you `
 4. Your #1 Customer (Who would use your app? Why now?)
-    `<Be specific and focus on a real person>
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+    `Any person who takes multiple medications throughout the week.
+5. Github code repository: https://github.com/drudolpho/Medication-Tracker-Lite/tree/master
+6. Github Project/Trello Board: https://www.taskade.com/v/Na2BVjB5p4UHz2RD
 
 ## Part 1: Brainstorming
 
