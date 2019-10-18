@@ -6,13 +6,13 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `Michael Redig`
+2. App Name: `Poopmaster`
 3. App Description (3-5 sentences):
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    >A log of your bowel movements and food you consume. It can then analyze your data and inform you on how you react from food you've eaten. Now you can find out what foods have been causing you the most trouble!
 4. Your #1 Customer (Who would use your app? Why now?)
-    `<Be specific and focus on a real person>
-5. Github code repository: `<Create a Github Project>`
+    `Me (and others who have digestive issues)`
+5. Github code repository: [Poopmaster Github](https://github.com/mredig/Poopmaster)
 6. Github Project/Trello Board: `<Post your link to your Kanban board>`
 
 ## Part 1: Brainstorming
