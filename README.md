@@ -6,14 +6,14 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `Skyler Suzuki`
+2. App Name: `Group Lunch Coordinator`
 3. App Description (3-5 sentences):
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    `You can use this app to meet up with friends for food. You can vote on the place you want to go. The phone will let you know when to leave for lunch`
 4. Your #1 Customer (Who would use your app? Why now?)
-    `<Be specific and focus on a real person>
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+    `Groups who want to schedule food meetups`
+5. Github code repository: `https://github.com/skysuzuki/iOS-Build-Week-1`
+6. Github Project/Trello Board: `https://trello.com/invite/b/TobSkpsg/0955b23f3c92345221bd5852d38f0cd2/ios-11-build-week-1`
 
 ## Part 1: Brainstorming
 
