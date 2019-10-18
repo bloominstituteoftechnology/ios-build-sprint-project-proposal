@@ -6,14 +6,14 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `Jon Bash`
+2. App Name: `Countdown Tracker`
 3. App Description (3-5 sentences):
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    `Countdown Tracker will track the amount of time left before a user's events. The user will add events to the app, including a name and the date/time, and the app will keep track of and let you know how much time is left until an event. When it passes, the user will receive an alert that it's now time for the event.`
 4. Your #1 Customer (Who would use your app? Why now?)
-    `<Be specific and focus on a real person>
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+    `This app will be used by someone who has a lot of events going on that they're trying to keep track of. Normally this might be dealt with by a calendar, but the user of this app has so many calendar events that they need a separate place to just give a simple view of how much time is left until an event, so that they can prioritize the use of their time accordingly.`
+5. Github code repository: `https://github.com/jonbash/CountdownTracker`
+6. Github Project/Trello Board: `https://github.com/jonbash/CountdownTracker/projects/1`
 
 ## Part 1: Brainstorming
 
