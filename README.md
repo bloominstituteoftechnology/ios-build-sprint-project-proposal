@@ -6,14 +6,13 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
-3. App Description (3-5 sentences):
+1. Team Members: Richard Wolter, Thomas Sabino-Benowitz
+2. App Name: MortGauge
+3. App Description (3-5 sentences):Enter basic information about a house purchase and loan info to create a breakdown of the loan for its entire life (monthly payments of principal + interest). 
     `<Explain your app to your Grandma (or a 5-year old child)>`
-4. Your #1 Customer (Who would use your app? Why now?)
-    `<Be specific and focus on a real person>
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+4. Your #1 Customer Potential homeowners
+5. Github code repository: https://github.com/RNWolter/MortGauge
+6. Github Project/Trello Board: https://trello.com/b/Va5KjauP/mortgauge
 
 ## Part 1: Brainstorming
 
