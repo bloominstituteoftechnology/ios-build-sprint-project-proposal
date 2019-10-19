@@ -23,7 +23,7 @@
 
 ## Part 1: Brainstorming
 
-**See [mind map](https://github.com/jonbash/ios-build-sprint-project-proposal/blob/master/Countdown-Tracker-mindmap.png) ([source](https://github.com/jonbash/ios-build-sprint-project-proposal/blob/master/Countdown-Tracker-mindmap.itmz)) and [planning outline](https://github.com/jonbash/ios-build-sprint-project-proposal/blob/master/Countdown-Tracker-planning.md).
+**See [mind map](https://github.com/jonbash/ios-build-sprint-project-proposal/blob/master/Countdown-Tracker-mindmap.png) ([source](https://github.com/jonbash/ios-build-sprint-project-proposal/blob/master/Countdown-Tracker-mindmap.itmz)) and [planning outline](https://github.com/jonbash/ios-build-sprint-project-proposal/blob/master/Countdown-Tracker-planning.md).**
 
 Add photos, notes, and sketches from your brain storming session. 
 
