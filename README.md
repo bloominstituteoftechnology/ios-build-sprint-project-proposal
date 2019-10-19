@@ -57,7 +57,7 @@ Add photos, notes, and sketches from your brain storming session.
 
 ## Top Features (Prioritize)
 
-**See [planning outline](https://github.com/jonbash/ios-build-sprint-project-proposal/blob/master/Countdown-Tracker-planning.md).
+**See [planning outline](https://github.com/jonbash/ios-build-sprint-project-proposal/blob/master/Countdown-Tracker-planning.md).**
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
