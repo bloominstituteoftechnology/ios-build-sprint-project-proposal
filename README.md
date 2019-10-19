@@ -1,5 +1,7 @@
 # Project Proposal for iOS Build Sprint
 
+**[See here for actual project source](https://github.com/jonbash/CountdownTracker).**
+
 1. Fork and Clone this repository
 2. Fill out the information below (Remove `<placeholders>` and add your answers)
 3. Tag your TL and Instructor on your Pull Request
@@ -15,11 +17,13 @@
 5. Github code repository: `https://github.com/jonbash/CountdownTracker`
 6. Github Project/Trello Board: `https://github.com/jonbash/CountdownTracker/projects/1`
 
-Description:
+### Description:
 
 > Create a record of some event happening in the future and provide an interface to show how many days, hours, minutes, seconds are left. Let the user add tags or categories to each event. Provide settings to allow the user to decide how granular the countdowns should be. Allow the user to sort/filter the events by tags/categories or show in order of when they will come due.
 
 ## Part 1: Brainstorming
+
+**See [mind map](https://github.com/jonbash/ios-build-sprint-project-proposal/blob/master/Countdown-Tracker-mindmap.png) ([source](https://github.com/jonbash/ios-build-sprint-project-proposal/blob/master/Countdown-Tracker-mindmap.itmz)) and [planning outline](https://github.com/jonbash/ios-build-sprint-project-proposal/blob/master/Countdown-Tracker-planning.md).
 
 Add photos, notes, and sketches from your brain storming session. 
 
@@ -53,6 +57,8 @@ Add photos, notes, and sketches from your brain storming session.
 
 ## Top Features (Prioritize)
 
+**See [planning outline](https://github.com/jonbash/ios-build-sprint-project-proposal/blob/master/Countdown-Tracker-planning.md).
+
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
 1. `<Feature 1: What will this help your #1 Customer do?>`
@@ -60,6 +66,8 @@ Add your top 3-5 features (core functionality) from the Prioritize brainstorming
 3. `<Feature 3 ...>`
 
 ## Part 2: Project Plan
+
+**See [Github project](https://github.com/jonbash/CountdownTracker/projects/1).**
 
 Take a step away from your computer and go for a walk. Your brain will continue to think about your app idea.
 
