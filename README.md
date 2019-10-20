@@ -9,9 +9,9 @@
 1. Team Members: `Brandi Bailey`
 2. App Name: `reMindful`
 3. App Description (3-5 sentences):
-    `reMindful allows you to be reminded of selfcare practices throughout your busy day.  reMindful will track the healty havits of your choosing and track when they're due.  Let reMindful help you take care of you!`
+    `reMindful allows you to be reminded of selfcare practices throughout your busy day.  reMindful tracks the healty habits of your choosing and track when they're due.  Let reMindful help you take care of you!`
 4. Your #1 Customer (Who would use your app? Why now?)
-    `The overworker and overachiever, those that get too wrapped up and forget to take care of themselves.`
+    `The overworker and overachiever, those that get too wrapped up in the daily grind and forget to take care of themselves.`
 5. Github code repository: `https://github.com/blubrandi/reMindful`
 6. Github Project/Trello Board: `https://trello.com/b/jfgOVTBT/remindful`
 
