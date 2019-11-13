@@ -2,7 +2,7 @@
 
 ## Kickoff 
 
-* Submit your Proposal with mind maps, idea lists, and mockup sketches by 3pm Pacific
+* Submit your Proposal with mind maps, idea lists, and mockup sketches by 5pm Pacific
 * Your TL will approve your proposal or request changes before you start your Build Sprint
 
 
