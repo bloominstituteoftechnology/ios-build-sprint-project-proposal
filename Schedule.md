@@ -4,12 +4,12 @@
 
 * Submit your Proposal with mind maps, idea lists, and mockup sketches by 5pm Pacific
 * Your TL will approve your proposal or request changes before you start your Build Sprint
+* Get access to TestFlight / AppStore Connect
 
 
 ## Monday
 * Start working on your first task
 * Get project clarity with a 1:1
-* Get access to TestFlight / AppStore Connect
 
 ## Tuesday
 * **Required**: Run your app on an iPhone or iPad (Show your TL with screenshot / photo)
