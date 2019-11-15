@@ -6,15 +6,13 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
-3. App Description (3-5 sentences):
-
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+1. Team Members: Chad Rutherford & Tyler Christian
+2. App Name: Pill Reminder
+3. App Description (3-5 sentences): This app will hold a list of your current daily medications. You can add and remove items from the list, and have them saved between launches of the app. When your medications are running low, we will send you a reminder to refill your meds.
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    This app will be geared towards the elderly and the user most at risk for forgetting to take their daily medications.
     
 5. Github code repository: `<Create a Github Project>`
 6. Github Project/Trello Board: `<Post your link to your Kanban board>`
