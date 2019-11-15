@@ -53,9 +53,11 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. The user will be able to add current medications.
+2. The user will be able to update the meds as they have taken them for the day.
+3. The user will be able to delete meds they are no longer taking.
+4. The app will use SystemTextStyles to enable people with impaired vision to be able to use larger text settings to see their medication list more easily.
+5. The app will send the user a notification every morning at 7am only when they have medications with 4 doses or less remaining.
 
 ## Part 2: Project Plan
 
