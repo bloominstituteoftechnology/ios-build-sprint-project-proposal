@@ -14,7 +14,7 @@
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>
+    `<Be specific and focus on a real person>`
     
 5. Github code repository: `<Create a Github Project>`
 6. Github Project/Trello Board: `<Post your link to your Kanban board>`
