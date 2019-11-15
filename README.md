@@ -16,8 +16,8 @@
  
  `<My mom, she takes wedding photos and sometimes she copies images in a weird way that ends up duplicating and when people download the folder to their phones there are a lot of duplicates. If she could remove the duplicates before she uploads them it will solve that issue.>`
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: `<https://github.com/Patrickm79/ios-build-sprint-project-proposal>`
+6. Github Project/Trello Board: `<https://github.com/Patrickm79/ios-build-sprint-project-proposal/projects/1>`
 
 ## Part 1: Brainstorming
 
@@ -55,9 +55,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. `<Delete duplicate pictures while being able to restore unwanted deletions>`
+2. `<Feature 2 <Allows customer to have a clean camera roll or folders and saves on storage space.>`
+3. `<I'd like to add a feature that shows a different background color if a folder notices there are duplicates in it, and shows those images when tapped. Allow user default to toggle between kind of like a background process that scans as new pictures are added to the phone and notifys when a duplicate is noticed or just scanning when the app is launched and a folder is selected.>`
 
 ## Part 2: Project Plan
 
