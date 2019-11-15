@@ -18,6 +18,7 @@
     
 5. Github code repository: `<Create a Github Project>`
 6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
 
