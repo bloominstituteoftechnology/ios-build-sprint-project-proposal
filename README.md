@@ -1,19 +1,18 @@
-# Project Proposal for iOS Build Sprint
-
-1. Fork and Clone this repository
-2. Fill out the information below (Remove `<placeholders>` and add your answers)
-3. Tag your TL and Instructor on your Pull Request
-
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
-3. App Description (3-5 sentences):
-    `<Explain your app to your Grandma (or a 5-year old child)>`
-4. Your #1 Customer (Who would use your app? Why now?)
-    `<Be specific and focus on a real person>
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+1. Team Members: Mitchell Budge
+
+2. App Name: Lambda Progress Tracker
+
+3. App Description:
+    This app lays out the four units of the Lambda School iOS Core into easy and navigable views. Students are able to select the modules within units they are working on and self-assess on their personal mastery and completion. If a student feels confident with the morning lecture material and is able to reach the minimum viable product on their afternoon project, they can label the module as "mastered". The app will display a percentage of mastery for each module so that a student can visibly see their own personal progress.  
+    
+4. Your #1 Customer:
+    Lambda School students! Initially the app will be specific to iOS students only, but the app will eventually expand to Lambda School students in all tracks. Now more than ever students need some simplified ways to keep track of their own individual progress outside of sprint retrospectives. 
+    
+5. Github code repository: https://github.com/mitchellgbudge/Lambda-Progress
+
+6. Github Project/Trello Board: https://trello.com/b/81Qix9b8/lambda-progress-tracker
 
 ## Part 1: Brainstorming
 
