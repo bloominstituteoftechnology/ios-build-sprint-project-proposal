@@ -16,8 +16,8 @@
  
  `<My mom, she takes wedding photos and sometimes she copies images in a weird way that ends up duplicating and when people download the folder to their phones there are a lot of duplicates. If she could remove the duplicates before she uploads them it will solve that issue.>`
     
-5. Github code repository: `<https://github.com/Patrickm79/ios-build-sprint-project-proposal>`
-6. Github Project/Trello Board: `<https://github.com/Patrickm79/ios-build-sprint-project-proposal/projects/1>`
+5. Github code repository: `<https://github.com/Patrickm79/Duplicate-No-More>`
+6. Github Project/Trello Board: `<https://github.com/Patrickm79/Duplicate-No-More/projects>`
 
 ## Part 1: Brainstorming
 
