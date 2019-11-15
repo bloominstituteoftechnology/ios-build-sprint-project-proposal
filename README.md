@@ -6,15 +6,15 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `<Patrick Millet>`
+2. App Name: `<Duplicate No More>`
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+`<Backs up the images on a selected photo folder, and cleans the duplicate photos.>`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+ `<My mom, she takes wedding photos and sometimes she copies images in a weird way that ends up duplicating and when people download the folder to their phones there are a lot of duplicates. If she could remove the duplicates before she uploads them it will solve that issue.>`
     
 5. Github code repository: `<Create a Github Project>`
 6. Github Project/Trello Board: `<Post your link to your Kanban board>`
