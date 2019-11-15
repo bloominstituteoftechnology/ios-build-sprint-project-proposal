@@ -15,7 +15,7 @@
     This app will be geared towards the elderly and the user most at risk for forgetting to take their daily medications.
     
 5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+6. Github Project/Trello Board: https://trello.com/b/GW38Z2WO/pill-reminder
 
 ## Part 1: Brainstorming
 
