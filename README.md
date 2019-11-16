@@ -6,18 +6,18 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: Jordan Christensen, Joshua Sharp
+2. App Name: Habit Tracker
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+What new habits do you want to build? With the all new Habit Tracker, you can do it in a breeze. With Habit Tracker, you can mark habits as completed and see your success rate with each one over time.
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+ My mom is a very forgetful person, but she has a heart problem and forgetting to take her pills could be fatal for her. This app will help her not only with taking her meds, but also with rememering if she has already taken her meds that day and other habits she wants to build
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: https://github.com/IOS9BW4/HabitTracker-iOS
+6. Github Project/Trello Board: https://github.com/IOS9BW4/HabitTracker-iOS/projects/1
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -56,9 +56,13 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+0. Coredata/persistance
+1. Ability to add new habits and set a time and interval to be reminded/time of the day
+2. Default completion time is 21 days but user can set it to be higher or lower
+3. Calender that shows green for each day you complete your habit and red each time you don't
+4. Pie chart that shows completion vs. failure ratio
+5. Notifications swipe to mark as completed or failed
+6. Completed habits (In green on table view or another section, etc.)
 
 ## Part 2: Project Plan
 
