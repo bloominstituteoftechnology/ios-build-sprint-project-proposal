@@ -6,18 +6,22 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: me
+2. App Name: Homescreen
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
-    
+What is the best selling smart-display - The Google Home Hub, or the Echo Show?
+- It's your iPad! With Homescreen, you can breathe new life into your old iPad!
+Use it as your companion for everything smart home: Control your Homekit devices with one tap, see your morning briefing, the traffic to work, control your music, get reminded about your appointments, btw. it's time to leave, and don't forget your umbrella, it's raining. *
+
+* = Homekit integration soon, Homepod support and reminders may not make it in time.
+
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    Me. More specifically, early-adopters, interested in smart home. They are invested in the Homekit/ Airplay- Ecosystem and excited to try new apps.
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: https://github.com/JustThisAlex/Homescreen
+6. Github Project/Trello Board: https://trello.com/b/2AoyrDxL
 
 ## Part 1: Brainstorming
 
@@ -55,9 +59,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. An overview of everything relevant in the moment
+2. Easier way of controlling devices, having contextual information visible at all times
+3. Option to dig deeper into components, and using them as full fledged apps.
 
 ## Part 2: Project Plan
 
