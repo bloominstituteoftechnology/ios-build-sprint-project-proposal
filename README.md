@@ -6,18 +6,18 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `<Tobi Tselios>`
+2. App Name: `<PressPlay>`
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    `<PressPlay is an app that allows tv series lovers to keep track of how many episodes they have left till the new season of that show starts. For those who have allowed life to get in the way of them, PressPlay is a great way to get a summary and catch up on your favourite show>`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    `<School children and college students>`
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: `<https://github.com/tobikuyo/PressPlay>`
+6. Github Project/Trello Board: `<https://github.com/tobikuyo/PressPlay/projects/1>`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -56,9 +56,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. `<Collection View of Shows>`
+2. `<Table View with a list of all episodes in a season>`
+3. `<Detail View of all episodes>`
 
 ## Part 2: Project Plan
 
