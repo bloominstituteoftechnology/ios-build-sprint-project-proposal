@@ -6,15 +6,18 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
-3. App Description (3-5 sentences):
+1. Team Members: 
+Rohan Taylor /  Zack Larsen
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
-    
+2. App Name:
+Pomodoro
+
+3. App Description (3-5 sentences):
+This app will help drive balance between accomplishing a task and short interval breaks. In order to use your mind and energy more effectively this time management app will outline the appropriate times for you to work and take breaks. 
+
 4. Your #1 Customer (Who would use your app? Why now?)
- 
-    `<Be specific and focus on a real person>`
+Our primary target audience are students. To help them develop the necessary skills it takes to study effectively.
+
     
 5. Github code repository: `<Create a Github Project>`
 6. Github Project/Trello Board: `<Post your link to your Kanban board>`
