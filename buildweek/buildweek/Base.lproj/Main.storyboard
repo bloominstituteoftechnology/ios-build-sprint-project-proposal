@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Z7i-Zb-ueL">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item-->
+        <scene sceneID="5MQ-Vx-E3U">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1N8-pG-DLv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="rip-6N-wtF" customClass="PomodoroViewController" customModule="buildweek" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uEU-az-7MF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="jtI-fa-5Aj">
+                                <rect key="frame" x="20" y="40" width="374" height="733"/>
+                                <subviews>
+                                    <pickerView contentMode="scaleToFill" verticalHuggingPriority="249" translatesAutoresizingMaskIntoConstraints="NO" id="SQp-D3-EtF">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="530.5"/>
+                                    </pickerView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="37" translatesAutoresizingMaskIntoConstraints="NO" id="s8h-qy-H8s">
+                                        <rect key="frame" x="0.0" y="540.5" width="374" height="88.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="74"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rR2-Jn-xbE">
+                                        <rect key="frame" x="0.0" y="639" width="374" height="42"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <state key="normal" title="Start"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZEK-oF-3Bf">
+                                        <rect key="frame" x="0.0" y="691" width="374" height="42"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.85189078588702882" green="0.88804999811799123" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="jtI-fa-5Aj" secondAttribute="trailing" constant="20" id="O81-l8-had"/>
+                            <constraint firstItem="pPM-r0-u0T" firstAttribute="bottom" secondItem="jtI-fa-5Aj" secondAttribute="bottom" constant="40" id="OQq-lu-cpr"/>
+                            <constraint firstItem="jtI-fa-5Aj" firstAttribute="leading" secondItem="pPM-r0-u0T" secondAttribute="leading" constant="20" id="sS3-C3-jFI"/>
+                            <constraint firstItem="jtI-fa-5Aj" firstAttribute="top" secondItem="uEU-az-7MF" secondAttribute="top" constant="40" id="vJn-if-QXy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pPM-r0-u0T"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="goforward.30" catalog="system" selectedImage="goforward.30" id="svw-U7-60Y"/>
+                    <navigationItem key="navigationItem" id="sda-8d-L2C">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="gear" catalog="system" id="9I5-Qk-G1o"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="countdownPicker" destination="SQp-D3-EtF" id="Eue-MT-eqN"/>
+                        <outlet property="startButton" destination="rR2-Jn-xbE" id="aWJ-Zd-Lca"/>
+                        <outlet property="timerLabel" destination="s8h-qy-H8s" id="YZS-Z5-9mH"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="994" y="512"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="jhN-f9-I4x">
+            <objects>
+                <viewController id="icp-WN-oll" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kKJ-Q2-ugJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="DLA-GY-dON"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="gear" catalog="system" id="bJ2-vD-xJn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ASG-Ms-SGZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2232" y="471"/>
+        </scene>
+        <!--Pomodoro-->
+        <scene sceneID="JWW-Cm-MnD">
+            <objects>
+                <viewController id="LmB-U8-H2E" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bfL-F9-mEk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="93" translatesAutoresizingMaskIntoConstraints="NO" id="6LM-JZ-CKF">
+                                <rect key="frame" x="10" y="54" width="394" height="749"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is Pomodoro?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iU2-No-1Le">
+                                        <rect key="frame" x="71.5" y="0.0" width="251" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gMd-sb-k2h">
+                                        <rect key="frame" x="77" y="129" width="240" height="128"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="128" id="6mL-HZ-iIf"/>
+                                        </constraints>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RGa-KV-M1E">
+                                        <rect key="frame" x="10" y="350" width="374" height="399"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="RGa-KV-M1E" firstAttribute="leading" secondItem="6LM-JZ-CKF" secondAttribute="leading" constant="10" id="4sJ-f9-iCj"/>
+                                    <constraint firstItem="gMd-sb-k2h" firstAttribute="leading" secondItem="6LM-JZ-CKF" secondAttribute="leading" constant="77" id="YbP-YM-0uC"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6LM-JZ-CKF" firstAttribute="top" secondItem="6Bs-tT-vte" secondAttribute="top" constant="10" id="BTM-3O-JKJ"/>
+                            <constraint firstItem="6LM-JZ-CKF" firstAttribute="leading" secondItem="6Bs-tT-vte" secondAttribute="leading" constant="10" id="UGD-Nd-JWu"/>
+                            <constraint firstItem="6Bs-tT-vte" firstAttribute="bottom" secondItem="6LM-JZ-CKF" secondAttribute="bottom" constant="10" id="odk-VB-3mi"/>
+                            <constraint firstItem="6Bs-tT-vte" firstAttribute="trailing" secondItem="6LM-JZ-CKF" secondAttribute="trailing" constant="10" id="tVY-sx-Na2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Bs-tT-vte"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Pomodoro" image="questionmark.diamond.fill" catalog="system" selectedImage="questionmark.diamond.fill" id="bpn-hK-uuD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Thc-wn-QJX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-407.24637681159425" y="470.75892857142856"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="iBi-aK-Bnp">
+            <objects>
+                <tabBarController id="Z7i-Zb-ueL" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="d9r-sI-wX4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="LmB-U8-H2E" kind="relationship" relationship="viewControllers" id="BxT-ag-fM8"/>
+                        <segue destination="rip-6N-wtF" kind="relationship" relationship="viewControllers" id="hGU-Kb-Mmi"/>
+                        <segue destination="icp-WN-oll" kind="relationship" relationship="viewControllers" id="aO6-0D-BtM"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hZg-Gc-Alc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="995" y="-299"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="gear" catalog="system" width="64" height="58"/>
+        <image name="goforward.30" catalog="system" width="60" height="64"/>
+        <image name="questionmark.diamond.fill" catalog="system" width="64" height="60"/>
+    </resources>
+</document>
