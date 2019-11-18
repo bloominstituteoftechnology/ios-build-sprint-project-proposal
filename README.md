@@ -6,18 +6,18 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: Jake Connerly, Alex Rhodes
+2. App Name: Fowl Weather
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+Does your dad lack in the jokes department? If so, we can help. With our app, you are able to generate an awesome dad joke based on the weither. 
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    Dad joke enthusiasts
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: https://github.com/alexnrhodes/FowlWeather
+6. Github Project/Trello Board: https://trello.com/b/03n4pMi0/fowlweather
 
 ## Part 1: Brainstorming
 
