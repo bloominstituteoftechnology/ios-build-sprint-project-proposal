@@ -56,6 +56,7 @@ Add your top 3-5 features (core functionality) from the Prioritize brainstorming
 4. Access to all of iOS Core modules with detailed information on competencies and projects
 5. Capability to check off career assignments with completion
 6. Potential ability to do the same with computer science track information
+7. Tutorial walkthrough of how to use the app
 
 ## Part 2: Project Plan
 
