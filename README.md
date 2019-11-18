@@ -10,7 +10,7 @@
 2. App Name: Fowl Weather
 3. App Description (3-5 sentences):
 
-Does your dad lack in the jokes department? If so, we can help. With our app, you are able to generate an awesome dad joke based on the weither. 
+Let's face it weather apps lack humor.  And what better way to get dad joke materal than looking up the weather to check to see if you can wear your crocs or not?  Introducing Fowl Weather! Guaranteed for at least one eye roll from your friends and family!
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
@@ -55,9 +55,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. `<Feature 1: Look up the weather>`
+2. `<Feature 2: Generate dad jokes>`
+3. `<Feature 3: Also have the weather for the rest of the week.>`
 
 ## Part 2: Project Plan
 
