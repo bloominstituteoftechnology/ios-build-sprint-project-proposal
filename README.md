@@ -50,9 +50,12 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. Core Data to persist changes/updates in completion over time
+2. Firebase sign in for each individual user 
+3. Metric display of progress throughout the app (completion percentages and charts)
+4. Access to all of iOS Core modules with detailed information on competencies and projects
+5. Capability to check off career assignments with completion
+6. Potential ability to do the same with computer science track information
 
 ## Part 2: Project Plan
 
