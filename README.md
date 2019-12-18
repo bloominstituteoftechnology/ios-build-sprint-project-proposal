@@ -6,18 +6,16 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: Morgan Smith, Sal Amer
+2. App Name: `Hungry Homies
 3. App Description (3-5 sentences):
-
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+Helps friends and family pick a restaurant to meet up at. Each member gets to vote for their favorite choice and the restaurant with the most votes wins.
     
 4. Your #1 Customer (Who would use your app? Why now?)
- 
-    `<Be specific and focus on a real person>`
+ Friends and family who have a hard time making decisions
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: https://github.com/mjeanne07/Build-Week-Group-Lunch-Coordinator
+6. Github Project/Trello Board: https://github.com/mjeanne07/Build-Week-Group-Lunch-Coordinator/projects/1
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
