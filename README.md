@@ -58,7 +58,7 @@ Add your top 3-5 features (core functionality) from the Prioritize brainstorming
 
 1. Select type of egg and hard/soft boil preference
 2. Tell jokes while you wait during the countdown
-3. View stats of eggs noiled
+3. View stats of eggs boiled
 
 ## Part 2: Project Plan
 
