@@ -6,18 +6,18 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `Kevin Stewart, John Holowesko`
+2. App Name: `Lunch-In`
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+`We're creating an app that allows users to suggest and vote on lunch locations for that day's lunch. Users have to place their votes before 11am the day of in order for their vote to count. At 11:30am notifications are sent out to all group memebers alerting them of the selected restaurant. `
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+ `We believe that medium-to-large offices would be great candidates for this app. It's a daily struggle organizing lunches across departments and would help streamline an important part of the day :)`
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: `https://github.com/jholowesko/Lunch-In`
+6. Github Project/Trello Board: `https://github.com/jholowesko/Lunch-In/projects/2`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
