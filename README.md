@@ -6,18 +6,18 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: @Owash1
+2. App Name: Yolk Time
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+   Yolk Time is a custom Egg Countdown Timer that allows you to know the precise time to soft and hard-boil various types of eggs - or even set a custom timer! The app will display a graphical history of total countdown time sorted by day/month/year and number and type of eggs boiled and total nutritional information. Finally, no one likes to watch a pot boil - so Yolk Time tells you egg jokes while you wait!
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    Egg enthusiants and the protein deficient. 
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: https://github.com/rutkowskiJosh/Yolk-Time
+6. Github Project/Trello Board: https://github.com/rutkowskiJosh/Yolk-Time/projects/1
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
