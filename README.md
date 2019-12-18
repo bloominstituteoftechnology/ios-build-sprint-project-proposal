@@ -6,18 +6,16 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: Morgan Smith, Sal Amer
+2. App Name: `Hungry Homies
 3. App Description (3-5 sentences):
-
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+Helps friends and family pick a restaurant to meet up at. Each member gets to vote for their favorite choice and the restaurant with the most votes wins.
     
 4. Your #1 Customer (Who would use your app? Why now?)
- 
-    `<Be specific and focus on a real person>`
+ Friends and family who have a hard time making decisions
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: https://github.com/mjeanne07/Build-Week-Group-Lunch-Coordinator
+6. Github Project/Trello Board: https://github.com/mjeanne07/Build-Week-Group-Lunch-Coordinator/projects/1
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -56,9 +54,10 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. User submits a vote on lunch location
+2. user alert for which location to go/ when to leave
+3. lunch location detail 
+4. running tally of vote count by location name
 
 ## Part 2: Project Plan
 
