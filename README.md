@@ -6,18 +6,18 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: Skye Leahy
+2. App Name: `Translation App`
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    `This iOS Swift app takes any sentence or word, detects the source language, then translates it to a specific target language.`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    `Language learners, translators, bilingual people, etc.`
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: `<Create a Github Project>`a
+6. Github Project/Trello Board: https://trello.com/b/j8kJvEJw/translation-app
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -26,16 +26,10 @@ Add photos, notes, and sketches from your brain storming session.
 
 1. Brainstorming (Photo / Sketch)
     1. Mind Map (15 minutes)
-        1. Set a timer for 15 minutes
-        2. Grab a piece of paper and write your app name in the center
-        3. Add as many ideas and connections (Don't stop early, keep going until the timer ends)
-        4. If you still have ideas, reset the timer and do it again
-        5. Take a photo of your mind map and upload it to your proposal (YourName-Mindmap.jpg)
+       -> Already had idea of app before the mind map session
     2. Organize a List (15 minutes)
-        1. Set a timer for 15 minutes
-        2. Make a list on paper (or Markdown) and capture all your ideas from the mindmap
-        3. If new ideas appear, write those down too
-        4. Take a photo of your organized list and upload it to your proposal (YourName-List.jpg or YourName-List.md)
+        a. Does it translate all languages or a specific language?
+        b. Can you translate both ways?
     3. Prioritize (5 minutes)
         1. What features does your #1 customer need most?
         2. Choose 3-5 features that make the core app experience
@@ -56,20 +50,14 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. This will help the customer translate text queries into a language they want to understand it in.
+2. This will help the customer by enabling them to use a simple mobile app to translate text instead of via a desktop application, etc.
+3. Accesses Google Translate API in order to implement translation functionality without specifically adding in language dictionary files and accessing them via other code.
+4. Accesses Google API to detect source language without specific user input :)
+5. Sets background image related to text query entered in by user; provides a more in-depth experience.
 
 ## Part 2: Project Plan
 
-Take a step away from your computer and go for a walk. Your brain will continue to think about your app idea.
+See the below imgur link for an outline of the project plan :)
 
-1. Add your tasks to your Kanban board (Github Project/Trello)
-2. Be specific in your tasks so that they are actionable.
-    1. "Create View Controllers" is vague and isn't clear when you're finished
-    2. "Create Table View Controller for GIFCell rows" and "Create Custom GIFTableViewCell" are specific
-3. Organize your tasks (Drag and drop)
-    1. Break down large tasks into subtasks
-    2. If you don't know how to do a task, add to research it (i.e: "Research: AVFoundation Video Thumbnails API" or "Read: Core Graphics Programming Guide")
-4. Start on your most difficult task first
-5. Re-evaluate your progress each day and plan what you'll work on the next day
+https://imgur.com/a/49Bo6wb
