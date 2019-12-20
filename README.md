@@ -7,14 +7,14 @@
 ## Requirements
 
 1. Team Members: `Gi Pyo John Kim`
-2. App Name: `<What's the app name?>`
+2. App Name: `Frag Movie Maker`
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+`User selects a video file and a audio file of their choice and selects where the slowmotion will be. The video and the audio is complied into a single video file.`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+ `Whoever likes instagram.`
     
 5. Github code repository: `<Create a Github Project>`
 6. Github Project/Trello Board: `<Post your link to your Kanban board>`
