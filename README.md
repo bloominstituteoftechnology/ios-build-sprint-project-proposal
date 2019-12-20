@@ -31,7 +31,7 @@ Add photos, notes, and sketches from your brain storming session.
         3. Add as many ideas and connections (Don't stop early, keep going until the timer ends)
         4. If you still have ideas, reset the timer and do it again
         5. Take a photo of your mind map and upload it to your proposal (YourName-Mindmap.jpg)
-    2. Organize a List (15 minutes)
+    2. Organize a Lst (15 minutes)
         1. Set a timer for 15 minutes
         2. Make a list on paper (or Markdown) and capture all your ideas from the mindmap
         3. If new ideas appear, write those down too
