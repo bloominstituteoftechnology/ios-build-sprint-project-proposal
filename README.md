@@ -14,7 +14,7 @@
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
- `Actually it could be me. Since we use different units in europe I am converting units everyday (for example Berlin time to PST). I think it makes sense to have one app where you can convert any unit.`
+ `Actually it could be me or any Lambda student who is not in the US. Since we use different units in europe I am converting units everyday (for example Berlin time to PST). I think it makes sense to have one app where you can convert any unit.`
     
 5. Github code repository: `<Create a Github Project>`
 6. Github Project/Trello Board: `<Post your link to your Kanban board>`
