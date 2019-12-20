@@ -6,18 +6,18 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `<Tobi Tselios>`
+2. App Name: `<Creams>`
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    `<Creams is an app where people of all ages and backgrounds can buy desserts (predominantly ice-cream) from a selection of options. Inspired by Week 1's Sprint Challenge.>`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    `<Although the app is for people of all ages and backgrounds school children would appreciate it the most>`
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: `<https://github.com/tobikuyo/Creams>`
+6. Github Project/Trello Board: `<https://trello.com/b/Q6Abri1X/creams>`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -56,9 +56,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. `<Feature 1: My users will be able to see a selection of ice cream flavours that are available to them>`
+2. `<Feature 2: They get to see limited desserts that are available for a limited time>`
+3. `<Feature 3: They have a profile where they can keep track of their transactions and favourites>`
 
 ## Part 2: Project Plan
 
