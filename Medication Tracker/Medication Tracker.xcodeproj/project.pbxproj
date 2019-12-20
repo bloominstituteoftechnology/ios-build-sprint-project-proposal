@@ -51,6 +51,7 @@
 				ABED7A0B23AB1B7D00C95509 /* Medication Tracker */,
 				ABED7A2323AB1C9200C95509 /* Story Boards */,
 				ABED7A0A23AB1B7D00C95509 /* Products */,
+				ABED7A2223AB1C6500C95509 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,7 +66,6 @@
 		ABED7A0B23AB1B7D00C95509 /* Medication Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				ABED7A2223AB1C6500C95509 /* Resources */,
 				ABED7A2123AB1C4900C95509 /* Models */,
 				ABED7A2023AB1C3F00C95509 /* View Controllers */,
 				ABED7A1A23AB1B8B00C95509 /* Info.plist */,
@@ -182,7 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABED7A2723AB1FDB00C95509 /* PillModelController.swift in Sources */,
+				ABED7A2723AB1FDB00C95509 /* PillController.swift in Sources */,
 				ABED7A0D23AB1B7D00C95509 /* AppDelegate.swift in Sources */,
 				ABED7A2923AB202900C95509 /* PillsTableViewCell.swift in Sources */,
 				ABED7A2523AB1DBE00C95509 /* Pill.swift in Sources */,
