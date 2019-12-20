@@ -6,18 +6,18 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `James McDougall`
+2. App Name: `Streamer Keeper`
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+`This app is supposed to keep track of what shows you have and haven't watched. Depending on the streaming service you would like to use it for.`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+ `Literally anyone and their grandma. This app would be used by anyone who uses any type of video streaming service.`
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: `https://github.com/james-mcdougall/Streamer-Keeper`
+6. Github Project/Trello Board: `https://trello.com/b/k0wXJpNy/streamer-keeper`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -56,9 +56,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. `This will keep an organized list of all the shows and movies that a person watches on a streaming service`
+2. `This will make the user's life a bit easier because they will be able to go through an up to date list of all the movies/shows that they are wanting to see `
+3. `I am hoping with the final feature of this, that I will be able to make this app a little more fun then what is normally feasable. I want to gamify this app. Thus making people WANT to use it.`
 
 ## Part 2: Project Plan
 
