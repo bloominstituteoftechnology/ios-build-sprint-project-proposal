@@ -1,4 +1,4 @@
-# Project Proposal for iOS Build Sprint
+# Project Proposal for iOS Build Sprint, John
 
 1. Fork and Clone this repository
 2. Fill out the information below (Remove `<placeholders>` and add your answers)
