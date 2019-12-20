@@ -1,4 +1,4 @@
-# Project Proposal for iOS Build Sprint, John
+# Project Proposal for iOS Build Sprint
 
 1. Fork and Clone this repository
 2. Fill out the information below (Remove `<placeholders>` and add your answers)
@@ -6,7 +6,7 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
+1. Team Members: `Gi Pyo John Kim`
 2. App Name: `<What's the app name?>`
 3. App Description (3-5 sentences):
 
