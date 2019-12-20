@@ -6,15 +6,15 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `<Ufuk Türközü>`
+2. App Name: `<Unit Converter>`
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+`<You have to TextFields. One is showing the unit you want to convert fromm and the second one shows the converted unit when you tap convert. You can choose to convert currency, distance, weight or time in the settings.  >`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+ `Actually it could be me or any Lambda student who is not in the US. Since we use different units in europe I am converting units everyday (for example Berlin time to PST). I think it makes sense to have one app where you can convert any unit.`
     
 5. Github code repository: `<Create a Github Project>`
 6. Github Project/Trello Board: `<Post your link to your Kanban board>`
@@ -56,9 +56,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. `Converting different types of units.`
+2. `<Automatic switch of units (e.g. 100km -> 62miles => 100miles -> 161km)`
+3. `<Extended Keyboard: Basic calculation in the fromUnitTextField(e.g 100km + 50 km -> 93 miles or even 50$ + 50€ = 137CAD`
 
 ## Part 2: Project Plan
 
