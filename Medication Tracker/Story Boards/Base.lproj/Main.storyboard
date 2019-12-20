@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hJU-go-0mM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="l3I-J4-chY">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
@@ -7,6 +7,70 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="HrV-s1-H4S">
+            <objects>
+                <viewController id="mAT-cR-dD8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="imT-8a-U5G">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="f17-Cp-1TB">
+                                <rect key="frame" x="30" y="323" width="354" height="250"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IJz-kf-Ma7">
+                                        <rect key="frame" x="0.0" y="0.5" width="354" height="98.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="fL4-7C-Veo"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="Medication List" backgroundImage="capsule.fill" catalog="system">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="wqU-cg-kaj" kind="show" identifier="MedicationListSegue" id="eFj-3U-kQ9"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7N-DV-ePC">
+                                        <rect key="frame" x="0.0" y="150.5" width="354" height="98.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="vJV-jb-oXC"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="Add New Medication" backgroundImage="capsule.fill" catalog="system">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="V07-5o-TLZ" kind="show" identifier="AddMedicationShowSegue" id="E5H-dw-tyy"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="IJz-kf-Ma7" firstAttribute="top" secondItem="f17-Cp-1TB" secondAttribute="top" id="6jR-C4-6Ca"/>
+                                    <constraint firstAttribute="trailing" secondItem="IJz-kf-Ma7" secondAttribute="trailing" id="O98-o5-iUv"/>
+                                    <constraint firstItem="IJz-kf-Ma7" firstAttribute="leading" secondItem="f17-Cp-1TB" secondAttribute="leading" id="OVl-KZ-1ec"/>
+                                    <constraint firstAttribute="bottom" secondItem="K7N-DV-ePC" secondAttribute="bottom" id="ZSB-F3-Zkz"/>
+                                    <constraint firstItem="K7N-DV-ePC" firstAttribute="leading" secondItem="f17-Cp-1TB" secondAttribute="leading" id="bEJ-7D-VLb"/>
+                                    <constraint firstAttribute="trailing" secondItem="K7N-DV-ePC" secondAttribute="trailing" id="gLz-V3-qbe"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="f17-Cp-1TB" firstAttribute="leading" secondItem="Lhm-Z7-fDz" secondAttribute="leading" constant="30" id="3KR-oS-Nxs"/>
+                            <constraint firstItem="Lhm-Z7-fDz" firstAttribute="trailing" secondItem="f17-Cp-1TB" secondAttribute="trailing" constant="30" id="QlT-8k-Y0w"/>
+                            <constraint firstItem="f17-Cp-1TB" firstAttribute="centerY" secondItem="imT-8a-U5G" secondAttribute="centerY" id="fsY-Ca-TTC"/>
+                            <constraint firstItem="f17-Cp-1TB" firstAttribute="centerX" secondItem="imT-8a-U5G" secondAttribute="centerX" id="uet-Ij-MP7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Lhm-Z7-fDz"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="G9W-fz-RwU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nv9-Fa-9HK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1779.7101449275365" y="83.705357142857139"/>
+        </scene>
         <!--Medication List-->
         <scene sceneID="afe-WY-VM6">
             <objects>
@@ -95,7 +159,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ltZ-5y-7Wu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1563.768115942029" y="83.705357142857139"/>
+            <point key="canvasLocation" x="2561" y="-230"/>
         </scene>
         <!--Add Medication -->
         <scene sceneID="1De-oB-Leq">
@@ -106,7 +170,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="pCB-pt-T3V">
-                                <rect key="frame" x="30" y="108" width="354" height="438"/>
+                                <rect key="frame" x="30" y="108" width="354" height="472"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" borderStyle="roundedRect" placeholder="Medication Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="D2c-FY-Pnd">
                                         <rect key="frame" x="0.0" y="0.0" width="354" height="34"/>
@@ -125,7 +189,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Additional Info:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="p8J-Zz-f3U">
-                                        <rect key="frame" x="0.0" y="84" width="354" height="354"/>
+                                        <rect key="frame" x="0.0" y="84" width="354" height="388"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -139,7 +203,7 @@
                                 </constraints>
                             </stackView>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="twe-Id-9Ym">
-                                <rect key="frame" x="30" y="576" width="354" height="216"/>
+                                <rect key="frame" x="30" y="610" width="354" height="182"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </pickerView>
                         </subviews>
@@ -163,28 +227,32 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xvq-73-X1k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2274" y="84"/>
+            <point key="canvasLocation" x="2561" y="443"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="0t1-hS-RX1">
+        <scene sceneID="wei-8i-02Q">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hJU-go-0mM" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="l3I-J4-chY" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LGG-MC-QGU">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="a9Z-qS-wow">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="wqU-cg-kaj" kind="relationship" relationship="rootViewController" id="9Cs-9T-dsD"/>
+                        <segue destination="mAT-cR-dD8" kind="relationship" relationship="rootViewController" id="V8p-7Z-HZ5"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="H3c-NY-Km7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XhC-hn-Zm1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="858" y="84"/>
+            <point key="canvasLocation" x="1007" y="84"/>
         </scene>
     </scenes>
     <resources>
+        <image name="capsule.fill" catalog="system" width="64" height="46"/>
         <image name="plus.rectangle.fill" catalog="system" width="64" height="46"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="EbV-Yb-Pdz"/>
+    </inferredMetricsTieBreakers>
 </document>
