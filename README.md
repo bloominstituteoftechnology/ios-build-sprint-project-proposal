@@ -7,17 +7,17 @@
 ## Requirements
 
 1. Team Members: `Gi Pyo John Kim`
-2. App Name: `Frag Movie Maker`
+2. App Name: `rubato`
 3. App Description (3-5 sentences):
 
-`User selects a video file and a audio file of their choice and selects where the slowmotion will be. The video and the audio is complied into a single video file.`
+`rubato is an app which user can select a video and an audio files and apply slow motions. A set of markers will be placed on both the video and the audio timeline. The marker on the video timeline indicates the time frame where the slow motion will be applied, and the marker on the audio timeline indicates where the slow motioned video will be played according to the audio playback time. rubato will render the audio and the video into a single file and either save to the hardware or share it on the social media.`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
- `Whoever likes instagram.`
+ `Anyone who enjoys social media.`
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: `https://github.com/GiPyoK/rubato`
+6. Github Project/Trello Board: `https://github.com/GiPyoK/rubato/projects/1?add_cards_query=is%3Aopen`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -56,9 +56,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. `Apply slow, fast motion effects on video`
+2. `Render and save the video to local hard disk`
+3. `Share the video to social media apps directly`
 
 ## Part 2: Project Plan
 
