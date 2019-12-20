@@ -6,17 +6,17 @@
 
 ## Requirements
 
-1. Team Members: `<Jesse Ruiz>`
+1. Team Members: `Jesse Ruiz`
 
-2. App Name: `<Speech To Notes>`
+2. App Name: `Speech To Notes`
 -
 3. App Description (3-5 sentences):
 
-`<Speech To Notes records and takes meeting notes for you in realtime, so you can stay focused on the conversation. >`
+`Speech To Notes records and takes meeting notes for you in realtime, so you can stay focused on the conversation. `
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
- `<People in business. I'm thinking of my brother-in-law when he has meetings with potential clients about an event.>`
+ `People in business. I'm thinking of my brother-in-law when he has meetings with potential clients about an event.`
     
 5. Github code repository: `<Create a Github Project>`
 6. Github Project/Trello Board: `<Post your link to your Kanban board>`
