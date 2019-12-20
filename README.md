@@ -6,18 +6,18 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: Me
+2. App Name: App Dev Portfolio Tracker
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+> Every app developer needs a portfolio. Having yours immediately accessible is essential for in-person interviews. App Dev Portfolio Tracker lets you keep imformation and examples from all of your apps in one place. Save screenshots, include notes, and pull information live from the App Store.
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+> This app is for app developers. When developers actively use their own apps, they might contain personal information or be running beta builds that aren't ready to be shown off. This app will allow them to show off their apps in one place without worrying about showing sensitive information.
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: [App-Dev-Portfolio-Tracker](https://github.com/Isvvc/App-Dev-Portfolio-Tracker)
+6. Github Project/Trello Board: [Build Week](https://github.com/Isvvc/App-Dev-Portfolio-Tracker/projects/1)
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -56,9 +56,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. Add screenshots and screen recordings for apps the user has created
+2. Fetch live information about the apps from the App Store
+3. Outline information about the purpose and intended audience of each of their apps
 
 ## Part 2: Project Plan
 
