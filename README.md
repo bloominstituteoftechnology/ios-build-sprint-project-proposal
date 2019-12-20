@@ -12,7 +12,7 @@
 -
 3. App Description (3-5 sentences):
 
-`Speech To Notes records and takes meeting notes for you in realtime, so you can stay focused on the conversation. `
+`Speech To Notes records and takes meeting notes for you in realtime, so you can stay focused on the conversation.`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
