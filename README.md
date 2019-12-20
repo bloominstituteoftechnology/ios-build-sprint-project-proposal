@@ -6,18 +6,18 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `<Tobi Tselios>`
+2. App Name: `<Creams>`
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    `<Creams is an app where people of all ages and backgrounds can buy desserts (predominantly ice-cream) from a selection of options>`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    `<Although the app is for people of all ages and backgrounds school children would appreciate it the most>`
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: `<https://github.com/tobikuyo/Creams>`
+6. Github Project/Trello Board: `<https://trello.com/b/Q6Abri1X/creams>`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
