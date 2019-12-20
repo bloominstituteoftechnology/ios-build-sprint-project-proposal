@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Pill List Table View Controller-->
+        <!--Medication List-->
         <scene sceneID="afe-WY-VM6">
             <objects>
                 <tableViewController id="wqU-cg-kaj" customClass="PillListTableViewController" customModule="Medication_Tracker" customModuleProvider="target" sceneMemberID="viewController">
@@ -16,12 +16,49 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="73" id="2y4-ZF-w9A">
-                                <rect key="frame" x="0.0" y="28" width="414" height="73"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PillCell" rowHeight="144" id="2y4-ZF-w9A">
+                                <rect key="frame" x="0.0" y="28" width="414" height="144"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2y4-ZF-w9A" id="n0y-WF-Pdh">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="73"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="144"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="pillName" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X6E-fp-UGG">
+                                            <rect key="frame" x="20" y="11" width="374" height="24"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="pillDoseFrequency" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3J-wC-7Fa">
+                                            <rect key="frame" x="20" y="38" width="138" height="24"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                            <color key="textColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="additionalInformation" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="5" translatesAutoresizingMaskIntoConstraints="NO" id="6dr-7M-WJ2">
+                                            <rect key="frame" x="20" y="70" width="374" height="63"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="conditionTreated" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WlP-qL-1tw">
+                                            <rect key="frame" x="235" y="38" width="159" height="24"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="WlP-qL-1tw" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Y3J-wC-7Fa" secondAttribute="trailing" constant="8" id="7Hp-IL-6Qk"/>
+                                        <constraint firstItem="WlP-qL-1tw" firstAttribute="trailing" secondItem="n0y-WF-Pdh" secondAttribute="trailingMargin" id="Nnf-R1-fdn"/>
+                                        <constraint firstItem="WlP-qL-1tw" firstAttribute="top" secondItem="X6E-fp-UGG" secondAttribute="bottom" constant="3" id="RED-2r-BD9"/>
+                                        <constraint firstItem="X6E-fp-UGG" firstAttribute="trailing" secondItem="n0y-WF-Pdh" secondAttribute="trailingMargin" id="RcF-4h-jSk"/>
+                                        <constraint firstItem="Y3J-wC-7Fa" firstAttribute="leading" secondItem="n0y-WF-Pdh" secondAttribute="leadingMargin" id="YAL-NP-J55"/>
+                                        <constraint firstItem="X6E-fp-UGG" firstAttribute="leading" secondItem="n0y-WF-Pdh" secondAttribute="leadingMargin" id="Zbk-KE-XIR"/>
+                                        <constraint firstItem="Y3J-wC-7Fa" firstAttribute="top" secondItem="X6E-fp-UGG" secondAttribute="bottom" constant="3" id="k4Q-Ep-ahy"/>
+                                        <constraint firstItem="X6E-fp-UGG" firstAttribute="top" secondItem="n0y-WF-Pdh" secondAttribute="topMargin" id="n1w-BV-52C"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -30,10 +67,10 @@
                             <outlet property="delegate" destination="wqU-cg-kaj" id="l9z-dh-EJI"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="gQT-X6-FkB">
+                    <navigationItem key="navigationItem" title="Medication List" id="gQT-X6-FkB">
                         <barButtonItem key="rightBarButtonItem" title="Item" image="plus.rectangle.fill" catalog="system" id="RRW-xr-5Ti">
                             <connections>
-                                <segue destination="V07-5o-TLZ" kind="presentation" identifier="AddToDetail" id="EbV-Yb-Pdz"/>
+                                <segue destination="V07-5o-TLZ" kind="show" identifier="AddPillShowSegue" id="EbV-Yb-Pdz"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -42,28 +79,81 @@
             </objects>
             <point key="canvasLocation" x="1563.768115942029" y="83.705357142857139"/>
         </scene>
-        <!--Pill Detail View Controller-->
+        <!--Add Medication -->
         <scene sceneID="1De-oB-Leq">
             <objects>
-                <viewController id="V07-5o-TLZ" customClass="PillDetailViewController" customModule="Medication_Tracker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Add Medication " id="V07-5o-TLZ" customClass="AddPillViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="O6m-yI-bBJ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="pCB-pt-T3V">
+                                <rect key="frame" x="30" y="108" width="354" height="438"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" borderStyle="roundedRect" placeholder="Medication Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="D2c-FY-Pnd">
+                                        <rect key="frame" x="0.0" y="0.0" width="354" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="E28-6p-7zc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" borderStyle="roundedRect" placeholder="For Condition(s):" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="34C-lY-B25">
+                                        <rect key="frame" x="0.0" y="42" width="354" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="8r2-1y-9hM"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Additional Info:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="p8J-Zz-f3U">
+                                        <rect key="frame" x="0.0" y="84" width="354" height="354"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="p8J-Zz-f3U" secondAttribute="trailing" id="0Lt-zv-l7L"/>
+                                    <constraint firstAttribute="trailing" secondItem="34C-lY-B25" secondAttribute="trailing" id="9JK-dl-yaQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="D2c-FY-Pnd" secondAttribute="trailing" id="ctM-de-qPY"/>
+                                </constraints>
+                            </stackView>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="twe-Id-9Ym">
+                                <rect key="frame" x="30" y="576" width="354" height="216"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                        <constraints>
+                            <constraint firstItem="8Ab-dD-MDN" firstAttribute="trailing" secondItem="pCB-pt-T3V" secondAttribute="trailing" constant="30" id="2YO-yQ-Re5"/>
+                            <constraint firstItem="pCB-pt-T3V" firstAttribute="leading" secondItem="8Ab-dD-MDN" secondAttribute="leading" constant="30" id="CBW-Io-WmV"/>
+                            <constraint firstItem="8Ab-dD-MDN" firstAttribute="bottom" secondItem="twe-Id-9Ym" secondAttribute="bottom" constant="70" id="Hye-bq-vqZ"/>
+                            <constraint firstItem="pCB-pt-T3V" firstAttribute="centerX" secondItem="O6m-yI-bBJ" secondAttribute="centerX" id="UHM-I9-DXF"/>
+                            <constraint firstItem="twe-Id-9Ym" firstAttribute="top" secondItem="pCB-pt-T3V" secondAttribute="bottom" constant="30" id="Uqo-00-B3v"/>
+                            <constraint firstItem="twe-Id-9Ym" firstAttribute="centerX" secondItem="O6m-yI-bBJ" secondAttribute="centerX" id="bSx-8s-HcX"/>
+                            <constraint firstItem="8Ab-dD-MDN" firstAttribute="trailing" secondItem="twe-Id-9Ym" secondAttribute="trailing" constant="30" id="gdv-w8-RFj"/>
+                            <constraint firstItem="pCB-pt-T3V" firstAttribute="top" secondItem="8Ab-dD-MDN" secondAttribute="top" constant="20" id="qX5-Hw-RWg"/>
+                            <constraint firstItem="twe-Id-9Ym" firstAttribute="leading" secondItem="8Ab-dD-MDN" secondAttribute="leading" constant="30" id="tOg-t0-QVl"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="8Ab-dD-MDN"/>
                     </view>
+                    <navigationItem key="navigationItem" id="LPP-JP-Jrn">
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="PcD-QL-CSA"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xvq-73-X1k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2374" y="84"/>
+            <point key="canvasLocation" x="2274" y="84"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0t1-hS-RX1">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hJU-go-0mM" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="LGG-MC-QGU">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LGG-MC-QGU">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -73,7 +163,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H3c-NY-Km7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="840.57971014492762" y="84.375"/>
+            <point key="canvasLocation" x="858" y="84"/>
         </scene>
     </scenes>
     <resources>

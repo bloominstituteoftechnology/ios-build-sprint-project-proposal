@@ -1,5 +1,5 @@
 //
-//  PillDetailViewController.swift
+//  AddPillViewController.swift
 //  Medication Tracker
 //
 //  Created by patelpra on 12/18/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PillDetailViewController: UIViewController {
+class AddPillViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
