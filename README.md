@@ -6,18 +6,18 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: I am working individually on this project.
+2. App Name: Event Countdown & Reminder App (Actual name TBD)
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+Countdown to your next important event, wether that be your next days off from work, your next vacation, a wedding, your own or a loved ones birthday... Receive notifications at specific user set time intervals, as well as add family or friends to recieve notifications as well. Preset themes for different types of events (e.g. birthdays, weddings, vacations...) Also be able to count up, (e.g. days since I quit smoking...) Set multiple countdowns for different life events.
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+ Anyone who wants a fun and entertaining way of keeping track of important or unimportant :D life events.
     
 5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+6. Github Project/Trello Board: https://trello.com/b/dSZZ2SAF/first-build-week-project
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -56,9 +56,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. An easy to use countdown or up timer that has some level of customization or input from the user.
+2. Different themes for preset event countdown/up events, ability for user to use their own pictures for user customized theme/event.
+3. Notifications with some level of user customizable intervals and methods. Possibly being able to add people to an event to also receive notifications. Maybe even a way for event creator to send out some sort of customizable notification or message at specific time interval. (depending on how hard this is to implement)
 
 ## Part 2: Project Plan
 
