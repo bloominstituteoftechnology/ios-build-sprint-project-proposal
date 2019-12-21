@@ -16,14 +16,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="f17-Cp-1TB">
-                                <rect key="frame" x="30" y="323" width="354" height="250"/>
+                                <rect key="frame" x="100" y="323" width="214" height="250"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IJz-kf-Ma7">
-                                        <rect key="frame" x="0.0" y="0.5" width="354" height="98.5"/>
+                                        <rect key="frame" x="0.0" y="0.5" width="214" height="98.5"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="fL4-7C-Veo"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="Medication List" backgroundImage="capsule.fill" catalog="system">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -32,11 +32,11 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7N-DV-ePC">
-                                        <rect key="frame" x="0.0" y="150.5" width="354" height="98.5"/>
+                                        <rect key="frame" x="0.0" y="150.5" width="214" height="98.5"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="vJV-jb-oXC"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="Add New Medication" backgroundImage="capsule.fill" catalog="system">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
@@ -58,8 +58,8 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="f17-Cp-1TB" firstAttribute="leading" secondItem="Lhm-Z7-fDz" secondAttribute="leading" constant="30" id="3KR-oS-Nxs"/>
-                            <constraint firstItem="Lhm-Z7-fDz" firstAttribute="trailing" secondItem="f17-Cp-1TB" secondAttribute="trailing" constant="30" id="QlT-8k-Y0w"/>
+                            <constraint firstItem="f17-Cp-1TB" firstAttribute="leading" secondItem="Lhm-Z7-fDz" secondAttribute="leading" constant="100" id="3KR-oS-Nxs"/>
+                            <constraint firstItem="Lhm-Z7-fDz" firstAttribute="trailing" secondItem="f17-Cp-1TB" secondAttribute="trailing" constant="100" id="QlT-8k-Y0w"/>
                             <constraint firstItem="f17-Cp-1TB" firstAttribute="centerY" secondItem="imT-8a-U5G" secondAttribute="centerY" id="fsY-Ca-TTC"/>
                             <constraint firstItem="f17-Cp-1TB" firstAttribute="centerX" secondItem="imT-8a-U5G" secondAttribute="centerX" id="uet-Ij-MP7"/>
                         </constraints>
