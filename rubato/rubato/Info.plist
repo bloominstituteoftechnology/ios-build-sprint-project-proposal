@@ -60,5 +60,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>rubato need access to Music app in order to get audio assets</string>
+	<key></key>
+	<string></string>
 </dict>
 </plist>

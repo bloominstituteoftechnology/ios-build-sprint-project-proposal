@@ -25,8 +25,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="IOk-4u-80b">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="mdR-dt-PEd"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="mdR-dt-PEd">
+                            <connections>
+                                <action selector="chooseVideo:" destination="BYZ-38-t0r" id="5PA-NT-klq"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="videoView" destination="EIo-6A-wZp" id="V85-Sp-pbS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
