@@ -73,6 +73,34 @@ class ViewController: UIViewController {
             break
         }
     }
+    
+    private func slowMotion(url: URL) -> AVPlayerItem? {
+        let videoAsset = AVURLAsset(url: url)
+        
+        let comp = AVMutableComposition()
+        
+        let videoAssetSourceTrack = videoAsset.tracks(withMediaType: AVMediaType.video).first! as AVAssetTrack
+        
+        let videoCompositionTrack = comp.addMutableTrack(withMediaType: .video, preferredTrackID: kCMPersistentTrackID_Invalid)
+        
+        do {
+            try videoCompositionTrack?.insertTimeRange(CMTimeRangeMake(start: CMTime.zero, duration: CMTimeMakeWithSeconds(10, preferredTimescale: 60)), of: videoAssetSourceTrack, at: CMTime.zero)
+            
+            let videoScaleFactor = Int64(2.0)
+            let videoDuration: CMTime = videoAsset.duration
+            
+            videoCompositionTrack?.scaleTimeRange(CMTimeRangeMake(start: .zero, duration: videoDuration), toDuration: CMTimeMake(value: videoDuration.value * videoScaleFactor, timescale: videoDuration.timescale))
+            videoCompositionTrack?.preferredTransform = videoAssetSourceTrack.preferredTransform
+            
+            let asset:AVAsset = comp
+            print("Slow motion effect completed")
+            return AVPlayerItem(asset: asset)
+            
+        } catch {
+            print("Error processing slow motion: \(error)")
+            return nil
+        }
+    }
 
     
 }
@@ -92,8 +120,8 @@ extension ViewController: UIImagePickerControllerDelegate, UINavigationControlle
                 return
         }
         print("Video URL: \(url)")
-        
-        videoPlayer = AVPlayer(url: url)
+                
+        videoPlayer = AVPlayer(playerItem: slowMotion(url: url))
         
         playerLayer = AVPlayerLayer(player: videoPlayer)
         var topRect = view.bounds
