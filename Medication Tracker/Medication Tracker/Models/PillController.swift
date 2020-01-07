@@ -6,6 +6,8 @@
 //  Copyright © 2019 Crus Technologies. All rights reserved.
 //
 
+let medicPill: Pill = Pill(name: "Name", medication: "Medication", dosage: 200, addtionalInfo: "Notes", conditionTreated: "Medical Issue", frequency: .daily)
+
 import Foundation
 
 class PillController {
@@ -14,22 +16,7 @@ class PillController {
         loadFromPersistentStore()
     }
     
-    private(set) var pills: [Pill] = []
-    
-    var prescriptionPills: [Pill] {
-        let filter = pills
-            .filter { $0.isPrescription }
-            .sorted { $0.name < $1.name }
-        return filter
-    }
-    
-    // Set up an alphabetical array of all the supplement pills.
-    var supplementPills: [Pill] {
-        let filter = pills
-            .filter { !$0.isPrescription }
-            .sorted { $0.name < $1.name }
-        return filter
-    }
+    private var pills: [Pill] = [medicPill]
     
     private var pillListFileURL: URL? {
         let fileManager = FileManager.default
@@ -39,23 +26,38 @@ class PillController {
     
     // MARK: - CRUD
     func createPill(addPill: Pill) {
-        pills.append(pill)
-        saveToPersistentStore
+        pills.append(addPill)
+        saveToPersistentStore()
     }
     
     func deletePill(removePill: Pill) {
-        guard let index = pills.firstIndex(of: pill)
+        guard let index = pills.firstIndex(of: removePill)
             else { return }
         pills.remove(at: index)
-        saveToPersistentStore
+        saveToPersistentStore()
     }
     
-    func updatePill(forPill: Pill, withName: String?, forCondition: String?, dosageFrequency: Frequency) {
-        // NEED TO COMPLETE
+    func updatePill(pill: Pill, pillName: String?, forCondition: String?, dosage: UInt?, usage: Frequency) {
+        guard let pillIndex = pills.firstIndex(of: pill) else { return }
+        var updatePill = pill
+        
+        if let newPillName = pillName {
+            updatePill.name = newPillName
+        }
+        
+        if let conditionTreated = forCondition {
+            updatePill.conditionTreated = conditionTreated
+        }
+        
+        if let dose = dosage {
+            updatePill.dosage = dose
+        }
+        
+            updatePill.frequency = usage
+    
+        pills[pillIndex] = updatePill
+        saveToPersistentStore()
     }
-
-    
-    
     
     // MARK: - Save to disk
     func saveToPersistentStore() {

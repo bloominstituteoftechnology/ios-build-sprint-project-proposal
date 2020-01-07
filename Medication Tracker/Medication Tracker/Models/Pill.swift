@@ -12,8 +12,8 @@ struct Pill: Codable, Equatable {
     var name: String
     var medication: String
     var dosage: UInt?
-    var rx: String
-    var notes: String
+    var addtionalInfo: String
+    var conditionTreated: String
     var frequency: Frequency
 }
 
