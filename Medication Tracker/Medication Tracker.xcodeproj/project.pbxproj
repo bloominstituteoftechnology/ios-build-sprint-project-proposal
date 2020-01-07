@@ -13,7 +13,7 @@
 		ABED7A1623AB1B8B00C95509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABED7A1523AB1B8B00C95509 /* Assets.xcassets */; };
 		ABED7A1923AB1B8B00C95509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABED7A1723AB1B8B00C95509 /* LaunchScreen.storyboard */; };
 		ABED7A2523AB1DBE00C95509 /* Pill.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABED7A2423AB1DBE00C95509 /* Pill.swift */; };
-		ABED7A2723AB1FDB00C95509 /* PillModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABED7A2623AB1FDA00C95509 /* PillModelController.swift */; };
+		ABED7A2723AB1FDB00C95509 /* PillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABED7A2623AB1FDA00C95509 /* PillController.swift */; };
 		ABED7A2923AB202900C95509 /* PillsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABED7A2823AB202900C95509 /* PillsTableViewCell.swift */; };
 		ABED7A2D23AB234C00C95509 /* PillListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABED7A2C23AB234C00C95509 /* PillListTableViewController.swift */; };
 		ABED7A2F23AB23A600C95509 /* AddPillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABED7A2E23AB23A600C95509 /* AddPillViewController.swift */; };
@@ -28,7 +28,7 @@
 		ABED7A1823AB1B8B00C95509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABED7A1A23AB1B8B00C95509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABED7A2423AB1DBE00C95509 /* Pill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pill.swift; sourceTree = "<group>"; };
-		ABED7A2623AB1FDA00C95509 /* PillModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillModelController.swift; sourceTree = "<group>"; };
+		ABED7A2623AB1FDA00C95509 /* PillController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillController.swift; sourceTree = "<group>"; };
 		ABED7A2823AB202900C95509 /* PillsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillsTableViewCell.swift; sourceTree = "<group>"; };
 		ABED7A2C23AB234C00C95509 /* PillListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillListTableViewController.swift; sourceTree = "<group>"; };
 		ABED7A2E23AB23A600C95509 /* AddPillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPillViewController.swift; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				ABED7A2423AB1DBE00C95509 /* Pill.swift */,
-				ABED7A2623AB1FDA00C95509 /* PillModelController.swift */,
+				ABED7A2623AB1FDA00C95509 /* PillController.swift */,
 				ABED7A2823AB202900C95509 /* PillsTableViewCell.swift */,
 			);
 			path = Models;
