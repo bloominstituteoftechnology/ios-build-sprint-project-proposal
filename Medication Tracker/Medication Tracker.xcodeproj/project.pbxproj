@@ -17,6 +17,7 @@
 		ABED7A2923AB202900C95509 /* PillsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABED7A2823AB202900C95509 /* PillsTableViewCell.swift */; };
 		ABED7A2D23AB234C00C95509 /* PillListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABED7A2C23AB234C00C95509 /* PillListTableViewController.swift */; };
 		ABED7A2F23AB23A600C95509 /* AddPillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABED7A2E23AB23A600C95509 /* AddPillViewController.swift */; };
+		B6EC61D523C43317007AA2ED /* MedicationTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EC61D423C43317007AA2ED /* MedicationTrackerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		ABED7A2823AB202900C95509 /* PillsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillsTableViewCell.swift; sourceTree = "<group>"; };
 		ABED7A2C23AB234C00C95509 /* PillListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillListTableViewController.swift; sourceTree = "<group>"; };
 		ABED7A2E23AB23A600C95509 /* AddPillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPillViewController.swift; sourceTree = "<group>"; };
+		B6EC61D423C43317007AA2ED /* MedicationTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationTrackerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			children = (
 				ABED7A2C23AB234C00C95509 /* PillListTableViewController.swift */,
 				ABED7A2E23AB23A600C95509 /* AddPillViewController.swift */,
+				B6EC61D423C43317007AA2ED /* MedicationTrackerViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6EC61D523C43317007AA2ED /* MedicationTrackerViewController.swift in Sources */,
 				ABED7A2723AB1FDB00C95509 /* PillController.swift in Sources */,
 				ABED7A0D23AB1B7D00C95509 /* AppDelegate.swift in Sources */,
 				ABED7A2923AB202900C95509 /* PillsTableViewCell.swift in Sources */,

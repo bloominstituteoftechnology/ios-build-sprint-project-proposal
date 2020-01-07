@@ -9,7 +9,10 @@
 import UIKit
 
 class AddPillViewController: UIViewController {
-
+    
+    var pillController: PillController?
+    var pill: Pill?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
