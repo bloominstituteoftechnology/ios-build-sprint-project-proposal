@@ -16,12 +16,28 @@ class PillController {
     
     private(set) var pills: [Pill] = []
     
+    var prescriptionPills: [Pill] {
+        let filter = pills
+            .filter { $0.isPrescription }
+            .sorted { $0.name < $1.name }
+        return filter
+    }
+    
+    // Set up an alphabetical array of all the supplement pills.
+    var supplementPills: [Pill] {
+        let filter = pills
+            .filter { !$0.isPrescription }
+            .sorted { $0.name < $1.name }
+        return filter
+    }
+    
     private var pillListFileURL: URL? {
         let fileManager = FileManager.default
-        guard let documentDirectory = fileManager.urls(for: .documentDirectory, in: .userDomainMask).first else { returen nil }
+        guard let documentDirectory = fileManager.urls(for: .documentDirectory, in: .userDomainMask).first else { return nil }
         return documentDirectory.appendingPathComponent("PillList.plist")
     }
     
+    // MARK: - CRUD
     func createPill(addPill: Pill) {
         pills.append(pill)
         saveToPersistentStore
@@ -34,7 +50,10 @@ class PillController {
         saveToPersistentStore
     }
     
-    func updatePill(for pill: Pill, withName: String?, )
+    func updatePill(forPill: Pill, withName: String?, forCondition: String?, dosageFrequency: Frequency) {
+        // NEED TO COMPLETE
+    }
+
     
     
     
@@ -53,8 +72,8 @@ class PillController {
     
     // MARK: - Load from disk
     func loadFromPersistentStore() {
-        guard let url = pillListFileURL, fileManager.fileExists(atPath: url.path) else { return }
-        
+        guard let url = pillListFileURL else { return }
+                
         do {
             let pillsData = try Data(contentsOf: url)
             let decodedPills = PropertyListDecoder()
