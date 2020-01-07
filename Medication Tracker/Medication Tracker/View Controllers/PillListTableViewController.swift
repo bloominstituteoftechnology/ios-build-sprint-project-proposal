@@ -9,7 +9,10 @@
 import UIKit
 
 class PillListTableViewController: UITableViewController {
-
+    
+    var pillController: PillController?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -77,14 +80,22 @@ class PillListTableViewController: UITableViewController {
     }
     */
 
-    /*
+
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        guard let pillController = pillController else {return}
+        if segue.identifier == "AddPillShowSegue2" {
+            guard let addPillVC = segue.destination as? AddPillViewController else {return}
+            addPillVC.pillController = self.pillController
+        } else if segue.identifier == "EditPillShowSegue" {
+        if let indexPath = tableView.indexPathForSelectedRow,
+            let pillVC = segue.destination as? AddPillViewController {
+            pillVC.pill = pillController.pills[indexPath.row]
+            }
+        }
     }
-    */
+
 
 }
