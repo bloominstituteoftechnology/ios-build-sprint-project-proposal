@@ -10,9 +10,7 @@ import Foundation
 
 struct Pill: Codable, Equatable {
     var name: String
-    var medication: String
     var dosage: UInt?
-    var addtionalInfo: String
     var conditionTreated: String
     var frequency: Frequency
 }

@@ -88,7 +88,7 @@ class PillListTableViewController: UITableViewController {
         guard let pillController = pillController else {return}
         if segue.identifier == "AddPillShowSegue2" {
             guard let addPillVC = segue.destination as? AddPillViewController else {return}
-            addPillVC.pillController = self.pillController
+            addPillVC.pillController = self.pillController!
         } else if segue.identifier == "EditPillShowSegue" {
         if let indexPath = tableView.indexPathForSelectedRow,
             let pillVC = segue.destination as? AddPillViewController {

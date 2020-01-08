@@ -88,14 +88,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PillCell" id="2y4-ZF-w9A">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PillCell" id="2y4-ZF-w9A" customClass="PillsTableViewCell" customModule="Medication_Tracker" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="112"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2y4-ZF-w9A" id="n0y-WF-Pdh">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="112"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="auH-N0-2ys">
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="auH-N0-2ys">
                                             <rect key="frame" x="10" y="5" width="394" height="102"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="pillName" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X6E-fp-UGG">
@@ -105,13 +105,13 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="pillDoseFrequency" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3J-wC-7Fa">
-                                                    <rect key="frame" x="0.0" y="29.5" width="176.5" height="24"/>
+                                                    <rect key="frame" x="0.0" y="29.5" width="394" height="24"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                     <color key="textColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="conditionTreated" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WlP-qL-1tw">
-                                                    <rect key="frame" x="0.0" y="58.5" width="159" height="24"/>
+                                                    <rect key="frame" x="0.0" y="58.5" width="394" height="24"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -145,6 +145,10 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="additionalInformtionLabel" destination="6dr-7M-WJ2" id="iq4-Zz-QqS"/>
+                                    <outlet property="conditionTreatedLabel" destination="WlP-qL-1tw" id="vWv-Yb-nIR"/>
+                                    <outlet property="pillDoseFrequencyLabel" destination="Y3J-wC-7Fa" id="ADJ-qk-YVS"/>
+                                    <outlet property="pillNameLabel" destination="X6E-fp-UGG" id="LIi-RH-xwu"/>
                                     <segue destination="V07-5o-TLZ" kind="show" identifier="EditPillShowSegue" id="eOk-2Y-ew9"/>
                                 </connections>
                             </tableViewCell>
@@ -169,7 +173,7 @@
         <!--Add Medication -->
         <scene sceneID="1De-oB-Leq">
             <objects>
-                <viewController title="Add Medication " id="V07-5o-TLZ" customClass="AddPillViewController" sceneMemberID="viewController">
+                <viewController title="Add Medication " id="V07-5o-TLZ" customClass="AddPillViewController" customModule="Medication_Tracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="O6m-yI-bBJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -238,8 +242,17 @@
                         <viewLayoutGuide key="safeArea" id="8Ab-dD-MDN"/>
                     </view>
                     <navigationItem key="navigationItem" id="LPP-JP-Jrn">
-                        <barButtonItem key="rightBarButtonItem" title="Save" id="PcD-QL-CSA"/>
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="PcD-QL-CSA">
+                            <connections>
+                                <action selector="saveButtonTapped:" destination="V07-5o-TLZ" id="j0p-Di-XmK"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="conditionNameTextField" destination="34C-lY-B25" id="R2R-x8-drs"/>
+                        <outlet property="frequencyPickerView" destination="twe-Id-9Ym" id="thP-tf-BhS"/>
+                        <outlet property="medicationNameTextField" destination="D2c-FY-Pnd" id="Lij-Kk-Ki5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xvq-73-X1k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -269,6 +282,6 @@
         <image name="plus.rectangle.fill" catalog="system" width="64" height="46"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="EbV-Yb-Pdz"/>
+        <segue reference="eOk-2Y-ew9"/>
     </inferredMetricsTieBreakers>
 </document>

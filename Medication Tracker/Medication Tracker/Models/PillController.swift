@@ -6,7 +6,7 @@
 //  Copyright © 2019 Crus Technologies. All rights reserved.
 //
 
-let medicPill: Pill = Pill(name: "Name", medication: "Medication", dosage: 200, addtionalInfo: "Notes", conditionTreated: "Medical Issue", frequency: .daily)
+let medicPill: Pill = Pill(name: "Name", dosage: 200, conditionTreated: "Medical Type", frequency: .daily)
 
 import Foundation
 
@@ -16,7 +16,7 @@ class PillController {
         loadFromPersistentStore()
     }
     
-    private var pills: [Pill] = [medicPill]
+    private(set) var pills: [Pill] = [medicPill]
     
     private var pillListFileURL: URL? {
         let fileManager = FileManager.default
@@ -25,8 +25,8 @@ class PillController {
     }
     
     // MARK: - CRUD
-    func createPill(addPill: Pill) {
-        pills.append(addPill)
+    func createPill(pill: Pill) {
+        pills.append(pill)
         saveToPersistentStore()
     }
     

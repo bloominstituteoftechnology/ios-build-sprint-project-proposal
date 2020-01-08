@@ -25,13 +25,11 @@ class PillsTableViewCell: UITableViewCell {
         guard let pill = pill else { return }
         
         if pill.dosage != nil {
-            let dosageString = String(pill.dosage!)
-            pillDoseFrequencyLabel.text = dosageString
+            let dosageType = String(pill.dosage!)
+            pillDoseFrequencyLabel.text = dosageType
         }
         
         pillNameLabel.text = pill.name
         conditionTreatedLabel.text = pill.conditionTreated
-        additionalInformtionLabel.text = pill.addtionalInfo
-        
     }
 }
