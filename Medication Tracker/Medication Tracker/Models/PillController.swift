@@ -16,7 +16,7 @@ class PillController {
         loadFromPersistentStore()
     }
     
-    private var pills: [Pill] = [medicPill]
+    private(set) var pills: [Pill] = [medicPill]
     
     private var pillListFileURL: URL? {
         let fileManager = FileManager.default
