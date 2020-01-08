@@ -88,7 +88,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PillCell" id="2y4-ZF-w9A">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PillCell" id="2y4-ZF-w9A" customClass="PillsTableViewCell" customModule="Medication_Tracker" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="112"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2y4-ZF-w9A" id="n0y-WF-Pdh">
@@ -145,6 +145,10 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="additionalInformtionLabel" destination="6dr-7M-WJ2" id="f4s-Gh-grf"/>
+                                    <outlet property="conditionTreatedLabel" destination="WlP-qL-1tw" id="PYR-gZ-ZaC"/>
+                                    <outlet property="pillDoseFrequencyLabel" destination="Y3J-wC-7Fa" id="yhk-uM-3d8"/>
+                                    <outlet property="pillNameLabel" destination="X6E-fp-UGG" id="gWn-gz-i9B"/>
                                     <segue destination="V07-5o-TLZ" kind="show" identifier="EditPillShowSegue" id="eOk-2Y-ew9"/>
                                 </connections>
                             </tableViewCell>
