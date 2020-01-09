@@ -56,19 +56,27 @@
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Medication Tracker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7eA-fE-jHb">
-                                <rect key="frame" x="69" y="149" width="276.5" height="41"/>
+                                <rect key="frame" x="65" y="99" width="284" height="41"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Pill" translatesAutoresizingMaskIntoConstraints="NO" id="CYb-MK-m78">
+                                <rect key="frame" x="65" y="148" width="284" height="184"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="f17-Cp-1TB" firstAttribute="leading" secondItem="Lhm-Z7-fDz" secondAttribute="leading" constant="135" id="3KR-oS-Nxs"/>
+                            <constraint firstItem="Lhm-Z7-fDz" firstAttribute="trailing" secondItem="7eA-fE-jHb" secondAttribute="trailing" constant="65" id="HMX-qJ-89b"/>
+                            <constraint firstItem="CYb-MK-m78" firstAttribute="top" secondItem="7eA-fE-jHb" secondAttribute="bottom" constant="8" id="NlB-hS-BHe"/>
                             <constraint firstItem="Lhm-Z7-fDz" firstAttribute="trailing" secondItem="f17-Cp-1TB" secondAttribute="trailing" constant="135" id="QlT-8k-Y0w"/>
-                            <constraint firstItem="f17-Cp-1TB" firstAttribute="top" secondItem="7eA-fE-jHb" secondAttribute="bottom" constant="150" id="bDS-pw-GQB"/>
+                            <constraint firstItem="CYb-MK-m78" firstAttribute="centerX" secondItem="imT-8a-U5G" secondAttribute="centerX" id="QoI-wK-NNa"/>
+                            <constraint firstItem="f17-Cp-1TB" firstAttribute="top" secondItem="7eA-fE-jHb" secondAttribute="bottom" constant="200" id="bDS-pw-GQB"/>
                             <constraint firstItem="7eA-fE-jHb" firstAttribute="centerX" secondItem="imT-8a-U5G" secondAttribute="centerX" id="fHo-iY-t7j"/>
                             <constraint firstItem="f17-Cp-1TB" firstAttribute="centerY" secondItem="imT-8a-U5G" secondAttribute="centerY" id="fsY-Ca-TTC"/>
+                            <constraint firstItem="f17-Cp-1TB" firstAttribute="top" secondItem="CYb-MK-m78" secondAttribute="bottom" constant="8" id="oh0-zb-lWe"/>
+                            <constraint firstItem="CYb-MK-m78" firstAttribute="leading" secondItem="Lhm-Z7-fDz" secondAttribute="leading" constant="65" id="tgT-EF-iB0"/>
                             <constraint firstItem="f17-Cp-1TB" firstAttribute="centerX" secondItem="imT-8a-U5G" secondAttribute="centerX" id="uet-Ij-MP7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Lhm-Z7-fDz"/>
@@ -208,8 +216,8 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="jqI-zV-OBA">
                                         <rect key="frame" x="0.0" y="483" width="354" height="266"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Frenquency" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iis-IF-ag7">
-                                                <rect key="frame" x="83.5" y="0.0" width="187.5" height="42"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Frequency" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iis-IF-ag7">
+                                                <rect key="frame" x="93.5" y="0.0" width="167.5" height="42"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -232,7 +240,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8Ab-dD-MDN"/>
                     </view>
-                    <navigationItem key="navigationItem" id="LPP-JP-Jrn">
+                    <navigationItem key="navigationItem" title="Add Medication" id="LPP-JP-Jrn">
                         <barButtonItem key="rightBarButtonItem" title="Save" id="PcD-QL-CSA"/>
                     </navigationItem>
                 </viewController>
@@ -260,6 +268,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Pill" width="1199" height="674"/>
         <image name="circle.fill" catalog="system" width="64" height="60"/>
         <image name="plus.rectangle.fill" catalog="system" width="64" height="46"/>
     </resources>
