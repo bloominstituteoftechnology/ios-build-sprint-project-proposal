@@ -6,7 +6,7 @@
 //  Copyright © 2019 Crus Technologies. All rights reserved.
 //
 
-let medicPill: Pill = Pill(name: "Name", medication: "Medication", dosage: 200, addtionalInfo: "Notes", conditionTreated: "Medical Issue", frequency: .daily)
+let medicPill: Pill = Pill(name: "Name", dosage: 200, conditionTreated: "Medical Type", frequency: .daily)
 
 import Foundation
 
@@ -25,8 +25,8 @@ class PillController {
     }
     
     // MARK: - CRUD
-    func createPill(addPill: Pill) {
-        pills.append(addPill)
+    func createPill(pill: Pill) {
+        pills.append(pill)
         saveToPersistentStore()
     }
     
@@ -74,12 +74,13 @@ class PillController {
     
     // MARK: - Load from disk
     func loadFromPersistentStore() {
-        guard let url = pillListFileURL else { return }
+        let fileManager = FileManager.default
+        guard let url = pillListFileURL, fileManager.fileExists(atPath: url.path) else { return }
                 
         do {
             let pillsData = try Data(contentsOf: url)
-            let decodedPills = PropertyListDecoder()
-            self.pills = try decodedPills.decode([Pill].self, from: pillsData)
+            let decoder = PropertyListDecoder()
+            self.pills = try decoder.decode([Pill].self, from: pillsData)
         } catch {
             NSLog("Error loading pills data: \(error)")
         }

@@ -10,24 +10,83 @@ import UIKit
 
 class AddPillViewController: UIViewController {
     
-    var pillController: PillController?
+    @IBOutlet weak var medicationNameTextField: UITextField!
+    @IBOutlet weak var conditionNameTextField: UITextField!
+    @IBOutlet weak var frequencyPickerView: UIPickerView!
+    
+    var pillController = PillController()
     var pill: Pill?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        self.frequencyPickerView.delegate = self
+        self.frequencyPickerView.dataSource = self
+        self.medicationNameTextField.delegate = self
+        self.conditionNameTextField.delegate = self
+        
+        updateViews()
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func saveButtonTapped(_ sender: UIBarButtonItem) {
+        guard pill != nil else {
+            if medicationNameTextField.text == "" || conditionNameTextField.text == "" {
+                navigationController?.popToRootViewController(animated: true)
+                return
+                
+            } else {
+                
+                let frequencyRow = frequencyPickerView.selectedRow(inComponent: 0)
+                let frequencyType = Frequency.frequencies[frequencyRow]
+                
+                pillController.createPill(pill: Pill(name: "Medicine", dosage: 200, conditionTreated: conditionNameTextField.text!, frequency: frequencyType))
+                navigationController?.popToRootViewController(animated: true)
+                return
+            }
+        }
+                let frequencyRow = frequencyPickerView.selectedRow(inComponent: 0)
+                let frequencyType = Frequency.frequencies[frequencyRow]
+        
+        pillController.updatePill(pill: medicPill, pillName: "Name", forCondition: conditionNameTextField.text, dosage: 200, usage: frequencyType)
+                
+                navigationController?.popToRootViewController(animated: true)
     }
-    */
+    
+    func updateViews() {
+        if let pill = pill {
+            medicationNameTextField.text = pill.name
+            conditionNameTextField.text = pill.conditionTreated
+            
+        }
+    }
+}
 
+extension AddPillViewController: UIPickerViewDelegate, UIPickerViewDataSource {
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        1
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        Frequency.allCases.count
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        Frequency.allCases[row].rawValue
+    }
+}
+
+extension AddPillViewController: UITextFieldDelegate {
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        let nextField = textField.tag + 1
+        
+        if let nextResponder = textField.superview?.viewWithTag(nextField) {
+            nextResponder.becomeFirstResponder()
+        } else {
+            textField.resignFirstResponder()
+        }
+        
+        return true
+    }
 }
