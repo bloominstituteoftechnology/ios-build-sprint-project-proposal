@@ -6,8 +6,6 @@
 //  Copyright © 2019 Crus Technologies. All rights reserved.
 //
 
-let medicPill: Pill = Pill(name: "Name", dosage: 200, conditionTreated: "Medical Type", frequency: .daily)
-
 import Foundation
 
 class PillController {
@@ -16,7 +14,7 @@ class PillController {
         loadFromPersistentStore()
     }
     
-    private(set) var pills: [Pill] = [medicPill]
+    private(set) var pills: [Pill] = []
     
     private var pillListFileURL: URL? {
         let fileManager = FileManager.default

@@ -26,31 +26,23 @@ class AddPillViewController: UIViewController {
         self.conditionNameTextField.delegate = self
         
         updateViews()
-        
     }
     
-    @IBAction func saveButtonTapped(_ sender: UIBarButtonItem) {
-        guard pill != nil else {
-            if medicationNameTextField.text == "" || conditionNameTextField.text == "" {
-                navigationController?.popToRootViewController(animated: true)
-                return
-                
+    @IBAction func saveButtonTapped(_ sender: Any) {
+        guard let medicationName = self.medicationNameTextField.text,
+                let conditionName = self.conditionNameTextField.text else { return }
+            if let pill = self.pill {
+                let frequencyRow = frequencyPickerView.selectedRow(inComponent: 0)
+                let frequencyType = Frequency.frequencies[frequencyRow]
+                self.pillController.updatePill(pill: pill, pillName: "", forCondition: "", dosage: 100, usage: frequencyType)
             } else {
-                
                 let frequencyRow = frequencyPickerView.selectedRow(inComponent: 0)
                 let frequencyType = Frequency.frequencies[frequencyRow]
-                
-                pillController.createPill(pill: Pill(name: "Medicine", dosage: 200, conditionTreated: conditionNameTextField.text!, frequency: frequencyType))
-                navigationController?.popToRootViewController(animated: true)
-                return
+                self.pillController.createPill(pill: Pill(name: "", conditionTreated: "", frequency: frequencyType))
             }
-        }
-                let frequencyRow = frequencyPickerView.selectedRow(inComponent: 0)
-                let frequencyType = Frequency.frequencies[frequencyRow]
-        
-        pillController.updatePill(pill: medicPill, pillName: "Name", forCondition: conditionNameTextField.text, dosage: 200, usage: frequencyType)
-                
-                navigationController?.popToRootViewController(animated: true)
+            
+            navigationController?.popToRootViewController(animated: true)
+            return
     }
     
     func updateViews() {

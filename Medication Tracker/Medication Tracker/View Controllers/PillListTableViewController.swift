@@ -16,7 +16,6 @@ class PillListTableViewController: UITableViewController {
         super.viewDidLoad()
         self.tableView.delegate = self
         self.tableView.dataSource = self
-
     }
 
     // MARK: - Table view data source
@@ -24,21 +23,13 @@ class PillListTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return pillController.pills.count
     }
-    
-//    private func pillsFor(indexPath: IndexPath) -> Pill {
-//        if indexPath.section == 0 {
-//            return pillController.pills[indexPath.row]
-//        }
-//    }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
        guard let cell = tableView.dequeueReusableCell(withIdentifier: "PillCell", for: indexPath) as? PillsTableViewCell else { return UITableViewCell() }
         
-//        _ = pillsFor(indexPath: indexPath)
-        
+        cell.pill = pillController.pills[indexPath.row]
         return cell
     }
-
 
     // MARK: - Navigation
 
