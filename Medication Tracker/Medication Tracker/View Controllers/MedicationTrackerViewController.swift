@@ -26,9 +26,4 @@ class MedicationTrackerViewController: UIViewController {
             addPillVC.pillController = self.pillController
         }
     }
-    
-
-   
- 
-
 }

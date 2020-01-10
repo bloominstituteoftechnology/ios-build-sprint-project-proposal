@@ -62,7 +62,6 @@ class AddPillViewController: UIViewController {
     }
 }
 
-
 extension AddPillViewController: UIPickerViewDelegate, UIPickerViewDataSource {
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         1
