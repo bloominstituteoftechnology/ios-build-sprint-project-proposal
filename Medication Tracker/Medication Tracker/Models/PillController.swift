@@ -74,12 +74,13 @@ class PillController {
     
     // MARK: - Load from disk
     func loadFromPersistentStore() {
-        guard let url = pillListFileURL else { return }
+        let fileManager = FileManager.default
+        guard let url = pillListFileURL, fileManager.fileExists(atPath: url.path) else { return }
                 
         do {
             let pillsData = try Data(contentsOf: url)
-            let decodedPills = PropertyListDecoder()
-            self.pills = try decodedPills.decode([Pill].self, from: pillsData)
+            let decoder = PropertyListDecoder()
+            self.pills = try decoder.decode([Pill].self, from: pillsData)
         } catch {
             NSLog("Error loading pills data: \(error)")
         }
