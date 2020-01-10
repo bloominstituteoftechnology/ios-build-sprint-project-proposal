@@ -17,6 +17,8 @@
 		ABED7A2923AB202900C95509 /* PillsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABED7A2823AB202900C95509 /* PillsTableViewCell.swift */; };
 		ABED7A2D23AB234C00C95509 /* PillListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABED7A2C23AB234C00C95509 /* PillListTableViewController.swift */; };
 		ABED7A2F23AB23A600C95509 /* AddPillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABED7A2E23AB23A600C95509 /* AddPillViewController.swift */; };
+		B6B6800F23C6D587002CA7EC /* Pill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B6800E23C6D587002CA7EC /* Pill.jpg */; };
+		B6B6801223C6D7BB002CA7EC /* Pill copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B6801123C6D7BB002CA7EC /* Pill copy.jpg */; };
 		B6EC61D523C43317007AA2ED /* MedicationTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EC61D423C43317007AA2ED /* MedicationTrackerViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +35,9 @@
 		ABED7A2823AB202900C95509 /* PillsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillsTableViewCell.swift; sourceTree = "<group>"; };
 		ABED7A2C23AB234C00C95509 /* PillListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillListTableViewController.swift; sourceTree = "<group>"; };
 		ABED7A2E23AB23A600C95509 /* AddPillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPillViewController.swift; sourceTree = "<group>"; };
+		B6B6800D23C6CFED002CA7EC /* Pill.jp2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pill.jp2; sourceTree = "<group>"; };
+		B6B6800E23C6D587002CA7EC /* Pill.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pill.jpg; sourceTree = "<group>"; };
+		B6B6801123C6D7BB002CA7EC /* Pill copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pill copy.jpg"; sourceTree = "<group>"; };
 		B6EC61D423C43317007AA2ED /* MedicationTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationTrackerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,8 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				ABED7A1523AB1B8B00C95509 /* Assets.xcassets */,
+				B6B6800D23C6CFED002CA7EC /* Pill.jp2 */,
 				ABED7A0C23AB1B7D00C95509 /* AppDelegate.swift */,
 				ABED7A0E23AB1B7D00C95509 /* SceneDelegate.swift */,
+				B6B6800E23C6D587002CA7EC /* Pill.jpg */,
+				B6B6801123C6D7BB002CA7EC /* Pill copy.jpg */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -172,7 +180,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6B6800F23C6D587002CA7EC /* Pill.jpg in Resources */,
 				ABED7A1923AB1B8B00C95509 /* LaunchScreen.storyboard in Resources */,
+				B6B6801223C6D7BB002CA7EC /* Pill copy.jpg in Resources */,
 				ABED7A1623AB1B8B00C95509 /* Assets.xcassets in Resources */,
 				ABED7A1423AB1B7D00C95509 /* Main.storyboard in Resources */,
 			);
