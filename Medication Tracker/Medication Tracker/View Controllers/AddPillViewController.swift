@@ -13,6 +13,7 @@ class AddPillViewController: UIViewController {
     @IBOutlet weak var medicationNameTextField: UITextField!
     @IBOutlet weak var conditionNameTextField: UITextField!
     @IBOutlet weak var frequencyPickerView: UIPickerView!
+    @IBOutlet weak var additionalInfo: UITextView!
     
     var pillController = PillController()
     var pill: Pill?
@@ -29,16 +30,16 @@ class AddPillViewController: UIViewController {
     }
     
     @IBAction func saveButtonTapped(_ sender: Any) {
-        guard let medicationName = self.medicationNameTextField.text,
-                let conditionName = self.conditionNameTextField.text else { return }
+        guard let medicationName = self.medicationNameTextField.text, !medicationName.isEmpty,
+            let conditionName = self.conditionNameTextField.text, !conditionName.isEmpty, let additionalInfo = self.additionalInfo.text, !additionalInfo.isEmpty else { return }
             if let pill = self.pill {
                 let frequencyRow = frequencyPickerView.selectedRow(inComponent: 0)
                 let frequencyType = Frequency.frequencies[frequencyRow]
-                self.pillController.updatePill(pill: pill, pillName: "", forCondition: "", dosage: 100, usage: frequencyType)
+                self.pillController.updatePill(pill: pill, pillName: medicationName, forCondition: conditionName, withInformation: additionalInfo, dosage: 100, usage: frequencyType)
             } else {
                 let frequencyRow = frequencyPickerView.selectedRow(inComponent: 0)
                 let frequencyType = Frequency.frequencies[frequencyRow]
-                self.pillController.createPill(pill: Pill(name: "", conditionTreated: "", frequency: frequencyType))
+                self.pillController.createPill(pill: Pill(name: medicationName, dosage: 100, conditionTreated: conditionName, addtionalInfo: additionalInfo, frequency: frequencyType))
             }
             
             navigationController?.popToRootViewController(animated: true)
@@ -49,6 +50,7 @@ class AddPillViewController: UIViewController {
         if let pill = pill {
             medicationNameTextField.text = pill.name
             conditionNameTextField.text = pill.conditionTreated
+            additionalInfo.text = pill.addtionalInfo
             
         }
     }
