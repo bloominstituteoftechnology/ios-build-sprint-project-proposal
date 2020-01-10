@@ -248,6 +248,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="additionalInfo" destination="p8J-Zz-f3U" id="qDr-QX-oyo"/>
                         <outlet property="conditionNameTextField" destination="34C-lY-B25" id="R2R-x8-drs"/>
                         <outlet property="frequencyPickerView" destination="twe-Id-9Ym" id="thP-tf-BhS"/>
                         <outlet property="medicationNameTextField" destination="D2c-FY-Pnd" id="Lij-Kk-Ki5"/>
@@ -282,6 +283,6 @@
         <image name="plus.rectangle.fill" catalog="system" width="64" height="46"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="eOk-2Y-ew9"/>
+        <segue reference="E5H-dw-tyy"/>
     </inferredMetricsTieBreakers>
 </document>

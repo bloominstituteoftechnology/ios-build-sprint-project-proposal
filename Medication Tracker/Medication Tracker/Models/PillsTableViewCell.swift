@@ -31,5 +31,6 @@ class PillsTableViewCell: UITableViewCell {
         
         pillNameLabel.text = pill.name
         conditionTreatedLabel.text = pill.conditionTreated
+        additionalInformtionLabel.text = pill.addtionalInfo
     }
 }
