@@ -35,11 +35,11 @@ class AddPillViewController: UIViewController {
             if let pill = self.pill {
                 let frequencyRow = frequencyPickerView.selectedRow(inComponent: 0)
                 let frequencyType = Frequency.frequencies[frequencyRow]
-                self.pillController.updatePill(pill: pill, pillName: medicationName, forCondition: conditionName, withInformation: additionalInfo, dosage: 100, usage: frequencyType)
+                self.pillController.updatePill(pill: pill, pillName: medicationName, forCondition: conditionName, withInformation: additionalInfo, usage: frequencyType)
             } else {
                 let frequencyRow = frequencyPickerView.selectedRow(inComponent: 0)
                 let frequencyType = Frequency.frequencies[frequencyRow]
-                self.pillController.createPill(pill: Pill(name: medicationName, dosage: 100, conditionTreated: conditionName, addtionalInfo: additionalInfo, frequency: frequencyType))
+                self.pillController.createPill(pill: Pill(name: medicationName, conditionTreated: conditionName, addtionalInfo: additionalInfo, frequency: frequencyType))
             }
             
             navigationController?.popToRootViewController(animated: true)

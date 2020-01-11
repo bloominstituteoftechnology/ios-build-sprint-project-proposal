@@ -35,7 +35,7 @@ class PillController {
         saveToPersistentStore()
     }
     
-    func updatePill(pill: Pill, pillName: String?, forCondition: String?, withInformation: String?, dosage: UInt?, usage: Frequency) {
+    func updatePill(pill: Pill, pillName: String?, forCondition: String?, withInformation: String?, usage: Frequency) {
         guard let pillIndex = pills.firstIndex(of: pill) else { return }
         var updatePill = pill
         
@@ -49,10 +49,6 @@ class PillController {
         
         if let additionalInfo = withInformation {
             updatePill.addtionalInfo = additionalInfo
-        }
-        
-        if let dose = dosage {
-            updatePill.dosage = dose
         }
         
             updatePill.frequency = usage

@@ -24,13 +24,14 @@ class PillsTableViewCell: UITableViewCell {
     func updateViews() {
         guard let pill = pill else { return }
         
-        if pill.dosage != nil {
-            let dosageType = String(pill.dosage!)
-            pillDoseFrequencyLabel.text = dosageType
+        if pill.conditionTreated == pill.conditionTreated {
+            _ = pill.addtionalInfo
+            pillDoseFrequencyLabel.text = pill.frequency.rawValue
         }
         
         pillNameLabel.text = pill.name
         conditionTreatedLabel.text = pill.conditionTreated
         additionalInformtionLabel.text = pill.addtionalInfo
+        pillDoseFrequencyLabel.text = pill.frequency.rawValue
     }
 }
