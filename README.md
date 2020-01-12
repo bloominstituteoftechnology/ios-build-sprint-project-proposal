@@ -1,22 +1,22 @@
 # Project Proposal for iOS Build Sprint
 
-1. Fork and Clone this repository
+1. Fork and Clone this repository - Completed
 2. Fill out the information below (Remove `<placeholders>` and add your answers)
 3. Tag your TL and Instructor on your Pull Request
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `David Schwinne, Pravin Patel`
+2. App Name: `Medication App Tracker`
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    `Medication Tracker`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    `Everyone who takes medicaiton. To help them remember what medications they are taking, when they should be taking them, and any additional info relevant to the medication like side effects.'
     
-5. Github code repository: `<Create a Github Project>`
+5. Github code repository: `<Create a Github Project>`- Completed
 6. Github Project/Trello Board: `<Post your link to your Kanban board>`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
@@ -56,9 +56,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. `<Feature 1: Track all medications, with their respective info.'
+2. `<Feature 2: Add new medications to the list of medications'
+3. `<Feature 3: Have the ability to add additional info such as warnings/ complications related to each medication (side effects).
 
 ## Part 2: Project Plan
 
