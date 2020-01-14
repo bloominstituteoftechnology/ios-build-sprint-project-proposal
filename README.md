@@ -6,18 +6,18 @@
 
 ## Requirements
 
-1. Team Members: @Owash1
-2. App Name: Yolk Time
+1. Team Members: @rutkowskiJosh (me)
+2. App Name: Sour Milk
 3. App Description (3-5 sentences):
 
-   Yolk Time is a custom Egg Countdown Timer that allows you to know the precise time to soft and hard-boil various types of eggs - or even set a custom timer! The app will display a graphical history of total countdown time sorted by day/month/year and number and type of eggs boiled and total nutritional information. Finally, no one likes to watch a pot boil - so Yolk Time tells you egg jokes while you wait!
+   Sour Milk is a food inventory and expiration tracker that allows you to know precisely when food is set to be consumed or rotated. The app displays a list of what food you have and sorts by category. The app will allow you to set the name, category, expiration date, and add notes.
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    Egg enthusiants and the protein deficient. 
+    People concerned about food waste and those wanting to build their food stoage
     
-5. Github code repository: https://github.com/rutkowskiJosh/Yolk-Time
-6. Github Project/Trello Board: https://github.com/rutkowskiJosh/Yolk-Time/projects/1
+5. Github code repository:https://github.com/rutkowskiJosh/SourMilk
+6. Github Project/Trello Board: https://github.com/rutkowskiJosh/SourMilk/projects/1
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -56,9 +56,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. Select type of egg and hard/soft boil preference
-2. Tell jokes while you wait during the countdown
-3. View stats of eggs boiled
+1. Display food items in tableview
+2. Sort food by category
+3. Notifications when food expires
 
 ## Part 2: Project Plan
 
