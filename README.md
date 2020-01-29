@@ -9,21 +9,17 @@
 ## Requirements
 
 1. Team Members: `Jon Bash`
-2. App Name: `Countdown Tracker`
+2. App Name: `TaskProjector`
 3. App Description (3-5 sentences):
-    `Countdown Tracker will track the amount of time left before a user's events. The user will add events to the app, including a name and the date/time, and the app will keep track of and let you know how much time is left until an event. When it passes, the user will receive an alert that it's now time for the event.`
+    `Task management apps are a dime a dozen, but few apps do much to help you with prioritizing what to do now. TaskProjector not only tracks your tasks, projects, and due dates, but will also give you a suggested order of accomplishing your tasks based on due date, time estimate, tags, and other optional task properties. It will also inform you if, for any particular period, you are overencumbered and need to get help by delegating tasks or recruiting help.`
 4. Your #1 Customer (Who would use your app? Why now?)
-    `This app will be used by someone who has a lot of events going on that they're trying to keep track of. Normally this might be dealt with by a calendar, but the user of this app has so many calendar events that they need a separate place to just give a simple view of how much time is left until an event, so that they can prioritize the use of their time accordingly.`
-5. Github code repository: `https://github.com/jonbash/CountdownTracker`
-6. Github Project/Trello Board: `https://github.com/jonbash/CountdownTracker/projects/1`
-
-### Description:
-
-> Create a record of some event happening in the future and provide an interface to show how many days, hours, minutes, seconds are left. Let the user add tags or categories to each event. Provide settings to allow the user to decide how granular the countdowns should be. Allow the user to sort/filter the events by tags/categories or show in order of when they will come due.
+    `A friend made a spreadsheet with these general features, but is wanting a slicker, easier interface. He's been using the spreadsheet successfully for some time. I would also use this app extensively. We both have difficulty prioritizing tasks and figuring out when to do when, and this sort of app could be very helpful for us and people like us.`
+5. Github code repository: ``
+6. Github Project/Trello Board: ``
 
 ## Part 1: Brainstorming
 
-**See [mind map](https://github.com/jonbash/ios-build-sprint-project-proposal/blob/master/Countdown-Tracker-mindmap.png) ([source](https://github.com/jonbash/ios-build-sprint-project-proposal/blob/master/Countdown-Tracker-mindmap.itmz)) and [planning outline](https://github.com/jonbash/ios-build-sprint-project-proposal/blob/master/Countdown-Tracker-planning.md).**
+
 
 Add photos, notes, and sketches from your brain storming session. 
 
@@ -55,19 +51,19 @@ Add photos, notes, and sketches from your brain storming session.
 2. If you have tons of ideas, set a timer again and keep going.
 3. Don't filter yourself in the brainstorming phase, you want to capture everything and anything
 
-## Top Features (Prioritize)
+## Top Features (Prioritize) (3-5)
 
-**See [planning outline](https://github.com/jonbash/ios-build-sprint-project-proposal/blob/master/Countdown-Tracker-planning.md).**
+1. Input tasks with project/area, due date, time estimate, and tag(s).
+2. Based on these, the app provides a suggested order of tasks.
+3. Optional location data for tags
 
-Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
+Stretch:
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+4. Task dependencies
+5. Defer dates
+6. Notifications
 
 ## Part 2: Project Plan
-
-**See [Github project](https://github.com/jonbash/CountdownTracker/projects/1).**
 
 Take a step away from your computer and go for a walk. Your brain will continue to think about your app idea.
 
