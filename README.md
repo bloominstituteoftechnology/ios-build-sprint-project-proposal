@@ -14,10 +14,11 @@
     `A friend made a spreadsheet with these general features, but is wanting a slicker, easier interface. He's been using the spreadsheet successfully for some time. I would also use this app extensively. We both have difficulty prioritizing tasks and figuring out when to do when, and this sort of app could be very helpful for us and people like us.`
 5. Github code repository: ``
 6. Github Project/Trello Board: ``
+7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
 
-Add photos, notes, and sketches from your brain storming session. 
+Add photos, notes, and sketches from your brain storming session.
 
 1. Brainstorming (Photo / Sketch)
     1. Mind Map (15 minutes)
