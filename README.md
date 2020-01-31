@@ -19,8 +19,6 @@
 
 ## Part 1: Brainstorming
 
-
-
 Add photos, notes, and sketches from your brain storming session. 
 
 1. Brainstorming (Photo / Sketch)
@@ -56,12 +54,13 @@ Add photos, notes, and sketches from your brain storming session.
 1. Input tasks with project/area, due date, time estimate, and tag(s).
 2. Based on these, the app provides a suggested order of tasks.
 3. Optional location data for tags
+4. Recurring tasks
 
 Stretch:
 
-4. Task dependencies
-5. Defer dates
-6. Notifications
+5. Task dependencies
+6. Defer dates
+7. Notifications
 
 ## Part 2: Project Plan
 
