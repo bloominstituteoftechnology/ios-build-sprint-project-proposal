@@ -4,14 +4,14 @@
 3. Tag your TL and Instructor on your Pull Request
 ## Requirements
 1. Team Members: `Dan & Nar`
-2. App Name: `<What's the app name?>`
+2. App Name: `Spy`
 3. App Description (3-5 sentences):
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+`In spy, every player has a role. All players except for one are a thing, like a cake. The other player (the spy) is a similar, but different thing (say, a pie). No one knows if they're the spy or not. In a turn, every player that is still in the game will make a statement about their role, then every player "votes" for one player they think is the spy, whoever has the most votes is out. If the player that got voted out is the spy, the non-spy team wins, if two players remain and one of them is the spy, the spy wins. Typically, this game is played with a moderator and slips of paper. This app will allow everyone to play.`
 4. Your #1 Customer (Who would use your app? Why now?)
-    `<Be specific and focus on a real person>`
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
-7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
+`Groups! This is a great opportunity to allow everyone in a room to play a game.`
+5. Github code repository: `https://github.com/morsedan/ios-build-sprint-project-proposal/tree/Unit4`
+6. Github Project/Trello Board: `https://trello.com/invite/b/4hefVIdQ/46f38b8c1539d7e0d9e97deccd9bfe89/spy`
+7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!" `check`
 ## Part 1: Brainstorming
 Add photos, notes, and sketches from your brain storming session. 
 1. Brainstorming (Photo / Sketch)
@@ -21,12 +21,12 @@ Add photos, notes, and sketches from your brain storming session.
         3. Add as many ideas and connections (Don't stop early, keep going until the timer ends)
         4. If you still have ideas, reset the timer and do it again
         5. Take a photo of your mind map and upload it to your proposal (YourName-Mindmap.jpg)
-    2. Organize a List (15 minutes)
+    2. Organize a List (15 minutes) `Trello`
         1. Set a timer for 15 minutes
         2. Make a list on paper (or Markdown) and capture all your ideas from the mindmap
         3. If new ideas appear, write those down too
         4. Take a photo of your organized list and upload it to your proposal (YourName-List.jpg or YourName-List.md)
-    3. Prioritize (5 minutes)
+    3. Prioritize (5 minutes) `Trello`
         1. What features does your #1 customer need most?
         2. Choose 3-5 features that make the core app experience
         3. Add these features to your `## Top Features` section
