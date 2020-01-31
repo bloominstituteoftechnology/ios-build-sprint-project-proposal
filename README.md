@@ -3,7 +3,7 @@
 2. Fill out the information below (Remove `<placeholders>` and add your answers)
 3. Tag your TL and Instructor on your Pull Request
 ## Requirements
-1. Team Members: `<Who's working on this app?>`
+1. Team Members: `Dan & Nar`
 2. App Name: `<What's the app name?>`
 3. App Description (3-5 sentences):
     `<Explain your app to your Grandma (or a 5-year old child)>`
