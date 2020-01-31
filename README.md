@@ -1,7 +1,5 @@
 # Project Proposal for iOS Build Sprint
 
-**[See here for actual project source](https://github.com/jonbash/CountdownTracker).**
-
 1. Fork and Clone this repository
 2. Fill out the information below (Remove `<placeholders>` and add your answers)
 3. Tag your TL and Instructor on your Pull Request
