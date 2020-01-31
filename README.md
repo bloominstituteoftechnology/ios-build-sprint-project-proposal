@@ -6,8 +6,8 @@
 
 ## Requirements
 
-1. Team Members: `Brandi Bailey, Jonnalyn Masters, Jerry Haaser
-2. App Name: `<What's the app name?>`
+1. Team Members: Brandi Bailey, Jonnalyn Masters, Jerry Haaser
+2. App Name: `The Honeymoon Planner`
 3. App Description (3-5 sentences):
 
     `<Explain your app to your Grandma (or a 5-year old child)>`
