@@ -6,18 +6,23 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `Brandi Bailey, Jonnalyn Masters, Jerry Haaser`
+2. App Name: `The Honeymoon Planner`
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    `The Honeymoon Planner`
+    `1. The Honeymoon Planner allows you to plan various honeymoon options and helps plan the` honeymoon of your dreams!`
+   ` 2. During the Honeymoon planning phase:
+    `Use the Honeymoon planner in tandem with your online exploration and research to explore  your honeymoon ideas and dreams!`
+    `3. During the Honeymoon phase:`
+   ` Use The Honeymoon Planner to guide you along the way on your honeymoon! Visit your` `pre-planned locations on your map, keep an eye on your budget, explore the surrounding area` `for new ideas.`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    `Newly engaged couples planning their dream honeymoon`
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: `https://github.com/HoneymoonHomie/The-Honeymoon-Planner`
+6. Github Project/Trello Board: `https://trello.com/invite/buildweek4honeymoonhomies/465a63c5aaed36bee1265e032ed59bed`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -52,13 +57,16 @@ Add photos, notes, and sketches from your brain storming session.
 2. If you have tons of ideas, set a timer again and keep going.
 3. Don't filter yourself in the brainstorming phase, you want to capture everything and anything
 
+
 ## Top Features (Prioritize)
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+`1. Track several different honeymoon options and compare each according to agenda and budget.`
+`2. Set a honeymoon budget in the app.`
+`3. Each item on your agenda, and as marked on your map, has the option to count against your budget for financial planning.`
+`4. MapView with destinations and related locations.`
+`5. CoreData along for local persistence as well as a backend.`
 
 ## Part 2: Project Plan
 
