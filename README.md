@@ -6,17 +6,19 @@
 
 ## Requirements
 
-1. Team Members: `Jon Bash`
-2. App Name: `TaskProjector`
-3. App Description (3-5 sentences):
-    `Task management apps are a dime a dozen, but few apps do much to help you with prioritizing what to do now. TaskProjector not only tracks your tasks, projects, and due dates, but will also give you a suggested order of accomplishing your tasks based on due date, time estimate, tags, and other optional task properties. It will also inform you if, for any particular period, you are overencumbered and need to get help by delegating tasks or recruiting help.`
-4. Your #1 Customer (Who would use your app? Why now?)
-    `A friend made a spreadsheet with these general features, but is wanting a slicker, easier interface. He's been using the spreadsheet successfully for some time. I would also use this app extensively. We both have difficulty prioritizing tasks and figuring out when to do when, and this sort of app could be very helpful for us and people like us.`
-5. Github code repository: ``
-6. Github Project/Trello Board: ``
-7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
+1. **Team Members**: Jon Bash
+2. **App Name**: TaskProjector
+3. **App Description (3-5 sentences)**:
+    Task management apps are a dime a dozen, but few apps do much to help you with prioritizing what to do now. TaskProjector not only tracks your tasks, projects, and due dates, but will also give you a suggested order of accomplishing your tasks based on due date, time estimate, tags, and other optional task properties. It will also inform you if, for any particular period, you are overencumbered and need to get help by delegating tasks or recruiting help.**
+4. **Your #1 Customer (Who would use your app? Why now?)**:
+    A friend made a spreadsheet with these general features, but is wanting a slicker, easier interface. He's been using the spreadsheet successfully for some time. I would also use this app extensively. We both have difficulty prioritizing tasks and figuring out when to do when, and this sort of app could be very helpful for us and people like us.
+5. **Github code repository**: [https://github.com/jonbash/TaskProjector](https://github.com/jonbash/TaskProjector)
+6. **Github Project/Trello Board**: [https://github.com/jonbash/TaskProjector/projects/1](https://github.com/jonbash/TaskProjector/projects/1)
+7. [x] **Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"**
 
 ## Part 1: Brainstorming
+
+([see here for brainstorm outline](https://workflowy.com/s/taskprojector-brains/qkNUvABEhXmiScNk))
 
 Add photos, notes, and sketches from your brain storming session.
 
@@ -50,18 +52,19 @@ Add photos, notes, and sketches from your brain storming session.
 
 ## Top Features (Prioritize) (3-5)
 
-1. Input tasks with project/area, due date, time estimate, and tag(s).
-2. Based on these, the app provides a suggested order of tasks.
+1. Add, remove, edit, delete, complete, and drop tasks with project/area, due date, time estimate, and tag(s)
+2. Based on these, the app provides a suggested order of tasks
 3. Optional location data for tags
 4. Recurring tasks
 
-Stretch:
+### Stretch:
 
 5. Task dependencies
 6. Defer dates
-7. Notifications
 
 ## Part 2: Project Plan
+
+**[See project plan](https://github.com/jonbash/TaskProjector/projects/1)**
 
 Take a step away from your computer and go for a walk. Your brain will continue to think about your app idea.
 
