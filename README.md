@@ -16,8 +16,8 @@
  
     `<Everyone,mostly millennials.>`
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: `<https://github.com/tonic2000/Counter/tree/master>`
+6. Github Project/Trello Board: `<https://trello.com/b/ZlrhkI3t/counter-app>`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -59,14 +59,14 @@ Add your top 3-5 features (core functionality) from the Prioritize brainstorming
 1. `<Add events to track and countdown how many days left until the day come.>`
 2. `<Feature 2: Share to friends,family to remind them.>`
 3. `<Feature 3(Maybe) : Push notification when the day is close (one or two days before)>`
-4. < Feature 4 : Sort soonest to furtest.
-5. < Feature 5: Give user ability to give developer through email or Twitter. >
+4. < Feature 4 : Sort soonest to furtest events.
+5. < Feature 5: Give user ability to give developer feedback through email or Twitter. >
 
 ## Part 2: Project Plan
 
 Take a step away from your computer and go for a walk. Your brain will continue to think about your app idea.
 
-1. Add your tasks to your Kanban board (Github Project/Trello)
+1. Add your tasks to your Kanban board (https://trello.com/b/ZlrhkI3t/counter-app)
 2. Be specific in your tasks so that they are actionable.
     1. "Create View Controllers" is vague and isn't clear when you're finished
     2. "Create Table View Controller for GIFCell rows" and "Create Custom GIFTableViewCell" are specific
