@@ -2,14 +2,25 @@
 
 1. Fork and Clone this repository
 2. Fill out the information below (Remove `<placeholders>` and add your answers)
-3. Tag your TL and Instructor on your Pull Request## Requirements
+3. Tag your TL and Instructor on your Pull Request
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
-3. App Description (3-5 sentences):    `<Explain your app to your Grandma (or a 5-year old child)>`
+## Requirements
+
+1. Team Members: 
+Brian Vilchez and Wilmari Rodriguez
+
+2. App Name: 
+Santa I Wish
+
+3. App Description (3-5 sentences):    
+A child frieandly app where children can make they're Christmas Wish List. Parents can setup child's account and later see what they're child's Christmas list looks like. Kids can write down what they want for Christmas or take pictures of toys they like and add it to the list for Santa to see. 
+
 4. Your #1 Customer (Who would use your app? Why now?)    `<Be specific and focus on a real person>`
 5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+
+6. Github Project/Trello Board:
+https://trello.com/b/rAne2sdK/bw-unit4-santa-i-wish
+
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: BrainstormingAdd photos, notes, and sketches from your brain storming session. 
