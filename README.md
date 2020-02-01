@@ -6,23 +6,24 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
-3. App Description (3-5 sentences):
+1. Team Members: 
+Brian Vilchez and Wilmari Rodriguez
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
-    
-4. Your #1 Customer (Who would use your app? Why now?)
- 
-    `<Be specific and focus on a real person>`
-    
+2. App Name: 
+Santa I Wish
+
+3. App Description (3-5 sentences):    
+A child frieandly app where children can make they're Christmas Wish List. Parents can setup child's account and later see what they're child's Christmas list looks like. Kids can write down what they want for Christmas or take pictures of toys they like and add it to the list for Santa to see. 
+
+4. Your #1 Customer (Who would use your app? Why now?)    `<Be specific and focus on a real person>`
 5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+
+6. Github Project/Trello Board:
+https://trello.com/b/rAne2sdK/bw-unit4-santa-i-wish
+
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
-## Part 1: Brainstorming
-
-Add photos, notes, and sketches from your brain storming session. 
+## Part 1: BrainstormingAdd photos, notes, and sketches from your brain storming session. 
 
 1. Brainstorming (Photo / Sketch)
     1. Mind Map (15 minutes)
@@ -31,6 +32,7 @@ Add photos, notes, and sketches from your brain storming session.
         3. Add as many ideas and connections (Don't stop early, keep going until the timer ends)
         4. If you still have ideas, reset the timer and do it again
         5. Take a photo of your mind map and upload it to your proposal (YourName-Mindmap.jpg)
+        
     2. Organize a List (15 minutes)
         1. Set a timer for 15 minutes
         2. Make a list on paper (or Markdown) and capture all your ideas from the mindmap
@@ -49,20 +51,17 @@ Add photos, notes, and sketches from your brain storming session.
     5. Share (15 minutes)
         1. Pair up with a fellow student and show them your idea (Screenshare on Zoom)
         2. Take notes and write down any of their ideas
+        
 2. If you have tons of ideas, set a timer again and keep going.
 3. Don't filter yourself in the brainstorming phase, you want to capture everything and anything
 
-## Top Features (Prioritize)
-
-Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
+## Top Features (Prioritize)Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
 1. `<Feature 1: What will this help your #1 Customer do?>`
 2. `<Feature 2 (How will this help the customer?>`
 3. `<Feature 3 ...>`
 
-## Part 2: Project Plan
-
-Take a step away from your computer and go for a walk. Your brain will continue to think about your app idea.
+## Part 2: Project PlanTake a step away from your computer and go for a walk. Your brain will continue to think about your app idea.
 
 1. Add your tasks to your Kanban board (Github Project/Trello)
 2. Be specific in your tasks so that they are actionable.
