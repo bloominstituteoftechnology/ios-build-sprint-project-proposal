@@ -10,14 +10,14 @@
 2. App Name: `Daily`
 3. App Description (3-5 sentences):
 
-    `<Create healthy daily routines>`
+    Create healthy daily routines
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<People that are interested in developping personal developpement>`
+    People who are interested in personal developpement
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: https://github.com/Jkurbs/Daily
+6. Github Project/Trello Board: https://trello.com/b/jivTS3ml/daily
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
