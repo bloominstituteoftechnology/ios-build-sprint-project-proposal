@@ -56,9 +56,10 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. Create and daily tasks with name, type and time to finish.
+2. Daily taks suggestion.
+2. Delete, Reorder and Edit daily tasks.
+3. Receive notification for each tasks.
 
 ## Part 2: Project Plan
 
