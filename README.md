@@ -9,7 +9,7 @@
     **This app allows you to create/explore topics you are interested in, talk to like-minded people, and learn about your community. The location aspect of the app will inform the user whenever someone around him post to a message board that he is subscribed to. The app can help people discover new activities that are happening around them that they want to participate in.**
 4. Your #1 Customer (Who would use your app? Why now?)
     **This app is basically for users of every demographic. For example, if a user wants to see if anyone is up for a pickup game of basketball they can post an inquiry in the sports activity message board and interested parties will receive a notification if they are subscribed to the board. This passive form of communication will create more serendipitous connections.**
-5. Github code repository: **https://github.com/PercivalN/Build-Week-4-iOS-ZipR**
+5. Github code repository: **https://github.com/PercivalN/ios-build-sprint-project-proposal/tree/Unit4**
 6. Github Project/Trello Board: **https://github.com/PercivalN/Build-Week-4-iOS-ZipR/projects/1?add_cards_query=is%3Aopen**
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!" - **DONE**
 ## Part 1: brainstorming
