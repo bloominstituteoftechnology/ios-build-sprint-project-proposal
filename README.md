@@ -6,18 +6,18 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: Jeremiah Knopp
+2. App Name: Photo De-Duping
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+The app compares the similarity of two images. This is done by calculating the Hamming distance, the minimum amount of changes to a string necessary to bring it in line with a pair. 
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+ People playing find-the-difference time-wasters. I'm choosing this app because it seems like it will be the coolest way to spend my time. Plus, it can't hurt to choose the "hard" option. 
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: https://github.com/knopptimism/iOSUnit1BuildProject
+6. Github Project/Trello Board: https://trello.com/invite/b/XXj85dbp/af3742123821e58a58b24b83717d2e46/iosunit1buildproject
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -31,6 +31,12 @@ Add photos, notes, and sketches from your brain storming session.
         3. Add as many ideas and connections (Don't stop early, keep going until the timer ends)
         4. If you still have ideas, reset the timer and do it again
         5. Take a photo of your mind map and upload it to your proposal (YourName-Mindmap.jpg)
+        
+     
+            
+            
+        
+        
     2. Organize a List (15 minutes)
         1. Set a timer for 15 minutes
         2. Make a list on paper (or Markdown) and capture all your ideas from the mindmap
@@ -56,9 +62,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. `<Feature 1: Add 2 images to be compared>
+2. `<Feature 2: Choose whether to return similarity or difference between two images>`
+3. `<Feature 3: Present gallery of saved images to run more tests on -> puts image in one slot and lets you choose from device or saved in app>`
 
 ## Part 2: Project Plan
 
