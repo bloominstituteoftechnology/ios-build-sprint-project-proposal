@@ -56,11 +56,13 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Add events to track and countdown how many days left until the day come.>`
-2. `<Feature 2: Share to friends,family to remind them.>`
+1. `<Feature 1: Add events to track and countdown how many days left until the day come.>`
+2. `<Feature 2: Share to friends,family through text or social media to remind them.>`
 3. `<Feature 3(Maybe) : Push notification when the day is close (one or two days before)>`
-4. < Feature 4 : Sort soonest to furtest events.
+4. < Feature 4 : Sort soonest to furtest events, sort alphabetically or move cell.
 5. < Feature 5: Give user ability to give developer feedback through email or Twitter. >
+6. < Feature 6: Funny quote about time to make user happy > 
+
 
 ## Part 2: Project Plan
 
