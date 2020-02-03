@@ -3,17 +3,17 @@
 2. Fill out the information below (Remove `<placeholders>` and add your answers)
 3. Tag your TL and Instructor on your Pull Request
 ## Requirements
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: **Skylar Suzuki, Dennis Rudolph, Percy Ngan**
+2. App Name: **Zipr**
 3. App Description (3-5 sentences):
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    **This app allows you to create/explore topics you are interested in, talk to like-minded people, and learn about your community. The location aspect of the app will inform the user whenever someone around him post to a message board that he is subscribed to. The app can help people discover new activities that are happening around them that they want to participate in.**
 4. Your #1 Customer (Who would use your app? Why now?)
-    `<Be specific and focus on a real person>`
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
-7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
-## Part 1: Brainstorming
-Add photos, notes, and sketches from your brain storming session. 
+    **This app is basically for users of every demographic. For example, if a user wants to see if anyone is up for a pickup game of basketball they can post an inquiry in the sports activity message board and interested parties will receive a notification if they are subscribed to the board. This passive form of communication will create more serendipitous connections.**
+5. Github code repository: **https://github.com/PercivalN/Build-Week-4-iOS-ZipR**
+6. Github Project/Trello Board: **https://github.com/PercivalN/Build-Week-4-iOS-ZipR/projects/1?add_cards_query=is%3Aopen**
+7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!" - **DONE**
+## Part 1: brainstorming
+Add photos, notes, and sketches from your brain storming session.
 1. Brainstorming (Photo / Sketch)
     1. Mind Map (15 minutes)
         1. Set a timer for 15 minutes
