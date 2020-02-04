@@ -9,8 +9,8 @@
     **This app allows you to create/explore topics you are interested in, talk to like-minded people, and learn about your community. The location aspect of the app will inform the user whenever someone around him post to a message board that he is subscribed to. The app can help people discover new activities that are happening around them that they want to participate in.**
 4. Your #1 Customer (Who would use your app? Why now?)
     **This app is basically for users of every demographic. For example, if a user wants to see if anyone is up for a pickup game of basketball they can post an inquiry in the sports activity message board and interested parties will receive a notification if they are subscribed to the board. This passive form of communication will create more serendipitous connections.**
-5. Github code repository: **https://github.com/PercivalN/ios-build-sprint-project-proposal/tree/Unit4**
-6. Github Project/Trello Board: **https://github.com/PercivalN/Build-Week-4-iOS-ZipR/projects/1?add_cards_query=is%3Aopen**
+5. Github code repository: **https://github.com/skysuzuki/iOS-ZipR-BW4/tree/developer**
+6. Github Project/Trello Board: **https://github.com/skysuzuki/iOS-ZipR-BW4/projects/1**
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!" - **DONE**
 ## Part 1: brainstorming
 Add photos, notes, and sketches from your brain storming session.
@@ -43,7 +43,7 @@ Add photos, notes, and sketches from your brain storming session.
 3. Don't filter yourself in the brainstorming phase, you want to capture everything and anything
 ## Top Features (Prioritize)
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
-1. `<Feature 1: What will this help your #1 Customer do?>`
+1. **Display message boards**
 2. `<Feature 2 (How will this help the customer?>`
 3. `<Feature 3 ...>`
 ## Part 2: Project Plan
