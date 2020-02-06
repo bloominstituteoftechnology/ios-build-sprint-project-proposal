@@ -58,7 +58,6 @@ Add your top 3-5 features (core functionality) from the Prioritize brainstorming
 1. `<Feature 1: Allow you to convert USD to multiple foreign currencies. 
 2. `<Feature 2: Include Bitcoin as a bonus for people who mine bitcoin. 
 3. `<Feature 3: Simple and easy to use interface that clearly displays the info you're looking for. 
-4. `<Feature 4: (Possible if time allows) A second tab to allow the user to convert distances. Miles, Yards, Kilometers, etc
 
 ## Part 2: Project Plan
 
