@@ -6,18 +6,17 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: Enrique
+2. App Name: Converency
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+This app is designed to convert currency into the currency of your choosing. You input your desired dollar amount and choose which currency you would like it converted to. There will be multiple types of currency to choose from: Pesos, Pounds, Rupee, etc.
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
-    
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+ Anyone who has plans to travel so they can plan ahead as to how much money they will need. Your currency might be worth more or less depending on which country you go to. So it's only to your benefit. 
+5. Github code repository: https://github.com/EGTech24/iOS-Build-Sprint
+6. Github Project/Trello Board: https://trello.com/b/a0vFdl62/lambda-unit-1-build-project
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -56,9 +55,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. `<Feature 1: Allow you to convert USD to multiple foreign currencies. 
+2. `<Feature 2: Include Bitcoin as a bonus for people who mine bitcoin. 
+3. `<Feature 3: Simple and easy to use interface that clearly displays the info you're looking for. 
 
 ## Part 2: Project Plan
 
