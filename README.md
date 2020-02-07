@@ -10,7 +10,7 @@
 2. App Name: `Daily`
 3. App Description (3-5 sentences):
 
-    Create healthy daily routines
+    An easy, organized and elegant way to create your daily ritual.
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
