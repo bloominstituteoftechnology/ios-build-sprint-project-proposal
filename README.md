@@ -16,8 +16,8 @@
  
     `People who want to track their workouts and meals, especially as we're still early in the New Year`
     
-5. Github code repository: https://github.com/jdkouris/FitnessTracker/blob/master/.gitignore
-6. Github Project/Trello Board: https://github.com/jdkouris/FitnessTracker/projects/1?add_cards_query=is%3Aopen
+5. Github code repository: 
+6. Github Project/Trello Board: 
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
