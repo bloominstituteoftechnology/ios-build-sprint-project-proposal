@@ -10,14 +10,14 @@
 2. App Name: `<What's the app name?>`
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    `Fitness journaling app to keep track of your workouts and your meals. A user can add workouts and meals to the journal either by text or by voice with voice-to-text. A user can also save photos of meals and videos of exercises.`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    `People who want to track their workouts and meals, especially as we're still early in the New Year`
     
 5. Github code repository: https://github.com/jdkouris/FitnessTracker/blob/master/.gitignore
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+6. Github Project/Trello Board: https://github.com/jdkouris/FitnessTracker/projects/1?add_cards_query=is%3Aopen
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -56,9 +56,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. `Voice-to-text for adding workout notes`
+2. `Video recording for exercises and photos for meals`
+3. `Calendar implementation to track workouts/meals by day`
 
 ## Part 2: Project Plan
 
