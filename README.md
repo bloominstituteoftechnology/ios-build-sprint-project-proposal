@@ -6,15 +6,15 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `Fabiola Saldivar`
+2. App Name: `Slango`
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+`Slango helps you learn slang and phrases in a language you are learning. The app comes to you to show you new words so you don't have to remember to open it.`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    `Casual learners that are on the go, they’ve always wanted to continue learning that one language they tried picking up years ago but never memorized enough useful (natural) vocabulary or knew how to use it because of lack of spare time. Learners often lose motivation due to lack of time for studying, practicing and no tangible progress other than experience points, badges and day streaks with current mobile learning tools.`
     
 5. Github code repository: `<Create a Github Project>`
 6. Github Project/Trello Board: `<Post your link to your Kanban board>`
