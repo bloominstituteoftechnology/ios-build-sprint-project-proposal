@@ -7,7 +7,7 @@
 ## Requirements
 
 1. Team Members: `John Kouris`
-2. App Name: `<What's the app name?>`
+2. App Name: `My Fitness`
 3. App Description (3-5 sentences):
 
     `Fitness journaling app to keep track of your workouts and your meals. A user can add workouts and meals to the journal either by text or by voice with voice-to-text. A user can also save photos of meals and videos of exercises.`
