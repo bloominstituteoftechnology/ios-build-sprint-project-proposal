@@ -65,9 +65,29 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. `Create tasks with the ability to choose a color and emoji to represent it, and specify a title. Show the top six tasks as large buttons displaying the color (background) and emoji.`
+2. `Show a scrollable list of the remaining tasks. These tasks also display the color and emoji, and also show the title.`
+3. `Start timing any task by tapping on it once. The timer starts immediately - no need to stop the previous timer, if any. This will make it super quick to start and also to switch between tasks as you go through your day."
+4. `Tap the "Quick task" button to immediately start timing a new task, with the ability to go back later and fill in the details.`
+5. `Apple Watch companion app that shows the current task running (just the color, emoji, and elapsed time), and the top 4 tasks. Scrolling down reveals the fifth and sixth top task, followed by the list of remaining tasks. Tap any of them to start timing. Tap an X (or other stop icon) near the running time to stop timing tasks.`
+6. `Some basic reporting on task times. How much time for each task that day, for example.`
+
+## Stretch Goals
+1. `Better reporting, including exporting reports to a file or email or...?`
+2. `Watch complication.`
+3. `iPhone widget.`
+4. `Format for iPad.`
+5. `Sync across devices.`
+6. `Voice or speech-to-text memos when adding a Quick Task so that you don't forget why you started it.`
+
+## Future Features
+These are features I'd like to add eventually but will almost definitely not have time for this sprint.
+
+1. `Harvest API integration.`
+2. `Extra task details, like charge numbers, contract numbers, or whatever else might be useful for the user in a report.`
+3. `Voice, speech-to-text, or text notes for all tasks so that you can remember important things that come up while working.`
+4. `Mac app.`
+
 
 ## Part 2: Project Plan
 
