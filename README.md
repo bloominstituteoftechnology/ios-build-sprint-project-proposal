@@ -6,7 +6,7 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
+1. Team Members: `John Kouris`
 2. App Name: `<What's the app name?>`
 3. App Description (3-5 sentences):
 
@@ -16,7 +16,7 @@
  
     `<Be specific and focus on a real person>`
     
-5. Github code repository: `<Create a Github Project>`
+5. Github code repository: https://github.com/jdkouris/FitnessTracker/blob/master/.gitignore
 6. Github Project/Trello Board: `<Post your link to your Kanban board>`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
