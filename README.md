@@ -6,15 +6,24 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `just me`
+2. App Name: `StartWatch`
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+```
+StartWatch makes time tracking easier and faster. The interface features big, easy-to-identify buttons
+that let you switch tasks with a quick glance and only one tap. The companion Apple Watch app allows
+you to keep your favorite tasks right on your wrist. And it's even simple to create new tasks on the
+fly and worry about entering the details later, so you can focus on your task and not your task tracker.
+```
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+```
+Someone who needs or wants to track the time they spend on various tasks/projects and report on them
+later. Anyone who works on multiple contracts or various tasks and needs to charge separetly for
+each. Basically people who use Harvest but don't like it.
+```
     
 5. Github code repository: `<Create a Github Project>`
 6. Github Project/Trello Board: `<Post your link to your Kanban board>`
