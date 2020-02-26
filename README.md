@@ -6,18 +6,19 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: Bree, Conner
+2. App Name: CreativeNotes
 3. App Description (3-5 sentences):
+    This is an app where the user can create notes, edit, and delete them.
+    There is emphasis on customization/themes. The main focus being for the user to easily create their own and save them with persistent storage
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    The app is directed at creatives, with a focus put on the customization and apperance of the app, with goals of implementing aspects of markdown into note creation
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: https://github.com/iOSPT5-BW1/Note-Tracker
+6. Github Project/Trello Board: https://www.notion.so/490b80294dc24b51a7c44368da9ed0c5?v=2a900b1fb1cf4df4b02f8ec40f289f82
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -56,9 +57,12 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. Core features, adding, editing, deleting notes - ensures the basic functionality of a notes app
+2. Multiple Themes & Theme creation- this app is centered upon a creative focus
+3. Date, time, last saved - focus on organization
+4. Pinning, Archiving, Sorting Notes
+5. Share notes by email
+
 
 ## Part 2: Project Plan
 
