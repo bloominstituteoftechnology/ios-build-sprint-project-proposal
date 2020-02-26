@@ -57,9 +57,12 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. Core features, adding, editing, deleting notes - ensures the basic functionality of a notes app
+2. Multiple Themes & Theme creation- this app is centered upon a creative focus
+3. Date, time, last saved - focus on organization
+4. Pinning, Archiving, Sorting Notes
+5. Share notes by email
+
 
 ## Part 2: Project Plan
 
