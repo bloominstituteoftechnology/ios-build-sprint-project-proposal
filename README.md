@@ -6,17 +6,16 @@
 
 ## Requirements
 
-1. Team Members:    Waseem Idelbi and Chris Price
-2. App Name:            DistanceConverter (Working title.)
+1. Team Members:    Jordan Skenandore and Chris Price
+2. App Name:        
 3. App Description (3-5 sentences):
 
-This app will help the user convert between different units of measurement for distance. So for instance if you want to know how tall you are in cm and you only know your height in feet and inches, you could put your height into this converter to find out. 
     
 4. Your #1 Customer (Who would use your app? Why now?)
-Distance Converter is an essential tool that everyone should quick and easy access to. With our Distance Converter app, you can convert to and from all kinds of different units of distance measurement. Forget about doing complicated math or searching online for a solution, get the essential tool FOR FREE NOW!
+
     
-5. Github code repository:          https://github.com/IOSPT4-Build-Week-1-Distance-Converter/DistanceConverter
-6. Github Project/Trello Board:     https://github.com/IOSPT4-Build-Week-1-Distance-Converter/DistanceConverter/projects/1
+5. Github code repository:          
+6. Github Project/Trello Board:     
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -30,9 +29,6 @@ Add photos, notes, and sketches from your brain storming session.
         3. Add as many ideas and connections (Don't stop early, keep going until the timer ends)
         4. If you still have ideas, reset the timer and do it again
         5. Take a photo of your mind map and upload it to your proposal (YourName-Mindmap.jpg)
-        
-        I'm going not going to do this for this project. I think it is valuable, but for this project it would be better for me to use the 15 minutes to see what other people have done already. I'm going to researh our competatros in the app store. Otherwise all my branches of my mind map would be different units instead of different featrues. This idea is a very basic app, and might do well to stay basic (and avoid feature creep).
-        
     2. Organize a List (15 minutes)
         1. Set a timer for 15 minutes
         2. Make a list on paper (or Markdown) and capture all your ideas from the mindmap
@@ -41,9 +37,6 @@ Add photos, notes, and sketches from your brain storming session.
     3. Prioritize (5 minutes)
         1. What features does your #1 customer need most?
         2. Choose 3-5 features that make the core app experience
-        Easy to use quickly- meaning intutive and stripped down layout that is pleasant to look at. 
-        Easy to add or take away units for speed of use
-            Memory to remember those selected units
         3. Add these features to your `## Top Features` section
     4. Sketch (15 minutes)
         1. Draw a rectangle in the center of a paper
@@ -51,9 +44,6 @@ Add photos, notes, and sketches from your brain storming session.
         3. Repeat this for 3-5 of your top features
         4. Add annotations to your sketches (i.e.: point out how gesture interactions or animations might work)
         5. Take a photo of each mockup
-        
-        We made a rough draft yesterday in xcode. Saved to our project gituhub repo. I believe Waseem is adding a picture to his pull request.
-        
     5. Share (15 minutes)
         1. Pair up with a fellow student and show them your idea (Screenshare on Zoom)
         2. Take notes and write down any of their ideas
@@ -64,9 +54,6 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-Easy to use quickly- meaning intutive and stripped down layout that is pleasant to look at. 
-     Easy to add or take away units for speed of use
-         Memory to remember those selected units
 
 ## Part 2: Project Plan
 
