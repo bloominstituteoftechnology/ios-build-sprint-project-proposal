@@ -6,18 +6,19 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: Bree Young and Connor Wells
+2. App Name: CreativeNotes
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+This app will allow you to create and track all your thoughts and ideas in the form of digital notes. The notes can be categorized and searched by date, theme, or favorites. Capture your best moments or reminders using different forms of media.
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+ This app will be built with the creative professional in mind. There are several note apps on the market but this app will focus on capturing data in ways most important to developers, photographers, artists or directors. 
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository:
+    https://github.com/bree-jeune/Note-Tracker
+6. Github Project/Trello Board: https://www.notion.so/490b80294dc24b51a7c44368da9ed0c5?v=2a900b1fb1cf4df4b02f8ec40f289f82
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
