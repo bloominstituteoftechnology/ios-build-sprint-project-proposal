@@ -57,34 +57,34 @@ Add photos, notes, and sketches from your brain storming session.
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
 1) Collection view is the main view controller:
-	-books I want to read
-	-books I have read
-		-“you’ve read this many ” message at the top.
+ -books I want to read
+ -books I have read
+ - -“you’ve read this many ” message at the top.
 2) Detail view has the chapters and check box.
-	-Table View
-		-Title
-		-Checkbox
-	-A way to add books
-		-Third view, or Alert, or new tab
-	-A way to add chapters (probably just the same view controller as the book adder)
+ -Table View
+ -Title
+ - -Checkbox
+ -A way to add books
+ - -Third view, or Alert, or new tab
+ -A way to add chapters (probably just the same view controller as the book adder)
 3) Progress Bar- how many chapters you’ve read
-	-In the DetailView
--Persistence
--App icon
--Add books
--Delete books/chapters
--Edit chapter notes
-Stretch:
+ -In the DetailView
+ -Persistence
+ -App icon
+ -Add books
+ -Delete books/chapters
+ -Edit chapter notes
+4) Stretch:
 -Progress bar in the collection view as well
 -“Page you left off on” option - virtual bookmark
 -Notes section for chapters
-Medium Stretch:
+5) Medium Stretch:
 -Add an image for book cover for the Collection View
 -Organization options
 	-Priority
 	-Date added
 	-Genre?
-Super stretch:
+6) Super stretch:
 -Different media (via Tab Bar Controller)
 	-With a main page based on priority
 	-Network/Source
