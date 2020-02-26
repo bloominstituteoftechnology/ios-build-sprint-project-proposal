@@ -6,19 +6,19 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: Christopher Price, Jordan Skenandore
+2. App Name: Read A Book
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    - Have you ever had a friend recommend a book, but by the time you finally got to the bookstore you forgot the title? Or have you ever taken a break from a book so long that you can't remember where you left off? Well, this app lets you track both! Enter the title of the book you want to read, and then check off each chapter as you read along!
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    We have all picked up the nearest sticky note to hurry and record the name of a book that a friend recomends, just to find the remains of that sticky note in your dryers lint catcher a few days later. This app lets users not only record the title of that book, but also helps you keep your place as you follow along! Anyone who has ever read a book will tell you that it's not a rare thing for life to get in the way somewhere between the first and final page, but with "Read-A-Book" that will no longer be an issue, as it only takes seconds to check the boxes to the chapters you've read, to save your spot till next time!
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
-7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
+5. Github code repository: https://github.com/iOSPT5-BW1/Binge-Watcher.git
+6. Github Project/Trello Board: TL's are currently working on it.
+7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!": DONE AND DONE
 
 ## Part 1: Brainstorming
 
@@ -56,9 +56,39 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1) Collection view is the main view controller:
+ - books I want to read
+ - books I have read
+ - - “you’ve read this many ” message at the top.
+2) Detail view has the chapters and check box.
+ - Table View
+ - Title
+ - - Checkbox
+ - A way to add books
+ - - Third view, or Alert, or new tab
+ - A way to add chapters (probably just the same view controller as the book adder)
+3) Progress Bar- how many chapters you’ve read
+ - In the DetailView
+ - ersistence
+ - App icon
+ - Add books
+ - Delete books/chapters
+ - Edit chapter notes
+4) Stretch:
+ - Progress bar in the collection view as well
+ - “Page you left off on” option - virtual bookmark
+ - Notes section for chapters
+5) Medium Stretch:
+ - Add an image for book cover for the Collection View
+ - Organization options
+ - - Priority
+ - - Date added
+ - - Genre?
+6) Super stretch:
+ - Different media (via Tab Bar Controller)
+ - - With a main page based on priority
+ - - Network/Source
+ - Networking with family and friends
 
 ## Part 2: Project Plan
 
