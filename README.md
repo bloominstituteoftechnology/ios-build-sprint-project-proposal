@@ -28,7 +28,7 @@
 
 Add photos, notes, and sketches from your brain storming session. 
 
-1. Brainstorming (Photo / Sketch)
+1. Brainstorming (Photo  Sketch)
     1. Mind Map (15 minutes)
         1. Set a timer for 15 minutes
         2. Grab a piece of paper and write your app name in the center
