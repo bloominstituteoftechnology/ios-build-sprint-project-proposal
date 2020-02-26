@@ -6,8 +6,8 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: Juan Mariscal, Matt Martindale
+2. App Name: Mood Tracker
 3. App Description (3-5 sentences):
 
     `<Explain your app to your Grandma (or a 5-year old child)>`
