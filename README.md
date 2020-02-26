@@ -6,18 +6,14 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
-3. App Description (3-5 sentences):
-
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+1. Team Members: Kennedy Samarakody and True Ballin
+2. App Name:  Unit Converter 
+3. App Description (3-5 sentences): This app is really basic, we are trying to create an app that does conversions. Our app will allow users to convert money to other currency and to bitcoins as well. It will also allow us to convert through the metric system. We will create a user friendly and dynamtic User Interface that is easy to use and navigate.
     
-4. Your #1 Customer (Who would use your app? Why now?)
- 
-    `<Be specific and focus on a real person>`
+4. Your #1 Customer (Who would use your app? Why now?) In my opinion, anyone can use this app. It is very diverse because alot people uses unit converters. It is useful to everyone who wants to convert any value or metric.
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: https://github.com/kensam1/Unit-Convert-II
+6. Github Project/Trello Board: https://www.notion.so/84b37ced00b4477196bfc1a11ef7c78e?v=7a00b6845897424e9632e5cedd9962a4
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
