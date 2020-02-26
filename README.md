@@ -7,17 +7,21 @@
 ## Requirements
 
 1. Team Members: `<Who's working on this app?>`
+    1. Matt Martindale 2. Juan Mariscal 3. Claudia Maciel
 2. App Name: `<What's the app name?>`
+    Moody Me (name WIP)
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    An app that lets you track your overall mood for that day. Helping people be more aware of their emotions and help them recognize patterns that might affect their moods in a negative way.
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    People who realize they let their emotions control them and want a better way to track their moods, while also giving them a way to stand back and see their overall mood for the month
     
 5. Github code repository: `<Create a Github Project>`
+    https://github.com/iOSPT5-BW1/Mood-Tracker
 6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+    https://www.notion.so/3ee4fdd8057a423bb1e1eb3f8282cc6b?v=c7eff0fd505f465a830043392c30af9d
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
