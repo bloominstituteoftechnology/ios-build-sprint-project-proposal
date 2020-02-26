@@ -6,17 +6,22 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `<Waseem and Rob?>`
+2. App Name: `<Medication tracker>`
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    Welcome to Medication Tracker!
     
+     `You can use this app to help you manage, schedule, and track your medication. `
+     ` In this app, you can add whatever medication you're currently taking, and set up reminders to take that medication.`
+     ` That way, it can remind you when it's time to take your meds!`
+     ` Can't remember whether or not you've already had your pill, no problem! `
+      ` after you take your medication, you can then log that into the app, and it'll remember for you! Now you can just check back later when in doubt`
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    `<my dad, becasue he takes a number of different pills>`
     
-5. Github code repository: `<Create a Github Project>`
+5. Github code repository: `<https://github.com/iOSPT5-BW1/Medication-Tracker>`
 6. Github Project/Trello Board: `<Post your link to your Kanban board>`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
@@ -37,7 +42,8 @@ Add photos, notes, and sketches from your brain storming session.
         3. If new ideas appear, write those down too
         4. Take a photo of your organized list and upload it to your proposal (YourName-List.jpg or YourName-List.md)
     3. Prioritize (5 minutes)
-        1. What features does your #1 customer need most?
+        1. What features does your #1 customer need most? 
+        `the ability to receive reminders and to log and track doses of medication inside the app`
         2. Choose 3-5 features that make the core app experience
         3. Add these features to your `## Top Features` section
     4. Sketch (15 minutes)
@@ -56,9 +62,11 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. `<Feature 1: Add medications with names and a number that displays how many times in a day you need to take them`
+
+2. `Tap on the medication cell to log doses that are taken, make changes, or take down some notes`
+
+3. `The app can send reminders (even when the app is closed) to remind the user to take their meds`
 
 ## Part 2: Project Plan
 
