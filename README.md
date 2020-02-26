@@ -81,7 +81,7 @@ Add your top 3-5 features (core functionality) from the Prioritize brainstorming
 5) Medium Stretch:
  - Add an image for book cover for the Collection View
  - Organization options
- -- Priority
+ - - Priority
  - - Date added
  - - Genre?
 6) Super stretch:
