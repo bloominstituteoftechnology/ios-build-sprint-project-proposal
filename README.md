@@ -16,8 +16,8 @@
  
     `Busy adults who want a way to track their mood, and find the sources of their bad and good moods. `
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: `https://github.com/iOSPT5-BW1/Mood-Tracker`
+6. Github Project/Trello Board: `https://www.notion.so/3ee4fdd8057a423bb1e1eb3f8282cc6b?v=c7eff0fd505f465a830043392c30af9d`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
