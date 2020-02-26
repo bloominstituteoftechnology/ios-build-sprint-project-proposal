@@ -28,10 +28,7 @@ Add photos, notes, and sketches from your brain storming session.
     1. Mind Map (15 minutes)
     ![Image of MindMap](https://github.com/clc80/ios-build-sprint-project-proposal/blob/master/ClaudiaMaciel-Mindmap.png?raw=true)
     2. Organize a List (15 minutes)
-        1. Set a timer for 15 minutes
-        2. Make a list on paper (or Markdown) and capture all your ideas from the mindmap
-        3. If new ideas appear, write those down too
-        4. Take a photo of your organized list and upload it to your proposal (YourName-List.jpg or YourName-List.md)
+        
     3. Prioritize (5 minutes)
         1. What features does your #1 customer need most?
         2. Choose 3-5 features that make the core app experience
@@ -52,9 +49,16 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. MVP
+    1. Track your mood
+    1. Comment on why that mood
+    1. Motivational quote
+    1. Table View of moods.
+1. Stretch
+    1. Implement a calendar instead of table view
+    1. Add emojis for mood tracking
+    1. Choosing between a dark theme and white theme
+    1. Add a graph to see most selected moods
 
 ## Part 2: Project Plan
 
