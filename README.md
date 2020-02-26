@@ -6,15 +6,15 @@
 
 ## Requirements
 
-1. Team Members: Juan Mariscal, Matt Martindale
-2. App Name: Mood Tracker
+1. Team Members: `Juan Mariscal, Matt Martindale, Claudia Maciel`
+2. App Name: `Mood Tracker`
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    `This app allows the user to track their mood. As you go about your day you change moods and you can now track the mood changes to be able to see what causes you distress, happiness, and others. The app gives you motivational quotes so you can be inspired and help you be happier. Another feature of the app is to see your weekly mood at a glance. `
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    `Busy adults who want a way to track their mood, and find the sources of their bad and good moods. `
     
 5. Github code repository: `<Create a Github Project>`
 6. Github Project/Trello Board: `<Post your link to your Kanban board>`
@@ -26,11 +26,7 @@ Add photos, notes, and sketches from your brain storming session.
 
 1. Brainstorming (Photo / Sketch)
     1. Mind Map (15 minutes)
-        1. Set a timer for 15 minutes
-        2. Grab a piece of paper and write your app name in the center
-        3. Add as many ideas and connections (Don't stop early, keep going until the timer ends)
-        4. If you still have ideas, reset the timer and do it again
-        5. Take a photo of your mind map and upload it to your proposal (YourName-Mindmap.jpg)
+    ![Image of MindMap](https://github.com/clc80/ios-build-sprint-project-proposal/blob/master/ClaudiaMaciel-Mindmap.png?raw=true)
     2. Organize a List (15 minutes)
         1. Set a timer for 15 minutes
         2. Make a list on paper (or Markdown) and capture all your ideas from the mindmap
