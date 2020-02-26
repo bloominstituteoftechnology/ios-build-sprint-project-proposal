@@ -6,18 +6,18 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `Jarren Campos and James McDougall`
+2. App Name: `PlayCall`
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+`This app is designed for athletes to be able to hear more clearly when listening to specific plays that are being called for sports. However, this can be used in a multitude of different applications, such as helping people who have cochlear implants adjust to sounds that they have never heard before.`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+ `This app would initially help atheletes, but then move into the general public after a few years of testing.`
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: https://github.com/iOSPT5-BW1/PlayCall`
+6. Github Project/Trello Board: `https://trello.com/b/9kdNSGY8/playcall`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
