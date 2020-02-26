@@ -6,18 +6,19 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: Bree, Conner
+2. App Name: CreativeNotes
 3. App Description (3-5 sentences):
+    This is an app where the user can create notes, edit, and delete them.
+    There is emphasis on customization/themes. The main focus being for the user to easily create their own and save them with persistent storage
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    The app is directed at creatives, with a focus put on the customization and apperance of the app, with goals of implementing aspects of markdown into note creation
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: https://github.com/iOSPT5-BW1/Note-Tracker
+6. Github Project/Trello Board: https://www.notion.so/490b80294dc24b51a7c44368da9ed0c5?v=2a900b1fb1cf4df4b02f8ec40f289f82
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
