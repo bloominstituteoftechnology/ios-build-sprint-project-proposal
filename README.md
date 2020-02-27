@@ -6,19 +6,21 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: Breena Greek, Libby Thomas
+2. App Name: Water My Plant
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    This app allows a user to create files that hold information about their plants. They can input a photo of their plant, a nickname for the plant, the type of plant that it is, and information about how to take care of it. The user will also have the option to edit or delete plants. 
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    Plant hobbyists or gardeners. 
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: https://github.com/thomaslibby05/Plant-Reminder
+6. Github Project/Trello Board: https://www.notion.so/3d9ebfafe2f445a7a6510a72beda26b9?v=6b72d2ab175047bd9c9d1a242162e469
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
+
+    Done. :) 
 
 ## Part 1: Brainstorming
 
