@@ -6,18 +6,17 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: Libby Thomas and Breena Greek
+2. App Name: Water My Plant
 3. App Description (3-5 sentences):
-
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    This project will allow user to add a plant to a list. This will include a picture, text and how often to water. The user will also have the option to edit or delete the plant. 
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+   Plant hobbyist or gardeners. 
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: : https://github.com/bgreek/Plant-Reminder.git
+6. Github Project/Trello Board: https://www.notion.so/3d9ebfafe2f445a7a6510a72beda26b9?v=6b72d2ab175047bd9c9d1a242162e469
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -25,18 +24,18 @@
 Add photos, notes, and sketches from your brain storming session. 
 
 1. Brainstorming (Photo / Sketch)
-    1. Mind Map (15 minutes)
-        1. Set a timer for 15 minutes
+    1. Mind Map (15 minutes) : DONE LOADED TO GITHUB
+        1. Set a timer for 15 minutes  
         2. Grab a piece of paper and write your app name in the center
         3. Add as many ideas and connections (Don't stop early, keep going until the timer ends)
         4. If you still have ideas, reset the timer and do it again
         5. Take a photo of your mind map and upload it to your proposal (YourName-Mindmap.jpg)
-    2. Organize a List (15 minutes)
+    2. Organize a List (15 minutes) : DONE LOADED TO GITUHB
         1. Set a timer for 15 minutes
         2. Make a list on paper (or Markdown) and capture all your ideas from the mindmap
         3. If new ideas appear, write those down too
         4. Take a photo of your organized list and upload it to your proposal (YourName-List.jpg or YourName-List.md)
-    3. Prioritize (5 minutes)
+    3. Prioritize (5 minutes) DONE LOADED TO GITHUB
         1. What features does your #1 customer need most?
         2. Choose 3-5 features that make the core app experience
         3. Add these features to your `## Top Features` section
