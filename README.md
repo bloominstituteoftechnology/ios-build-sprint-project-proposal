@@ -18,8 +18,8 @@
     **Eleanor is going on vacation. She wants to track milestones. She wants motivation. She wants style** 
     
 5. Github code repository: **https://github.com/gerrior/Countdown-Timer**
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
-7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
+6. Github Project/Trello Board: **https://trello.com/b/d4Uhr4zA/countdown-timer**
+7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!" **✓**
 
 ## Part 1: Brainstorming
 
