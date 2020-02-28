@@ -6,17 +6,17 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `<Brad Diroff>`
+2. App Name: `<Groupit?>`
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    `<The app helps groups make choices on where to eat food, lets people comment on where to eat, and when one of your choices reaches the time you wanted to eat, you receive a notification>`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+ `<Groups of people that want to make decisions on where they want to eat. It's easier to just get choices to push buttons for making your mind up about things>`
     
-5. Github code repository: `<Create a Github Project>`
+5. Github code repository: `<https://github.com/HeyBradMadeIt/groupit>`
 6. Github Project/Trello Board: `<Post your link to your Kanban board>`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
@@ -56,9 +56,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. `<Feature 1: This will help get people's input on restaurants they'd like to eat at a lot easier. This saves time and gets through the time-consuming practice of deciding on where to eat>`
+2. `<Feature 2: This will let you know when everyone is planning on meeting together>`
+3. `<Feature 3: There will be comments that everyone can contribute to when trying to make a decision>`
 
 ## Part 2: Project Plan
 
