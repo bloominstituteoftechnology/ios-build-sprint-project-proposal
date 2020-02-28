@@ -17,7 +17,7 @@
     I am the primary customer, as someone who enjoys an abstract background. When I get a new device I want a new wallpaper, and I want it to be unique and colorful. These wallpapers follow my design asethetic.
     
 5. **Github code repository**: `<Create a Github Project>`
-6. **Github Project/Trello Board**: `<Post your link to your Kanban board>`
+6. **Github Project/Trello Board**: <https://github.com/PaulSolt/ios-build-sprint-project-proposal/projects/1>
 
 ## Part 1: Brainstorming
 
