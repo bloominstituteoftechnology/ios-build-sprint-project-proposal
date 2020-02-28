@@ -6,18 +6,19 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `Hector Ledesma`
+2. App Name: `(Medicine Tracker) No witty name just yet. Maybe something like SUPPort (get it case it's about supplements)`
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    `Simple version: Track daily supplements and vitamins.`
+    `The more descriptive version: For people that work out, taking a bunch of daily pills is part of the gains. My app would allow you to list all the pills you take every day. The key features would allow keeping track of them to be simple, stress-free and actually useful.`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    `Bodybuilder/Fitness-oriented version. As easy as just pressing a couple of buttons would make it worth the time investment to keep a good record of your daily vitamins and supplements.`
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: `https://github.com/mazi89/Lambda-iOS-Build-Sprint-1-Medication-Tracking`
+6. Github Project/Trello Board: `https://trello.com/invite/b/kpvoyKG1/e21d5a671238876c83f40fb194a0480d/sprint-1-medication-tracker`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
