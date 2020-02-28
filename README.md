@@ -6,12 +6,16 @@
 
 ## Requirements
 
-1. Team Members: Paul Solt
-2. App Name: `<What's the app name?>`
+1. Team Members: **Paul Solt**
+2. App Name: **Wallpaper Evolution**
 3. App Description (3-5 sentences):
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    
+    Wallpaper Evolution is a collection of computer generated wallpapers that were "evolved" using Artwork Evolution. The collection is abstract and are a collaboration between the computer and the creator. The wallpapers in this collection were created by Paul Solt.
+    
 4. Your #1 Customer (Who would use your app? Why now?)
-    `<Be specific and focus on a real person>
+    
+    I am the primary customer, as someone who enjoys an abstract background. When I get a new device I want a new wallpaper, and I want it to be unique and colorful. These wallpapers follow my design asethetic.
+    
 5. Github code repository: `<Create a Github Project>`
 6. Github Project/Trello Board: `<Post your link to your Kanban board>`
 
