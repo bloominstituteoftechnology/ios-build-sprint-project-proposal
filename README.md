@@ -17,7 +17,7 @@
  `Anyone one who has strong fiancial goals and is looking to buy a home.`
     
 5. Github code repository: `https://github.com/samessermanlambda/BW1---Mortgage-Calculator`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+6. Github Project/Trello Board: `https://trello.com/b/Fsp989ZS/mortgage-calculator`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
