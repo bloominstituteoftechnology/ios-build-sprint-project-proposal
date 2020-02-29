@@ -6,20 +6,18 @@
 
 ## Requirements
 
-1. Team Members: Nichole Davidson 
-2. App Name: BinGee
+1. Team Members: Harmony Radley & Nichole Davidson
+2. App Name: PillBox
 3. App Description (3-5 sentences):
-    BinGee app helps the user keep track of their favorite television series, what episodes they've watched, how many episodes they have left, and how many they need to watch per week or per day before the next season aires.
+    PillBox helps keep track of your meds so you don't have to. Keep organized with medication information, dosage, when to take or administer, physician information, healthcare provider information and any other notes you'd like to keep track of. Set reminders to take or adminster the medication and see past dosage, administration, and if doses were missed.
   
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-   Anyone that has access to Netflix, Hulu, HBO, AmazonPrime, AppleTV+, or Disney+
-   
-   With so much content out there on so many different platforms it can be hard to keep track of where you are without manually looking up the information episode by episode, series by series, and from platform to platform. 
+ Anyone who takes medication and a caregiver who adminsters medication. It's easy to forget and a pain to have to count out the pills to check if the day's dose was taken or not.
     
-5. Github code repository: https://github.com/NicholeD/BinGee.git
-6. Github Project/Trello Board: https://github.com/users/NicholeD/projects/1?add_cards_query=is%3Aopen
+5. Github code repository:
+6. Github Project/Trello Board: https://trello.com/b/9XJChWP3/pillbox-ios-unit1-build-project
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -58,9 +56,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. Platform, series, and episode tracker - user can mark off the episodes they watch, as they watch them, per series, per platform.
-2. Countdown Schedule - user can see how many episodes they need to watch before new season premiere by the month, week, and day.
-3. UI - visually pleasing with easy access to info. User friendly.
+1. Easy to use. No need for explanation. Accessability with large print
+2. Well organized information. One stop shop for info and accessing med history
+3. Alerts.
 
 ## Part 2: Project Plan
 
