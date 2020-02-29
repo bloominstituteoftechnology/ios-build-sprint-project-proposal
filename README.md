@@ -57,9 +57,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-***1. Timer CRUD***
-***2. Large, full-screen timer***
-***3. Notification*** 
+1. ***Timer CRUD***
+2. ***Large, full-screen timer***
+3. ***Notification***
 
 ## Part 2: Project Plan
 
