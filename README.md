@@ -17,7 +17,7 @@
     **Anyone who wants a quick reminder how much time is left before an event happens.**
     **Eleanor is going on vacation. She wants to track milestones. She wants motivation. She wants style** 
     
-5. Github code repository: **https://github.com/gerrior/Countdown-Timer**
+5. Github code repository: **https://github.com/gerrior/ios-build-sprint-project-proposal**
 6. Github Project/Trello Board: **https://trello.com/b/d4Uhr4zA/countdown-timer**
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!" **✓**
 
@@ -57,9 +57,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+***1. Timer CRUD***
+***2. Large, full-screen timer***
+***3. Notification*** 
 
 ## Part 2: Project Plan
 
