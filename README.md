@@ -6,18 +6,18 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: Wyatt Harell and Christopher DeVito
+2. App Name: Simple Home Calculator
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    An app to help facilitate a better home buying or refinancing experience. 
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    New and existing home buyers.
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: https://github.com/wyattharrell/build-week-1
+6. Github Project/Trello Board: https://trello.com/b/oN0CtXtD/build-week-1
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -25,7 +25,7 @@
 Add photos, notes, and sketches from your brain storming session. 
 
 1. Brainstorming (Photo / Sketch)
-    1. Mind Map (15 minutes)
+    1. Mind Map (15 minutes) 
         1. Set a timer for 15 minutes
         2. Grab a piece of paper and write your app name in the center
         3. Add as many ideas and connections (Don't stop early, keep going until the timer ends)
@@ -56,9 +56,10 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. Mortgage Calculator
+2. Can I Buy...?
+3. Cost of Living Calculator
+4. Home Buying Tip of the Day
 
 ## Part 2: Project Plan
 
