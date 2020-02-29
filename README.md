@@ -6,18 +6,18 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: Harmony Radley & Nichole Davidson
+2. App Name: PillBox
 3. App Description (3-5 sentences):
-
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    PillBox helps keep track of your meds so you don't have to. Keep organized with medication information, dosage, when to take or administer, physician information, healthcare provider information and any other notes you'd like to keep track of. Set reminders to take or adminster the medication and see past dosage, administration, and if doses were missed.
+  
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+ Anyone who takes medication and a caregiver who adminsters medication. It's easy to forget and a pain to have to count out the pills to check if the day's dose was taken or not.
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository:
+6. Github Project/Trello Board: https://trello.com/b/9XJChWP3/pillbox-ios-unit1-build-project
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -56,9 +56,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. Easy to use. No need for explanation. Accessability with large print
+2. Well organized information. One stop shop for info and accessing med history
+3. Alerts.
 
 ## Part 2: Project Plan
 
