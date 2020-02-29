@@ -7,7 +7,7 @@
 ## Requirements
 
 1. Team Members: `Hector Ledesma`
-2. App Name: `(Medicine Tracker) No witty name just yet. Maybe something like SUPPort (get it case it's about supplements)`
+2. App Name: `(Medicine Tracker) No witty name just yet. Maybe something like SUPPort (get it cause it's about supplements)`
 3. App Description (3-5 sentences):
 
     `Simple version: Track daily supplements and vitamins.`
