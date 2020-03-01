@@ -6,16 +6,15 @@
 
 ## Requirements
 
-1. Team Members: Chad Rutherford & Tyler Christian
-2. App Name: Pill Reminder
-3. App Description (3-5 sentences): This app will hold a list of your current daily medications. You can add and remove items from the list, and have them saved between launches of the app. When your medications are running low, we will send you a reminder to refill your meds.
+1. Team Members: Chad Rutherford
+2. App Name: Cruise Along
+3. App Description (3-5 sentences): A GPS app for motorocycle enthusiasts, that allows you to plan your routes without having to areroute while traveling to avoid the dangerous unpaved, dirt/gravel roads.
     
 4. Your #1 Customer (Who would use your app? Why now?)
- 
-    This app will be geared towards the elderly and the user most at risk for forgetting to take their daily medications.
+This app is geared towards all motorocycle travelers who are conscious about preparing in advance to avoid dirt roads.
     
-5. Github code repository: https://github.com/chadarutherford/PillReminder
-6. Github Project/Trello Board: https://trello.com/b/GW38Z2WO/pill-reminder
+5. Github code repository: https://github.com/chadarutherford/
+6. Github Project/Trello Board: 
 
 ## Part 1: Brainstorming
 
@@ -53,11 +52,10 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. The user will be able to add current medications.
-2. The user will be able to update the meds as they have taken them for the day.
-3. The user will be able to delete meds they are no longer taking.
-4. The app will use SystemTextStyles to enable people with impaired vision to be able to use larger text settings to see their medication list more easily.
-5. The app will send the user a notification every morning at 7am only when they have medications with 4 doses or less remaining.
+1. The user will be able to log in with Sign In With Apple
+2. The user will be able to save their home and work addresses to enable quick routing.
+3. The user will be able to search for routes from a pop up search controller.
+4. The app will draw a route starting at their current location and going to the address selected, avoiding unpaved roads.
 
 ## Part 2: Project Plan
 
