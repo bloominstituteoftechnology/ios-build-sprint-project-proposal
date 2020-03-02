@@ -12,6 +12,8 @@
 		9230A73C2409EFA9003256E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9230A73A2409EFA9003256E6 /* Main.storyboard */; };
 		9230A73E2409EFAA003256E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9230A73D2409EFAA003256E6 /* Assets.xcassets */; };
 		9230A7412409EFAA003256E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9230A73F2409EFAA003256E6 /* LaunchScreen.storyboard */; };
+		923B486F240D97D300FE5781 /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923B486E240D97D300FE5781 /* History.storyboard */; };
+		923B4871240D98EF00FE5781 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923B4870240D98EF00FE5781 /* Settings.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9230A73D2409EFAA003256E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9230A7402409EFAA003256E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9230A7422409EFAA003256E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		923B486E240D97D300FE5781 /* History.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = History.storyboard; sourceTree = "<group>"; };
+		923B4870240D98EF00FE5781 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +68,9 @@
 			isa = PBXGroup;
 			children = (
 				9230A73A2409EFA9003256E6 /* Main.storyboard */,
+				923B486E240D97D300FE5781 /* History.storyboard */,
 				9230A73F2409EFAA003256E6 /* LaunchScreen.storyboard */,
+				923B4870240D98EF00FE5781 /* Settings.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				9230A7412409EFAA003256E6 /* LaunchScreen.storyboard in Resources */,
 				9230A73E2409EFAA003256E6 /* Assets.xcassets in Resources */,
 				9230A73C2409EFA9003256E6 /* Main.storyboard in Resources */,
+				923B486F240D97D300FE5781 /* History.storyboard in Resources */,
+				923B4871240D98EF00FE5781 /* Settings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
