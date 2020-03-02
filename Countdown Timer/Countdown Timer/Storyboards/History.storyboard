@@ -9,7 +9,7 @@
         <!--History-->
         <scene sceneID="y2M-DB-nxp">
             <objects>
-                <tableViewController id="QrB-pg-XKF" sceneMemberID="viewController">
+                <tableViewController id="QrB-pg-XKF" customClass="HistoryTableViewController" customModule="Countdown_Timer" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="C82-C4-gEf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

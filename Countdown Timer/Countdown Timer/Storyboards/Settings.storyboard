@@ -10,7 +10,7 @@
         <!--Settings-->
         <scene sceneID="STI-TA-iYj">
             <objects>
-                <viewController storyboardIdentifier="SettingsNavigation" useStoryboardIdentifierAsRestorationIdentifier="YES" id="GKA-oX-OsO" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SettingsNavigation" useStoryboardIdentifierAsRestorationIdentifier="YES" id="GKA-oX-OsO" customClass="SettingsViewController" customModule="Countdown_Timer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wp4-Pr-WIN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
