@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3FD8D137240DCA5100A628C5 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FD8D136240DCA5100A628C5 /* Detail.storyboard */; };
+		3FD8D139240DCD1C00A628C5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD8D138240DCD1C00A628C5 /* DetailViewController.swift */; };
 		9230A7352409EFA9003256E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9230A7342409EFA9003256E6 /* AppDelegate.swift */; };
 		9230A7372409EFA9003256E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9230A7362409EFA9003256E6 /* SceneDelegate.swift */; };
 		9230A73C2409EFA9003256E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9230A73A2409EFA9003256E6 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		3FD8D136240DCA5100A628C5 /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
+		3FD8D138240DCD1C00A628C5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = "Countdown Timer/Storyboards/DetailViewController.swift"; sourceTree = SOURCE_ROOT; };
 		9230A7312409EFA9003256E6 /* Countdown Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Countdown Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9230A7342409EFA9003256E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9230A7362409EFA9003256E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		92DF8434240DA44700C1C1C0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3FD8D138240DCD1C00A628C5 /* DetailViewController.swift */,
 				92DF8435240DA4F800C1C1C0 /* HistoryTableViewController.swift */,
 				92DF8432240DA43B00C1C1C0 /* SettingsViewController.swift */,
 				92DF8437240DA51400C1C1C0 /* TimersTableViewController.swift */,
@@ -201,6 +204,7 @@
 				92DF843C240DB89B00C1C1C0 /* TimerController.swift in Sources */,
 				9230A7372409EFA9003256E6 /* SceneDelegate.swift in Sources */,
 				92DF8433240DA43B00C1C1C0 /* SettingsViewController.swift in Sources */,
+				3FD8D139240DCD1C00A628C5 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
