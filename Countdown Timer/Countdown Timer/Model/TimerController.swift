@@ -10,56 +10,58 @@ import Foundation
 
 class TimerController {
     
-    var timers: [CountdownTimer] = [
-        CountdownTimer(emoji: "🎂",
-                       name: "Birthday",
-                       dateTime: Calendar.current.date(from: DateComponents(calendar:          Calendar.current,
-                                                                            year: 2000,
-                                                                            month: 1,
-                                                                            day: 1))!,
-                       tag: "", timer: nil)
-    ]
+    var timers = [CountdownTimer()]
+//        CountdownTimer(emoji: "🎂",
+//                       name: "Birthday",
+//                       dateTime: nil,
+////                       dateTime: Calendar.current.date(from: DateComponents(calendar:          Calendar.current,
+////                                                                            year: 2000,
+////                                                                            month: 1,
+////                                                                            day: 1)),
+//                       tag: "", timer: nil)
+//    ]()
     
      // MARK: Persistent Store
      
-     var cartURL: URL? {
+     var timerURL: URL? {
          let fileManager = FileManager.default
          
          let documentsDir = fileManager.urls(for: .documentDirectory, in: .userDomainMask).first
          
-         let cartURL = documentsDir?.appendingPathComponent("cart.plist")
+         let timerURL = documentsDir?.appendingPathComponent("timer.plist")
          
-         return cartURL
+         return timerURL
      }
      
      func saveToPersistentStore() {
-         // Convert our shopping cart Property List
+         // Convert our timer Property List
+        
          let encoder = PropertyListEncoder()
          
          do {
-             let cartData = try encoder.encode(cart)
+             let timerData = try encoder.encode(timers)
              
-             guard let cartURL = cartURL else { return }
+             guard let timerURL = timerURL else { return }
              
-             try cartData.write(to: cartURL)
+             try timerData.write(to: timerURL)
              
          } catch {
-             print("Unable to save shopping cart to plist: \(error)")
+             print("Unable to save timer to plist: \(error)")
          }
      }
      
      func loadFromPersistentStore() {
          
          do {
-             guard let cartURL = cartURL else { return }
+             guard let timerURL = timerURL else { return }
              
-             let cartData = try Data(contentsOf: cartURL)
+             let timerData = try Data(contentsOf: timerURL)
              
              let decoder = PropertyListDecoder()
              
-             let decodedCart = try decoder.decode([ShoppingItem].self, from: cartData)
+             let decodedCart = try decoder.decode([CountdownTimer].self, from: timerData)
              
-             self.cart = decodedCart
+             self.timers = decodedCart
          } catch {
              print("Unable to open shopping cart plist: \(error)")
          }
