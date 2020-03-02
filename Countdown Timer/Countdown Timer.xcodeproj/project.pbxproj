@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FD8D137240DCA5100A628C5 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FD8D136240DCA5100A628C5 /* Detail.storyboard */; };
 		9230A7352409EFA9003256E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9230A7342409EFA9003256E6 /* AppDelegate.swift */; };
 		9230A7372409EFA9003256E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9230A7362409EFA9003256E6 /* SceneDelegate.swift */; };
 		9230A73C2409EFA9003256E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9230A73A2409EFA9003256E6 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FD8D136240DCA5100A628C5 /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
 		9230A7312409EFA9003256E6 /* Countdown Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Countdown Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9230A7342409EFA9003256E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9230A7362409EFA9003256E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				923B486E240D97D300FE5781 /* History.storyboard */,
 				9230A73F2409EFAA003256E6 /* LaunchScreen.storyboard */,
 				9230A73A2409EFA9003256E6 /* Main.storyboard */,
+				3FD8D136240DCA5100A628C5 /* Detail.storyboard */,
 				923B4870240D98EF00FE5781 /* Settings.storyboard */,
 			);
 			path = Storyboards;
@@ -180,6 +183,7 @@
 				9230A73C2409EFA9003256E6 /* Main.storyboard in Resources */,
 				923B486F240D97D300FE5781 /* History.storyboard in Resources */,
 				923B4871240D98EF00FE5781 /* Settings.storyboard in Resources */,
+				3FD8D137240DCA5100A628C5 /* Detail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,7 +6,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Timers-->
+        <!--Timers Table View Controller-->
         <scene sceneID="LbI-md-tCf">
             <objects>
                 <tableViewController id="lgj-1w-GHL" customClass="TimersTableViewController" customModule="Countdown_Timer" customModuleProvider="target" sceneMemberID="viewController">
@@ -29,11 +29,17 @@
                             <outlet property="delegate" destination="lgj-1w-GHL" id="b4b-Fv-s5k"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Timers" image="stopwatch" catalog="system" id="JPj-Vd-N66" userLabel="Timers"/>
+                    <navigationItem key="navigationItem" id="UHD-hd-BOK">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Qun-kh-iTC">
+                            <connections>
+                                <segue destination="Tnd-5e-rCG" kind="show" id="eXA-Ha-wau"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hpw-gZ-XS7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="742.02898550724649" y="-101.11607142857143"/>
+            <point key="canvasLocation" x="1652.1739130434785" y="-101.11607142857143"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="EeI-ef-3zA">
@@ -46,7 +52,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="lgj-1w-GHL" kind="relationship" relationship="viewControllers" id="Z7H-Gt-ZK1"/>
+                        <segue destination="JEq-Bu-OCj" kind="relationship" relationship="viewControllers" id="Z7H-Gt-ZK1"/>
                         <segue destination="ZyR-pz-pNX" kind="relationship" relationship="viewControllers" id="mr5-W7-Ke0"/>
                         <segue destination="JG1-uc-KDv" kind="relationship" relationship="viewControllers" id="IJ1-9b-HrA"/>
                     </connections>
@@ -65,6 +71,16 @@
             </objects>
             <point key="canvasLocation" x="-4" y="339"/>
         </scene>
+        <!--DetailNavigation-->
+        <scene sceneID="YfI-5H-ovx">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Detail" referencedIdentifier="DetailNavigation" id="Tnd-5e-rCG" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="H7C-RM-2qE"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hdN-Y9-XPk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2083" y="339"/>
+        </scene>
         <!--HistoryNavigation-->
         <scene sceneID="Zfj-8h-GyU">
             <objects>
@@ -75,6 +91,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9PL-S0-ya5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-335" y="339"/>
+        </scene>
+        <!--Timers-->
+        <scene sceneID="4qq-19-xV4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JEq-Bu-OCj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Timers" image="stopwatch" catalog="system" id="JPj-Vd-N66" userLabel="Timers"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cDS-87-Psy">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lgj-1w-GHL" kind="relationship" relationship="rootViewController" id="Ony-ra-u9n"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XaH-F3-cNP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="742.02898550724649" y="-101.11607142857143"/>
         </scene>
     </scenes>
     <resources>
