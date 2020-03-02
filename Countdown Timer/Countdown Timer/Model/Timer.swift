@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+struct CountdownTimer {
+    var emoji = ""
+    var name = ""
+    //Supply by the user
+    var dateTime = Date()
+    var tag = ""
+    //For the system timer objects
+    var timer = Timer()
+}
+
