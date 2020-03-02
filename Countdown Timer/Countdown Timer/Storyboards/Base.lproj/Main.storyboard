@@ -6,7 +6,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Timers-->
         <scene sceneID="LbI-md-tCf">
             <objects>
                 <tableViewController id="lgj-1w-GHL" sceneMemberID="viewController">
@@ -29,7 +29,7 @@
                             <outlet property="delegate" destination="lgj-1w-GHL" id="b4b-Fv-s5k"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="JPj-Vd-N66"/>
+                    <tabBarItem key="tabBarItem" title="Timers" image="stopwatch" catalog="system" id="JPj-Vd-N66" userLabel="Timers"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hpw-gZ-XS7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -53,10 +53,10 @@
             </objects>
             <point key="canvasLocation" x="-168.11594202898553" y="-101.11607142857143"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--HistoryNavigation-->
         <scene sceneID="Zfj-8h-GyU">
             <objects>
-                <viewControllerPlaceholder id="ZyR-pz-pNX" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="History" referencedIdentifier="HistoryNavigation" id="ZyR-pz-pNX" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="tFQ-vN-PDY"/>
                     <navigationItem key="navigationItem" id="8Ef-fe-fCe"/>
                 </viewControllerPlaceholder>
@@ -65,4 +65,7 @@
             <point key="canvasLocation" x="-167" y="328"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="stopwatch" catalog="system" width="60" height="64"/>
+    </resources>
 </document>

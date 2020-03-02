@@ -6,7 +6,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--History-->
         <scene sceneID="y2M-DB-nxp">
             <objects>
                 <tableViewController id="QrB-pg-XKF" sceneMemberID="viewController">
@@ -29,7 +29,9 @@
                             <outlet property="delegate" destination="QrB-pg-XKF" id="Eca-3C-16c"/>
                         </connections>
                     </tableView>
+                    <tabBarItem key="tabBarItem" title="History" image="backward.fill" catalog="system" id="6u6-1I-Z96"/>
                     <navigationItem key="navigationItem" id="ayW-C7-2ds"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q99-Xc-ka9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -54,4 +56,7 @@
             <point key="canvasLocation" x="-520.28985507246375" y="-348.21428571428572"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="backward.fill" catalog="system" width="64" height="38"/>
+    </resources>
 </document>
