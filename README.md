@@ -1,23 +1,23 @@
 # Project Proposal for iOS Build Sprint
 
 1. Fork and Clone this repository
-2. Fill out the information below (Remove `<placeholders>` and add your answers)
+2. Fill out the information below (Remove placeholders and add your answers)
 3. Tag your TL and Instructor on your Pull Request
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
-3. App Description (3-5 sentences):
+1. Team Members: Shawn James
+2. App Name: StrongR
+3. App Description (3-5 sentences): 
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
-    
+    This app will push you to become stronger. It lets you know what workouts you should be doing, and when you should be doing them. Each time the "goal weight" is successfully lifted, the app will automatically move your goal to the next level, thus pushing you to become stronger after each workout.
+
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
-    
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+     Men and women (14-55 years old) who want to put on muscle mass.
+     
+5. Github code repository: https://github.com/Shawn-James/ios-strongR
+6. Github Project/Trello Board: https://trello.com/b/sKVz2V8a/strongr
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
