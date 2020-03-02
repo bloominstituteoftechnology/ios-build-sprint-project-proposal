@@ -40,7 +40,7 @@
         <!--Navigation Controller-->
         <scene sceneID="tVG-EZ-w1j">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0bG-67-KMg" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="HistoryNavigation" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0bG-67-KMg" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5W6-EY-HYn">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
