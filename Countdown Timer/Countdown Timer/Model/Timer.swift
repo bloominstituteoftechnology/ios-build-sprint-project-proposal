@@ -13,6 +13,8 @@ struct CountdownTimer: Codable, Equatable {
     var name = ""
     //Supply by the user
     var dateTime: Date?
+    // Active means the time has been set. !Active means it has fired/completed.
+    var active = false
     var tag = ""
     //For the system timer objects
 //    var timer: Timer?
