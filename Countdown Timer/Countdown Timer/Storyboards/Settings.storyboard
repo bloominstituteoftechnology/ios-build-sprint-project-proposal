@@ -15,7 +15,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <sections>
-                            <tableViewSection headerTitle="Timer Settings:" id="4ZE-8Y-PZM">
+                            <tableViewSection headerTitle="Default Timer Format:" id="4ZE-8Y-PZM">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Dya-Mf-Y9A">
                                         <rect key="frame" x="0.0" y="55.5" width="414" height="43.5"/>
@@ -94,6 +94,30 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
+                            <tableViewSection id="u2y-zt-Lu4">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="150" id="Kmf-0X-Yqz">
+                                        <rect key="frame" x="0.0" y="222" width="414" height="150"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Kmf-0X-Yqz" id="c9c-GW-Pff">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="timer" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="6pr-1d-C7A">
+                                                    <rect key="frame" x="20" y="-3" width="374" height="153"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="154" id="wAq-g7-da0"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="6pr-1d-C7A" firstAttribute="leading" secondItem="c9c-GW-Pff" secondAttribute="leading" constant="20" id="Q4z-wJ-6fY"/>
+                                                <constraint firstAttribute="trailing" secondItem="6pr-1d-C7A" secondAttribute="trailing" constant="20" id="Swy-9S-DEI"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
                         </sections>
                         <connections>
                             <outlet property="dataSource" destination="iE5-wm-j32" id="E58-Cz-3yn"/>
@@ -110,5 +134,6 @@
     </scenes>
     <resources>
         <image name="gear" catalog="system" width="64" height="58"/>
+        <image name="timer" catalog="system" width="64" height="60"/>
     </resources>
 </document>

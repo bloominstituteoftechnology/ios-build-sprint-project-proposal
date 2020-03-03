@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TimersTableViewController: UITableViewController {
+class TimersTableViewController: UITableViewController /* TODO: UITableViewDataSource baked in? */  {
 
     var timeController = TimerController()
     
@@ -25,16 +25,16 @@ class TimersTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return timeController.activeTimers.count
+        let result = timeController.activeTimers.count
+        return result
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
-//        guard let cell = tableView.dequeueReusableCell(withReuseIdentifier: "TimerCell", for: indexPath) as? TimerCell else { fatalError("TimerCell was expected" ) }
-//
-//        // Configure the cell
-//        cell.timer = timeController.timers[indexPath.item] // same as .row
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "TimerCell", for: indexPath) as? TimerTableViewCell else { fatalError("TimerTableViewCell was expected" ) }
+
+        // Configure the cell
+        cell.timer = timeController.timers[indexPath.row]
 
         return cell
     }
