@@ -34,6 +34,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                 <state key="normal" title="Add Action"/>
+                                <connections>
+                                    <action selector="actionButton:" destination="sZ8-8S-N6y" eventType="touchUpInside" id="MHK-Pb-OmZ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Switch to ☻ keyboard to edit icon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8e2-1d-nQ8">
                                 <rect key="frame" x="87" y="303" width="254" height="21"/>
@@ -54,6 +57,10 @@
                         <viewLayoutGuide key="safeArea" id="yIh-34-nw7"/>
                     </view>
                     <navigationItem key="navigationItem" id="ftP-Za-ED0"/>
+                    <connections>
+                        <outlet property="emojiView" destination="Bvx-VZ-ntG" id="2Ij-Ae-K3b"/>
+                        <outlet property="eventTextField" destination="zUk-xf-p0x" id="gm9-PH-7Ct"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wgC-Ky-fvv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

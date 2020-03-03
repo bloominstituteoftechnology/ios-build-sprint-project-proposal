@@ -12,6 +12,10 @@ class DetailViewController: UIViewController {
     var timeController: TimerController?
     var timer: Timer?
     
+    @IBOutlet weak var emojiView: UIImageView!
+    
+    @IBOutlet weak var eventTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -19,6 +23,8 @@ class DetailViewController: UIViewController {
     }
     
 
+    @IBAction func actionButton(_ sender: Any) {
+    }
     /*
     // MARK: - Navigation
 
