@@ -91,7 +91,7 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
             // Find the book the user tapped on and set the VC's book to it.
             guard let indexPath = tableView?.indexPathForSelectedRow else { return }
             print(indexPath)
-            //detailVC.timer = timeFor(indexPath: indexPath)
+            detailVC.timer = timeController.timers[indexPath.row]
         }
     }
 }
