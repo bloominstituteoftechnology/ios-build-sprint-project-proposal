@@ -15,7 +15,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <sections>
-                            <tableViewSection headerTitle="Timer Settings:" id="4Ma-3J-LHy">
+                            <tableViewSection headerTitle="Default Timer Format:" id="4Ma-3J-LHy">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SettingsCell1" id="k1m-ln-rpX" customClass="SettingsTableViewCell" customModule="Countdown_Timer" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="55.5" width="414" height="43.5"/>
@@ -106,10 +106,10 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Timer Settings:" id="v3V-J1-1Gh">
+                            <tableViewSection id="v3V-J1-1Gh">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="150" id="EPL-jP-IrY">
-                                        <rect key="frame" x="0.0" y="242" width="414" height="150"/>
+                                        <rect key="frame" x="0.0" y="222" width="414" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EPL-jP-IrY" id="zgL-mm-SL4">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
@@ -124,6 +124,54 @@
                                                 <constraint firstItem="9aD-H2-j7m" firstAttribute="top" secondItem="zgL-mm-SL4" secondAttribute="top" constant="11" id="kyV-kE-N5d"/>
                                                 <constraint firstAttribute="trailing" secondItem="9aD-H2-j7m" secondAttribute="trailing" constant="20" id="sbX-bk-p9N"/>
                                                 <constraint firstItem="9aD-H2-j7m" firstAttribute="leading" secondItem="zgL-mm-SL4" secondAttribute="leading" constant="20" id="vN1-Xo-ByR"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Find Us:" id="DrB-nU-kJf">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="65" id="LtY-3z-Slg">
+                                        <rect key="frame" x="0.0" y="428" width="414" height="65"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LtY-3z-Slg" id="r3B-2s-UhJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="65"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="envelope" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="tsS-U3-hIN">
+                                                    <rect key="frame" x="20" y="5" width="40.5" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="tsS-U3-hIN" secondAttribute="height" multiplier="40:43" id="aqA-zi-idf"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lambdaschool@m.gerrior.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N7M-n0-j1j">
+                                                    <rect key="frame" x="135" y="4" width="260" height="21"/>
+                                                    <accessibility key="accessibilityConfiguration">
+                                                        <accessibilityTraits key="traits" staticText="YES"/>
+                                                        <bool key="isElement" value="NO"/>
+                                                    </accessibility>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BharatiOSDeveloper@gmail.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E5y-vQ-4u5">
+                                                    <rect key="frame" x="144" y="33" width="250" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="N7M-n0-j1j" secondAttribute="trailing" constant="19" id="B6c-mN-xvN"/>
+                                                <constraint firstItem="tsS-U3-hIN" firstAttribute="leading" secondItem="r3B-2s-UhJ" secondAttribute="leading" constant="20" id="McQ-Ex-Gqc"/>
+                                                <constraint firstItem="E5y-vQ-4u5" firstAttribute="top" secondItem="N7M-n0-j1j" secondAttribute="bottom" constant="8" id="NnI-Hg-WcF"/>
+                                                <constraint firstItem="N7M-n0-j1j" firstAttribute="leading" secondItem="tsS-U3-hIN" secondAttribute="trailing" constant="74.5" id="QMl-nc-hu6"/>
+                                                <constraint firstAttribute="bottom" secondItem="tsS-U3-hIN" secondAttribute="bottom" constant="18" id="amY-ey-GMT"/>
+                                                <constraint firstItem="E5y-vQ-4u5" firstAttribute="leading" secondItem="tsS-U3-hIN" secondAttribute="trailing" constant="83.5" id="buN-Dx-vtp"/>
+                                                <constraint firstAttribute="trailing" secondItem="E5y-vQ-4u5" secondAttribute="trailing" constant="20" id="u0Y-bo-6o3"/>
+                                                <constraint firstAttribute="bottom" secondItem="E5y-vQ-4u5" secondAttribute="bottom" constant="11" id="uJR-dg-RsX"/>
+                                                <constraint firstItem="tsS-U3-hIN" firstAttribute="top" secondItem="r3B-2s-UhJ" secondAttribute="top" constant="3.5" id="uRn-e7-iW2"/>
+                                                <constraint firstItem="N7M-n0-j1j" firstAttribute="top" secondItem="r3B-2s-UhJ" secondAttribute="top" constant="4" id="yi1-Bg-UtZ"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -145,6 +193,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="envelope" catalog="system" width="64" height="46"/>
         <image name="gear" catalog="system" width="64" height="58"/>
         <image name="timer" catalog="system" width="64" height="60"/>
     </resources>
