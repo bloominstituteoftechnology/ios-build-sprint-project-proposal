@@ -10,7 +10,7 @@ import UIKit
 
 class DetailViewController: UIViewController {
     var timeController: TimerController?
-    var timer: Timer?
+    var timer: CountdownTimer?
     
     @IBOutlet weak var emojiView: UIImageView!
     

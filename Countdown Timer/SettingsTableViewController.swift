@@ -1,17 +1,15 @@
 //
-//  TimersTableViewController.swift
+//  SettingsTableViewController.swift
 //  Countdown Timer
 //
-//  Created by Mark Gerrior on 3/2/20.
+//  Created by Bhawnish Kumar on 3/3/20.
 //  Copyright © 2020 Mark Gerrior. All rights reserved.
 //
 
 import UIKit
 
-class TimersTableViewController: UITableViewController /* TODO: UITableViewDataSource baked in? */  {
+class SettingsTableViewController: UITableViewController {
 
-    var timeController = TimerController()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -24,20 +22,25 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
 
     // MARK: - Table view data source
 
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        let result = timeController.activeTimers.count
-        return result
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        // #warning Incomplete implementation, return the number of sections
+        return 0
     }
 
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        // #warning Incomplete implementation, return the number of rows
+        return 0
+    }
+
+    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "TimerCell", for: indexPath) as? TimerTableViewCell else { fatalError("TimerTableViewCell was expected" ) }
-
-        // Configure the cell
-        cell.timer = timeController.timers[indexPath.row]
+        // Configure the cell...
 
         return cell
     }
+    */
 
     /*
     // Override to support conditional editing of the table view.
@@ -74,24 +77,14 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
     }
     */
 
+    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
-
-        guard let detailVC = segue.destination as? DetailViewController else {return}
-        detailVC.timeController = timeController
-
-        if segue.identifier == "AddDetailSegue" {
-            print("AddDetailSegue called")
-        } else if segue.identifier == "EditDetailSegue" {
-            print("EditDetailSegue called")
-            // Find the book the user tapped on and set the VC's book to it.
-            guard let indexPath = tableView?.indexPathForSelectedRow else { return }
-            print(indexPath)
-            detailVC.timer = timeController.timers[indexPath.row]
-        }
     }
+    */
+
 }
