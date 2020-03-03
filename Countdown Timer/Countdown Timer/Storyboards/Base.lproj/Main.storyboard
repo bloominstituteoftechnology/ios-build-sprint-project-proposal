@@ -21,6 +21,34 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cc2-r8-mGp" id="uNw-jQ-CcB">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⏱" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="POi-bO-K11">
+                                            <rect key="frame" x="20" y="7.5" width="27" height="29"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timer Name Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fK8-b1-Jtt">
+                                            <rect key="frame" x="55" y="11.5" width="140" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timer Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tns-Gk-rcG">
+                                            <rect key="frame" x="304" y="11.5" width="90" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="POi-bO-K11" firstAttribute="leading" secondItem="uNw-jQ-CcB" secondAttribute="leading" constant="20" id="Ets-55-PKl"/>
+                                        <constraint firstItem="tns-Gk-rcG" firstAttribute="centerY" secondItem="uNw-jQ-CcB" secondAttribute="centerY" id="coD-GN-DUX"/>
+                                        <constraint firstItem="tns-Gk-rcG" firstAttribute="trailing" secondItem="uNw-jQ-CcB" secondAttribute="trailingMargin" id="eDC-4A-i44"/>
+                                        <constraint firstItem="fK8-b1-Jtt" firstAttribute="centerY" secondItem="uNw-jQ-CcB" secondAttribute="centerY" id="skn-iq-V68"/>
+                                        <constraint firstItem="fK8-b1-Jtt" firstAttribute="leading" secondItem="POi-bO-K11" secondAttribute="trailing" constant="8" id="uTx-JM-TvO"/>
+                                        <constraint firstItem="POi-bO-K11" firstAttribute="centerY" secondItem="uNw-jQ-CcB" secondAttribute="centerY" id="vmP-Vm-EWT"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
