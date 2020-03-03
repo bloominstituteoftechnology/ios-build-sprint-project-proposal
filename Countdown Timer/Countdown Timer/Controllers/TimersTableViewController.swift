@@ -10,6 +10,8 @@ import UIKit
 
 class TimersTableViewController: UITableViewController {
 
+    var timeController = TimerController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -77,14 +79,24 @@ class TimersTableViewController: UITableViewController {
     }
     */
 
-    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
-    }
-    */
 
+        guard let detailVC = segue.destination as? DetailViewController else {return}
+        detailVC.timeController = timeController
+
+        if segue.identifier == "AddDetailSegue" {
+            print("AddDetailSegue called")
+        } else if segue.identifier == "EditDetailSegue" {
+            print("EditDetailSegue called")
+            // Find the book the user tapped on and set the VC's book to it.
+            guard let indexPath = tableView?.indexPathForSelectedRow else { return }
+            print(indexPath)
+            //detailVC.timer = timeFor(indexPath: indexPath)
+        }
+    }
 }
