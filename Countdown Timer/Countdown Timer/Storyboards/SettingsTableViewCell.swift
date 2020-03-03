@@ -21,4 +21,13 @@ class SettingsTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+    @IBAction func switchTimer1(_ sender: Any) {
+    }
+    
+    @IBAction func switchTimer2(_ sender: Any) {
+    }
+    
+    @IBAction func switchTimer3(_ sender: Any) {
+    }
+    
 }
