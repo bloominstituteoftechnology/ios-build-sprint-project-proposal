@@ -15,7 +15,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TimerCell" id="cc2-r8-mGp">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TimerCell" id="cc2-r8-mGp" customClass="TimerTableViewCell" customModule="Countdown_Timer" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cc2-r8-mGp" id="uNw-jQ-CcB">
@@ -50,6 +50,11 @@
                                         <constraint firstItem="POi-bO-K11" firstAttribute="centerY" secondItem="uNw-jQ-CcB" secondAttribute="centerY" id="vmP-Vm-EWT"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="emjoiLabel" destination="POi-bO-K11" id="P07-PF-aX2"/>
+                                    <outlet property="timerLabel" destination="tns-Gk-rcG" id="33N-rr-adx"/>
+                                    <outlet property="timerNameLabel" destination="fK8-b1-Jtt" id="t8w-Vp-SIO"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

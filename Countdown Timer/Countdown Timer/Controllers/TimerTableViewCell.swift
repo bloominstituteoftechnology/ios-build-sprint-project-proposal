@@ -10,15 +10,27 @@ import UIKit
 
 class TimerTableViewCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    var timer: CountdownTimer? {
+        didSet {
+            updateViews()
+        }
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    
+    @IBOutlet weak var emjoiLabel: UILabel!
+    @IBOutlet weak var timerNameLabel: UILabel!
+    @IBOutlet weak var timerLabel: UILabel!
+    
+    func updateViews() {
+        guard let timer = timer else { return }
+        
+        emjoiLabel.text = timer.emoji
+        timerNameLabel.text = timer.name
+        
+        if timer.active {
+            // FIXME: Real value
+            timerLabel.text = "Running"
+        } else {
+            timerLabel.text = "Not active"
+        }
     }
-
 }
