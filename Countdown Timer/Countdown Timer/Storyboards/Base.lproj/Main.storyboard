@@ -32,7 +32,7 @@
                     <navigationItem key="navigationItem" id="UHD-hd-BOK">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Qun-kh-iTC">
                             <connections>
-                                <segue destination="Tnd-5e-rCG" kind="show" id="eXA-Ha-wau"/>
+                                <segue destination="Tnd-5e-rCG" kind="show" identifier="AddDetailSegue" id="eXA-Ha-wau"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
