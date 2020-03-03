@@ -10,16 +10,12 @@ import Foundation
 
 class TimerController {
     
-    var timers = [CountdownTimer()]
-//        CountdownTimer(emoji: "🎂",
-//                       name: "Birthday",
-//                       dateTime: nil,
-////                       dateTime: Calendar.current.date(from: DateComponents(calendar:          Calendar.current,
-////                                                                            year: 2000,
-////                                                                            month: 1,
-////                                                                            day: 1)),
-//                       tag: "", timer: nil)
-//    ]()
+//    var timers = [CountdownTimer()]
+var timers = [ CountdownTimer(emoji: "🎂", name: "Birthday", dateTime: nil, active: false, tag: "") ]
+
+//                       dateTime: Calendar.current.date(from: DateComponents(calendar:          Calendar.current,
+//                                                                            year: 2000,
+//                                                                            month: 1,
     
      var activeTimers: [CountdownTimer] {
          return timers.filter { $0.active == true }
