@@ -10,6 +10,8 @@ import UIKit
 
 class DetailViewController: UIViewController {
     var timeController: TimerController?
+    var timer: Timer?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
