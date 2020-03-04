@@ -10,11 +10,13 @@ import UIKit
 
 class DetailViewController: UIViewController {
     var timeController: TimerController?
-    var timer: Timer?
+    var timer: CountdownTimer?
     
     @IBOutlet weak var emojiView: UIImageView!
     
     @IBOutlet weak var eventTextField: UITextField!
+    
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +26,28 @@ class DetailViewController: UIViewController {
     
 
     @IBAction func actionButton(_ sender: Any) {
+        guard let eventField = eventTextField.text else { return }
+        var events: [String] = []
+        if let event1 = eventTextField.text,
+            !event1.isEmpty {
+            events.append(event1)
+    }
+//        let addEvent = CountdownTimer(emoji: UIImage(emoji: emojiView.animationImages), name: <#T##String#>, dateTime: <#T##Date?#>, active: <#T##Bool#>, tag: <#T##String#>)
+//        delegate?.movieWasCreated(movie: addMovie)
+//        dismiss(animated: true, completion: nil)
+    }
+
+    @IBAction func segmentChanged(_ sender: Any) {
+//    switch segmentedControl.selectedSegmentIndex{
+//        case 0:
+//            
+//        case 1:
+//           
+//        case 2:
+//            
+//        default:
+//            break
+//        }
     }
     /*
     // MARK: - Navigation
