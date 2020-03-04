@@ -24,20 +24,43 @@ class DetailViewController: UIViewController {
     
     var delegate: DatePickerDelegate?
     
+    // properties for days, minutes, seconds.
+    lazy private var countdownPickerData: [[String]] = {
+        
+        let days: [String] = Array(1...31).map { String($0) }
+        let minutes: [String] = Array(0...60).map { String($0) }
+        let seconds: [String] = Array(0...59).map { String($0) }
+        
+        // "min" and "sec" are the unit labels
+        let data: [[String]] = [days, ["days"], minutes, ["min"], seconds, ["sec"]]
+        return data
+        
+    }()
+    // Choose components
+    var duration: TimeInterval {
+        let minutes = datePicker.
+        let seconds = countdownPicker.selectedRow(inComponent: 2) // whhcihc means the seconds.
+        // how can i return these to shhow in the amount of seconds and double.
+        let duration = TimeInterval(minutes * 60 + seconds) // after doing the multiplication of minutes and seconds to the seconds, convert it to TimeInterval whichh is seconds.
+        
+        return duration
+    }
     
-    let days: [String] = Array(1...31).map { String($0) }
-    let minutes: [String] = Array(0...60).map { String($0) }
-//
-//    var travelTime: String {
-//
-//        let day = datePicker.countDownDuration
-//        let minute = datePicker.minuteInterval
-//
-//////        let stringDate = "\(days[day])  \(minutes[minute])"
-////        print(stringDate)
-////        return stringDate
-//    }
+    // The type of format
+    let dateFormatter: DateFormatter = {
+           let formatter = DateFormatter()
+           formatter.dateFormat = "HH:mm:ss.SS" // hours, minutes, seconds, seconds.
+           formatter.timeZone = TimeZone(secondsFromGMT: 0)
+           return formatter
+       }()
     
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+       
+        
+    }
+
     
     
 
@@ -47,10 +70,7 @@ class DetailViewController: UIViewController {
         if let event1 = eventTextField.text,
             !event1.isEmpty {
             events.append(event1)
-    }
-//        let addEvent = CountdownTimer(emoji: UIImage(emoji: emojiView.animationImages), name: <#T##String#>, dateTime: <#T##Date?#>, active: <#T##Bool#>, tag: <#T##String#>)
-//        delegate?.movieWasCreated(movie: addMovie)
-//        dismiss(animated: true, completion: nil)
+        }
         if timer == nil {
             // Create timer
             // FIXME: Real values
@@ -75,43 +95,42 @@ class DetailViewController: UIViewController {
 //            break
 //        }
     }
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
     
-    
-    lazy private var dayPickerData: [[String]] = {
-        
-        let data: [[String]] = [days, minutes]
-        return data
-    }()
-    
-    let dateFormatter: DateFormatter = {
-        let formatter = DateFormatter()
-        formatter.dateFormat = "MMM d yyyy"
-        formatter.timeZone = TimeZone(secondsFromGMT: 0)
-        return formatter
-    }()
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
+}
 
-        
-       
-        
+extension DetailViewController: UIPickerViewDataSource {
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+
+        return countdownPickerData.count
     }
     
-    
-    
-    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
 
+        return countdownPickerData[component].count
+    }
+}
+
+extension DetailViewController: UIPickerViewDelegate {
+    
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        let componentArray = countdownPickerData[component]
+        let title = componentArray[row]
+        
+        return title
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        countdown.duration = duration
+        updateViews()
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, widthForComponent component: Int) -> CGFloat {
+        return 50
+    }
+    func pickerView(_ pickerView: UIPickerView, rowHeightForComponent component: Int) -> CGFloat {
+        return 30
+    }
 }
 
 
