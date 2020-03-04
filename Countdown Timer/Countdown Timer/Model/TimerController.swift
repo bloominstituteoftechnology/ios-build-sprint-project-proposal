@@ -8,7 +8,11 @@
 
 import Foundation
 
-class TimerController {
+protocol SaveTimerDelegate {
+    func save(timer t: CountdownTimer?)
+}
+
+class TimerController: SaveTimerDelegate  {
     
 //    var timers = [CountdownTimer()]
 var timers = [ CountdownTimer(emoji: "🎂", name: "Birthday", dateTime: nil, active: true, tag: "") ]
@@ -32,9 +36,19 @@ var timers = [ CountdownTimer(emoji: "🎂", name: "Birthday", dateTime: nil, ac
          return matches[0]
      }
      
-     // MARK: - CRUD
-     
-     // Create
+    // MARK: - CRUD
+    
+    // Create
+    func save(timer t: CountdownTimer?) {
+        guard let t = t else { return }
+        if let index = timers.firstIndex(where: { $0 == t }) {
+            timers[index] = t
+        } else {
+            // Timer not found, add it.
+            timers.append(t)
+        }
+    }
+    
      func create(emoji: String, name: String, dateTime: Date, active: Bool, tag: String = "") {
          let timer = CountdownTimer(emoji: emoji, name: name, dateTime: dateTime, active: active, tag: tag)
          timers.append(timer)

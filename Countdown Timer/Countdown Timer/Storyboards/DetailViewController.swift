@@ -11,7 +11,7 @@ protocol DatePickerDelegate {
     func pickerDateChosen(_ date: Date)
 }
 class DetailViewController: UIViewController {
-    var timeController: TimerController?
+    var saveDelegate: SaveTimerDelegate?
     var timer: CountdownTimer?
     
     @IBOutlet weak var emojiView: UIImageView!
@@ -51,6 +51,7 @@ class DetailViewController: UIViewController {
 //        let addEvent = CountdownTimer(emoji: UIImage(emoji: emojiView.animationImages), name: <#T##String#>, dateTime: <#T##Date?#>, active: <#T##Bool#>, tag: <#T##String#>)
 //        delegate?.movieWasCreated(movie: addMovie)
 //        dismiss(animated: true, completion: nil)
+        saveDelegate?.save(timer: timer)
     }
 
     @IBAction func segmentChanged(_ sender: Any) {
