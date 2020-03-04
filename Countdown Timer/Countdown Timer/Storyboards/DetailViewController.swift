@@ -7,7 +7,9 @@
 //
 
 import UIKit
-
+protocol DatePickerDelegate {
+    func pickerDateChosen(_ date: Date)
+}
 class DetailViewController: UIViewController {
     var timeController: TimerController?
     var timer: CountdownTimer?
@@ -20,11 +22,24 @@ class DetailViewController: UIViewController {
     
     @IBOutlet weak var datePicker: UIDatePicker!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    var delegate: DatePickerDelegate?
+    
+    
+    let days: [String] = Array(1...31).map { String($0) }
+    let minutes: [String] = Array(1...60).map { String($0) }
+    
+    var travelTime: String {
+        
+        let day = datePicker.
+        let minute = datePicker.countDownDuration
+        let stringDay = day
+        let stringMinute = minute
+        let stringDate = "\(days[stringDay])  \(minutes[stringMinute])"
+        print(stringDate)
+        return stringDate
     }
+    
+    
     
 
     @IBAction func actionButton(_ sender: Any) {
@@ -60,5 +75,33 @@ class DetailViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    
+    lazy private var dayPickerData: [[String]] = {
+        
+        let data: [[String]] = [days, minutes]
+        return data
+    }()
+    
+    let dateFormatter: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "MMM d yyyy"
+        formatter.timeZone = TimeZone(secondsFromGMT: 0)
+        return formatter
+    }()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        
+        datePicker.dataSource = self
+        
+    }
+    
+    
+    
+    
 
 }
+
+
