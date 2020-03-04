@@ -42,7 +42,7 @@ class DetailViewController: UIViewController {
     
 
     @IBAction func actionButton(_ sender: Any) {
-        guard let eventField = eventTextField.text else { return }
+        guard eventTextField.text != nil else { return }
         var events: [String] = []
         if let event1 = eventTextField.text,
             !event1.isEmpty {
@@ -60,6 +60,7 @@ class DetailViewController: UIViewController {
             // FIXME: Real values
             timerModelDelegate?.udpate(timer: timer!, emoji: "", name: eventTextField?.text! ?? "", dateTime: Date(), active: true, tag: "")
         }
+        dismiss(animated: true, completion: nil)
     }
 
     @IBAction func segmentChanged(_ sender: Any) {
