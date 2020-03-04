@@ -10,7 +10,11 @@
         <!--Detail View Controller-->
         <scene sceneID="RsT-RA-WU6">
             <objects>
+<<<<<<< HEAD
                 <viewController storyboardIdentifier="DetailNavigation" useStoryboardIdentifierAsRestorationIdentifier="YES" id="sZ8-8S-N6y" customClass="DetailViewController" customModule="Countdown_Timer" customModuleProvider="target" sceneMemberID="viewController">
+=======
+                <viewController storyboardIdentifier="DetailNavigation" id="sZ8-8S-N6y" customClass="DetailViewController" customModule="Countdown_Timer" customModuleProvider="target" sceneMemberID="viewController">
+>>>>>>> ef5f105e0bf31d91e016c6db25c1951cacde5a6d
                     <view key="view" contentMode="scaleToFill" id="wqL-Y6-wuc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
