@@ -26,7 +26,7 @@ class DetailViewController: UIViewController {
     
     
     let days: [String] = Array(1...31).map { String($0) }
-    let minutes: [String] = Array(1...60).map { String($0) }
+    let minutes: [String] = Array(0...60).map { String($0) }
 //
 //    var travelTime: String {
 //
