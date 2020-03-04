@@ -54,6 +54,7 @@
                                     <outlet property="emjoiLabel" destination="POi-bO-K11" id="P07-PF-aX2"/>
                                     <outlet property="timerLabel" destination="tns-Gk-rcG" id="33N-rr-adx"/>
                                     <outlet property="timerNameLabel" destination="fK8-b1-Jtt" id="t8w-Vp-SIO"/>
+                                    <segue destination="Tnd-5e-rCG" kind="show" identifier="EditDetailSegue" id="4a4-xw-xDK"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -148,4 +149,7 @@
     <resources>
         <image name="stopwatch" catalog="system" width="60" height="64"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="4a4-xw-xDK"/>
+    </inferredMetricsTieBreakers>
 </document>
