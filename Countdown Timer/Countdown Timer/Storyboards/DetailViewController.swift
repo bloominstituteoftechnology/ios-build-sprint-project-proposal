@@ -20,7 +20,8 @@ class DetailViewController: UIViewController {
     
     @IBOutlet weak var segmentedControl: UISegmentedControl!
     
-    @IBOutlet weak var datePicker: UIDatePicker!
+   
+    @IBOutlet weak var datePicker: UIPickerView!
     
     var delegate: DatePickerDelegate?
     
@@ -38,8 +39,9 @@ class DetailViewController: UIViewController {
     }()
     // Choose components
     var duration: TimeInterval {
-        let minutes = datePicker.
-        let seconds = countdownPicker.selectedRow(inComponent: 2) // whhcihc means the seconds.
+        let days = datePicker.selectedRow(inComponent: 0)
+        let minutes = datePicker.selectedRow(inComponent: 1)
+        let seconds = datePicker.selectedRow(inComponent: 2) // whhcihc means the seconds.
         // how can i return these to shhow in the amount of seconds and double.
         let duration = TimeInterval(minutes * 60 + seconds) // after doing the multiplication of minutes and seconds to the seconds, convert it to TimeInterval whichh is seconds.
         
