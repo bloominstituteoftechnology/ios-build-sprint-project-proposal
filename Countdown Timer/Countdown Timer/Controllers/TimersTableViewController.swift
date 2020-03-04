@@ -82,7 +82,7 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
         // Pass the selected object to the new view controller.
 
         guard let detailVC = segue.destination as? DetailViewController else {return}
-        detailVC.timeModelDelegate = timeController
+        detailVC.timerModelDelegate = timeController
         
         if segue.identifier == "AddDetailSegue" {
             print("AddDetailSegue called")

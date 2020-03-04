@@ -11,7 +11,7 @@ protocol DatePickerDelegate {
     func pickerDateChosen(_ date: Date)
 }
 class DetailViewController: UIViewController {
-    var timeModelDelegate: TimerModelDelegate?
+    var timerModelDelegate: TimerModelDelegate?
     var timer: CountdownTimer?
     
     @IBOutlet weak var emojiView: UIImageView!
@@ -54,11 +54,11 @@ class DetailViewController: UIViewController {
         if timer == nil {
             // Create timer
             // FIXME: Real values
-            timeModelDelegate?.create(emoji: "", name: eventTextField?.text! ?? "", dateTime: Date(), active: true, tag: "")
+            timerModelDelegate?.create(emoji: "", name: eventTextField?.text! ?? "", dateTime: Date(), active: true, tag: "")
         } else {
             // Timer exists, update it
             // FIXME: Real values
-            timeModelDelegate?.udpate(timer: timer!, emoji: "", name: eventTextField?.text! ?? "", dateTime: Date(), active: true, tag: "")
+            timerModelDelegate?.udpate(timer: timer!, emoji: "", name: eventTextField?.text! ?? "", dateTime: Date(), active: true, tag: "")
         }
     }
 
