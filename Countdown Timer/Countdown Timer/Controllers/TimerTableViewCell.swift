@@ -23,7 +23,7 @@ class TimerTableViewCell: UITableViewCell {
     func updateViews() {
         guard let timer = timer else { return }
         
-        emjoiLabel.text = timer.emoji
+        emjoiLabel.text = (timer.emoji == "") ? "❓" : timer.emoji
         timerNameLabel.text = timer.name
         
         if timer.active {
