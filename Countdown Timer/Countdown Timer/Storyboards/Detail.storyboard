@@ -10,7 +10,7 @@
         <!--Detail View Controller-->
         <scene sceneID="RsT-RA-WU6">
             <objects>
-                <viewController storyboardIdentifier="DetailNavigation" id="sZ8-8S-N6y" customClass="DetailViewController" customModule="Countdown_Timer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailNavigation" useStoryboardIdentifierAsRestorationIdentifier="YES" id="sZ8-8S-N6y" customClass="DetailViewController" customModule="Countdown_Timer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wqL-Y6-wuc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -51,9 +51,12 @@
                                     <segment title="Minutes"/>
                                     <segment title="Both"/>
                                 </segments>
+                                <connections>
+                                    <action selector="segmentChanged:" destination="sZ8-8S-N6y" eventType="valueChanged" id="Sg1-nF-A46"/>
+                                </connections>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7y-c3-Nd9">
-                                <rect key="frame" x="174" y="433" width="79" height="30"/>
+                                <rect key="frame" x="174" y="419" width="79" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                 <state key="normal" title="Add Action"/>
@@ -69,6 +72,7 @@
                     <connections>
                         <outlet property="emojiView" destination="Bvx-VZ-ntG" id="2Ij-Ae-K3b"/>
                         <outlet property="eventTextField" destination="zUk-xf-p0x" id="gm9-PH-7Ct"/>
+                        <outlet property="segmentedControl" destination="jsu-Ee-Hgj" id="oW8-oB-9C1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wgC-Ky-fvv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
