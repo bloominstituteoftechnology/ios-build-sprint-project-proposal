@@ -9,8 +9,8 @@
 import Foundation
 
 protocol TimerModelDelegate {
-    func create(emoji: String, name: String, dateTime: Date, active: Bool, tag: String)
-    func udpate(timer t: CountdownTimer, emoji: String, name: String, dateTime: Date, active: Bool, tag: String)
+    func create(emoji: String, name: String, dateTime: Date, timeType: TimerType, active: Bool, tag: String)
+    func udpate(timer t: CountdownTimer, emoji: String, name: String, dateTime: Date, timeType: TimerType, active: Bool, tag: String)
 }
 
 class TimerController: TimerModelDelegate  {
@@ -49,8 +49,19 @@ var timers = [ CountdownTimer(emoji: "🎂", name: "Birthday", dateTime: nil, ac
     // MARK: - CRUD
     
     // Create
-    func create(emoji: String, name: String, dateTime: Date, active: Bool, tag: String = "") {
-        let timer = CountdownTimer(emoji: emoji, name: name, dateTime: dateTime, active: active, tag: tag)
+    func create(emoji: String,
+                name: String,
+                dateTime: Date,
+                timeType: TimerType = .time,
+                active: Bool = true,
+                tag: String = "") {
+        
+        let timer = CountdownTimer(emoji: emoji,
+                                   name: name,
+                                   dateTime: dateTime,
+                                   active: active,
+                                   tag: tag)
+        
         timers.append(timer)
         
         //timers = timers.sorted { $0.name.lowercased() < $1.name.lowercased() }
@@ -61,7 +72,7 @@ var timers = [ CountdownTimer(emoji: "🎂", name: "Birthday", dateTime: nil, ac
     // Read. Not the model
     
     // Update
-    func udpate(timer t: CountdownTimer, emoji: String, name: String, dateTime: Date, active: Bool, tag: String) {
+    func udpate(timer t: CountdownTimer, emoji: String, name: String, dateTime: Date, timeType: TimerType, active: Bool, tag: String) {
         guard let index = findTimerIndex(t) else { fatalError("Timer Object Not Found") }
         
         timers[index].emoji = emoji

@@ -54,11 +54,11 @@ class DetailViewController: UIViewController {
         if timer == nil {
             // Create timer
             // FIXME: Real values
-            timerModelDelegate?.create(emoji: "", name: eventTextField?.text! ?? "", dateTime: Date(), active: true, tag: "")
+            timerModelDelegate?.create(emoji: "", name: eventTextField?.text! ?? "", dateTime: Date(), timeType: .time, active: true, tag: "")
         } else {
             // Timer exists, update it
             // FIXME: Real values
-            timerModelDelegate?.udpate(timer: timer!, emoji: "", name: eventTextField?.text! ?? "", dateTime: Date(), active: true, tag: "")
+            timerModelDelegate?.udpate(timer: timer!, emoji: "", name: eventTextField?.text! ?? "", dateTime: Date(), timeType: .time, active: true, tag: "")
         }
         dismiss(animated: true, completion: nil)
     }

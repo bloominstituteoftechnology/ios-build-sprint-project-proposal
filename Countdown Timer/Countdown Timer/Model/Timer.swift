@@ -8,11 +8,18 @@
 
 import Foundation
 
+enum TimerType: Int, Codable {
+    case time = 1
+    case date
+    case both
+}
+
 struct CountdownTimer: Codable, Equatable {
     var emoji = ""
     var name = ""
     //Supply by the user
     var dateTime: Date?
+    var timeType = TimerType.time
     // Active means the time has been set. !Active means it has fired/completed.
     var active = false
     var tag = ""
