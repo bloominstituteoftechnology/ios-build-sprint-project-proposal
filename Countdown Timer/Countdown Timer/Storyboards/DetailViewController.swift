@@ -27,17 +27,16 @@ class DetailViewController: UIViewController {
     
     let days: [String] = Array(1...31).map { String($0) }
     let minutes: [String] = Array(1...60).map { String($0) }
-    
-    var travelTime: String {
-        
-        let day = datePicker.
-        let minute = datePicker.countDownDuration
-        let stringDay = day
-        let stringMinute = minute
-        let stringDate = "\(days[stringDay])  \(minutes[stringMinute])"
-        print(stringDate)
-        return stringDate
-    }
+//
+//    var travelTime: String {
+//
+//        let day = datePicker.countDownDuration
+//        let minute = datePicker.minuteInterval
+//
+//////        let stringDate = "\(days[day])  \(minutes[minute])"
+////        print(stringDate)
+////        return stringDate
+//    }
     
     
     
@@ -90,11 +89,12 @@ class DetailViewController: UIViewController {
         return formatter
     }()
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         
-        datePicker.dataSource = self
+       
         
     }
     
