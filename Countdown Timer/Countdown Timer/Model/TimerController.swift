@@ -8,11 +8,13 @@
 
 import Foundation
 
-protocol SaveTimerDelegate {
-    func save(timer t: CountdownTimer?)
+protocol TimerModelDelegate {
+    func create(emoji: String, name: String, dateTime: Date, active: Bool, tag: String)
+    func udpate(timer t: CountdownTimer, emoji: String, name: String, dateTime: Date, active: Bool, tag: String)
 }
 
-class TimerController: SaveTimerDelegate  {
+class TimerController: TimerModelDelegate  {
+    
     
 //    var timers = [CountdownTimer()]
 var timers = [ CountdownTimer(emoji: "🎂", name: "Birthday", dateTime: nil, active: true, tag: "") ]
@@ -29,46 +31,54 @@ var timers = [ CountdownTimer(emoji: "🎂", name: "Birthday", dateTime: nil, ac
          return timers.filter { $0.active == false }
      }
 
-     //This is leveraging equatable
-     func findTimer(_ timer: CountdownTimer) -> CountdownTimer? {
-         let matches = timers.filter { $0 == timer }
-         assert(matches.count == 1)
-         return matches[0]
-     }
-     
-    // MARK: - CRUD
+    //These find* are leveraging equatable
+    func findTimer(_ timer: CountdownTimer) -> CountdownTimer? {
+        let matches = timers.filter { $0 == timer }
+        assert(matches.count == 1)
+        return matches[0]
+    }
     
-    // Create
-    func save(timer t: CountdownTimer?) {
-        guard let t = t else { return }
+    func findTimerIndex(_ t: CountdownTimer) -> Int? {
         if let index = timers.firstIndex(where: { $0 == t }) {
-            timers[index] = t
+            return index
         } else {
-            // Timer not found, add it.
-            timers.append(t)
+            return nil
         }
     }
     
-     func create(emoji: String, name: String, dateTime: Date, active: Bool, tag: String = "") {
-         let timer = CountdownTimer(emoji: emoji, name: name, dateTime: dateTime, active: active, tag: tag)
-         timers.append(timer)
-
-         //timers = timers.sorted { $0.name.lowercased() < $1.name.lowercased() }
-
-         saveToPersistentStore()
-     }
-     
-     // Read. Not the model
-     
-     // Update
-     func toogleActive(timer t: CountdownTimer) {
-         if let index = timers.firstIndex(where: { $0 == t }) {
+    // MARK: - CRUD
+    
+    // Create
+    func create(emoji: String, name: String, dateTime: Date, active: Bool, tag: String = "") {
+        let timer = CountdownTimer(emoji: emoji, name: name, dateTime: dateTime, active: active, tag: tag)
+        timers.append(timer)
+        
+        //timers = timers.sorted { $0.name.lowercased() < $1.name.lowercased() }
+        
+        saveToPersistentStore()
+    }
+    
+    // Read. Not the model
+    
+    // Update
+    func udpate(timer t: CountdownTimer, emoji: String, name: String, dateTime: Date, active: Bool, tag: String) {
+        guard let index = findTimerIndex(t) else { fatalError("Timer Object Not Found") }
+        
+        timers[index].emoji = emoji
+        timers[index].name = name
+        timers[index].dateTime = dateTime
+        timers[index].active = active
+        timers[index].tag = tag
+    }
+    
+    func toogleActive(timer t: CountdownTimer) {
+        if let index = timers.firstIndex(where: { $0 == t }) {
             timers[index].active.toggle()
-         }
-         
-         saveToPersistentStore()
-     }
-     
+        }
+        
+        saveToPersistentStore()
+    }
+    
      // Delete
      func delete(timer timerToDelete: CountdownTimer) {
          let timerMinusTimersToDelete = timers.filter { $0 != timerToDelete }
