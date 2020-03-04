@@ -83,15 +83,15 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
 
         guard let detailVC = segue.destination as? DetailViewController else {return}
         detailVC.timeController = timeController
-
+        
         if segue.identifier == "AddDetailSegue" {
             print("AddDetailSegue called")
         } else if segue.identifier == "EditDetailSegue" {
             print("EditDetailSegue called")
-            // Find the book the user tapped on and set the VC's book to it.
+            // Find the timer the user tapped on and set the VC's timer object to it.
             guard let indexPath = tableView?.indexPathForSelectedRow else { return }
-            print(indexPath)
-            detailVC.timer = timeController.timers[indexPath.row]
+            let timer = timeController.timers[indexPath.row]
+            detailVC.timer = timer
         }
     }
 }
