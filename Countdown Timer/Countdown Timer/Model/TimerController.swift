@@ -11,7 +11,7 @@ import Foundation
 class TimerController {
     
 //    var timers = [CountdownTimer()]
-var timers = [ CountdownTimer(emoji: "🎂", name: "Birthday", dateTime: nil, active: false, tag: "") ]
+var timers = [ CountdownTimer(emoji: "🎂", name: "Birthday", dateTime: nil, active: true, tag: "") ]
 
 //                       dateTime: Calendar.current.date(from: DateComponents(calendar:          Calendar.current,
 //                                                                            year: 2000,
