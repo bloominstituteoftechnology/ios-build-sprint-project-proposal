@@ -10,7 +10,7 @@
         <!--Detail View Controller-->
         <scene sceneID="RsT-RA-WU6">
             <objects>
-                <viewController id="sZ8-8S-N6y" customClass="DetailViewController" customModule="Countdown_Timer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailNavigation" id="sZ8-8S-N6y" customClass="DetailViewController" customModule="Countdown_Timer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wqL-Y6-wuc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -78,7 +78,7 @@
         <!--Navigation Controller-->
         <scene sceneID="K2D-AF-M84">
             <objects>
-                <navigationController storyboardIdentifier="DetailNavigation" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="69F-tK-1um" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="69F-tK-1um" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="FxX-Nb-rre">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
