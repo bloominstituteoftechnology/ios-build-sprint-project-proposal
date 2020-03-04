@@ -72,9 +72,9 @@
                                             </stackView>
                                         </subviews>
                                     </stackView>
-                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M41-YU-aIF">
+                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="d02-VK-UUc">
                                         <rect key="frame" x="0.0" y="298" width="320" height="216"/>
-                                    </pickerView>
+                                    </datePicker>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7y-c3-Nd9">
                                         <rect key="frame" x="120.5" y="556" width="79" height="30"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
@@ -98,7 +98,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="ftP-Za-ED0"/>
                     <connections>
-                        <outlet property="datePicker" destination="M41-YU-aIF" id="iPj-I2-N00"/>
+                        <outlet property="datePicker" destination="d02-VK-UUc" id="f4Q-ac-6Dk"/>
                         <outlet property="emojiView" destination="Bvx-VZ-ntG" id="2Ij-Ae-K3b"/>
                         <outlet property="eventTextField" destination="zUk-xf-p0x" id="gm9-PH-7Ct"/>
                         <outlet property="segmentedControl" destination="jsu-Ee-Hgj" id="oW8-oB-9C1"/>
