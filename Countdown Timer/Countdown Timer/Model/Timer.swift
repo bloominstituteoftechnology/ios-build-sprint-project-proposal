@@ -25,6 +25,7 @@ struct CountdownTimer: Codable, Equatable {
     var active = false
     var tag = ""
     //For the system timer objects
-//    var timer: Timer?
+    var timerUuid: String?
+    //    var timer: Timer?
 }
 
