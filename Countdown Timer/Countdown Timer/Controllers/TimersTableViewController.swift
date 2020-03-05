@@ -19,6 +19,13 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
         showAlert()
     }
     
+    @IBAction func filterButton(_ sender: Any) {
+        // Grab a list of all the filter types.
+        // Create alert actions for each type
+        // Present alert to uesr to select type.
+        // Filter on type. 
+    }
+    
     private func showAlert() {
         let alert = UIAlertController(title: "Count🔻",
             message: "Notifications have been turned off. Please turn them on in settings.",
