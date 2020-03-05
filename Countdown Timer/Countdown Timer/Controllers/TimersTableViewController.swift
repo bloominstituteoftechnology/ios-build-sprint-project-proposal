@@ -13,6 +13,24 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
     var timeController = TimerController()
     var notificationController = NotificationController()
     
+    @IBOutlet weak var notificationButton: UIBarButtonItem!
+    
+    @IBAction func notificationButtonPress(_ sender: Any) {
+        showAlert()
+    }
+    
+    private func showAlert() {
+        let alert = UIAlertController(title: "Count🔻",
+            message: "Notifications have been turned off. Please turn them on in settings.",
+                                      preferredStyle: .alert)
+        
+        let okAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+        
+        alert.addAction(okAction)
+        
+        present(alert, animated: true, completion: nil)
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,6 +39,12 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        
+        if false {
+            notificationButton.isEnabled = false            
+        } else {
+            notificationButton.isEnabled = true
+        }
     }
 
     // MARK: - Table view data source
