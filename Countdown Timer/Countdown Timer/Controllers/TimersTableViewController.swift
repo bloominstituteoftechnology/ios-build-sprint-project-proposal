@@ -187,7 +187,7 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
             
             var displayTimer = "N/A"
             if let dateTime = timer.dateTime {
-                displayTimer = dateTime.offsetFrom(date: Date(), type: timer.timeType)
+                displayTimer = dateTime.offsetFrom(date: Date(), type: timer.timerType)
             }
             cell.timerLabel.text = displayTimer
             row += 1

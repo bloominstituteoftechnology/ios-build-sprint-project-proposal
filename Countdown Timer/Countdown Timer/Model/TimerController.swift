@@ -82,7 +82,7 @@ class TimerController: TimerModelDelegate  {
         timers[index].emoji = emoji
         timers[index].name = name
         timers[index].dateTime = dateTime
-        timers[index].timeType = timeType
+        timers[index].timerType = timeType
         timers[index].active = active
         timers[index].tag = tag
 
