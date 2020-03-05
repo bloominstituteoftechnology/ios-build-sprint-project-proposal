@@ -75,13 +75,13 @@ class DetailViewController: UIViewController {
         }
         
         var timerType = TimerType.time
-        switch segmentedControl.selectedSegmentIndex{
+            switch segmentedControl.selectedSegmentIndex{
             case 0:
-                timerType = .both
+                timerType = .date
             case 1:
                 timerType = .time
             case 2:
-                timerType = .date
+                timerType = .both
             default:
                 break
             }
