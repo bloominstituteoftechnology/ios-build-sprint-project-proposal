@@ -55,7 +55,7 @@
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title:" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zUk-xf-p0x">
                                                         <rect key="frame" x="0.0" y="27.5" width="253.5" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" returnKeyType="done" textContentType="name"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" returnKeyType="done" enablesReturnKeyAutomatically="YES" textContentType="name"/>
                                                     </textField>
                                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="jsu-Ee-Hgj">
                                                         <rect key="frame" x="0.0" y="68.5" width="253.5" height="32"/>
@@ -91,7 +91,7 @@
                             <constraint firstItem="zqu-3Y-B3t" firstAttribute="top" secondItem="yIh-34-nw7" secondAttribute="top" constant="32" id="2FK-7G-7Us"/>
                             <constraint firstItem="zqu-3Y-B3t" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="yIh-34-nw7" secondAttribute="leading" constant="20" id="DGU-kb-p9a"/>
                             <constraint firstItem="zqu-3Y-B3t" firstAttribute="centerX" secondItem="wqL-Y6-wuc" secondAttribute="centerX" id="Zzb-W5-aO9"/>
-                            <constraint firstItem="yIh-34-nw7" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="zqu-3Y-B3t" secondAttribute="bottom" constant="20" id="jcm-0R-8OG"/>
+                            <constraint firstItem="yIh-34-nw7" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="zqu-3Y-B3t" secondAttribute="bottom" constant="36" id="jcm-0R-8OG"/>
                             <constraint firstItem="yIh-34-nw7" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="zqu-3Y-B3t" secondAttribute="trailing" constant="20" id="qW2-jm-Lao"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="yIh-34-nw7"/>
