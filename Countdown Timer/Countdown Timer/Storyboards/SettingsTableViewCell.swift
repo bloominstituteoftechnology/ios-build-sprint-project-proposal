@@ -7,7 +7,9 @@
 //
 
 import UIKit
-
+extension String {
+    static var defaultTimerFormat = "defaultTimerFormat"
+}
 class SettingsTableViewCell: UITableViewCell {
     
 var timerModelDelegate: TimerModelDelegate?
@@ -15,6 +17,7 @@ var timerModelDelegate: TimerModelDelegate?
     var delegate: DatePickerDelegate?
     var datePicker = UIDatePicker()
     @IBOutlet var segmentControlOutlet: UISegmentedControl!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -26,9 +29,9 @@ var timerModelDelegate: TimerModelDelegate?
         // Configure the view for the selected state
     }
    
-    
+
     @IBAction func segmentedControl(_ sender: Any) {
-       
+        let segmentedControl = segmentControlOutlet.isSelected
         switch segmentControlOutlet.selectedSegmentIndex {
         case 0:
             datePicker.datePickerMode = .dateAndTime
@@ -39,6 +42,7 @@ var timerModelDelegate: TimerModelDelegate?
         default:
             break
         }
+        UserDefaults.standard.set(segmentedControl, forKey: .defaultTimerFormat)
         
     }
     
