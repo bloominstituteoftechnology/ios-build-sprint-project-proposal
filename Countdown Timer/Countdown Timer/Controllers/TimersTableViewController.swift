@@ -46,12 +46,41 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
-        
+        startTimer()
+
         if false {
             notificationButton.isEnabled = false            
         } else {
             notificationButton.isEnabled = true
         }
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        cancelTimer()
+    }
+
+    // MARK: Timer related code
+
+    // called each time the timer object fires
+    var systemCountdownTimer: Timer?
+    var timerIterations = 0
+
+    private func startTimer() {
+        print("Start timer")
+        systemCountdownTimer = Timer.scheduledTimer(withTimeInterval: 0.50, repeats: true, block: timerFired(timer:))
+    }
+    
+    private func cancelTimer() {
+        print("Cancel timer")
+        // We must invalidate a timer, or it will continue to run even if we
+        // start a new timer
+        systemCountdownTimer?.invalidate()
+        systemCountdownTimer = nil
+    }
+
+    private func timerFired(timer: Timer) {
+        timerIterations += 1
+        print("Timer Fired \(timerIterations)")
     }
 
     // MARK: - Table view data source
