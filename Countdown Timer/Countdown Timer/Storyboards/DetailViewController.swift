@@ -14,7 +14,8 @@ class DetailViewController: UIViewController {
     var timerModelDelegate: TimerModelDelegate?
     var timer: CountdownTimer?
     
-    @IBOutlet weak var emojiView: UIImageView!
+    
+    @IBOutlet weak var emojiTextField: UITextField!
     
     @IBOutlet weak var eventTextField: UITextField!
 
