@@ -38,11 +38,11 @@ var timerModelDelegate: TimerModelDelegate?
         let segmentedControlIndex = segmentControlOutlet.selectedSegmentIndex
         switch segmentedControlIndex {
         case 0:
-            datePicker.datePickerMode = .dateAndTime
+            datePicker.datePickerMode = .date
         case 1:
             datePicker.datePickerMode = .countDownTimer
         case 2:
-            datePicker.datePickerMode = .time
+            datePicker.datePickerMode = .dateAndTime
         default:
             break
         }

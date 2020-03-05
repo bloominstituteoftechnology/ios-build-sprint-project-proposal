@@ -37,7 +37,7 @@ class DetailViewController: UIViewController {
             case .date:
                 datePicker.datePickerMode = .date
             case .time:
-                datePicker.datePickerMode = .time
+                datePicker.datePickerMode = .countDownTimer
             case .both:
                 fallthrough
             default:
@@ -82,12 +82,12 @@ class DetailViewController: UIViewController {
         
         switch segmentedControl.selectedSegmentIndex{
         case 0:
-            datePicker.datePickerMode = .dateAndTime
+            datePicker.datePickerMode = .date
         case 1:
             datePicker.datePickerMode = .countDownTimer
            
         case 2:
-            datePicker.datePickerMode =  .date
+            datePicker.datePickerMode =  .dateAndTime
         default:
             break
         }
