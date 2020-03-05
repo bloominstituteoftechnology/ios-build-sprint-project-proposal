@@ -11,6 +11,7 @@ import UIKit
 class TimersTableViewController: UITableViewController /* TODO: UITableViewDataSource baked in? */  {
 
     var timeController = TimerController()
+    var notificationController = NotificationController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
