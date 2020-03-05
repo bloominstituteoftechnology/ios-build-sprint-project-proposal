@@ -24,11 +24,8 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var datePicker: UIDatePicker!
     
     var delegate: DatePickerDelegate?
-    var timer: CountdownTimer? {
-    didSet {
-            updateViews()
-        }
-    }
+    var timer: CountdownTimer?
+    
     // properties for days, minutes, seconds.
     func updateViews() {
         guard let timer = timer else { return }
@@ -36,7 +33,7 @@ class DetailViewController: UIViewController {
         eventTextField?.text = timer.name
         emojiTextField?.text = timer.emoji
         setSegmentControlAndDatePicker(timerType: timer.timerType)
-        datePicker.date = timer.dateTime ?? Date()
+        datePicker?.date = timer.dateTime ?? Date()
     }
 
     func setSegmentControlAndDatePicker(timerType: TimerType? = nil) {
