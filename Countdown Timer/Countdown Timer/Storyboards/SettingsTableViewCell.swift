@@ -13,7 +13,6 @@ extension String {
 class SettingsTableViewCell: UITableViewCell {
     
 var timerModelDelegate: TimerModelDelegate?
-   
     var delegate: DatePickerDelegate?
     var datePicker = UIDatePicker()
     @IBOutlet var segmentControlOutlet: UISegmentedControl!
@@ -30,13 +29,13 @@ var timerModelDelegate: TimerModelDelegate?
     }
     
     func updateViews() {
-        let segmentedControl = UserDefaults.standard.bool(forKey: .defaultTimerFormat)
-        segmentControlOutlet.isSelected = segmentedControl
+        let segmentedControl = UserDefaults.standard.integer(forKey: .defaultTimerFormat)
+        segmentControlOutlet.selectedSegmentIndex = segmentedControl
     }
    
 
     @IBAction func segmentedControl(_ sender: Any) {
-        let segmentedControl = segmentControlOutlet.isSelected
+        let segmentedControl = segmentControlOutlet.selectedSegmentIndex
         switch segmentControlOutlet.selectedSegmentIndex {
         case 0:
             datePicker.datePickerMode = .dateAndTime
@@ -47,7 +46,7 @@ var timerModelDelegate: TimerModelDelegate?
         default:
             break
         }
-        UserDefaults.standard.set(segmentedControl, forKey: .defaultTimerFormat)
+        UserDefaults.standard.set(segmentedControl , forKey: .defaultTimerFormat)
         
     }
     
