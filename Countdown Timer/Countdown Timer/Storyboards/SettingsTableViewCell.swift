@@ -9,7 +9,12 @@
 import UIKit
 
 class SettingsTableViewCell: UITableViewCell {
-
+    
+var timerModelDelegate: TimerModelDelegate?
+   
+    var delegate: DatePickerDelegate?
+    var datePicker = UIDatePicker()
+    @IBOutlet var segmentControlOutlet: UISegmentedControl!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -20,9 +25,22 @@ class SettingsTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
-    @IBAction func segmentSelected(_ sender: Any) {
+   
+    
+    @IBAction func segmentedControl(_ sender: Any) {
+       
+        switch segmentControlOutlet.selectedSegmentIndex {
+        case 0:
+            datePicker.datePickerMode = .dateAndTime
+        case 1:
+            datePicker.datePickerMode = .countDownTimer
+        case 2:
+            datePicker.datePickerMode = .time
+        default:
+            break
+        }
+        
     }
     
-    
+
 }
