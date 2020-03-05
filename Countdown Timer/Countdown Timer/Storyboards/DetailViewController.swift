@@ -12,8 +12,8 @@ protocol DatePickerDelegate {
 }
 class DetailViewController: UIViewController {
     var timerModelDelegate: TimerModelDelegate?
-    var timer: CountdownTimer?
-    
+   
+   
     
     @IBOutlet weak var emojiTextField: UITextField!
     
@@ -24,10 +24,20 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var datePicker: UIDatePicker!
     
     var delegate: DatePickerDelegate?
-    
+    var timer: CountdownTimer? {
+    didSet {
+            updateViews()
+        }
+    }
     // properties for days, minutes, seconds.
+    func updateViews() {
+    guard let timer = timer else { return }
     
+        var addEmoji = (timer.emoji == "") ? "❓" : timer.emoji
+        addEmoji.append(emojiTextField.text!)
     
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         if timer == nil {
@@ -46,8 +56,9 @@ class DetailViewController: UIViewController {
         } else {
             UserDefaults.standard.integer(forKey: .defaultTimerFormat)
         }
-        
-        
+   
+        var addEmoji = (timer?.emoji == "") ? "❓" : timer?.emoji
+        addEmoji?.append(emojiTextField.text!)
     }
 
     @IBAction func actionButton(_ sender: Any) {
@@ -60,18 +71,12 @@ class DetailViewController: UIViewController {
         if timer == nil {
             // Create timer
             // FIXME: Real values
-            timerModelDelegate?.create(emoji: "", name: eventTextField?.text! ?? "", dateTime: datePicker.date, timeType: timerTypeForSegmentedControl(), active: true, tag: "")
+            timerModelDelegate?.create(emoji: emojiTextField.text ?? "", name: eventTextField?.text! ?? "", dateTime: datePicker.date, timeType: timerTypeForSegmentedControl(), active: true, tag: "")
         } else {
             // Timer exists, update it
             // FIXME: Real values
-            timerModelDelegate?.udpate(timer: timer!, emoji: "", name: eventTextField?.text! ?? "", dateTime: datePicker.date, timeType: timerTypeForSegmentedControl() , active: true, tag: "")
+            timerModelDelegate?.udpate(timer: timer!, emoji: emojiTextField.text ?? "", name: eventTextField?.text! ?? "", dateTime: datePicker.date, timeType: timerTypeForSegmentedControl() , active: true, tag: "")
         }
-        guard emojiTextField.text != nil else { return }
-               var emojis: [String] = []
-               if let emoji1 = emojiTextField.text,
-                   !emoji1.isEmpty {
-                   emojis.append(emoji1)
-               }
         
         navigationController?.popViewController(animated: true)
 //        dismiss(animated: true, completion: nil)

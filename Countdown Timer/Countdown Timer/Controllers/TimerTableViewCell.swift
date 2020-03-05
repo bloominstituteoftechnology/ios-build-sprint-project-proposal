@@ -33,4 +33,5 @@ class TimerTableViewCell: UITableViewCell {
             timerLabel.text = "Not active"
         }
     }
+    
 }

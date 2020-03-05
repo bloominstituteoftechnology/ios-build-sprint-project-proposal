@@ -16,7 +16,7 @@ enum TimerType: Int, Codable {
 }
 
 struct CountdownTimer: Codable, Equatable {
-    var emoji = ""
+    var emoji = "" 
     var name = ""
     //Supply by the user
     var dateTime: Date?
