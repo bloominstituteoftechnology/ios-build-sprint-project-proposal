@@ -9,8 +9,9 @@
 import Foundation
 
 enum TimerType: Int, Codable {
-    case time = 1
-    case date
+  
+    case date = 0
+    case time 
     case both
 }
 
