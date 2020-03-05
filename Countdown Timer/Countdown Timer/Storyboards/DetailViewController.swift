@@ -31,34 +31,42 @@ class DetailViewController: UIViewController {
     }
     // properties for days, minutes, seconds.
     func updateViews() {
-    guard let timer = timer else { return }
-    
-        var addEmoji = (timer.emoji == "") ? "❓" : timer.emoji
-        addEmoji.append(emojiTextField.text!)
-    
+        guard let timer = timer else { return }
+        
+        eventTextField?.text = timer.name
+        emojiTextField?.text = timer.emoji
+        setSegmentControlAndDatePicker(timerType: timer.timerType)
+        datePicker.date = timer.dateTime ?? Date()
     }
 
+    func setSegmentControlAndDatePicker(timerType: TimerType? = nil) {
+
+        let defaultTimerInt = UserDefaults.standard.integer(forKey: .defaultTimerFormat)
+        var timerTypeToUse = TimerType(rawValue: defaultTimerInt)
+
+        if let timerType = timerType {
+            timerTypeToUse = timerType
+        }
+        
+        switch timerTypeToUse {
+        case .date:
+            segmentedControl?.selectedSegmentIndex = TimerType.date.rawValue
+            datePicker?.datePickerMode = .date
+        case .time:
+            segmentedControl?.selectedSegmentIndex = TimerType.time.rawValue
+            datePicker?.datePickerMode = .countDownTimer
+        case .both:
+            fallthrough
+        default:
+            segmentedControl?.selectedSegmentIndex = TimerType.both.rawValue
+            datePicker?.datePickerMode = .dateAndTime
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        if timer == nil {
-            let defaultTimerInt = UserDefaults.standard.integer(forKey: .defaultTimerFormat)
-            let defaultTimerType = TimerType(rawValue: defaultTimerInt)
-            switch defaultTimerType {
-            case .date:
-                datePicker.datePickerMode = .date
-            case .time:
-                datePicker.datePickerMode = .countDownTimer
-            case .both:
-                fallthrough
-            default:
-                datePicker.datePickerMode = .dateAndTime
-            }
-        } else {
-            UserDefaults.standard.integer(forKey: .defaultTimerFormat)
-        }
-   
-        var addEmoji = (timer?.emoji == "") ? "❓" : timer?.emoji
-        addEmoji?.append(emojiTextField.text!)
+
+        updateViews()
     }
 
     @IBAction func actionButton(_ sender: Any) {
@@ -81,7 +89,7 @@ class DetailViewController: UIViewController {
                 break
             }
 
-                // .date returns the new date with the current time (GMT)
+        // .date returns the new date with the current time (GMT)
         // I'm confused about what .time returns.
         //  - I set time to 1h 0m
         //  - It's currently 2020-03-05 18:45 +0000
@@ -91,12 +99,21 @@ class DetailViewController: UIViewController {
 
         if timer == nil {
             // Create timer
-            // FIXME: Real values
-            timerModelDelegate?.create(emoji: emojiTextField.text ?? "", name: eventTextField?.text! ?? "", dateTime: timerDate, timeType: timerType, active: true, tag: "")
+            timerModelDelegate?.create(emoji: emojiTextField.text ?? "",
+                                       name: eventTextField?.text! ?? "",
+                                       dateTime: timerDate,
+                                       timeType: timerType,
+                                       active: true,
+                                       tag: "")
         } else {
             // Timer exists, update it
-            // FIXME: Real values
-            timerModelDelegate?.udpate(timer: timer!, emoji: emojiTextField.text ?? "", name: eventTextField?.text! ?? "", dateTime: timerDate, timeType: timerType , active: true, tag: "")
+            timerModelDelegate?.udpate(timer: timer!,
+                                       emoji: emojiTextField.text ?? "",
+                                       name: eventTextField?.text! ?? "",
+                                       dateTime: timerDate,
+                                       timeType: timerType,
+                                       active: true,
+                                       tag: "")
         }
         
         navigationController?.popViewController(animated: true)
