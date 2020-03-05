@@ -49,6 +49,14 @@ class DetailViewController: UIViewController {
             // FIXME: Real values
             timerModelDelegate?.udpate(timer: timer!, emoji: "", name: eventTextField?.text! ?? "", dateTime: Date(), timeType: .time, active: true, tag: "")
         }
+        guard emojiTextField.text != nil else { return }
+               var emojis: [String] = []
+               if let emoji1 = emojiTextField.text,
+                   !emoji1.isEmpty {
+                   emojis.append(emoji1)
+               }
+        
+        
         dismiss(animated: true, completion: nil)
     }
     
