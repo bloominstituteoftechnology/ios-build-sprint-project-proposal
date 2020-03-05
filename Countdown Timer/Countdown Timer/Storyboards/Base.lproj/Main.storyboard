@@ -64,17 +64,18 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Count🔻" id="UHD-hd-BOK">
+                        <barButtonItem key="leftBarButtonItem" title="Notification Disabled" image="exclamationmark.triangle" catalog="system" id="MXd-Q0-2nU">
+                            <connections>
+                                <action selector="notificationButtonPress:" destination="lgj-1w-GHL" id="MmY-Ec-SKW"/>
+                            </connections>
+                        </barButtonItem>
                         <rightBarButtonItems>
                             <barButtonItem systemItem="add" id="Qun-kh-iTC">
                                 <connections>
                                     <segue destination="Tnd-5e-rCG" kind="show" identifier="AddDetailSegue" id="eXA-Ha-wau"/>
                                 </connections>
                             </barButtonItem>
-                            <barButtonItem title="Notification Disabled" image="exclamationmark.triangle" catalog="system" id="MXd-Q0-2nU">
-                                <connections>
-                                    <action selector="notificationButtonPress:" destination="lgj-1w-GHL" id="MmY-Ec-SKW"/>
-                                </connections>
-                            </barButtonItem>
+                            <barButtonItem title="Filter" image="line.horizontal.3.decrease.circle" catalog="system" id="aph-TF-4jE"/>
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
@@ -158,6 +159,7 @@
     </scenes>
     <resources>
         <image name="exclamationmark.triangle" catalog="system" width="64" height="56"/>
+        <image name="line.horizontal.3.decrease.circle" catalog="system" width="64" height="60"/>
         <image name="stopwatch" catalog="system" width="60" height="64"/>
     </resources>
     <inferredMetricsTieBreakers>
