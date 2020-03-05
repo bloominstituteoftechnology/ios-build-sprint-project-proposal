@@ -14,13 +14,13 @@ class DetailViewController: UIViewController {
     var timerModelDelegate: TimerModelDelegate?
     var timer: CountdownTimer?
     
-    @IBOutlet weak var emojiView: UIImageView!
+    
+    @IBOutlet weak var emojiTextField: UITextField!
     
     @IBOutlet weak var eventTextField: UITextField!
-    
+
     @IBOutlet weak var segmentedControl: UISegmentedControl!
     
-   
     @IBOutlet weak var datePicker: UIDatePicker!
     
     var delegate: DatePickerDelegate?
@@ -31,7 +31,6 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        
-        
     }
 
     @IBAction func actionButton(_ sender: Any) {
@@ -50,22 +49,33 @@ class DetailViewController: UIViewController {
             // FIXME: Real values
             timerModelDelegate?.udpate(timer: timer!, emoji: "", name: eventTextField?.text! ?? "", dateTime: Date(), timeType: .time, active: true, tag: "")
         }
+        guard emojiTextField.text != nil else { return }
+               var emojis: [String] = []
+               if let emoji1 = emojiTextField.text,
+                   !emoji1.isEmpty {
+                   emojis.append(emoji1)
+               }
+        
+        
         dismiss(animated: true, completion: nil)
     }
+    
 
     @IBAction func segmentChanged(_ sender: Any) {
-//    switch segmentedControl.selectedSegmentIndex{
-//        case 0:
-//            
-//        case 1:
-//           
-//        case 2:
-//            
-//        default:
-//            break
-//        }
+        
+    switch segmentedControl.selectedSegmentIndex{
+        case 0:
+            datePicker.datePickerMode = .dateAndTime
+        case 1:
+            datePicker.datePickerMode = .countDownTimer
+           
+        case 2:
+            datePicker.datePickerMode =  .date
+        default:
+            break
+        }
+        
     }
-
     
 }
 

@@ -17,99 +17,39 @@
                         <sections>
                             <tableViewSection headerTitle="Default Timer Format:" id="4Ma-3J-LHy">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SettingsCell1" id="k1m-ln-rpX" customClass="SettingsTableViewCell" customModule="Countdown_Timer" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="55.5" width="414" height="43.5"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SettingsCell1" rowHeight="67" id="k1m-ln-rpX" customClass="SettingsTableViewCell" customModule="Countdown_Timer" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="55.5" width="414" height="67"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="k1m-ln-rpX" id="hSm-o6-NON">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="67"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Days" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n2t-JE-PwH">
-                                                    <rect key="frame" x="20" y="11.5" width="38" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cE2-sJ-iCx">
-                                                    <rect key="frame" x="337" y="6.5" width="51" height="31"/>
+                                                <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="QE0-BD-Czp">
+                                                    <rect key="frame" x="104" y="18" width="206" height="32"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <segments>
+                                                        <segment title="Day"/>
+                                                        <segment title="Minutes"/>
+                                                        <segment title="Both"/>
+                                                    </segments>
                                                     <connections>
-                                                        <action selector="switchTimer1:" destination="iUY-xF-P1P" eventType="valueChanged" id="CJ4-5j-mvk"/>
-                                                        <action selector="switchTimer1:" destination="k1m-ln-rpX" eventType="valueChanged" id="jAO-LH-PeC"/>
+                                                        <action selector="segmentSelected:" destination="iUY-xF-P1P" eventType="valueChanged" id="1Ah-Zh-0gf"/>
+                                                        <action selector="segmentedControl:" destination="iUY-xF-P1P" eventType="valueChanged" id="FB8-pE-zWt"/>
+                                                        <action selector="segmentedControl:" destination="k1m-ln-rpX" eventType="valueChanged" id="kvE-XJ-nkn"/>
                                                     </connections>
-                                                </switch>
+                                                </segmentedControl>
                                             </subviews>
-                                            <constraints>
-                                                <constraint firstItem="cE2-sJ-iCx" firstAttribute="centerY" secondItem="hSm-o6-NON" secondAttribute="centerY" id="R2P-Pg-Skt"/>
-                                                <constraint firstItem="n2t-JE-PwH" firstAttribute="centerY" secondItem="hSm-o6-NON" secondAttribute="centerY" id="c2F-po-wKX"/>
-                                                <constraint firstAttribute="trailing" secondItem="cE2-sJ-iCx" secondAttribute="trailing" constant="28" id="oYP-Dn-qom"/>
-                                                <constraint firstItem="n2t-JE-PwH" firstAttribute="leading" secondItem="hSm-o6-NON" secondAttribute="leading" constant="20" id="sKb-UN-2b8"/>
-                                            </constraints>
                                         </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SettingsCell2" id="yah-lr-vHk" customClass="SettingsTableViewCell" customModule="Countdown_Timer" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="99" width="414" height="43.5"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="yah-lr-vHk" id="DXs-Wh-S5J">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Minutes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s8L-fj-Tdr">
-                                                    <rect key="frame" x="20" y="11.5" width="61" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dpp-78-rnk">
-                                                    <rect key="frame" x="339" y="6.5" width="51" height="31"/>
-                                                    <connections>
-                                                        <action selector="switchTimer2:" destination="iUY-xF-P1P" eventType="valueChanged" id="a8B-UL-uEa"/>
-                                                        <action selector="switchTimer2:" destination="yah-lr-vHk" eventType="valueChanged" id="y5R-hi-aCP"/>
-                                                    </connections>
-                                                </switch>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="dpp-78-rnk" firstAttribute="centerY" secondItem="DXs-Wh-S5J" secondAttribute="centerY" id="aVs-q9-Dik"/>
-                                                <constraint firstAttribute="trailing" secondItem="dpp-78-rnk" secondAttribute="trailing" constant="26" id="dGZ-mO-VMm"/>
-                                                <constraint firstItem="s8L-fj-Tdr" firstAttribute="leading" secondItem="DXs-Wh-S5J" secondAttribute="leading" constant="20" id="dwK-9k-4cu"/>
-                                                <constraint firstItem="s8L-fj-Tdr" firstAttribute="centerY" secondItem="DXs-Wh-S5J" secondAttribute="centerY" id="rsH-Tt-i73"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SettingsCell3" id="mcB-de-7BH" customClass="SettingsTableViewCell" customModule="Countdown_Timer" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="142.5" width="414" height="43.5"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mcB-de-7BH" id="FRU-fC-hgv">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Both" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yRH-Fi-DIy">
-                                                    <rect key="frame" x="20" y="11.5" width="36" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W14-lc-O6M">
-                                                    <rect key="frame" x="339" y="6.5" width="51" height="31"/>
-                                                    <connections>
-                                                        <action selector="switchTimer3:" destination="mcB-de-7BH" eventType="valueChanged" id="ZVZ-hk-PFL"/>
-                                                        <action selector="switchTimer3:" destination="iUY-xF-P1P" eventType="valueChanged" id="xAv-uo-RCs"/>
-                                                    </connections>
-                                                </switch>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="yRH-Fi-DIy" firstAttribute="leading" secondItem="FRU-fC-hgv" secondAttribute="leading" constant="20" id="JGG-wE-dmu"/>
-                                                <constraint firstItem="W14-lc-O6M" firstAttribute="centerY" secondItem="FRU-fC-hgv" secondAttribute="centerY" id="KpM-W7-Wad"/>
-                                                <constraint firstAttribute="trailing" secondItem="W14-lc-O6M" secondAttribute="trailing" constant="26" id="YBQ-2u-TmN"/>
-                                                <constraint firstItem="yRH-Fi-DIy" firstAttribute="centerY" secondItem="FRU-fC-hgv" secondAttribute="centerY" id="u43-s4-epH"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="segmentControlOutlet" destination="QE0-BD-Czp" id="z1B-qg-nEO"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
                             <tableViewSection id="v3V-J1-1Gh">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="150" id="EPL-jP-IrY">
-                                        <rect key="frame" x="0.0" y="222" width="414" height="150"/>
+                                        <rect key="frame" x="0.0" y="158.5" width="414" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EPL-jP-IrY" id="zgL-mm-SL4">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
@@ -132,7 +72,7 @@
                             <tableViewSection headerTitle="Find Us:" id="DrB-nU-kJf">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="65" id="LtY-3z-Slg">
-                                        <rect key="frame" x="0.0" y="428" width="414" height="65"/>
+                                        <rect key="frame" x="0.0" y="364.5" width="414" height="65"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LtY-3z-Slg" id="r3B-2s-UhJ">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="65"/>

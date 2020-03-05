@@ -16,13 +16,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="42" translatesAutoresizingMaskIntoConstraints="NO" id="zqu-3Y-B3t">
-                                <rect key="frame" x="47" y="120" width="320" height="586"/>
+                                <rect key="frame" x="47" y="120" width="320" height="534"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="vvX-as-5VN">
-                                        <rect key="frame" x="33.5" y="0.0" width="253.5" height="256"/>
+                                        <rect key="frame" x="33.5" y="0.0" width="253.5" height="204"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="S4d-7n-VBI">
-                                                <rect key="frame" x="41.5" y="0.0" width="170.5" height="135.5"/>
+                                                <rect key="frame" x="41.5" y="0.0" width="170.5" height="83.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add an event" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ext-eq-JXK">
                                                         <rect key="frame" x="0.0" y="0.0" width="170.5" height="33.5"/>
@@ -30,21 +30,15 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smiley" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Bvx-VZ-ntG">
-                                                        <rect key="frame" x="0.0" y="50" width="170.5" height="85"/>
-                                                        <color key="tintColor" systemColor="tertiarySystemFillColor" red="0.46274509800000002" green="0.46274509800000002" blue="0.50196078430000002" alpha="0.12" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <accessibility key="accessibilityConfiguration">
-                                                            <accessibilityTraits key="traits" staticText="YES"/>
-                                                        </accessibility>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="170.5" id="haZ-5N-ZIu"/>
-                                                            <constraint firstAttribute="height" constant="86" id="tz0-ph-mNe"/>
-                                                        </constraints>
-                                                    </imageView>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add an emoji:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O90-RI-a4x">
+                                                        <rect key="frame" x="0.0" y="49.5" width="170.5" height="34"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                                    </textField>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="Irf-iN-pKy">
-                                                <rect key="frame" x="0.0" y="156.5" width="253.5" height="99.5"/>
+                                                <rect key="frame" x="0.0" y="104.5" width="253.5" height="99.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Switch to ☻ keyboard to edit icon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8e2-1d-nQ8">
                                                         <rect key="frame" x="0.0" y="0.0" width="253.5" height="20.5"/>
@@ -55,7 +49,7 @@
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title:" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zUk-xf-p0x">
                                                         <rect key="frame" x="0.0" y="27.5" width="253.5" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" returnKeyType="done" textContentType="name"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" returnKeyType="done" enablesReturnKeyAutomatically="YES" textContentType="name"/>
                                                     </textField>
                                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="jsu-Ee-Hgj">
                                                         <rect key="frame" x="0.0" y="68.5" width="253.5" height="32"/>
@@ -73,10 +67,10 @@
                                         </subviews>
                                     </stackView>
                                     <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="d02-VK-UUc">
-                                        <rect key="frame" x="0.0" y="298" width="320" height="216"/>
+                                        <rect key="frame" x="0.0" y="246" width="320" height="216"/>
                                     </datePicker>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7y-c3-Nd9">
-                                        <rect key="frame" x="120.5" y="556" width="79" height="30"/>
+                                        <rect key="frame" x="120.5" y="504" width="79" height="30"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                         <state key="normal" title="Add Action"/>
                                         <connections>
@@ -91,7 +85,7 @@
                             <constraint firstItem="zqu-3Y-B3t" firstAttribute="top" secondItem="yIh-34-nw7" secondAttribute="top" constant="32" id="2FK-7G-7Us"/>
                             <constraint firstItem="zqu-3Y-B3t" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="yIh-34-nw7" secondAttribute="leading" constant="20" id="DGU-kb-p9a"/>
                             <constraint firstItem="zqu-3Y-B3t" firstAttribute="centerX" secondItem="wqL-Y6-wuc" secondAttribute="centerX" id="Zzb-W5-aO9"/>
-                            <constraint firstItem="yIh-34-nw7" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="zqu-3Y-B3t" secondAttribute="bottom" constant="20" id="jcm-0R-8OG"/>
+                            <constraint firstItem="yIh-34-nw7" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="zqu-3Y-B3t" secondAttribute="bottom" constant="36" id="jcm-0R-8OG"/>
                             <constraint firstItem="yIh-34-nw7" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="zqu-3Y-B3t" secondAttribute="trailing" constant="20" id="qW2-jm-Lao"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="yIh-34-nw7"/>
@@ -99,7 +93,7 @@
                     <navigationItem key="navigationItem" id="ftP-Za-ED0"/>
                     <connections>
                         <outlet property="datePicker" destination="d02-VK-UUc" id="f4Q-ac-6Dk"/>
-                        <outlet property="emojiView" destination="Bvx-VZ-ntG" id="2Ij-Ae-K3b"/>
+                        <outlet property="emojiTextField" destination="O90-RI-a4x" id="H6w-Io-36f"/>
                         <outlet property="eventTextField" destination="zUk-xf-p0x" id="gm9-PH-7Ct"/>
                         <outlet property="segmentedControl" destination="jsu-Ee-Hgj" id="oW8-oB-9C1"/>
                     </connections>
@@ -127,7 +121,4 @@
             <point key="canvasLocation" x="31.884057971014496" y="16.741071428571427"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="smiley" catalog="system" width="64" height="60"/>
-    </resources>
 </document>

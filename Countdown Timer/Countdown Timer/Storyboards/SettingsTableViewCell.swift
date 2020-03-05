@@ -7,12 +7,19 @@
 //
 
 import UIKit
-
+extension String {
+    static var defaultTimerFormat = "defaultTimerFormat"
+}
 class SettingsTableViewCell: UITableViewCell {
-
+    
+var timerModelDelegate: TimerModelDelegate?
+    var delegate: DatePickerDelegate?
+    var datePicker = UIDatePicker()
+    @IBOutlet var segmentControlOutlet: UISegmentedControl!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        updateViews()
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -20,14 +27,28 @@ class SettingsTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    func updateViews() {
+        let segmentedControl = UserDefaults.standard.integer(forKey: .defaultTimerFormat)
+        segmentControlOutlet.selectedSegmentIndex = segmentedControl
+    }
+   
 
-    @IBAction func switchTimer1(_ sender: Any) {
+    @IBAction func segmentedControl(_ sender: Any) {
+        let segmentedControl = segmentControlOutlet.selectedSegmentIndex
+        switch segmentControlOutlet.selectedSegmentIndex {
+        case 0:
+            datePicker.datePickerMode = .dateAndTime
+        case 1:
+            datePicker.datePickerMode = .countDownTimer
+        case 2:
+            datePicker.datePickerMode = .time
+        default:
+            break
+        }
+        UserDefaults.standard.set(segmentedControl , forKey: .defaultTimerFormat)
+        
     }
     
-    @IBAction func switchTimer2(_ sender: Any) {
-    }
-    
-    @IBAction func switchTimer3(_ sender: Any) {
-    }
-    
+
 }
