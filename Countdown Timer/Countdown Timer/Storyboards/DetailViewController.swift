@@ -31,19 +31,23 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         if timer == nil {
-   let defaultTimerInt = UserDefaults.standard.integer(forKey: .defaultTimerFormat)
+            let defaultTimerInt = UserDefaults.standard.integer(forKey: .defaultTimerFormat)
             let defaultTimerType = TimerType(rawValue: defaultTimerInt)
             switch defaultTimerType {
             case .date:
                 datePicker.datePickerMode = .date
+            case .time:
+                datePicker.datePickerMode = .time
+            case .both:
+                fallthrough
             default:
-                break
+                datePicker.datePickerMode = .dateAndTime
             }
         } else {
-           UserDefaults.standard.integer(forKey: .defaultTimerFormat)
+            UserDefaults.standard.integer(forKey: .defaultTimerFormat)
         }
         
-    
+        
     }
 
     @IBAction func actionButton(_ sender: Any) {
@@ -56,11 +60,11 @@ class DetailViewController: UIViewController {
         if timer == nil {
             // Create timer
             // FIXME: Real values
-            timerModelDelegate?.create(emoji: "", name: eventTextField?.text! ?? "", dateTime: datePicker.date, timeType: timerTypeForSegmentedControl() ?? .date , active: true, tag: "")
+            timerModelDelegate?.create(emoji: "", name: eventTextField?.text! ?? "", dateTime: datePicker.date, timeType: timerTypeForSegmentedControl(), active: true, tag: "")
         } else {
             // Timer exists, update it
             // FIXME: Real values
-            timerModelDelegate?.udpate(timer: timer!, emoji: "", name: eventTextField?.text! ?? "", dateTime: datePicker.date, timeType: timerTypeForSegmentedControl() ?? .date  , active: true, tag: "")
+            timerModelDelegate?.udpate(timer: timer!, emoji: "", name: eventTextField?.text! ?? "", dateTime: datePicker.date, timeType: timerTypeForSegmentedControl() , active: true, tag: "")
         }
         guard emojiTextField.text != nil else { return }
                var emojis: [String] = []
@@ -69,8 +73,8 @@ class DetailViewController: UIViewController {
                    emojis.append(emoji1)
                }
         
-        
-        dismiss(animated: true, completion: nil)
+        navigationController?.popViewController(animated: true)
+//        dismiss(animated: true, completion: nil)
     }
     
 
@@ -90,9 +94,9 @@ class DetailViewController: UIViewController {
     
         
     }
-    func timerTypeForSegmentedControl() -> TimerType? {
-        
-        return TimerType(rawValue: segmentedControl.selectedSegmentIndex)
+    func timerTypeForSegmentedControl() -> TimerType {
+        let timerType = TimerType(rawValue: segmentedControl.selectedSegmentIndex)
+        return timerType ?? .both
     }
     
 }
