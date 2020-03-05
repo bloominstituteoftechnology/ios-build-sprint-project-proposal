@@ -8,6 +8,27 @@
 
 import UIKit
 
+extension Date {
+
+    func offsetFrom(date: Date) -> String {
+
+        let dayHourMinuteSecond: Set<Calendar.Component> = [.day, .hour, .minute, .second]
+        let difference = NSCalendar.current.dateComponents(dayHourMinuteSecond, from: date, to: self)
+
+        let seconds = "\(difference.second ?? 0)s"
+        let minutes = "\(difference.minute ?? 0)m" + " " + seconds
+        let hours = "\(difference.hour ?? 0)h" + " " + minutes
+        let days = "\(difference.day ?? 0)d" + " " + hours
+
+        if let day = difference.day, day          > 0 { return days }
+        if let hour = difference.hour, hour       > 0 { return hours }
+        if let minute = difference.minute, minute > 0 { return minutes }
+        if let second = difference.second, second > 0 { return seconds }
+        return "Done"
+    }
+
+}
+
 class TimersTableViewController: UITableViewController /* TODO: UITableViewDataSource baked in? */  {
 
     var timeController = TimerController()
@@ -59,7 +80,7 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
         cancelTimer()
     }
 
-    // MARK: Timer related code
+    // MARK: - Timer related code
 
     // called each time the timer object fires
     var systemCountdownTimer: Timer?
@@ -81,6 +102,7 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
     private func timerFired(timer: Timer) {
         timerIterations += 1
         print("Timer Fired \(timerIterations)")
+        updateTableViewTimer()
     }
 
     // MARK: - Table view data source
@@ -135,6 +157,21 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
         return true
     }
     */
+
+    func updateTableViewTimer() {
+        // TODO: Very unhappy with this. What if I have more than a screenful of data?
+        var row = 0
+        for timer in timeController.timers {
+            let cell = tableView.cellForRow(at: IndexPath(row: row, section: 0)) as! TimerTableViewCell
+            
+            var displayTimer = "N/A"
+            if let dateTime = timer.dateTime {
+                displayTimer = dateTime.offsetFrom(date: Date())
+            }
+            cell.timerLabel.text = displayTimer
+            row += 1
+        }
+    }
 
     // MARK: - Navigation
 
