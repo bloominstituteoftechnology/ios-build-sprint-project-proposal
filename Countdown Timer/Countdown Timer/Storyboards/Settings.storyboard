@@ -34,7 +34,6 @@
                                                     </segments>
                                                     <connections>
                                                         <action selector="segmentSelected:" destination="iUY-xF-P1P" eventType="valueChanged" id="1Ah-Zh-0gf"/>
-                                                        <action selector="segmentSelected:" destination="k1m-ln-rpX" eventType="valueChanged" id="8xN-qh-kOe"/>
                                                         <action selector="segmentedControl:" destination="iUY-xF-P1P" eventType="valueChanged" id="FB8-pE-zWt"/>
                                                         <action selector="segmentedControl:" destination="k1m-ln-rpX" eventType="valueChanged" id="kvE-XJ-nkn"/>
                                                     </connections>

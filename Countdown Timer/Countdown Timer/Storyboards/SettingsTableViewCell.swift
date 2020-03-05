@@ -20,13 +20,18 @@ var timerModelDelegate: TimerModelDelegate?
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        updateViews()
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+    }
+    
+    func updateViews() {
+        let segmentedControl = UserDefaults.standard.bool(forKey: .defaultTimerFormat)
+        segmentControlOutlet.isSelected = segmentedControl
     }
    
 
