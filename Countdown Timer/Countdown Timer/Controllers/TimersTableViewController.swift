@@ -68,7 +68,7 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
     
     private func showAlert() {
         let alert = UIAlertController(title: "Count🔻",
-            message: "Notifications have been turned off. Please turn them on in settings.",
+            message: "Notifications have been turned off. Please turn them on in the Settings app under Notifications.",
                                       preferredStyle: .alert)
         
         let okAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
@@ -88,8 +88,8 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
         startTimer()
 
-        if false {
-            notificationButton.isEnabled = false            
+        if notificationController.notificationsEnabled {
+            navigationItem.leftBarButtonItem = nil
         } else {
             notificationButton.isEnabled = true
         }
@@ -137,8 +137,14 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
 
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "TimerCell", for: indexPath) as? TimerTableViewCell else { fatalError("TimerTableViewCell was expected" ) }
 
+        let timer = timeController.timers[indexPath.row]
+        
         // Configure the cell
-        cell.timer = timeController.timers[indexPath.row]
+        cell.timer = timer
+        
+        if let uuid = notificationController.scheduleNotification(timer: timer) {
+            timeController.notificationScheduled(timer: timer, timerUuid: uuid)
+        }
 
         return cell
     }

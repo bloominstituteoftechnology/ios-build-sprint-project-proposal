@@ -97,7 +97,15 @@ class TimerController: TimerModelDelegate  {
         saveToPersistentStore()
     }
     
-     // Delete
+    func notificationScheduled(timer t: CountdownTimer, timerUuid: String) {
+        if let index = timers.firstIndex(where: { $0 == t }) {
+            timers[index].timerUuid = timerUuid
+        }
+        
+        saveToPersistentStore()
+    }
+    
+    // Delete
      func delete(timer timerToDelete: CountdownTimer) {
          let timerMinusTimersToDelete = timers.filter { $0 != timerToDelete }
          timers = timerMinusTimersToDelete
