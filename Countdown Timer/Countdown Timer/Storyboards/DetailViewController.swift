@@ -31,9 +31,19 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         if timer == nil {
-            UserDefaults.standard.integer(forKey: .defaultTimerFormat)
+   let defaultTimerInt = UserDefaults.standard.integer(forKey: .defaultTimerFormat)
+            let defaultTimerType = TimerType(rawValue: defaultTimerInt)
+            switch defaultTimerType {
+            case .date:
+                datePicker.datePickerMode = .date
+            default:
+                break
+            }
+        } else {
+           UserDefaults.standard.integer(forKey: .defaultTimerFormat)
         }
-       
+        
+    
     }
 
     @IBAction func actionButton(_ sender: Any) {
@@ -46,11 +56,11 @@ class DetailViewController: UIViewController {
         if timer == nil {
             // Create timer
             // FIXME: Real values
-            timerModelDelegate?.create(emoji: "", name: eventTextField?.text! ?? "", dateTime: Date(), timeType: .time, active: true, tag: "")
+            timerModelDelegate?.create(emoji: "", name: eventTextField?.text! ?? "", dateTime: datePicker.date, timeType: timerTypeForSegmentedControl() ?? .date , active: true, tag: "")
         } else {
             // Timer exists, update it
             // FIXME: Real values
-            timerModelDelegate?.udpate(timer: timer!, emoji: "", name: eventTextField?.text! ?? "", dateTime: Date(), timeType: .time, active: true, tag: "")
+            timerModelDelegate?.udpate(timer: timer!, emoji: "", name: eventTextField?.text! ?? "", dateTime: datePicker.date, timeType: timerTypeForSegmentedControl() ?? .date  , active: true, tag: "")
         }
         guard emojiTextField.text != nil else { return }
                var emojis: [String] = []
@@ -66,7 +76,7 @@ class DetailViewController: UIViewController {
 
     @IBAction func segmentChanged(_ sender: Any) {
         
-    switch segmentedControl.selectedSegmentIndex{
+        switch segmentedControl.selectedSegmentIndex{
         case 0:
             datePicker.datePickerMode = .dateAndTime
         case 1:
@@ -77,7 +87,12 @@ class DetailViewController: UIViewController {
         default:
             break
         }
+    
         
+    }
+    func timerTypeForSegmentedControl() -> TimerType? {
+        
+        return TimerType(rawValue: segmentedControl.selectedSegmentIndex)
     }
     
 }
