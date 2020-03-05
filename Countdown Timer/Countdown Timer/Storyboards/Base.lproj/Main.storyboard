@@ -75,7 +75,11 @@
                                     <segue destination="Tnd-5e-rCG" kind="show" identifier="AddDetailSegue" id="eXA-Ha-wau"/>
                                 </connections>
                             </barButtonItem>
-                            <barButtonItem title="Filter" image="line.horizontal.3.decrease.circle" catalog="system" id="aph-TF-4jE"/>
+                            <barButtonItem title="Filter" image="line.horizontal.3.decrease.circle" catalog="system" id="aph-TF-4jE">
+                                <connections>
+                                    <action selector="filterButton:" destination="lgj-1w-GHL" id="yfk-1A-jMn"/>
+                                </connections>
+                            </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
