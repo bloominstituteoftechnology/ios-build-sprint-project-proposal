@@ -29,14 +29,14 @@ var timerModelDelegate: TimerModelDelegate?
     }
     
     func updateViews() {
-        let segmentedControl = UserDefaults.standard.integer(forKey: .defaultTimerFormat)
-        segmentControlOutlet.selectedSegmentIndex = segmentedControl
+        let segmentedControlIndex = UserDefaults.standard.integer(forKey: .defaultTimerFormat)
+        segmentControlOutlet.selectedSegmentIndex = segmentedControlIndex
     }
    
 
     @IBAction func segmentedControl(_ sender: Any) {
-        let segmentedControl = segmentControlOutlet.selectedSegmentIndex
-        switch segmentControlOutlet.selectedSegmentIndex {
+        let segmentedControlIndex = segmentControlOutlet.selectedSegmentIndex
+        switch segmentedControlIndex {
         case 0:
             datePicker.datePickerMode = .dateAndTime
         case 1:
@@ -46,7 +46,7 @@ var timerModelDelegate: TimerModelDelegate?
         default:
             break
         }
-        UserDefaults.standard.set(segmentedControl , forKey: .defaultTimerFormat)
+        UserDefaults.standard.set(segmentedControlIndex , forKey: .defaultTimerFormat)
         
     }
     

@@ -30,6 +30,9 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        if timer == nil {
+            UserDefaults.standard.integer(forKey: .defaultTimerFormat)
+        }
        
     }
 
