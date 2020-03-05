@@ -8,6 +8,46 @@
 
 import UIKit
 
+extension Date {
+
+    func offsetFrom(date: Date, type: TimerType) -> String {
+
+        let dayHourMinuteSecond: Set<Calendar.Component> = [.day, .hour, .minute, .second]
+        let difference = NSCalendar.current.dateComponents(dayHourMinuteSecond, from: date, to: self)
+
+        var seconds = ""
+        var minutes = ""
+        var hours = ""
+        var days = ""
+        var typeStr = ""
+
+        switch type {
+        case .both:
+            typeStr = " 📆⏰"
+            seconds = "\(difference.second ?? 0)s"
+            minutes = "\(difference.minute ?? 0)m" + " " + seconds
+            hours = "\(difference.hour ?? 0)h" + " " + minutes
+            days = "\(difference.day ?? 0)d" + " " + hours
+        case .date:
+            typeStr = " 📆"
+            days = "\(difference.day ?? 0) Days"
+        case .time:
+            typeStr = " ⏰"
+            seconds = "\(difference.second ?? 0)s"
+            minutes = "\(difference.minute ?? 0)m" + " " + seconds
+            hours = "\(difference.hour ?? 0)h" + " " + minutes
+            days = "\(difference.day ?? 0)d" + " " + hours
+        }
+
+        if let day = difference.day, day          > 0 { return days + typeStr }
+        if let hour = difference.hour, hour       > 0 { return hours + typeStr }
+        if let minute = difference.minute, minute > 0 { return minutes + typeStr }
+        if let second = difference.second, second > 0 { return seconds + typeStr }
+        return "Done"
+    }
+
+}
+
 class TimersTableViewController: UITableViewController /* TODO: UITableViewDataSource baked in? */  {
 
     var timeController = TimerController()
@@ -59,7 +99,7 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
         cancelTimer()
     }
 
-    // MARK: Timer related code
+    // MARK: - Timer related code
 
     // called each time the timer object fires
     var systemCountdownTimer: Timer?
@@ -67,7 +107,9 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
 
     private func startTimer() {
         print("Start timer")
-        systemCountdownTimer = Timer.scheduledTimer(withTimeInterval: 0.50, repeats: true, block: timerFired(timer:))
+        if systemCountdownTimer == nil {
+            systemCountdownTimer = Timer.scheduledTimer(withTimeInterval: 0.50, repeats: true, block: timerFired(timer:))
+        }
     }
     
     private func cancelTimer() {
@@ -81,6 +123,7 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
     private func timerFired(timer: Timer) {
         timerIterations += 1
         print("Timer Fired \(timerIterations)")
+        updateTableViewTimer()
     }
 
     // MARK: - Table view data source
@@ -136,6 +179,21 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
     }
     */
 
+    func updateTableViewTimer() {
+        // TODO: Very unhappy with this. What if I have more than a screenful of data?
+        var row = 0
+        for timer in timeController.timers {
+            let cell = tableView.cellForRow(at: IndexPath(row: row, section: 0)) as! TimerTableViewCell
+            
+            var displayTimer = "N/A"
+            if let dateTime = timer.dateTime {
+                displayTimer = dateTime.offsetFrom(date: Date(), type: timer.timeType)
+            }
+            cell.timerLabel.text = displayTimer
+            row += 1
+        }
+    }
+
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -159,5 +217,6 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
 
     override func viewWillAppear(_ animated: Bool) {
         tableView.reloadData()
+        startTimer()
     }
 }
