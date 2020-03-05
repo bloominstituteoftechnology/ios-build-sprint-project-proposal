@@ -86,15 +86,19 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
-        startTimer()
+        notificationControllerUx()
 
+        startTimer()
+    }
+
+    func notificationControllerUx() {
         if notificationController.notificationsEnabled {
             navigationItem.leftBarButtonItem = nil
         } else {
             notificationButton.isEnabled = true
         }
     }
-    
+
     override func viewDidDisappear(_ animated: Bool) {
         cancelTimer()
     }
@@ -222,6 +226,7 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
     }
 
     override func viewWillAppear(_ animated: Bool) {
+        notificationControllerUx()
         tableView.reloadData()
         startTimer()
     }
