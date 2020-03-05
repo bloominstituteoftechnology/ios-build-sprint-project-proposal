@@ -88,7 +88,9 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
 
     private func startTimer() {
         print("Start timer")
-        systemCountdownTimer = Timer.scheduledTimer(withTimeInterval: 0.50, repeats: true, block: timerFired(timer:))
+        if systemCountdownTimer == nil {
+            systemCountdownTimer = Timer.scheduledTimer(withTimeInterval: 0.50, repeats: true, block: timerFired(timer:))
+        }
     }
     
     private func cancelTimer() {
@@ -196,5 +198,6 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
 
     override func viewWillAppear(_ animated: Bool) {
         tableView.reloadData()
+        startTimer()
     }
 }
