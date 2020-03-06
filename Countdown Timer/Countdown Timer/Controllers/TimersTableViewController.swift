@@ -83,6 +83,11 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
             }
         }
         
+        if uniqueValues.count < 2 {
+           showAlert(msg: "Not enough tags to create a filter.")
+            return
+        }
+        
         uniqueValues.sort()
 
         // Create alert actions for each tag type
