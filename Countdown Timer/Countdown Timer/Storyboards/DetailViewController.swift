@@ -159,6 +159,8 @@ class DetailViewController: UIViewController {
                                        timerType: timerType,
                                        active: true,
                                        tag: tagTextField.text ?? "")
+            
+            
         }
         
         navigationController?.popViewController(animated: true)

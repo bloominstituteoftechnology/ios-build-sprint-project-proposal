@@ -16,12 +16,7 @@ protocol TimerModelDelegate {
 class TimerController: TimerModelDelegate  {
     
     var timers: [CountdownTimer] = []
-//var timers = [ CountdownTimer(emoji: "🎂", name: "Birthday", dateTime: nil, active: true, tag: "") ]
 
-//                       dateTime: Calendar.current.date(from: DateComponents(calendar:          Calendar.current,
-//                                                                            year: 2000,
-//                                                                            month: 1,
-    
     // This initilizer is treated as the viewDidLoad of the model controller.
     init() {
         loadFromPersistentStore()
