@@ -67,9 +67,28 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
     
     @IBAction func filterButton(_ sender: Any) {
         // Grab a list of all the filter types.
+        var uniqueValues: [String] = []
+        for t in timeController.activeTimers {
+            if !uniqueValues.contains(t.tag) {
+                uniqueValues += [t.tag]
+            }
+        }
+
         // Create alert actions for each type
+        let alert = UIAlertController(title: .appTitle,
+                                      message: "Select Tag to Filter On",
+                                      preferredStyle: .alert)
+
+        for u in uniqueValues {
+            let itemToFilter = UIAlertAction(title: u, style: .default, handler: nil)
+            
+            alert.addAction(itemToFilter)
+        }
+        
         // Present alert to uesr to select type.
-        // Filter on type. 
+        present(alert, animated: true, completion: nil)
+
+        // Filter on type.
     }
     
     private func showAlert(msg text: String ) {
