@@ -38,8 +38,6 @@ class DetailViewController: UIViewController {
         emojiTextField?.text = timer.emoji
         setSegmentControlAndDatePicker(timerType: timer.timerType)
         datePicker?.date = timer.dateTime ?? Date()
-        let segmentedControlIndex = UserDefaults.standard.integer(forKey: .defaultTimerFormat)
-        segmentedControl.selectedSegmentIndex = segmentedControlIndex
         
     }
     
@@ -57,6 +55,7 @@ class DetailViewController: UIViewController {
     func setSegmentControlAndDatePicker(timerType: TimerType? = nil) {
           
         let defaultTimerInt = UserDefaults.standard.integer(forKey: .defaultTimerFormat)
+        segmentedControl.selectedSegmentIndex = defaultTimerInt
         var timerTypeToUse = TimerType(rawValue: defaultTimerInt)
 
         if let timerType = timerType {
@@ -80,7 +79,7 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        segmentChanged(UISegmentedControl())
+
         updateViews()
     }
     
