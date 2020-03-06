@@ -258,7 +258,7 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
         // TODO: Very unhappy with this. What if I have more than a screenful of data?
         var row = 0
 
-        var timersToUpdate = timerController.timers
+        var timersToUpdate = timerController.activeTimers
         if filterEnabled {
             timersToUpdate = timerController.filteredTimers
         }
