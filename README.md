@@ -14,7 +14,7 @@
 This app is geared towards all motorocycle travelers who are conscious about preparing in advance to avoid dirt roads.
     
 5. Github code repository: https://github.com/chadarutherford/
-6. Github Project/Trello Board: 
+6. Github Project/Trello Board: https://trello.com/b/4dWM3WXP/cruise-along
 
 ## Part 1: Brainstorming
 
