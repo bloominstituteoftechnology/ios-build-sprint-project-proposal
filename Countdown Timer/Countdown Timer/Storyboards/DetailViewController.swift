@@ -41,8 +41,9 @@ class DetailViewController: UIViewController {
         // These lines won't execute it timer == nil
         eventTextField?.text = timer.name
         emojiTextField?.text = timer.emoji
+        tagTextField.text = timer.tag
         datePicker?.date = timer.dateTime ?? Date()
-
+        
     }
     
     //MARK: -Alert for Emoji
