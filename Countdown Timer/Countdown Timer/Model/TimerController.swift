@@ -84,11 +84,6 @@ class TimerController: TimerModelDelegate  {
     func update(timer t: CountdownTimer, emoji: String, name: String, dateTime: Date, timerType: TimerType, active: Bool, tag: String) {
         guard let index = findTimerIndex(t) else { fatalError("Timer Object Not Found") }
         
-        if timers[index] == t {
-            // This is a nop. User didn't make any changes and clicked up. Just exit.
-            return
-        }
-        
         timers[index].emoji = emoji
         timers[index].name = name
         timers[index].dateTime = dateTime
@@ -96,6 +91,11 @@ class TimerController: TimerModelDelegate  {
         timers[index].active = active
         timers[index].tag = tag
 
+        if timers[index] /* Now "updated" */ == t /* The Prior State */ {
+            // This is a nop. User didn't make any changes and clicked up. Just exit.
+            return
+        }
+        
         saveToPersistentStore()
 
         if let uuid = notificationController.scheduleNotification(timer: timers[index]) {

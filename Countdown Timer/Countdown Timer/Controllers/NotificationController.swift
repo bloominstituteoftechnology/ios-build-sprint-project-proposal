@@ -53,8 +53,8 @@ class NotificationController {
         let center = UNUserNotificationCenter.current()
         
         let content = UNMutableNotificationContent()
-        content.title = "\(timer.emoji) \(timer.name)"
-        content.body = "\(timer.emoji) \(timer.name) is done!"
+        content.title = "Count🔻"
+        content.body = "You've been counting 🔻 to \(timer.emoji) \(timer.name)\nGood News! It's done!"
         content.categoryIdentifier = "alarm"
         content.userInfo = ["customData": "fizzbuzz"]
         content.sound = UNNotificationSound.default
