@@ -18,6 +18,7 @@ class DetailViewController: UIViewController {
     
     @IBOutlet weak var actionOutlet: UIButton!
     
+    @IBOutlet weak var tagTextField: UITextField!
     
     @IBOutlet weak var emojiTextField: UITextField!
     
@@ -41,6 +42,7 @@ class DetailViewController: UIViewController {
         eventTextField?.text = timer.name
         emojiTextField?.text = timer.emoji
         datePicker?.date = timer.dateTime ?? Date()
+
     }
     
     //MARK: -Alert for Emoji
@@ -57,6 +59,7 @@ class DetailViewController: UIViewController {
     func setSegmentControlAndDatePicker(timerType: TimerType? = nil) {
           
         let defaultTimerInt = UserDefaults.standard.integer(forKey: .defaultTimerFormat)
+        segmentedControl.selectedSegmentIndex = defaultTimerInt
         var timerTypeToUse = TimerType(rawValue: defaultTimerInt)
 
         if let timerType = timerType {
@@ -80,6 +83,7 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
         updateViews()
     }
     
@@ -132,7 +136,7 @@ class DetailViewController: UIViewController {
                                        dateTime: timerDate,
                                        timeType: timerType,
                                        active: true,
-                                       tag: "")
+                                       tag: tagTextField.text ?? "")
         } else {
             // Timer exists, update it
             timerModelDelegate?.udpate(timer: timer!,
@@ -141,7 +145,7 @@ class DetailViewController: UIViewController {
                                        dateTime: timerDate,
                                        timeType: timerType,
                                        active: true,
-                                       tag: "")
+                                       tag: tagTextField.text ?? "")
         }
         
         navigationController?.popViewController(animated: true)
