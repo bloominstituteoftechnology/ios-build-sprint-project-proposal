@@ -242,6 +242,13 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
         }    
     }
 
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        if filterEnabled {
+            return "\(timerController.filter.capitalized) Filter Applied"
+        }
+        
+        return ""
+    }
     /*
     // Override to support rearranging the table view.
     override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
