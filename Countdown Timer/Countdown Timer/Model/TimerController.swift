@@ -10,7 +10,7 @@ import Foundation
 
 protocol TimerModelDelegate {
     func create(emoji: String, name: String, dateTime: Date, timerType: TimerType, active: Bool, tag: String)
-    func udpate(timer t: CountdownTimer, emoji: String, name: String, dateTime: Date, timerType: TimerType, active: Bool, tag: String)
+    func update(timer t: CountdownTimer, emoji: String, name: String, dateTime: Date, timerType: TimerType, active: Bool, tag: String)
 }
 
 class TimerController: TimerModelDelegate  {
@@ -86,7 +86,7 @@ class TimerController: TimerModelDelegate  {
     // Read. Not the model
     
     // Update
-    func udpate(timer t: CountdownTimer, emoji: String, name: String, dateTime: Date, timerType: TimerType, active: Bool, tag: String) {
+    func update(timer t: CountdownTimer, emoji: String, name: String, dateTime: Date, timerType: TimerType, active: Bool, tag: String) {
         guard let index = findTimerIndex(t) else { fatalError("Timer Object Not Found") }
         
         if timers[index] == t {

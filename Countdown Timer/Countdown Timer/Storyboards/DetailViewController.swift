@@ -152,7 +152,7 @@ class DetailViewController: UIViewController {
                                        tag: tagTextField.text ?? "")
         } else {
             // Timer exists, update it
-            timerModelDelegate?.udpate(timer: timer!,
+            timerModelDelegate?.update(timer: timer!,
                                        emoji: emojiTextField.text ?? "",
                                        name: eventTextField?.text! ?? "",
                                        dateTime: timerDate,
