@@ -86,6 +86,11 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // So textFieldShouldReturn will fire
+        emojiTextField.delegate = self
+        eventTextField.delegate = self
+        tagTextField.delegate = self
+
         var event = "Edit Timer"
         var button = "Update Timer"
 
@@ -200,4 +205,26 @@ class DetailViewController: UIViewController {
 //    }
 //}
 
+extension DetailViewController: UITextFieldDelegate {
+    // Called on 'Return' pressed. Return false to ignore.
+    // The return true part of this only tells the text field whether or not it is allowed to return.
+    // You have to manually tell the text field to dismiss the keyboard (or what ever its first responder is)
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        let empty = (textField.text?.count == 0)
+        
+        switch textField {
+        case emojiTextField:
+            if !empty { eventTextField.becomeFirstResponder() }
+        case eventTextField:
+            if !empty { tagTextField.becomeFirstResponder() }
+        case tagTextField:
+            if empty { break } // Stay here until something is entered.
+            fallthrough
+        default:
+            // Loose the keyboard
+            textField.resignFirstResponder()
+        }
+        return true
+    }
+}
 
