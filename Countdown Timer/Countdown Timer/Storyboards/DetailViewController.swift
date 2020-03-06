@@ -86,6 +86,17 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        var event = "Edit Timer"
+        var button = "Update Timer"
+
+        if timer == nil {
+            event = "Add Timer"
+            button = "Add Timer"
+        }
+
+        eventLabel.text = event
+        actionOutlet.setTitle(button, for: .normal)
+
         updateViews()
     }
     
