@@ -74,7 +74,8 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
     var filterEnabled = false
     
     @IBAction func filterButton(_ sender: Any) {
-        // Grab a list of all the filter types.
+        // Grab a list of all the tag types
+        // Crudely going to force them all lowercase to avoid duplicates based on letter case
         var uniqueValues: [String] = []
         for t in timerController.activeTimers {
             if !uniqueValues.contains(t.tag.lowercased()) {
@@ -82,7 +83,7 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
             }
         }
 
-        // Create alert actions for each type
+        // Create alert actions for each tag type
         let alert = UIAlertController(title: .appTitle,
                                       message: "Select Tag to Filter On",
                                       preferredStyle: .alert)
@@ -98,7 +99,7 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
             alert.addAction(itemToFilter)
         }
 
-        // Cancel Option
+        // Give user option Cancel filter operation
         let itemToFilter = UIAlertAction(title: "Cancel", style: .cancel) { (action:UIAlertAction!) in
             self.filterEnabled = false
             self.tableView.reloadData()
@@ -110,11 +111,13 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
         present(alert, animated: true, completion: nil)
     }
     
+    // Invoked when user clicks on button in alert dialog
     func filterFunc() {
         filterEnabled = true
         if filter == .noTag {
             filter = ""
         }
+        // Inform timerController what to filter on. 
         timerController.filter = filter
         tableView.reloadData()
     }
