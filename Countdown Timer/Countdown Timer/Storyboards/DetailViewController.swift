@@ -32,15 +32,14 @@ class DetailViewController: UIViewController {
     
     // properties for days, minutes, seconds.
     func updateViews() {
+        // We did this regardless so that the default can change during add.
+        setSegmentControlAndDatePicker(timerType: timer?.timerType)
+        
         guard let timer = timer else { return }
         
         eventTextField?.text = timer.name
         emojiTextField?.text = timer.emoji
-        setSegmentControlAndDatePicker(timerType: timer.timerType)
         datePicker?.date = timer.dateTime ?? Date()
-        let segmentedControlIndex = UserDefaults.standard.integer(forKey: .defaultTimerFormat)
-        segmentedControl.selectedSegmentIndex = segmentedControlIndex
-        
     }
     
     //MARK: -Alert for Emoji
@@ -80,7 +79,6 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        segmentChanged(UISegmentedControl())
         updateViews()
     }
     
