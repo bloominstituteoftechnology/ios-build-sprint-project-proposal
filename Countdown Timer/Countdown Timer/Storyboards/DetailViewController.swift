@@ -115,14 +115,15 @@ class DetailViewController: UIViewController {
             default:
                 break
             }
-        
 
         // .date returns the new date with the current time (GMT)
-        // I'm confused about what .time returns.
-        //  - I set time to 1h 0m
-        //  - It's currently 2020-03-05 18:45 +0000
-        //  - I got back 2020-03-05 09:00:00 +0000
-        let timerDate = datePicker.date
+        var timerDate = datePicker.date
+        if timerType == .time {
+            // For time, you need to read countDownDuration instead
+            let seconds = datePicker.countDownDuration
+            print("seconds = \(seconds)")
+            timerDate = Date().addingTimeInterval(seconds)
+        }
         print(timerDate)
 
         if timer == nil {
