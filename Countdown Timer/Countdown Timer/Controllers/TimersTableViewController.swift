@@ -69,8 +69,8 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
         // Grab a list of all the filter types.
         var uniqueValues: [String] = []
         for t in timeController.activeTimers {
-            if !uniqueValues.contains(t.tag) {
-                uniqueValues += [t.tag]
+            if !uniqueValues.contains(t.tag.lowercased()) {
+                uniqueValues += [t.tag.lowercased()]
             }
         }
 
@@ -80,7 +80,9 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
                                       preferredStyle: .alert)
 
         for u in uniqueValues {
-            let itemToFilter = UIAlertAction(title: u, style: .default, handler: nil)
+            var tag = u
+            if u == "" { tag = "no tag" }
+            let itemToFilter = UIAlertAction(title: tag, style: .default, handler: nil)
             
             alert.addAction(itemToFilter)
         }
