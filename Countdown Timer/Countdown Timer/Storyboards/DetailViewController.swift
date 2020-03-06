@@ -14,6 +14,10 @@ class DetailViewController: UIViewController {
     var timerModelDelegate: TimerModelDelegate?
    
    
+    @IBOutlet weak var eventLabel: UILabel!
+    
+    @IBOutlet weak var actionOutlet: UIButton!
+    
     
     @IBOutlet weak var emojiTextField: UITextField!
     
@@ -34,6 +38,18 @@ class DetailViewController: UIViewController {
         emojiTextField?.text = timer.emoji
         setSegmentControlAndDatePicker(timerType: timer.timerType)
         datePicker?.date = timer.dateTime ?? Date()
+        
+    }
+    
+    //MARK: -Alert for Emoji
+    private func showAlert() {
+        let alert = UIAlertController(title: "Add Emoji", message: "Enter an emoji for your event", preferredStyle: .alert)
+        
+        let okAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+        
+        alert.addAction(okAction)
+        
+        present(alert, animated: true, completion: nil)
     }
 
     func setSegmentControlAndDatePicker(timerType: TimerType? = nil) {
@@ -65,9 +81,22 @@ class DetailViewController: UIViewController {
 
         updateViews()
     }
-
+    
+    
+//    func updateEmojiTextField() {
+//          if emojiTextField.text == nil {
+//              showAlert()
+//          }
+//      }
+  
+    
     @IBAction func actionButton(_ sender: Any) {
+     
+       
         guard eventTextField.text != nil else { return }
+        guard let emojiText = emojiTextField.text, !emojiText.isEmpty else {
+            showAlert()
+            return }
         var events: [String] = []
         if let event1 = eventTextField.text,
             !event1.isEmpty {
@@ -85,6 +114,7 @@ class DetailViewController: UIViewController {
             default:
                 break
             }
+        
 
         // .date returns the new date with the current time (GMT)
         // I'm confused about what .time returns.

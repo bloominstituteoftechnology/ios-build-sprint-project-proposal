@@ -92,8 +92,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="ftP-Za-ED0"/>
                     <connections>
+                        <outlet property="actionOutlet" destination="b7y-c3-Nd9" id="nOc-ho-wqY"/>
                         <outlet property="datePicker" destination="d02-VK-UUc" id="f4Q-ac-6Dk"/>
                         <outlet property="emojiTextField" destination="O90-RI-a4x" id="H6w-Io-36f"/>
+                        <outlet property="eventLabel" destination="Ext-eq-JXK" id="3b6-Lo-R28"/>
                         <outlet property="eventTextField" destination="zUk-xf-p0x" id="gm9-PH-7Ct"/>
                         <outlet property="segmentedControl" destination="jsu-Ee-Hgj" id="oW8-oB-9C1"/>
                     </connections>
