@@ -80,6 +80,8 @@ class NotificationController {
         let center = UNUserNotificationCenter.current()
         
         center.removePendingNotificationRequests(withIdentifiers: [uuid])
+        
+        timerController.notificationCanceled(timer: timer)
     }
 
     func cancelAllNotifications() {

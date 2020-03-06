@@ -95,17 +95,19 @@ class TimerController: TimerModelDelegate  {
         saveToPersistentStore()
     }
     
-    func toogleActive(timer t: CountdownTimer) {
+    func notificationScheduled(timer t: CountdownTimer, timerUuid: String) {
         if let index = timers.firstIndex(where: { $0 == t }) {
-            timers[index].active.toggle()
+            timers[index].timerUuid = timerUuid
+            timers[index].active = true
         }
         
         saveToPersistentStore()
     }
-    
-    func notificationScheduled(timer t: CountdownTimer, timerUuid: String) {
+
+    func notificationCanceled(timer t: CountdownTimer) {
         if let index = timers.firstIndex(where: { $0 == t }) {
-            timers[index].timerUuid = timerUuid
+            timers[index].timerUuid = ""
+            timers[index].active = false
         }
         
         saveToPersistentStore()

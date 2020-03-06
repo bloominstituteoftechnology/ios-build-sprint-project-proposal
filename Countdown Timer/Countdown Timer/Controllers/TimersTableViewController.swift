@@ -291,7 +291,8 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
             cell.timerLabel.text = displayTimer
 
             if displayTimer == .finishedMsg, timer.active == true {
-                timerController.toogleActive(timer: timer)
+                // Calling cancel will set timer.active to false
+                notificationController.cancelNotification(timer: timer)
                 notificationController.beep()
                 showAlert(msg: "You've been counting 🔻 to \(timer.emoji) \(timer.name)\nGood News! It's done!\nTimer will be moved to History.")
             }
