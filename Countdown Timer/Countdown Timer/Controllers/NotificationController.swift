@@ -8,6 +8,7 @@
 
 import Foundation
 import UserNotifications
+import AudioToolbox
 
 extension String {
     static let notificationsEnabledKey = "notificationsEnabled"
@@ -86,5 +87,11 @@ class NotificationController {
         let center = UNUserNotificationCenter.current()
         
         center.removeAllPendingNotificationRequests()
+    }
+
+    // MARK: - Sound 🔊
+    func beep() {
+        // Pick a sound: http://iphonedevwiki.net/index.php/AudioServices
+        AudioServicesPlaySystemSound(1005);
     }
 }
