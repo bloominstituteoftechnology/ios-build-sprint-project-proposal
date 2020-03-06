@@ -38,7 +38,8 @@ class DetailViewController: UIViewController {
         emojiTextField?.text = timer.emoji
         setSegmentControlAndDatePicker(timerType: timer.timerType)
         datePicker?.date = timer.dateTime ?? Date()
-        
+        let segmentedControlIndex = UserDefaults.standard.integer(forKey: .defaultTimerFormat)
+        segmentedControl.selectedSegmentIndex = segmentedControlIndex
         
     }
     
@@ -93,8 +94,6 @@ class DetailViewController: UIViewController {
     
     @IBAction func actionButton(_ sender: Any) {
          
-
-     
         guard eventTextField.text != nil else { return }
         guard let emojiText = emojiTextField.text, !emojiText.isEmpty else {
             showAlert()
