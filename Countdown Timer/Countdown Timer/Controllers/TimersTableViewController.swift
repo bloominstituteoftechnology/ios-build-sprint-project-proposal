@@ -98,7 +98,15 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
             
             alert.addAction(itemToFilter)
         }
+
+        // Cancel Option
+        let itemToFilter = UIAlertAction(title: "Cancel", style: .cancel) { (action:UIAlertAction!) in
+            self.filterEnabled = false
+            self.tableView.reloadData()
+        }
         
+        alert.addAction(itemToFilter)
+
         // Present alert to uesr to select type.
         present(alert, animated: true, completion: nil)
 
