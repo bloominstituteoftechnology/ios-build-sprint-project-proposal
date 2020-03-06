@@ -32,11 +32,12 @@ class DetailViewController: UIViewController {
     
     // properties for days, minutes, seconds.
     func updateViews() {
-        // We did this regardless so that the default can change during add.
+        // We do this regardless so that the default can change during add.
         setSegmentControlAndDatePicker(timerType: timer?.timerType)
         
         guard let timer = timer else { return }
         
+        // These lines won't execute it timer == nil
         eventTextField?.text = timer.name
         emojiTextField?.text = timer.emoji
         datePicker?.date = timer.dateTime ?? Date()
