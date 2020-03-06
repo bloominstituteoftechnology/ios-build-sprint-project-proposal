@@ -147,7 +147,7 @@ class DetailViewController: UIViewController {
             timerModelDelegate?.create(emoji: emojiTextField.text ?? "",
                                        name: eventTextField?.text! ?? "",
                                        dateTime: timerDate,
-                                       timeType: timerType,
+                                       timerType: timerType,
                                        active: true,
                                        tag: tagTextField.text ?? "")
         } else {
@@ -156,7 +156,7 @@ class DetailViewController: UIViewController {
                                        emoji: emojiTextField.text ?? "",
                                        name: eventTextField?.text! ?? "",
                                        dateTime: timerDate,
-                                       timeType: timerType,
+                                       timerType: timerType,
                                        active: true,
                                        tag: tagTextField.text ?? "")
         }

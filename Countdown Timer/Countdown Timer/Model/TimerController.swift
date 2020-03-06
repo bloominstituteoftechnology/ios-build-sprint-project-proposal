@@ -9,8 +9,8 @@
 import Foundation
 
 protocol TimerModelDelegate {
-    func create(emoji: String, name: String, dateTime: Date, timeType: TimerType, active: Bool, tag: String)
-    func udpate(timer t: CountdownTimer, emoji: String, name: String, dateTime: Date, timeType: TimerType, active: Bool, tag: String)
+    func create(emoji: String, name: String, dateTime: Date, timerType: TimerType, active: Bool, tag: String)
+    func udpate(timer t: CountdownTimer, emoji: String, name: String, dateTime: Date, timerType: TimerType, active: Bool, tag: String)
 }
 
 class TimerController: TimerModelDelegate  {
@@ -61,13 +61,14 @@ class TimerController: TimerModelDelegate  {
     func create(emoji: String,
                 name: String,
                 dateTime: Date,
-                timeType: TimerType = .time,
+                timerType: TimerType = .time,
                 active: Bool = true,
                 tag: String = "") {
         
         let timer = CountdownTimer(emoji: emoji,
                                    name: name,
                                    dateTime: dateTime,
+                                   timerType: timerType,
                                    active: active,
                                    tag: tag)
         
@@ -81,13 +82,13 @@ class TimerController: TimerModelDelegate  {
     // Read. Not the model
     
     // Update
-    func udpate(timer t: CountdownTimer, emoji: String, name: String, dateTime: Date, timeType: TimerType, active: Bool, tag: String) {
+    func udpate(timer t: CountdownTimer, emoji: String, name: String, dateTime: Date, timerType: TimerType, active: Bool, tag: String) {
         guard let index = findTimerIndex(t) else { fatalError("Timer Object Not Found") }
         
         timers[index].emoji = emoji
         timers[index].name = name
         timers[index].dateTime = dateTime
-        timers[index].timerType = timeType
+        timers[index].timerType = timerType
         timers[index].active = active
         timers[index].tag = tag
 
