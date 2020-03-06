@@ -82,6 +82,8 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
                 uniqueValues += [t.tag.lowercased()]
             }
         }
+        
+        uniqueValues.sort()
 
         // Create alert actions for each tag type
         let alert = UIAlertController(title: .appTitle,
