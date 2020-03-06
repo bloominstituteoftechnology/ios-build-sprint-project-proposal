@@ -130,7 +130,9 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
                                       message: text,
                                       preferredStyle: .alert)
         
-        let okAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+        let okAction = UIAlertAction(title: "OK", style: .cancel) { (action:UIAlertAction!) in
+            self.tableView.reloadData()
+        }
         
         alert.addAction(okAction)
         
@@ -286,7 +288,7 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
             if displayTimer == .finishedMsg, timer.active == true {
                 timerController.toogleActive(timer: timer)
                 notificationController.beep()
-                showAlert(msg: "You've been counting 🔻 to \(timer.emoji) \(timer.name)\nGood News! It'd done!")
+                showAlert(msg: "You've been counting 🔻 to \(timer.emoji) \(timer.name)\nGood News! It's done!\nTimer will be moved to History.")
             }
             row += 1
         }
