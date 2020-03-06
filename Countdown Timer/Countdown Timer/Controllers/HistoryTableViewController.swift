@@ -85,4 +85,7 @@ class HistoryTableViewController: UITableViewController {
     }
     */
 
+    override func viewWillAppear(_ animated: Bool) {
+        tableView.reloadData()
+    }
 }
