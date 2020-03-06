@@ -53,9 +53,10 @@ extension String {
     static var appTitle = "Count🔻"
 }
 
+var timeController = TimerController()
+
 class TimersTableViewController: UITableViewController /* TODO: UITableViewDataSource baked in? */  {
 
-    var timeController = TimerController()
     var notificationController = NotificationController()
     
     @IBOutlet weak var notificationButton: UIBarButtonItem!
