@@ -6,7 +6,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--History-->
+        <!--Count🔻 History-->
         <scene sceneID="y2M-DB-nxp">
             <objects>
                 <tableViewController id="QrB-pg-XKF" customClass="HistoryTableViewController" customModule="Countdown_Timer" customModuleProvider="target" sceneMemberID="viewController">
@@ -15,13 +15,50 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="LUi-nz-AyR">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TimerCell" id="LUi-nz-AyR" customClass="HistoryTableViewCell" customModule="Countdown_Timer" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LUi-nz-AyR" id="TmW-1m-Bmb">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Timer Name Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ztm-mQ-YzX">
+                                            <rect key="frame" x="61" y="7" width="140" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Timer Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CGz-4q-Ayn">
+                                            <rect key="frame" x="304" y="11" width="90" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aV5-tk-Cgg">
+                                            <rect key="frame" x="61" y="27" width="33" height="16"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                            <color key="textColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="⏱" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zMP-ah-NPr">
+                                            <rect key="frame" x="20" y="7" width="27" height="29"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="aV5-tk-Cgg" firstAttribute="leading" secondItem="zMP-ah-NPr" secondAttribute="trailing" constant="8" id="DSQ-an-I9f"/>
+                                        <constraint firstItem="Ztm-mQ-YzX" firstAttribute="leading" secondItem="zMP-ah-NPr" secondAttribute="trailing" constant="8" id="L4f-Zh-Ohz"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="emjoiLabel" destination="zMP-ah-NPr" id="Dvh-Zv-Yqy"/>
+                                    <outlet property="tagLabel" destination="aV5-tk-Cgg" id="by7-CU-ri8"/>
+                                    <outlet property="timerLabel" destination="CGz-4q-Ayn" id="4dg-Kz-uhj"/>
+                                    <outlet property="timerNameLabel" destination="Ztm-mQ-YzX" id="yh8-lg-OXn"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -29,8 +66,8 @@
                             <outlet property="delegate" destination="QrB-pg-XKF" id="Eca-3C-16c"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="History" image="backward.fill" catalog="system" id="6u6-1I-Z96"/>
-                    <navigationItem key="navigationItem" id="ayW-C7-2ds"/>
+                    <tabBarItem key="tabBarItem" title="History" image="archivebox" catalog="system" id="6u6-1I-Z96"/>
+                    <navigationItem key="navigationItem" title="Count🔻 History" id="ayW-C7-2ds"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q99-Xc-ka9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -57,6 +94,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="backward.fill" catalog="system" width="64" height="38"/>
+        <image name="archivebox" catalog="system" width="64" height="52"/>
     </resources>
 </document>

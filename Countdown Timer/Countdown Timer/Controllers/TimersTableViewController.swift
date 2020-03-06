@@ -54,10 +54,11 @@ extension String {
     static var noTag = "no tag"
 }
 
+var timerController = TimerController()
+
 class TimersTableViewController: UITableViewController /* TODO: UITableViewDataSource baked in? */  {
 
     var notificationController = NotificationController()
-    var timerController = TimerController()
 
     @IBOutlet weak var notificationButton: UIBarButtonItem!
     
@@ -92,7 +93,7 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
             if u == "" { tag = .noTag }
             let itemToFilter = UIAlertAction(title: tag, style: .default) { (action:UIAlertAction!) in
                 //print("\(tag) button tapped")
-                self.timerController.filter = tag
+                timerController.filter = tag
                 self.filterEnabled = true
             }
             

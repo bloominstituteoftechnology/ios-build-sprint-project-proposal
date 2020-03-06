@@ -22,25 +22,22 @@ class HistoryTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
-
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+        let result = timerController.completedTimers.count
+        return result
     }
 
-    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
-        // Configure the cell...
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "TimerCell", for: indexPath) as? HistoryTableViewCell else { fatalError("HistoryTableViewCell was expected" ) }
 
+        let timer = timerController.completedTimers[indexPath.row]
+        
+        // Configure the cell
+        cell.timer = timer
+        
         return cell
     }
-    */
 
     /*
     // Override to support conditional editing of the table view.
@@ -50,17 +47,18 @@ class HistoryTableViewController: UITableViewController {
     }
     */
 
-    /*
     // Override to support editing the table view.
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             // Delete the row from the data source
+            let timerToBeDeleted = timerController.completedTimers[indexPath.row]
+            timerController.delete(timer: timerToBeDeleted)
+
             tableView.deleteRows(at: [indexPath], with: .fade)
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
         }    
     }
-    */
 
     /*
     // Override to support rearranging the table view.

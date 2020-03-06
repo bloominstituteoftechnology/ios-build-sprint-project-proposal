@@ -24,6 +24,7 @@
 		92DF843C240DB89B00C1C1C0 /* TimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DF843B240DB89B00C1C1C0 /* TimerController.swift */; };
 		92DF843F240EE8CF00C1C1C0 /* TimerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DF843E240EE8CF00C1C1C0 /* TimerTableViewCell.swift */; };
 		92DF8441241074DB00C1C1C0 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DF8440241074DB00C1C1C0 /* NotificationController.swift */; };
+		92DF844324123D0400C1C1C0 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DF844224123D0400C1C1C0 /* HistoryTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		92DF843B240DB89B00C1C1C0 /* TimerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerController.swift; sourceTree = "<group>"; };
 		92DF843E240EE8CF00C1C1C0 /* TimerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTableViewCell.swift; sourceTree = "<group>"; };
 		92DF8440241074DB00C1C1C0 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		92DF844224123D0400C1C1C0 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				3FBD52F6240F1A33007B5A3A /* SettingsTableViewController.swift */,
 				92DF8437240DA51400C1C1C0 /* TimersTableViewController.swift */,
 				92DF843E240EE8CF00C1C1C0 /* TimerTableViewCell.swift */,
+				92DF844224123D0400C1C1C0 /* HistoryTableViewCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				92DF8441241074DB00C1C1C0 /* NotificationController.swift in Sources */,
 				92DF843A240DB87500C1C1C0 /* Timer.swift in Sources */,
 				92DF843C240DB89B00C1C1C0 /* TimerController.swift in Sources */,
+				92DF844324123D0400C1C1C0 /* HistoryTableViewCell.swift in Sources */,
 				92DF843F240EE8CF00C1C1C0 /* TimerTableViewCell.swift in Sources */,
 				9230A7372409EFA9003256E6 /* SceneDelegate.swift in Sources */,
 				3FD8D139240DCD1C00A628C5 /* DetailViewController.swift in Sources */,
