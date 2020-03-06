@@ -43,9 +43,14 @@ extension Date {
         if let hour = difference.hour, hour       > 0 { return hours + typeStr }
         if let minute = difference.minute, minute > 0 { return minutes + typeStr }
         if let second = difference.second, second > 0 { return seconds + typeStr }
-        return "Done"
+        return .finishedMsg
     }
 
+}
+
+extension String {
+    static var finishedMsg = "Done"
+    static var appTitle = "Count🔻"
 }
 
 class TimersTableViewController: UITableViewController /* TODO: UITableViewDataSource baked in? */  {
@@ -56,7 +61,7 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
     @IBOutlet weak var notificationButton: UIBarButtonItem!
     
     @IBAction func notificationButtonPress(_ sender: Any) {
-        showAlert()
+        showAlert(msg: "Notifications have been turned off. Please turn them on in the Settings app under Notifications.")
     }
     
     @IBAction func filterButton(_ sender: Any) {
@@ -66,9 +71,9 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
         // Filter on type. 
     }
     
-    private func showAlert() {
-        let alert = UIAlertController(title: "Count🔻",
-            message: "Notifications have been turned off. Please turn them on in the Settings app under Notifications.",
+    private func showAlert(msg text: String ) {
+        let alert = UIAlertController(title: .appTitle,
+                                      message: text,
                                       preferredStyle: .alert)
         
         let okAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
@@ -133,7 +138,8 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
     // MARK: - Table view data source
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        let result = timeController.activeTimers.count
+// FIXME:         let result = timeController.activeTimers.count
+        let result = timeController.timers.count
         return result
     }
 
@@ -199,7 +205,14 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
             if let dateTime = timer.dateTime {
                 displayTimer = dateTime.offsetFrom(date: Date(), type: timer.timerType)
             }
+            
             cell.timerLabel.text = displayTimer
+
+            if displayTimer == .finishedMsg, timer.active == true {
+                timeController.toogleActive(timer: timer)
+                notificationController.beep()
+                showAlert(msg: "You've been counting 🔻 to \(timer.emoji) \(timer.name)\nGood News! It'd done!")
+            }
             row += 1
         }
     }

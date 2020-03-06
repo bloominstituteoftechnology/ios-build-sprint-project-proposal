@@ -28,7 +28,7 @@ class TimerTableViewCell: UITableViewCell {
         
         if timer.active {
             // FIXME: Real value
-            timerLabel.text = "Running"
+            timerLabel.text = "🏃🏿‍♀️🏃🏿‍♂️"
         } else {
             timerLabel.text = "Not active"
         }
