@@ -29,7 +29,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timer Name Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fK8-b1-Jtt">
-                                            <rect key="frame" x="55" y="11.5" width="140" height="21"/>
+                                            <rect key="frame" x="55" y="7" width="140" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -40,19 +40,20 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2lK-QO-dtR">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2lK-QO-dtR">
                                             <rect key="frame" x="55" y="27" width="33" height="16"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
                                             <color key="textColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstItem="fK8-b1-Jtt" firstAttribute="top" secondItem="uNw-jQ-CcB" secondAttribute="top" constant="7" id="Bzh-oN-2Ua"/>
                                         <constraint firstItem="POi-bO-K11" firstAttribute="leading" secondItem="uNw-jQ-CcB" secondAttribute="leading" constant="20" id="Ets-55-PKl"/>
                                         <constraint firstItem="tns-Gk-rcG" firstAttribute="centerY" secondItem="uNw-jQ-CcB" secondAttribute="centerY" id="coD-GN-DUX"/>
                                         <constraint firstItem="tns-Gk-rcG" firstAttribute="trailing" secondItem="uNw-jQ-CcB" secondAttribute="trailingMargin" id="eDC-4A-i44"/>
-                                        <constraint firstItem="fK8-b1-Jtt" firstAttribute="centerY" secondItem="uNw-jQ-CcB" secondAttribute="centerY" id="skn-iq-V68"/>
+                                        <constraint firstItem="2lK-QO-dtR" firstAttribute="leading" secondItem="POi-bO-K11" secondAttribute="trailing" constant="8" id="grD-ci-PiN"/>
+                                        <constraint firstAttribute="bottom" secondItem="2lK-QO-dtR" secondAttribute="bottom" constant="0.5" id="nB0-Vi-hT5"/>
                                         <constraint firstItem="fK8-b1-Jtt" firstAttribute="leading" secondItem="POi-bO-K11" secondAttribute="trailing" constant="8" id="uTx-JM-TvO"/>
                                         <constraint firstItem="POi-bO-K11" firstAttribute="centerY" secondItem="uNw-jQ-CcB" secondAttribute="centerY" id="vmP-Vm-EWT"/>
                                     </constraints>
