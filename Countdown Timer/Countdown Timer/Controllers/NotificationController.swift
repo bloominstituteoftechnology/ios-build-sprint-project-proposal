@@ -47,31 +47,33 @@ class NotificationController {
     // Otherwise, a UUID is returned and should be stored in timer object.
     func scheduleNotification(timer: CountdownTimer) -> String? {
         
-       if timer.timerUuid != nil { return nil }
+        if timer.timerUuid != nil { return nil }
+        guard let dateTime = timer.dateTime else { return nil }
         
         let center = UNUserNotificationCenter.current()
-
+        
         let content = UNMutableNotificationContent()
         content.title = "\(timer.emoji) \(timer.name)"
         content.body = "\(timer.emoji) \(timer.name) is done!"
         content.categoryIdentifier = "alarm"
         content.userInfo = ["customData": "fizzbuzz"]
         content.sound = UNNotificationSound.default
-
-        var dateComponents = DateComponents()
-        dateComponents.hour = 0
-        dateComponents.minute = 0
-        dateComponents.second = 10
-        //let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
+        
+        let dayHourMinuteSecond: Set<Calendar.Component> = [.day, .hour, .minute, .second]
+        let difference = NSCalendar.current.dateComponents(dayHourMinuteSecond, from: dateTime /*, to: self*/)
+        
+        let trigger = UNCalendarNotificationTrigger(dateMatching: difference, repeats: false)
+        
+        // For testing a timer 5 seconds from now.
+        //let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
         
         let timerUuid = UUID().uuidString
         
         let request = UNNotificationRequest(identifier: timerUuid, content: content, trigger: trigger)
         center.add(request)
-
-        print("Notification \(timerUuid) has been scheduled.")
-
+        
+        print("Notification \(timerUuid) has been scheduled \(difference).")
+        
         return timerUuid
     }
     
