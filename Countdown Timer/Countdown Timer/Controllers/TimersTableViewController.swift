@@ -54,12 +54,11 @@ extension String {
     static var noTag = "no tag"
 }
 
-var timeController = TimerController()
-
 class TimersTableViewController: UITableViewController /* TODO: UITableViewDataSource baked in? */  {
 
     var notificationController = NotificationController()
-    
+    var timerController = TimerController()
+
     @IBOutlet weak var notificationButton: UIBarButtonItem!
     
     @IBAction func notificationButtonPress(_ sender: Any) {
@@ -77,7 +76,7 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
     @IBAction func filterButton(_ sender: Any) {
         // Grab a list of all the filter types.
         var uniqueValues: [String] = []
-        for t in timeController.activeTimers {
+        for t in timerController.activeTimers {
             if !uniqueValues.contains(t.tag.lowercased()) {
                 uniqueValues += [t.tag.lowercased()]
             }
@@ -107,10 +106,8 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
         
         alert.addAction(itemToFilter)
 
-        // Present alert to uesr to select type.
+        // Present alert to uesr to select tag they wish to filter on
         present(alert, animated: true, completion: nil)
-
-        // Filter on type.
     }
     
     func filterFunc() {
@@ -118,7 +115,7 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
         if filter == .noTag {
             filter = ""
         }
-        timeController.filter = filter
+        timerController.filter = filter
         tableView.reloadData()
     }
 
@@ -190,9 +187,9 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
     // MARK: - Table view data source
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        var result = timeController.activeTimers.count
+        var result = timerController.activeTimers.count
         if filterEnabled {
-            result = timeController.filteredTimers.count
+            result = timerController.filteredTimers.count
         }
         return result
     }
@@ -201,16 +198,16 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
 
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "TimerCell", for: indexPath) as? TimerTableViewCell else { fatalError("TimerTableViewCell was expected" ) }
 
-        var timer = timeController.activeTimers[indexPath.row]
+        var timer = timerController.activeTimers[indexPath.row]
         if filterEnabled {
-            timer = timeController.filteredTimers[indexPath.row]
+            timer = timerController.filteredTimers[indexPath.row]
         }
         
         // Configure the cell
         cell.timer = timer
         
         if let uuid = notificationController.scheduleNotification(timer: timer) {
-            timeController.notificationScheduled(timer: timer, timerUuid: uuid)
+            timerController.notificationScheduled(timer: timer, timerUuid: uuid)
         }
 
         return cell
@@ -228,11 +225,11 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             // Delete the row from the data source
-            var timerToBeDeleted = timeController.activeTimers[indexPath.row]
+            var timerToBeDeleted = timerController.activeTimers[indexPath.row]
             if filterEnabled {
-                timerToBeDeleted = timeController.filteredTimers[indexPath.row]
+                timerToBeDeleted = timerController.filteredTimers[indexPath.row]
             }
-            timeController.delete(timer: timerToBeDeleted)
+            timerController.delete(timer: timerToBeDeleted)
 
             tableView.deleteRows(at: [indexPath], with: .fade)
         } else if editingStyle == .insert {
@@ -259,9 +256,9 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
         // TODO: Very unhappy with this. What if I have more than a screenful of data?
         var row = 0
 
-        var timersToUpdate = timeController.timers
+        var timersToUpdate = timerController.timers
         if filterEnabled {
-            timersToUpdate = timeController.filteredTimers
+            timersToUpdate = timerController.filteredTimers
         }
 
         for timer in timersToUpdate {
@@ -275,7 +272,7 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
             cell.timerLabel.text = displayTimer
 
             if displayTimer == .finishedMsg, timer.active == true {
-                timeController.toogleActive(timer: timer)
+                timerController.toogleActive(timer: timer)
                 notificationController.beep()
                 showAlert(msg: "You've been counting 🔻 to \(timer.emoji) \(timer.name)\nGood News! It'd done!")
             }
@@ -291,7 +288,7 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
         // Pass the selected object to the new view controller.
 
         guard let detailVC = segue.destination as? DetailViewController else {return}
-        detailVC.timerModelDelegate = timeController
+        detailVC.timerModelDelegate = timerController
         
         if segue.identifier == "AddDetailSegue" {
             print("AddDetailSegue called")
@@ -299,9 +296,9 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
             print("EditDetailSegue called")
             // Find the timer the user tapped on and set the VC's timer object to it.
             guard let indexPath = tableView?.indexPathForSelectedRow else { return }
-            var timer = timeController.activeTimers[indexPath.row]
+            var timer = timerController.activeTimers[indexPath.row]
             if filterEnabled {
-                timer = timeController.filteredTimers[indexPath.row]
+                timer = timerController.filteredTimers[indexPath.row]
             }
             detailVC.timer = timer
         }
