@@ -75,15 +75,24 @@ class HistoryTableViewController: UITableViewController {
     }
     */
 
-    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+
+        guard let detailVC = segue.destination as? DetailViewController else {return}
+        detailVC.timerModelDelegate = timerController
+        
+        if segue.identifier == "EditDetailSegue" {
+            print("EditDetailSegue called")
+            // Find the timer the user tapped on and set the VC's timer object to it.
+            guard let indexPath = tableView?.indexPathForSelectedRow else { return }
+            let timer = timerController.completedTimers[indexPath.row]
+            detailVC.timer = timer
+        }
     }
-    */
 
     override func viewWillAppear(_ animated: Bool) {
         tableView.reloadData()

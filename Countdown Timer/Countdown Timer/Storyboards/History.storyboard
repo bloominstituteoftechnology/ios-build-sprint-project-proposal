@@ -63,6 +63,7 @@
                                     <outlet property="tagLabel" destination="aV5-tk-Cgg" id="by7-CU-ri8"/>
                                     <outlet property="timerLabel" destination="CGz-4q-Ayn" id="4dg-Kz-uhj"/>
                                     <outlet property="timerNameLabel" destination="Ztm-mQ-YzX" id="yh8-lg-OXn"/>
+                                    <segue destination="s0L-GY-oAr" kind="show" identifier="EditDetailSegue" id="8UJ-yy-4pl"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -78,6 +79,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q99-Xc-ka9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="389.85507246376812" y="-348.21428571428572"/>
+        </scene>
+        <!--DetailNavigation-->
+        <scene sceneID="JeF-8t-VCG">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Detail" referencedIdentifier="DetailNavigation" id="s0L-GY-oAr" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="5j2-Oy-Ie8"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e5t-xG-Hdi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="949" y="-519"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="tVG-EZ-w1j">
