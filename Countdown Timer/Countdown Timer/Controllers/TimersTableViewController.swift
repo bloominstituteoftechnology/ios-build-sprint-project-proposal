@@ -66,12 +66,11 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
     }
     
     // MARK: - Filter code
-    var filter: String = "" {
+    var filterEnabled = false {
         didSet {
             filterFunc()
         }
     }
-    var filterEnabled = false
     
     @IBAction func filterButton(_ sender: Any) {
         // Grab a list of all the tag types
@@ -93,7 +92,8 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
             if u == "" { tag = .noTag }
             let itemToFilter = UIAlertAction(title: tag, style: .default) { (action:UIAlertAction!) in
                 //print("\(tag) button tapped")
-                self.filter = tag
+                self.timerController.filter = tag
+                self.filterEnabled = true
             }
             
             alert.addAction(itemToFilter)
@@ -113,12 +113,11 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
     
     // Invoked when user clicks on button in alert dialog
     func filterFunc() {
-        filterEnabled = true
-        if filter == .noTag {
-            filter = ""
+        // Make sure .noTag translates into the empty string
+        if timerController.filter == .noTag {
+            timerController.filter = ""
         }
-        // Inform timerController what to filter on. 
-        timerController.filter = filter
+        // Reload will cause the filter to take affect
         tableView.reloadData()
     }
 
