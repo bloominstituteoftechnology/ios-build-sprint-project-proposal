@@ -39,6 +39,7 @@ class DetailViewController: UIViewController {
         setSegmentControlAndDatePicker(timerType: timer.timerType)
         datePicker?.date = timer.dateTime ?? Date()
         
+        
     }
     
     //MARK: -Alert for Emoji
@@ -53,7 +54,7 @@ class DetailViewController: UIViewController {
     }
 
     func setSegmentControlAndDatePicker(timerType: TimerType? = nil) {
-
+          
         let defaultTimerInt = UserDefaults.standard.integer(forKey: .defaultTimerFormat)
         var timerTypeToUse = TimerType(rawValue: defaultTimerInt)
 
@@ -78,7 +79,7 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        segmentChanged(UISegmentedControl())
         updateViews()
     }
     
@@ -91,8 +92,9 @@ class DetailViewController: UIViewController {
   
     
     @IBAction func actionButton(_ sender: Any) {
+         
+
      
-       
         guard eventTextField.text != nil else { return }
         guard let emojiText = emojiTextField.text, !emojiText.isEmpty else {
             showAlert()
