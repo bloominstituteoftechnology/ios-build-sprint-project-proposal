@@ -32,13 +32,19 @@ class DetailViewController: UIViewController {
     
     // properties for days, minutes, seconds.
     func updateViews() {
+        // We do this regardless so that the default can change during add.
+        setSegmentControlAndDatePicker(timerType: timer?.timerType)
+        
         guard let timer = timer else { return }
         
+        // These lines won't execute it timer == nil
         eventTextField?.text = timer.name
         emojiTextField?.text = timer.emoji
-        setSegmentControlAndDatePicker(timerType: timer.timerType)
         datePicker?.date = timer.dateTime ?? Date()
+<<<<<<< HEAD
         
+=======
+>>>>>>> 2377c8dc55070007c085dd048e54753c589b3819
     }
     
     //MARK: -Alert for Emoji
@@ -79,7 +85,10 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2377c8dc55070007c085dd048e54753c589b3819
         updateViews()
     }
     
