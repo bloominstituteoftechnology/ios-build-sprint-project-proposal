@@ -69,7 +69,9 @@ class NotificationController {
         
         let request = UNNotificationRequest(identifier: timerUuid, content: content, trigger: trigger)
         center.add(request)
-        
+
+        print("Notification \(timerUuid) has been scheduled.")
+
         return timerUuid
     }
     
@@ -82,6 +84,8 @@ class NotificationController {
         center.removePendingNotificationRequests(withIdentifiers: [uuid])
         
         timerController.notificationCanceled(timer: timer)
+
+        print("Notification \(uuid) has been canceled.")
     }
 
     func cancelAllNotifications() {
@@ -89,6 +93,8 @@ class NotificationController {
         let center = UNUserNotificationCenter.current()
         
         center.removeAllPendingNotificationRequests()
+        
+        print("All notifications have been canceled.")
     }
 
     // MARK: - Sound 🔊

@@ -77,6 +77,10 @@ class TimerController: TimerModelDelegate  {
         //timers = timers.sorted { $0.name.lowercased() < $1.name.lowercased() }
         
         saveToPersistentStore()
+
+        if let uuid = notificationController.scheduleNotification(timer: timer) {
+            timerController.notificationScheduled(timer: timer, timerUuid: uuid)
+        }
     }
     
     // Read. Not the model
@@ -93,6 +97,10 @@ class TimerController: TimerModelDelegate  {
         timers[index].tag = tag
 
         saveToPersistentStore()
+
+        if let uuid = notificationController.scheduleNotification(timer: timers[index]) {
+            timerController.notificationScheduled(timer: timers[index], timerUuid: uuid)
+        }
     }
     
     func notificationScheduled(timer t: CountdownTimer, timerUuid: String) {
@@ -106,7 +114,7 @@ class TimerController: TimerModelDelegate  {
 
     func notificationCanceled(timer t: CountdownTimer) {
         if let index = timers.firstIndex(where: { $0 == t }) {
-            timers[index].timerUuid = ""
+            timers[index].timerUuid = nil
             timers[index].active = false
         }
         

@@ -55,10 +55,9 @@ extension String {
 }
 
 var timerController = TimerController()
+var notificationController = NotificationController()
 
 class TimersTableViewController: UITableViewController /* TODO: UITableViewDataSource baked in? */  {
-
-    var notificationController = NotificationController()
 
     @IBOutlet weak var notificationButton: UIBarButtonItem!
     
@@ -178,7 +177,7 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
     private func startTimer() {
         print("Start timer")
         if systemCountdownTimer == nil {
-            systemCountdownTimer = Timer.scheduledTimer(withTimeInterval: 0.50, repeats: true, block: timerFired(timer:))
+            systemCountdownTimer = Timer.scheduledTimer(withTimeInterval: 1.00, repeats: true, block: timerFired(timer:))
         }
     }
     
@@ -218,10 +217,6 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
         // Configure the cell
         cell.timer = timer
         
-        if let uuid = notificationController.scheduleNotification(timer: timer) {
-            timerController.notificationScheduled(timer: timer, timerUuid: uuid)
-        }
-
         return cell
     }
 
