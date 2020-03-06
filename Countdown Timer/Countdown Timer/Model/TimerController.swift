@@ -22,18 +22,23 @@ class TimerController: TimerModelDelegate  {
 //                                                                            year: 2000,
 //                                                                            month: 1,
     
-     // This initilizer is treated as the viewDidLoad of the model controller.
-     init() {
-         loadFromPersistentStore()
-     }
-     
-     var activeTimers: [CountdownTimer] {
-         return timers.filter { $0.active == true }
-     }
-
-     var completedTimers: [CountdownTimer] {
-         return timers.filter { $0.active == false }
-     }
+    // This initilizer is treated as the viewDidLoad of the model controller.
+    init() {
+        loadFromPersistentStore()
+    }
+    
+    var filter = ""
+    var filteredTimers: [CountdownTimer] {
+        return timers.filter { $0.tag.lowercased() == filter }
+    }
+    
+    var activeTimers: [CountdownTimer] {
+        return timers.filter { $0.active == true }
+    }
+    
+    var completedTimers: [CountdownTimer] {
+        return timers.filter { $0.active == false }
+    }
 
     //These find* are leveraging equatable
     func findTimer(_ timer: CountdownTimer) -> CountdownTimer? {

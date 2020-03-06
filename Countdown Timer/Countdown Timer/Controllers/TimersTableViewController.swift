@@ -51,6 +51,7 @@ extension Date {
 extension String {
     static var finishedMsg = "Done"
     static var appTitle = "Count🔻"
+    static var noTag = "no tag"
 }
 
 var timeController = TimerController()
@@ -64,6 +65,14 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
     @IBAction func notificationButtonPress(_ sender: Any) {
         showAlert(msg: "Notifications have been turned off. Please turn them on in the Settings app under Notifications.")
     }
+    
+    // MARK: - Filter code
+    var filter: String = "" {
+        didSet {
+            filterFunc()
+        }
+    }
+    var filterEnabled = false
     
     @IBAction func filterButton(_ sender: Any) {
         // Grab a list of all the filter types.
@@ -81,8 +90,11 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
 
         for u in uniqueValues {
             var tag = u
-            if u == "" { tag = "no tag" }
-            let itemToFilter = UIAlertAction(title: tag, style: .default, handler: nil)
+            if u == "" { tag = .noTag }
+            let itemToFilter = UIAlertAction(title: tag, style: .default) { (action:UIAlertAction!) in
+                //print("\(tag) button tapped")
+                self.filter = tag
+            }
             
             alert.addAction(itemToFilter)
         }
@@ -93,6 +105,16 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
         // Filter on type.
     }
     
+    func filterFunc() {
+        filterEnabled = true
+        if filter == .noTag {
+            filter = ""
+        }
+        timeController.filter = filter
+        tableView.reloadData()
+    }
+
+    // MARK: - Alert
     private func showAlert(msg text: String ) {
         let alert = UIAlertController(title: .appTitle,
                                       message: text,
@@ -160,8 +182,10 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
     // MARK: - Table view data source
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-// FIXME:         let result = timeController.activeTimers.count
-        let result = timeController.timers.count
+        var result = timeController.activeTimers.count
+        if filterEnabled {
+            result = timeController.filteredTimers.count
+        }
         return result
     }
 
@@ -169,7 +193,10 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
 
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "TimerCell", for: indexPath) as? TimerTableViewCell else { fatalError("TimerTableViewCell was expected" ) }
 
-        let timer = timeController.timers[indexPath.row]
+        var timer = timeController.activeTimers[indexPath.row]
+        if filterEnabled {
+            timer = timeController.filteredTimers[indexPath.row]
+        }
         
         // Configure the cell
         cell.timer = timer
@@ -193,7 +220,10 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             // Delete the row from the data source
-            let timerToBeDeleted = timeController.timers[indexPath.row]
+            var timerToBeDeleted = timeController.activeTimers[indexPath.row]
+            if filterEnabled {
+                timerToBeDeleted = timeController.filteredTimers[indexPath.row]
+            }
             timeController.delete(timer: timerToBeDeleted)
 
             tableView.deleteRows(at: [indexPath], with: .fade)
@@ -220,7 +250,13 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
     func updateTableViewTimer() {
         // TODO: Very unhappy with this. What if I have more than a screenful of data?
         var row = 0
-        for timer in timeController.timers {
+
+        var timersToUpdate = timeController.timers
+        if filterEnabled {
+            timersToUpdate = timeController.filteredTimers
+        }
+
+        for timer in timersToUpdate {
             let cell = tableView.cellForRow(at: IndexPath(row: row, section: 0)) as! TimerTableViewCell
             
             var displayTimer = "N/A"
@@ -255,7 +291,10 @@ class TimersTableViewController: UITableViewController /* TODO: UITableViewDataS
             print("EditDetailSegue called")
             // Find the timer the user tapped on and set the VC's timer object to it.
             guard let indexPath = tableView?.indexPathForSelectedRow else { return }
-            let timer = timeController.timers[indexPath.row]
+            var timer = timeController.activeTimers[indexPath.row]
+            if filterEnabled {
+                timer = timeController.filteredTimers[indexPath.row]
+            }
             detailVC.timer = timer
         }
     }
