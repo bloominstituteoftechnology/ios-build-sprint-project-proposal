@@ -40,6 +40,13 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2lK-QO-dtR">
+                                            <rect key="frame" x="55" y="27" width="33" height="16"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                            <color key="textColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="POi-bO-K11" firstAttribute="leading" secondItem="uNw-jQ-CcB" secondAttribute="leading" constant="20" id="Ets-55-PKl"/>
@@ -52,6 +59,7 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="emjoiLabel" destination="POi-bO-K11" id="P07-PF-aX2"/>
+                                    <outlet property="tagLabel" destination="2lK-QO-dtR" id="bZp-44-lc0"/>
                                     <outlet property="timerLabel" destination="tns-Gk-rcG" id="33N-rr-adx"/>
                                     <outlet property="timerNameLabel" destination="fK8-b1-Jtt" id="t8w-Vp-SIO"/>
                                     <segue destination="Tnd-5e-rCG" kind="show" identifier="EditDetailSegue" id="4a4-xw-xDK"/>
