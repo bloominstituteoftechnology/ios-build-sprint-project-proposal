@@ -44,6 +44,7 @@ class DetailViewController: UIViewController {
         tagTextField.text = timer.tag
         datePicker?.date = timer.dateTime ?? Date()
         
+    
     }
     
     //MARK: -Alert for Emoji
@@ -177,5 +178,13 @@ class DetailViewController: UIViewController {
     
 }
 
+//extension String {
+//
+//   var containsValidCharacter: Bool {
+//        let characterSet = CharacterSet(charactersIn: "✌️")
+//        let range = (self as NSString).rangeOfCharacter(from: characterSet)
+//        return range.location != NSNotFound
+//    }
+//}
 
 
