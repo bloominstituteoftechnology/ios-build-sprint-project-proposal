@@ -89,6 +89,11 @@ class TimerController: TimerModelDelegate  {
     func udpate(timer t: CountdownTimer, emoji: String, name: String, dateTime: Date, timerType: TimerType, active: Bool, tag: String) {
         guard let index = findTimerIndex(t) else { fatalError("Timer Object Not Found") }
         
+        if timers[index] == t {
+            // This is a nop. User didn't make any changes and clicked up. Just exit.
+            return
+        }
+        
         timers[index].emoji = emoji
         timers[index].name = name
         timers[index].dateTime = dateTime
