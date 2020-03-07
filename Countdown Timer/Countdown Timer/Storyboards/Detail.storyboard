@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="42" translatesAutoresizingMaskIntoConstraints="NO" id="zqu-3Y-B3t">
-                                <rect key="frame" x="47" y="120" width="320" height="627"/>
+                                <rect key="frame" x="47" y="120" width="320" height="555"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="vvX-as-5VN">
                                         <rect key="frame" x="33.5" y="0.0" width="253.5" height="297"/>
@@ -74,24 +74,28 @@
                                     <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="d02-VK-UUc">
                                         <rect key="frame" x="0.0" y="339" width="320" height="216"/>
                                     </datePicker>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7y-c3-Nd9">
-                                        <rect key="frame" x="120.5" y="597" width="79" height="30"/>
-                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
-                                        <state key="normal" title="Add Action"/>
-                                        <connections>
-                                            <action selector="actionButton:" destination="sZ8-8S-N6y" eventType="touchUpInside" id="MHK-Pb-OmZ"/>
-                                        </connections>
-                                    </button>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7y-c3-Nd9">
+                                <rect key="frame" x="167.5" y="812" width="79" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="Add Action"/>
+                                <connections>
+                                    <action selector="actionButton:" destination="sZ8-8S-N6y" eventType="touchUpInside" id="MHK-Pb-OmZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="zqu-3Y-B3t" firstAttribute="top" secondItem="yIh-34-nw7" secondAttribute="top" constant="32" id="2FK-7G-7Us"/>
                             <constraint firstItem="zqu-3Y-B3t" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="yIh-34-nw7" secondAttribute="leading" constant="20" id="DGU-kb-p9a"/>
+                            <constraint firstItem="b7y-c3-Nd9" firstAttribute="centerX" secondItem="yIh-34-nw7" secondAttribute="centerX" id="RFY-uH-Kfd"/>
+                            <constraint firstItem="yIh-34-nw7" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="b7y-c3-Nd9" secondAttribute="trailing" constant="120" id="XWH-ux-Jnr"/>
                             <constraint firstItem="zqu-3Y-B3t" firstAttribute="centerX" secondItem="wqL-Y6-wuc" secondAttribute="centerX" id="Zzb-W5-aO9"/>
                             <constraint firstItem="yIh-34-nw7" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="zqu-3Y-B3t" secondAttribute="bottom" constant="36" id="jcm-0R-8OG"/>
                             <constraint firstItem="yIh-34-nw7" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="zqu-3Y-B3t" secondAttribute="trailing" constant="20" id="qW2-jm-Lao"/>
+                            <constraint firstItem="yIh-34-nw7" firstAttribute="bottom" secondItem="b7y-c3-Nd9" secondAttribute="bottom" constant="20" id="svt-bB-haU"/>
+                            <constraint firstItem="b7y-c3-Nd9" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="yIh-34-nw7" secondAttribute="leading" constant="120" id="vfd-nv-B5B"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="yIh-34-nw7"/>
                     </view>
