@@ -103,6 +103,9 @@ class DetailViewController: UIViewController {
         actionOutlet.setTitle(button, for: .normal)
 
         updateViews()
+        
+          view.backgroundColor = UIColor(red: 0.19, green: 0.18, blue: 0.31, alpha: 1.0)
+        datePicker.setValue(UIColor.white, forKeyPath: "textColor")
     }
     
     
