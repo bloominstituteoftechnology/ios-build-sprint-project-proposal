@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Detail View Controller-->
+        <scene sceneID="RsT-RA-WU6">
+            <objects>
+                <viewController storyboardIdentifier="DetailNavigation" useStoryboardIdentifierAsRestorationIdentifier="YES" id="sZ8-8S-N6y" customClass="DetailViewController" customModule="Countdown_Timer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wqL-Y6-wuc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="42" translatesAutoresizingMaskIntoConstraints="NO" id="zqu-3Y-B3t">
+                                <rect key="frame" x="47" y="120" width="320" height="555"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="vvX-as-5VN">
+                                        <rect key="frame" x="33.5" y="0.0" width="253.5" height="297"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="S4d-7n-VBI">
+                                                <rect key="frame" x="41.5" y="0.0" width="170.5" height="135.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add an event" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ext-eq-JXK">
+                                                        <rect key="frame" x="0.0" y="0.0" width="170.5" height="33.5"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="🚴🏻‍♀️" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tzG-ao-lcJ">
+                                                        <rect key="frame" x="0.0" y="49.5" width="170.5" height="86"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="63"/>
+                                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                                    </textField>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="Irf-iN-pKy">
+                                                <rect key="frame" x="0.0" y="156.5" width="253.5" height="140.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Switch to ☻ keyboard to edit icon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8e2-1d-nQ8">
+                                                        <rect key="frame" x="0.0" y="0.0" width="253.5" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title:" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zUk-xf-p0x">
+                                                        <rect key="frame" x="0.0" y="27.5" width="253.5" height="34"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" returnKeyType="done" enablesReturnKeyAutomatically="YES" textContentType="name"/>
+                                                    </textField>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Tag:" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fnG-2e-YQX">
+                                                        <rect key="frame" x="0.0" y="68.5" width="253.5" height="34"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="jsu-Ee-Hgj">
+                                                        <rect key="frame" x="0.0" y="109.5" width="253.5" height="32"/>
+                                                        <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <segments>
+                                                            <segment title="Days"/>
+                                                            <segment title="Minutes"/>
+                                                            <segment title="Both"/>
+                                                        </segments>
+                                                        <color key="tintColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <connections>
+                                                            <action selector="segmentChanged:" destination="sZ8-8S-N6y" eventType="valueChanged" id="Sg1-nF-A46"/>
+                                                        </connections>
+                                                    </segmentedControl>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="d02-VK-UUc">
+                                        <rect key="frame" x="0.0" y="339" width="320" height="216"/>
+                                    </datePicker>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7y-c3-Nd9">
+                                <rect key="frame" x="167.5" y="812" width="79" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="Add Action"/>
+                                <connections>
+                                    <action selector="actionButton:" destination="sZ8-8S-N6y" eventType="touchUpInside" id="MHK-Pb-OmZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="zqu-3Y-B3t" firstAttribute="top" secondItem="yIh-34-nw7" secondAttribute="top" constant="32" id="2FK-7G-7Us"/>
+                            <constraint firstItem="zqu-3Y-B3t" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="yIh-34-nw7" secondAttribute="leading" constant="20" id="DGU-kb-p9a"/>
+                            <constraint firstItem="b7y-c3-Nd9" firstAttribute="centerX" secondItem="yIh-34-nw7" secondAttribute="centerX" id="RFY-uH-Kfd"/>
+                            <constraint firstItem="yIh-34-nw7" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="b7y-c3-Nd9" secondAttribute="trailing" constant="120" id="XWH-ux-Jnr"/>
+                            <constraint firstItem="zqu-3Y-B3t" firstAttribute="centerX" secondItem="wqL-Y6-wuc" secondAttribute="centerX" id="Zzb-W5-aO9"/>
+                            <constraint firstItem="yIh-34-nw7" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="zqu-3Y-B3t" secondAttribute="bottom" constant="36" id="jcm-0R-8OG"/>
+                            <constraint firstItem="yIh-34-nw7" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="zqu-3Y-B3t" secondAttribute="trailing" constant="20" id="qW2-jm-Lao"/>
+                            <constraint firstItem="yIh-34-nw7" firstAttribute="bottom" secondItem="b7y-c3-Nd9" secondAttribute="bottom" constant="20" id="svt-bB-haU"/>
+                            <constraint firstItem="b7y-c3-Nd9" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="yIh-34-nw7" secondAttribute="leading" constant="120" id="vfd-nv-B5B"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yIh-34-nw7"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ftP-Za-ED0"/>
+                    <connections>
+                        <outlet property="actionOutlet" destination="b7y-c3-Nd9" id="P3F-V7-BaP"/>
+                        <outlet property="datePicker" destination="d02-VK-UUc" id="f4Q-ac-6Dk"/>
+                        <outlet property="emojiTextField" destination="tzG-ao-lcJ" id="Q7z-b0-JE6"/>
+                        <outlet property="eventLabel" destination="Ext-eq-JXK" id="09h-ZC-NES"/>
+                        <outlet property="eventTextField" destination="zUk-xf-p0x" id="gm9-PH-7Ct"/>
+                        <outlet property="segmentedControl" destination="jsu-Ee-Hgj" id="oW8-oB-9C1"/>
+                        <outlet property="tagTextField" destination="fnG-2e-YQX" id="ccS-St-pPa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wgC-Ky-fvv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="942.02898550724649" y="16.741071428571427"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="K2D-AF-M84">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="69F-tK-1um" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="FxX-Nb-rre">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="sZ8-8S-N6y" kind="relationship" relationship="rootViewController" id="ClQ-pL-gEo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qce-OD-cHe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="31.884057971014496" y="16.741071428571427"/>
+        </scene>
+    </scenes>
+</document>
