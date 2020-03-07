@@ -58,11 +58,13 @@
                                                     </textField>
                                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="jsu-Ee-Hgj">
                                                         <rect key="frame" x="0.0" y="109.5" width="253.5" height="32"/>
+                                                        <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <segments>
                                                             <segment title="Days"/>
                                                             <segment title="Minutes"/>
                                                             <segment title="Both"/>
                                                         </segments>
+                                                        <color key="tintColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <connections>
                                                             <action selector="segmentChanged:" destination="sZ8-8S-N6y" eventType="valueChanged" id="Sg1-nF-A46"/>
                                                         </connections>
