@@ -6,20 +6,20 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `<Keri>`
+2. App Name: `<Wedding Budget>` (we will be changing this when we think of something better)
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+`<We chose the budget app but Beth had the idea of specifically making it a wedding budget app.>`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    `<Our customers would be people planning a wedding. Planning a wedding requires a lot of different things, having it all in a single place like an app will be convienent and organized. >`
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: `<https://github.com/kerianne16/weddingBudget>`
+6. Github Project/Trello Board: `< >`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
-
+myp
 ## Part 1: Brainstorming
 
 Add photos, notes, and sketches from your brain storming session. 
@@ -41,6 +41,7 @@ Add photos, notes, and sketches from your brain storming session.
         2. Choose 3-5 features that make the core app experience
         3. Add these features to your `## Top Features` section
     4. Sketch (15 minutes)
+ 
         1. Draw a rectangle in the center of a paper
         2. Sketch a rough idea of what buttons, labels, images would be on the screen
         3. Repeat this for 3-5 of your top features
@@ -56,14 +57,14 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. `<Feature 1: A pie chart for the budget>`
+2. `<Feature 2: a checklist>`
+3. `<Feature 3 countdown until the day of>`
 
 ## Part 2: Project Plan
 
 Take a step away from your computer and go for a walk. Your brain will continue to think about your app idea.
-
+https://trello.com/b/eYBT4V39/build-sprint-project
 1. Add your tasks to your Kanban board (Github Project/Trello)
 2. Be specific in your tasks so that they are actionable.
     1. "Create View Controllers" is vague and isn't clear when you're finished
