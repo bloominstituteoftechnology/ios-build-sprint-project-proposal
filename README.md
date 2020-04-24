@@ -7,17 +7,17 @@
 ## Requirements
 
 1. Team Members: `<Nick Nguyen>`
-2. App Name: `<Counter>`
+2. App Name: `<Gifted>`
 3. App Description (3-5 sentences):
 
-    `<Add and keep track of important incoming event such as Birthday,Christmas, New Year Eve,etc. Track how many days left until that day comes.  >`
+`<Gifted app is used for creating gif with photo,video and sound combination..>`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
     `<Everyone,mostly millennials.>`
     
-5. Github code repository: `<https://github.com/tonic2000/Counter/tree/master>`
-6. Github Project/Trello Board: `<https://trello.com/b/ZlrhkI3t/counter-app>`
+5. Github code repository: `<https://github.com/tonic2000/GifMaker>`
+6. Github Project/Trello Board: `<>`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -56,19 +56,18 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: Add events to track and countdown how many days left until the day come.>`
-2. `<Feature 2: Share to friends,family through text or social media to remind them.>`
-3. `<Feature 3(Maybe) : Push notification when the day is close (one or two days before)>`
-4. < Feature 4 : Sort soonest to furtest events, sort alphabetically or move cell.
-5. < Feature 5: Give user ability to give developer feedback through email or Twitter. >
-6. < Feature 6: Funny quote about time to make user happy > 
+1. `<Feature 1: Create gif from photo,video.>`
+2. `<Feature 2: Share to friends,family through text or social media.>`
+3. `<Feature 3 : Add filter to photo, video>`
+4. < Feature 4 (Optional): AR >
+
 
 
 ## Part 2: Project Plan
 
 Take a step away from your computer and go for a walk. Your brain will continue to think about your app idea.
 
-1. Add your tasks to your Kanban board (https://trello.com/b/ZlrhkI3t/counter-app)
+1. Add your tasks to your Kanban board ()
 2. Be specific in your tasks so that they are actionable.
     1. "Create View Controllers" is vague and isn't clear when you're finished
     2. "Create Table View Controller for GIFCell rows" and "Create Custom GIFTableViewCell" are specific
