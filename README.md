@@ -6,20 +6,16 @@
 
 ## Requirements
 
-1. Team Members: `Jesse Ruiz`
+1. Team Members: Jesse Ruiz
 
-2. App Name: `Speech To Notes`
--
-3. App Description (3-5 sentences):
+2. App Name: Aligned Recordings
 
-`Speech To Notes records and takes meeting notes for you in realtime, so you can stay focused on the conversation.`
+3. App Description (3-5 sentences): Alighned Recordings records and takes notes for you in real time so you can focus on your meeting.
     
-4. Your #1 Customer (Who would use your app? Why now?)
- 
- `People in business. I'm thinking of my brother-in-law when he has meetings with potential clients about an event.`
+4. Your #1 Customer (Who would use your app? Why now?) My focus is my brother in law and my best friend. My brother in law is an event coordinator who has a lot of meetings with a lot of people and my best friend is a videographer in LA who networks a lot.
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: https://github.com/jesseleeruiz/Aligned-Recordings
+6. Github Project/Trello Board: https://github.com/jesseleeruiz/Aligned-Recordings/projects/1
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
