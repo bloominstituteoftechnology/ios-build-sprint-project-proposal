@@ -6,18 +6,18 @@
 
 ## Requirements
 
-1. Team Members: `<Elizabeth and Keri>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `<Keri>`
+2. App Name: `<Wedding Budget>` (we will be changing this when we think of something better)
 3. App Description (3-5 sentences):
 
-`<Our app tracks users birth control and lets know when they need to take it.>`
+`<We chose the budget app but Beth had the idea of specifically making it a wedding budget app.>`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Women/teens 16+>`
+    `<Our customers would be people planning a wedding. Planning a wedding requires a lot of different things, having it all in a single place like an app will be convienent and organized. >`
     
-5. Github code repository: `<https://github.com/kerianne16/myPill>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: `<https://github.com/kerianne16/weddingBudget>`
+6. Github Project/Trello Board: `< >`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 myp
 ## Part 1: Brainstorming
@@ -57,9 +57,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: Set reminder for birth control>`
-2. `<Feature 2: To prevent babies>`
-3. `<Feature 3  Change theme?>`
+1. `<Feature 1: A pie chart for the budget>`
+2. `<Feature 2: a checklist>`
+3. `<Feature 3 countdown until the day of>`
 
 ## Part 2: Project Plan
 
