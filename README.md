@@ -6,18 +6,18 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `<Nick Nguyen>`
+2. App Name: `<Gifted>`
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    `<Gifted app is used for creating gif with photo,video and sound combination.  >`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    `<Everyone,mostly millennials.>`
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: `<https://github.com/tonic2000/GifMaker>`
+6. Github Project/Trello Board: `<>`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -56,15 +56,17 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. `<Feature 1: Create gif from photo,video.>`
+2. `<Feature 2: Share to friends,family through text or social media.>`
+3. `<Feature 3 : Add filter to photo, video>`
+4. < Feature 4 (Optional): AR >
+
 
 ## Part 2: Project Plan
 
 Take a step away from your computer and go for a walk. Your brain will continue to think about your app idea.
 
-1. Add your tasks to your Kanban board (Github Project/Trello)
+1. Add your tasks to your Kanban board ()
 2. Be specific in your tasks so that they are actionable.
     1. "Create View Controllers" is vague and isn't clear when you're finished
     2. "Create Table View Controller for GIFCell rows" and "Create Custom GIFTableViewCell" are specific
