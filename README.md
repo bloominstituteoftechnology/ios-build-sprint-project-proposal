@@ -6,15 +6,13 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: Nonye
+2. App Name: Noted
 3. App Description (3-5 sentences):
+My app idea would include sections for people to create enteries and allow them to categorize them into journal vs. task enteries. If its a task, they can set up a future notification to alert them when the task is due. 
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
-    
 4. Your #1 Customer (Who would use your app? Why now?)
- 
-    `<Be specific and focus on a real person>`
+My target customer is going to be those with busy schedules and need to balance information in an organized fashion.
     
 5. Github code repository: `<Create a Github Project>`
 6. Github Project/Trello Board: `<Post your link to your Kanban board>`
@@ -56,9 +54,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. Categorize their journey enteries
+2. Create alert/reminder notifications
+3. Allow them add to past enteries
 
 ## Part 2: Project Plan
 
