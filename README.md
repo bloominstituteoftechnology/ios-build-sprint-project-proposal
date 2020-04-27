@@ -7,17 +7,16 @@
 ## Requirements
 
 1. Team Members: `Me`
-2. App Name: `Daily`
+2. App Name: `Journal`
 3. App Description (3-5 sentences):
-
-    An easy, organized and elegant way to create your daily ritual.
+    `Capture and understand your thoughts and emotions on a daily basis.`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    People who are interested in personal developpement
+    `People who are interested in personal developpement, or are looking for a silent space to express themselve.`
     
-5. Github code repository: https://github.com/Jkurbs/Daily
-6. Github Project/Trello Board: https://trello.com/b/jivTS3ml/daily
+5. Github code repository: https://github.com/Jkurbs/Journal
+6. Github Project/Trello Board: https://trello.com/b/CEoY5aL8/journal
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -56,10 +55,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. Create and daily tasks with name, type and time to finish.
-2. Daily taks suggestion.
-2. Delete, Reorder and Edit daily tasks.
-3. Receive notification for each tasks.
+1. Audio recording.
+2. Video recording.
+2. Speech recognition.
 
 ## Part 2: Project Plan
 
