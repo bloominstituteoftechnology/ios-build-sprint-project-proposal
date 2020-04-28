@@ -6,19 +6,21 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
-3. App Description (3-5 sentences):
+1. Team Members: Ronald Huston Jr
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+2. App Name: home mortgage calculator
+
+3. App Description (3-5 sentences):  the application will take inputs such as loan principle, interest rate, term of mortgage; the app will use inputs to calculate the user's home mortgage payment. Hopefully the interface will be nice to look at and easy to use. 
+
+The application is used to figure your home mortgage payment, in order that a user might have a better indea as to budget for it before taking out a home loan / mortgage.
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+ The ideal customer is a person shopping for a home loan or mortgage. A home buyer seeking to budget for their mortgage payment. Probably shopping among lenders for a mortgage lender. Or the user has decided on a lender and they would like to see what the mortgage payment will be.
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
-7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
+5. Github code repository: https://github.com/henryquante/mortgage-calculator
+6. Github Project/Trello Board:  https://trello.com/b/ocmh0by0/mortgage-calculator
+7. ~~Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"~~  Ron Solo
 
 ## Part 1: Brainstorming
 
@@ -56,15 +58,15 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. Feature 1:  principal -- a way for the app to intake the principal amount and use as a basis for calculating the mortgage
+2. Feature 2:  interest rate -- ability for user to input interest rate in order for app to calculate the monthly mortgage payment.
+3. Feature 3:  'calculate button' -- UIButton where user taps and program calculates monthly mortgage payment.
 
 ## Part 2: Project Plan
 
 Take a step away from your computer and go for a walk. Your brain will continue to think about your app idea.
 
-1. Add your tasks to your Kanban board (Github Project/Trello)
+1. ~~Add your tasks to your Kanban board (Github Project/Trello)~~   [check mark]
 2. Be specific in your tasks so that they are actionable.
     1. "Create View Controllers" is vague and isn't clear when you're finished
     2. "Create Table View Controller for GIFCell rows" and "Create Custom GIFTableViewCell" are specific
