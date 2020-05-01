@@ -1,3 +1,5 @@
+# I created a seperate repo that has my final project on it: https://github.com/jesseleeruiz/Vocable
+
 # Project Proposal for iOS Build Sprint
 
 1. Fork and Clone this repository
