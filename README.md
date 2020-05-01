@@ -16,7 +16,7 @@
  
  `Anyone who wants to stay healthy and lose or maintain weight.`
     
-5. Github code repository: `will update after starting`
+5. Github code repository: `https://github.com/system787/Calorie-Tracker`
 6. Github Project/Trello Board: `will update after starting`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
