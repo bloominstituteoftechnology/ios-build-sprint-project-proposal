@@ -12,7 +12,7 @@
  
     `Univeristy students, due to the length of their lectures.`
 
-5. Github code repository: `<Create a Github Project>`
+5. Github code repository: `https://github.com/tobikuyo/Transcript`
 6. Github Project/Trello Board: `<Post your link to your Kanban board>`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
