@@ -6,23 +6,26 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: Jeremiah Knopp
+2. App Name: Ouro
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+I'm building an app that helps workers unionize their workplace. The app lets you fill out the labor profile of a business (Who works there, their contact info/social media, worker pay, info on management, etc.) and send out anonymous union cards for them to sign that declare their interest to unionize. The tool done right will significantly lower the barriers to unionization. 
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+Non-union laborers. I'm excited to drop the app link in the #random chat and call for the TLs/SLs/Instructors to unionize at LS. As a champion of the light in the fight against capitalist opression, it's pretty heckin exciting. I want everyone to use it. 
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: https://github.com/knopptimism/_UNIONIZE_THE_WORLD_
+6. Github Project/Trello Board: https://trello.com/b/kraDUsiG/unionizetheworld
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
 
 Add photos, notes, and sketches from your brain storming session. 
+
+
+Not to shirk the work here and all that, but I hate this kind of thing. I've never been a planner, my ADD making it feel oppressive, but I've been thinking about this app for over a year. One of the central reaons I started LS was to make it, actually. It'll be built off a few third-party libraries that I've yet to look up, but I know they exist. It's not at all complicated, really. I'm gonna be working on novel UIs and the like. It'll take all my time though.  
 
 1. Brainstorming (Photo / Sketch)
     1. Mind Map (15 minutes)
@@ -31,6 +34,10 @@ Add photos, notes, and sketches from your brain storming session.
         3. Add as many ideas and connections (Don't stop early, keep going until the timer ends)
         4. If you still have ideas, reset the timer and do it again
         5. Take a photo of your mind map and upload it to your proposal (YourName-Mindmap.jpg)
+        
+            
+        
+        
     2. Organize a List (15 minutes)
         1. Set a timer for 15 minutes
         2. Make a list on paper (or Markdown) and capture all your ideas from the mindmap
@@ -56,9 +63,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. `<Feature 1: Build the Labor Profile>
+2. `<Feature 2: Design the union.>`
+3. `<Feature 3: Send out cards>`
 
 ## Part 2: Project Plan
 
