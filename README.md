@@ -14,7 +14,7 @@
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<My girlfriend spends a lot of time with the baby and she loves her episodes of Bad Girls Club, she can't always remember >`
+    `<My girlfriend spends a lot of time with the baby and she loves her episodes of Bad Girls Club, she can't always remember what episode she was on last. She also never knows how many episodes she has to watch to catch up to shows that I have finished.>`
     
 5. Github code repository: `<https://github.com/RichGibbs-prog/BingerApp->`
 6. Github Project/Trello Board: `<https://trello.com/b/S9OhdgKb/binger-app>`
