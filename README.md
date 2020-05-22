@@ -6,18 +6,18 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: Ian Becker and Drew Miller
+2. App Name: Less Fighting More Eating
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    Eating with frineds is fun but deciding where to eat is the worst part.  It feels like deciding where to eat takes longer than actually eating your meal.  The “Less Fighting. More Eating” app lets friends list a few restaurant options and then lets the group vote.  With this app, you will be fighting less and eating more.
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+   People who are having trouble deciding where to eat between a group of people. 
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: 
+6. Github Project/Trello Board: 
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -56,9 +56,10 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. Dynamic Voting Feature. Helps group decide which is most popular. The whole purpose of the app!
+2. Adding the restaurant to the list so groups can vote.
+3. Table displays restaurant info and voting feature together so the group can see what they are voting for. 
+4. STRETCH FEAUTRE! Table list moves so most voted on restaurant moves to top.
 
 ## Part 2: Project Plan
 
