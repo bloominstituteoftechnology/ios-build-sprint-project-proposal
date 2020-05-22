@@ -30,12 +30,12 @@ Add photos, notes, and sketches from your brain storming session.
         2. Grab a piece of paper and write your app name in the center
         3. Add as many ideas and connections (Don't stop early, keep going until the timer ends)
         4. If you still have ideas, reset the timer and do it again
-        5. Take a photo of your mind map and upload it to your proposal (YourName-Mindmap.jpg)
+        5. Take a photo of your mind map and upload it to your proposal **See gerrior-Mindmap.jpg**
     2. Organize a List (15 minutes)
         1. Set a timer for 15 minutes
         2. Make a list on paper (or Markdown) and capture all your ideas from the mindmap
         3. If new ideas appear, write those down too
-        4. Take a photo of your organized list and upload it to your proposal (YourName-List.jpg or YourName-List.md)
+        4. Take a photo of your organized list and upload it to your proposal **See gerrior-List.jpg**
     3. Prioritize (5 minutes)
         1. What features does your #1 customer need most?
         2. Choose 3-5 features that make the core app experience
@@ -56,9 +56,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+**1. Record tones to file**
+**2. Export sound**
+**3. Export text report**
 
 ## Part 2: Project Plan
 
