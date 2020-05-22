@@ -6,17 +6,17 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: Shawn Gee & Christopher DeVito
+2. App Name: Dev App Profile
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    We will build an app that a developer can use to show off his app in interviews. This app will allow a screenshot or brief video introduction to each app for a quick view as well as a detailed showing if it indcluding letting the interviewer see some or all of the code if they're interested in the app. 
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    This app would be ideal for any app developer looking for a job. This app is needed now as there is a shift toward boot camps and other non-degree educations such as Lambda School which may provide some certification or endorsement, but largely rely on showing off our skills through the apps we've created in order to impress interviewers and land a job. 
     
-5. Github code repository: `<Create a Github Project>`
+5. Github code repository: https://github.com/DeVitoC/DevAppProfile
 6. Github Project/Trello Board: `<Post your link to your Kanban board>`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
