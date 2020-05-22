@@ -6,18 +6,18 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `<Bryan Cress & Rich Gibbs>`
+2. App Name: `<Binger>`
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    `<Our app will help organize all the shows that you currently have been watching while on quarantine, It will keep track of the number of episodes you have watched on all your favorite television shows, It will also tell you how many episodes you have left to catch up to current episodes. Sort your shows in the order that is important to you.>`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    `<My girlfriend spends a lot of time with the baby and she loves her episodes of Bad Girls Club, she can't always remember >`
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: `<https://github.com/RichGibbs-prog/BingerApp->`
+6. Github Project/Trello Board: `<https://trello.com/b/S9OhdgKb/binger-app>`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
