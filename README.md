@@ -16,7 +16,7 @@
  
     A target demographic would be couples who co-habitate or have joint finances.
     
-5. Github code repository: https://github.com/supergonzo812/ios-build-sprint-project-proposal
+5. Github code repository: https://github.com/supergonzo812/Financify
 6. Github Project/Trello Board: https://trello.com/b/yWaFyUOL
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
