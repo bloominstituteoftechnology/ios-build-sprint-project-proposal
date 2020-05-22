@@ -6,19 +6,19 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: Ian Becker and Drew Miller
+2. App Name: Less Fighting.  More Eating.
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    Eating with frineds is fun but deciding where to eat is the worst part.  It feels like deciding where to eat takes longer than actually eating your meal.  The "Less Fighting. More Eating" app lets friends list a few restaurant options and then lets the group vote.  With this app, you will be fighting less and eating more.
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    Anyone with friends who like to eat out #postquarantine
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
-7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
+5. Github code repository: https://github.com/dmills14/ios-app-eat-more-fight-less
+6. Github Project/Trello Board: https://trello.com/invite/lambdaschool17/5b852565ca0da4a447ca2cac63013769
+7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!" - Done
 
 ## Part 1: Brainstorming
 
@@ -56,9 +56,10 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. `<Feature 1: Dynamic voting feature helps groups know which option is most popular
+2. `<Feature 2: Adding restaurant options to a list so groups can vote
+3. `<Feature 3: Table displays restaurant info and voting status based on the group
+4. '< Stretch Feature: Table list dynamic moves based on the most popular option at the time.
 
 ## Part 2: Project Plan
 
