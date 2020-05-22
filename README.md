@@ -6,15 +6,15 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: Wyatt Harrell & Hector Ledesma
+2. App Name: Retake: Camera App
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    Retake allows users to easily take timelapses of weight gain/loss, building progress, plant growth, or even just a scenic lanscape by superimposing an image with lowered opacity onto its camera. Users can create journal type enties with their photos to keep track of when their photos were taken, the location they were taken in, and much more. A user can also view their photos in a no-animation viewer to see the difference in their images more clearly.
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    Photographers, builders, botanists, the sky is the limit! Any average person can use this app to catalog change!
     
 5. Github code repository: `<Create a Github Project>`
 6. Github Project/Trello Board: `<Post your link to your Kanban board>`
@@ -56,9 +56,18 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. Superimposing image over custom camera
+    - Grid for better alignment
+    - Changing opacity of original image
+2. Journal entry catelog
+    - Associated photos
+    - Location of photo for MapKit
+    - ARKit spot in space where photo was taken
+    - Notes on either each photo taken or each journal
+    - Date of each photo taken
+3. Persistance of some kind (CoreData, CloudKit, etc.)
+4. Image viewer with no animation to easily see change between photos
+5. (Stretch) Image similarity and analysis with feature print, vision framework, photo stacking, etc. 
 
 ## Part 2: Project Plan
 
