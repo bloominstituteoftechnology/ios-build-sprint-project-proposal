@@ -56,9 +56,10 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. `<Feature 1: Dynamic voting feature helps groups know which option is most popular
+2. `<Feature 2: Adding restaurant options to a list so groups can vote
+3. `<Feature 3: Table displays restaurant info and voting status based on the group
+4. '< Stretch Feature: Table list dynamic moves based on the most popular option at the time.
 
 ## Part 2: Project Plan
 
