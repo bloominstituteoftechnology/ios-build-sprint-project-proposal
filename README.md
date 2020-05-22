@@ -6,19 +6,19 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: Ian Becker and Drew Miller
+2. App Name: Less Fighting.  More Eating.
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    Eating with frineds is fun but deciding where to eat is the worst part.  It feels like deciding where to eat takes longer than actually eating your meal.  The "Less Fighting. More Eating" app lets friends list a few restaurant options and then lets the group vote.  With this app, you will be fighting less and eating more.
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    Anyone with friends who like to eat out #postquarantine
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
-7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
+5. Github code repository: https://github.com/dmills14/ios-app-eat-more-fight-less
+6. Github Project/Trello Board: https://trello.com/invite/lambdaschool17/5b852565ca0da4a447ca2cac63013769
+7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!" - Done
 
 ## Part 1: Brainstorming
 
