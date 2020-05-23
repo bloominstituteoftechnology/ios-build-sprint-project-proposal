@@ -6,15 +6,15 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `<Rich Gibbs and Bryan Cress>`
+2. App Name: `<Binger>`
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+`<Binger allows users to add their favorite tv shows and keep up on how many episodes they have yet to watch in a season. Binger allows you to sort movies by priority level. For epsiodes set to air soon... Binger allows you to view a countdown of the extact amount of time you have left before an episode airs and sends you an alert when the episode is set to air.>`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+ `<Any one who wants a way to keep a watch list on their favorite shows, and be reminded on when new ones are set to air. With more shows, more streaming services, and more time than ever to spend at home. Binger can keep you up to date with the never ending choices out there. >`
     
 5. Github code repository: `<Create a Github Project>`
 6. Github Project/Trello Board: `<Post your link to your Kanban board>`
@@ -73,3 +73,6 @@ Take a step away from your computer and go for a walk. Your brain will continue 
     2. If you don't know how to do a task, add to research it (i.e: "Research: AVFoundation Video Thumbnails API" or "Read: Core Graphics Programming Guide")
 4. Start on your most difficult task first
 5. Re-evaluate your progress each day and plan what you'll work on the next day
+
+
+
