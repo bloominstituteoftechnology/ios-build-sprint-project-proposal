@@ -16,7 +16,7 @@
  
     I would. I forget stuff all the time
     
-5. Github code repository: 
+5. Github code repository: https://github.com/violet-love/Don-t-Forget-
 6. Github Project/Trello Board: https://trello.com/b/a6WulFRi/dont-forget
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
