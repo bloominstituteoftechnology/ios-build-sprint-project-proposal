@@ -16,10 +16,12 @@
  
     `<Be specific and focus on a real person>`
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
-7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
+5. Github code repository:   https://github.com/LambdaSchool/ios-build-sprint-project-proposal/compare/master...cressbj:master
 
+6. Github Project/Trello Board: https://trello.com/invite/b/k0zMlbYL/0b9ff2b0ba0276c64c635500edee4fb4/bingerapp
+
+7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
+Check
 
 
 
