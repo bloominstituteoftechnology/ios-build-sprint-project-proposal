@@ -6,18 +6,18 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `<Bryan Cress & Rich Gibbs>`
+2. App Name: `<Binger>`
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+    `<Our app will help organize all the shows that you currently have been watching while on quarantine, It will keep track of the number of episodes you have watched on all your favorite television shows, It will also tell you how many episodes you have left to catch up to current episodes. Sort your shows in the order that is important to you.>`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    `<My girlfriend spends a lot of time with the baby and she loves her episodes of Bad Girls Club, she can't always remember what episode she was on last. She also never knows how many episodes she has to watch to catch up to shows that I have finished.>`
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: `<https://github.com/RichGibbs-prog/BingerApp->`
+6. Github Project/Trello Board: `<https://trello.com/b/S9OhdgKb/binger-app>`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -56,9 +56,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. `<Feature 1: Track number of episodes watched in shows>`
+2. `<Feature 2  Keep Track of episodes needed to catch up to current.>`
+3. `<Feature 3  Sort/Filter shows by highest priority>`
 
 ## Part 2: Project Plan
 
@@ -72,4 +72,4 @@ Take a step away from your computer and go for a walk. Your brain will continue 
     1. Break down large tasks into subtasks
     2. If you don't know how to do a task, add to research it (i.e: "Research: AVFoundation Video Thumbnails API" or "Read: Core Graphics Programming Guide")
 4. Start on your most difficult task first
-5. Re-evaluate your progress each day and plan what you'll work on the next day
+5. Re-evaluate your progress each day and  plan what you'll work on the next day
