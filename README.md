@@ -6,7 +6,7 @@
 
 ## Requirements
 
-1. Team Members: Violet Love
+1. Team Members: Violet Love, Jason Hoover
 2. App Name: Don't Forget!
 3. App Description (3-5 sentences):
 
