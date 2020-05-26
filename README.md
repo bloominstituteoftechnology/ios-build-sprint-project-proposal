@@ -6,18 +6,18 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: Violet Love, Jason Hoover
+2. App Name: Don't Forget!
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+       It's like a notes app, but you can also set reminders.
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    I would. I forget stuff all the time
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: https://github.com/violet-love/Don-t-Forget-
+6. Github Project/Trello Board: https://trello.com/b/a6WulFRi/dont-forget
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
