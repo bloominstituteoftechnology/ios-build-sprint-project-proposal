@@ -6,18 +6,18 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: Denis Cedeno, Crystal Knight, Jessie Griffin
+2. App Name: Cat Cart ("Simple Online Store")
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+Cat Cart is an application for a mobile device where the customer can browse through photos of a variety of cats and choose one, or many, for purchase. The app allows the customer to select cats to place in their shopping cart where they can review the order and cost before submitting it. It's a store that sells kitties and kitty stuff online.
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+ Crazy cat ladies and other cat lovers.
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: waiting for assignment
+6. Github Project/Trello Board: https://trello.com/b/BHFNtAKG/cat-cart
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -56,9 +56,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. Feature 1: Store: Search for cats and products to order online.
+2. Feature 2: Create a user account.
+3. Feature 3: Allows the user to search for cats for purchase within their locale.
 
 ## Part 2: Project Plan
 
