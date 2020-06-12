@@ -6,19 +6,17 @@
 
 ## Requirements
 
-1. Team Members: @joshrutkowski (me), @DavidWrightOS (David), @sal562 (Sal)
-2. App Name: Hydrate
-3. App Description:
-
-Hydrate is a beverage intake tracker. Users can track exactly how much water they consume throughout the day and add customized settings for different measurements (cups, oz, ml) and types of beverages (water, alcohol, tea, soda, etc). Users are reminded throughout the day to drink and log the data.
+1. Team Members: `@joshrutkowski (me), @DavidWrightOS (David), @sal562 (Sal)`
+2. App Name: `Hydrate`
+3. App Description: `Hydrate is a beverage intake tracker. Users can track exactly how much water they consume throughout the day and add customized settings for different measurements (cups, oz, ml) and types of beverages (water, alcohol, tea, soda, etc). Users are reminded throughout the day to drink and log the data.`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
  People concerned about how much water they are drinking.
     
-5. Github code repository: To do
-6. Github Project/Trello Board: To do
-7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
+5. Github code repository: `TBD`
+6. Github Project/Trello Board: `TBD`
+7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!": 
 
 ## Part 1: Brainstorming
 
@@ -39,15 +37,18 @@ Add photos, notes, and sketches from your brain storming session.
     - Reminders throughout the day
     - Share results with friends
     - Badge achievements (3-day streak, 7-day streak, etc)
-       
+    
+    
     3. Prioritizd List:
     - Log water intake: short press button makes it easy to log by default value. Long press allows custom logging.
     - View history of water intake
     - Ability to track other beverages and view how much of each beverage is consumed
 
+
     4. Sketch
     
     <img align="center" src="https://github.com/joshrutkowski/ios-build-sprint-project-proposal/blob/master/sketch.png">
+
 
 
 ## Top Features (Prioritize)
