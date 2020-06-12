@@ -6,7 +6,7 @@
 
 ## Requirements
 
-1. Team Members: @joshrutkowski (me), David Wright, Sal
+1. Team Members: @joshrutkowski (me), @DavidWrightOS (David), @sal562 (Sal)
 2. App Name: Hydrate
 3. App Description:
 
@@ -26,6 +26,7 @@ Add photos, notes, and sketches from your brain storming session.
 
 1. Brainstorming (Photo / Sketch)
     1. Mind Map
+    <img align="center" src="https://github.com/joshrutkowski/ios-build-sprint-project-proposal/blob/master/mindMap.png">
     
     2. Feature List:
     
@@ -45,6 +46,9 @@ Add photos, notes, and sketches from your brain storming session.
     - Ability to track other beverages and view how much of each beverage is consumed
 
     4. Sketch
+    
+    <img align="center" src="https://github.com/joshrutkowski/ios-build-sprint-project-proposal/blob/master/sketch.png">
+
 
 ## Top Features (Prioritize)
 
