@@ -7,24 +7,29 @@
 ## Requirements
 
 1. Team Members: `<Who's working on this app?>`
+Nick Rios
 2. App Name: `<What's the app name?>`
+Meet Up attendance 
 3. App Description (3-5 sentences):
+tracks event attendance usin nfc tag
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
-    
+
 4. Your #1 Customer (Who would use your app? Why now?)
- 
-    `<Be specific and focus on a real person>`
+   people that go to meet ups or events
     
 5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
-7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
+ https://github.com/NicolasR27/Meet-Up-Attendance-Tracker
 
+6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+ https://github.com/users/NicolasR27/projects/3
+7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
+ just me 
 ## Part 1: Brainstorming
 
 Add photos, notes, and sketches from your brain storming session. 
 
 1. Brainstorming (Photo / Sketch)
+
     1. Mind Map (15 minutes)
         1. Set a timer for 15 minutes
         2. Grab a piece of paper and write your app name in the center
@@ -56,18 +61,23 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. `use nfc  
+
+2. `upload to test flight 
+3.  track meet up attendance
 
 ## Part 2: Project Plan
 
 Take a step away from your computer and go for a walk. Your brain will continue to think about your app idea.
 
 1. Add your tasks to your Kanban board (Github Project/Trello)
+not
 2. Be specific in your tasks so that they are actionable.
+not sure yet
     1. "Create View Controllers" is vague and isn't clear when you're finished
+    not sure yet
     2. "Create Table View Controller for GIFCell rows" and "Create Custom GIFTableViewCell" are specific
+    not sure yet
 3. Organize your tasks (Drag and drop)
     1. Break down large tasks into subtasks
     2. If you don't know how to do a task, add to research it (i.e: "Research: AVFoundation Video Thumbnails API" or "Read: Core Graphics Programming Guide")
