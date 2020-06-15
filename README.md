@@ -6,18 +6,18 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `<Alexander Thompson - Christian Lorenzo>`
+2. App Name: `<VortexMortgage>`
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+`<Our app will be able to take in prices of homes along with what you'd like to put as down payment, how long you may be financing for, having the option to name the calculation and to be able to save it to the main screen, to later on being able to access it and look at the details as well as being able to compare it to some of your other mortgage calculations they probably saved.>`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+ `<Anyone that could be interested in buying a house.>`
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: `<https://github.com/alext8900/Vortex-Morgage-BW4>`
+6. Github Project/Trello Board: `<https://trello.com/b/TdI7JXpY/vortex-mortgage>`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -38,7 +38,11 @@ Add photos, notes, and sketches from your brain storming session.
         4. Take a photo of your organized list and upload it to your proposal (YourName-List.jpg or YourName-List.md)
     3. Prioritize (5 minutes)
         1. What features does your #1 customer need most?
+        Being able to input the numbers in order to calculate the mortgage.
         2. Choose 3-5 features that make the core app experience
+        1.- Mortgage Calculation
+        2.- Being able to access websites from the same app
+        3.- Calculations Comparison in which the user will be able to compare his choices. 
         3. Add these features to your `## Top Features` section
     4. Sketch (15 minutes)
         1. Draw a rectangle in the center of a paper
@@ -57,7 +61,9 @@ Add photos, notes, and sketches from your brain storming session.
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
 1. `<Feature 1: What will this help your #1 Customer do?>`
+Side by side calculation comparison - It will help the user to compare their best options.
 2. `<Feature 2 (How will this help the customer?>`
+AppleAuth - It will make Signing in much easier for the user. 
 3. `<Feature 3 ...>`
 
 ## Part 2: Project Plan
