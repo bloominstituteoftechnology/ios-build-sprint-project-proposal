@@ -6,17 +6,17 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `Alex Shillingford, Enayatullah Naseri`
+2. App Name: `GameSafe`
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+`When an intruder breaks into your home or you are involved in a domestic abuse situation, picking up a phone and calling 911 is not an ideal method of calling for help without tipping off your abuser/intruder and possibly escalating the situation. GameSafe disguised as a game app, let's you secretly alert close friends/family that you may be in danger with your location and possible footage of the event taking place so that the recipient of your alert message can contact the authorities and potentially save your life.`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+ `20 people per minute are physically abused by an intimate partner in the United States (ncadv.org). 1 in 3 women and 1 in 4 men have experienced some form of physical violence by an intimate partner. The target audience we are trying to reach are men and women of virtually all ages, who feel hopelessly trapped in an abusive relationship or are in an unfortunate circumstance of break in/robbery`
     
-5. Github code repository: `<Create a Github Project>`
+5. Github code repository: `https://github.com/users/shillwil/projects/1?add_cards_query=is%3Aopen`
 6. Github Project/Trello Board: `<Post your link to your Kanban board>`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
@@ -56,9 +56,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. `Alert a pre-selected contact that you are in danger with the touch of a button`
+2. `Ability to customize level of alerts from easy, medium, to hard "difficulty" levels.`
+3. `By accessing the users' location, camera, microphone, contacts, and iMessage, GameSafe will enable users to send off "evidence" of abuse-related cases or other instances like break-ins, robberies, etc., storing said evidence with a third-party pre-selected contact for safe keeping`
 
 ## Part 2: Project Plan
 
