@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Groups-->
+        <scene sceneID="kjZ-BV-bwJ">
+            <objects>
+                <tableViewController id="xzz-sV-9tG" customClass="GroupsTableViewController" customModule="Group_Lunch_Coordinator" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="pUk-jJ-Y1F">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Group" rowHeight="142" id="2BZ-w2-plf" customClass="GroupsTableViewCell" customModule="Group_Lunch_Coordinator" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="142"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2BZ-w2-plf" id="374-2o-1iZ">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="142"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Group Time Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wZ2-fe-gZo">
+                                            <rect key="frame" x="20" y="19" width="136" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wvg-AY-2bH">
+                                            <rect key="frame" x="319" y="56" width="75" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" title="Join Group"/>
+                                            <connections>
+                                                <action selector="joinButtonTapped:" destination="xzz-sV-9tG" eventType="touchUpInside" id="j5e-6S-J6Y"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="# of members" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M4i-Lb-SWM">
+                                            <rect key="frame" x="154" y="110" width="107" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="xzz-sV-9tG" id="8vb-OE-s5a"/>
+                            <outlet property="delegate" destination="xzz-sV-9tG" id="i1X-2N-mn7"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Groups" id="e3i-7Q-MDt">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="OFE-Yv-uuw">
+                            <connections>
+                                <segue destination="AQ7-78-M3L" kind="show" id="i6a-N1-Jks"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="groupTimeLabel" destination="wZ2-fe-gZo" id="U4T-nr-rSN"/>
+                        <outlet property="joinButton" destination="Wvg-AY-2bH" id="7FM-Tn-Foh"/>
+                        <outlet property="membersCount" destination="M4i-Lb-SWM" id="OzW-5A-Nkk"/>
+                        <segue destination="yjA-2a-jnH" kind="show" id="MZS-MS-f3I"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="flw-ih-S8C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="813.04347826086962" y="113.83928571428571"/>
+        </scene>
+        <!--Add Group-->
+        <scene sceneID="jtd-FO-Pbm">
+            <objects>
+                <viewController id="AQ7-78-M3L" customClass="AddGroupViewController" customModule="Group_Lunch_Coordinator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hwA-l4-wKM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="esz-5d-FH4">
+                                <rect key="frame" x="159" y="316" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cH0-gi-8gM">
+                                <rect key="frame" x="170" y="462" width="74" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Add Group"/>
+                                <connections>
+                                    <action selector="addGroupButtonTapped:" destination="AQ7-78-M3L" eventType="touchUpInside" id="372-4s-tSK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ZwD-gw-PWN"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Add Group" id="wKY-ib-kbU"/>
+                    <connections>
+                        <outlet property="addGroupButton" destination="cH0-gi-8gM" id="u9i-Oa-FSN"/>
+                        <outlet property="groupTextField" destination="esz-5d-FH4" id="v88-M2-2Jk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eA9-xd-tfB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="813" y="934"/>
+        </scene>
+        <!--LocationControllerStoryboard-->
+        <scene sceneID="tMH-dS-eVx">
+            <objects>
+                <viewControllerPlaceholder storyboardName="LocationControllerStoryboard" id="yjA-2a-jnH" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="avC-wf-jCB"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="36m-IK-kzQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1925" y="568"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="UTD-4L-97f">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iFi-uZ-erc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="C2k-BA-YxO">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="xzz-sV-9tG" kind="relationship" relationship="rootViewController" id="p93-hq-Cf8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fwB-TG-Jgv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-97.101449275362327" y="113.83928571428571"/>
+        </scene>
+    </scenes>
+</document>
