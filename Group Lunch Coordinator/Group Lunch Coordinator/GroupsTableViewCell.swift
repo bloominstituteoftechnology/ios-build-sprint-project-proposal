@@ -10,6 +10,9 @@ import UIKit
 
 class GroupsTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var joinButton: UIButton!
+    @IBOutlet weak var totalMembersLabel: UILabel!
+    @IBOutlet weak var groupLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -21,4 +24,6 @@ class GroupsTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+    @IBAction func joinButtonTapped(_ sender: Any) {
+    }
 }

@@ -10,6 +10,8 @@ import UIKit
 
 class LocationTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var locationNameLabel: UILabel!
+    @IBOutlet weak var voteButton: UIButton!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -20,5 +22,7 @@ class LocationTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+    @IBAction func voteButtonTapped(_ sender: Any) {
+    }
+    
 }

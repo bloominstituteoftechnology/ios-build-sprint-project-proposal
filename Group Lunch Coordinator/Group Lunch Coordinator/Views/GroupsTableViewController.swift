@@ -11,17 +11,6 @@ import UIKit
 class GroupsTableViewController: UITableViewController {
 
    
-    @IBOutlet weak var groupTimeLabel: UILabel!
-    @IBOutlet weak var membersCount: UILabel!
-    @IBAction func joinButtonTapped(_ sender: Any) {
-    }
-    @IBOutlet weak var joinButton: UIButton!
-    
-    
-    
-    
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()

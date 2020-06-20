@@ -13,7 +13,6 @@ class AddLocationViewController: UIViewController {
     
     @IBOutlet weak var enterLocationTextField: UITextField!
     
-    @IBOutlet weak var timePicker: UIPickerView!
     
     @IBOutlet weak var finishButton: UIButton!
     
