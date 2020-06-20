@@ -23,4 +23,7 @@ struct TimeFrameGroup {
 struct Location {
     var place: [String: String]
     
+    
+    
+    
 }
