@@ -6,18 +6,19 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
-3. App Description (3-5 sentences):
+1. Team Members:    Enzo Jimenez-Soto and Joe Veraveka
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+2. App Name:    Giants Baseball Scores
+
+3. App Description (3-5 sentences):
+        This app allows you to keep track of Giants Baseball Scores
     
 4. Your #1 Customer (Who would use your app? Why now?)
- 
-    `<Be specific and focus on a real person>`
+
+  Giants  Baseball Fans
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository:  https://github.com/ejimenezsoto/Giants-Baseball-Scores
+6. Github Project/Trello Board :https://trello.com/b/lRwV4cxa/giants-baseball-scores
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
