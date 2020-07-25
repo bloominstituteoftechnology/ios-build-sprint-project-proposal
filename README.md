@@ -6,18 +6,18 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `Cody Morley`
+2. App Name: `TBD - Democracy helper app.`
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+`This is an app to help anyone participate in federal elections as well as provide access to means for direct feedback to their elected officials. It does this by providing single click access to information about a user's local representatives, senators and district; one click access to means of contact (phone/email). The app will also provide general disctrict maps of the country and information about any member of the U.S. Congress by search.`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+ `<The right of citizens of the United States, who are eighteen years of age or older to vote shall not be denied or abridged by the United States or by any State on account of age. *(anyone over 18 not withstanding consequences for previous felonious behaviour.)>`
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: `<https://github.com/CodyMorley/Unit-4-Build-Week>`
+6. Github Project/Trello Board: `https://trello.com/b/FRPYmYjt/bw-democracy-app`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -56,9 +56,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. `Who are my reps?`
+2. `Contact my reps`
+3. `Search for reps by name & by state`
 
 ## Part 2: Project Plan
 
