@@ -6,15 +6,16 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `<Who's working on this app?>` Stephanie and Benji
+2. App Name: `<What's the app name?>` 
 3. App Description (3-5 sentences):
 
     `<Explain your app to your Grandma (or a 5-year old child)>`
+    This app will make it so you can enter the medicine you take and the app will help you keep track of which medicines you have taken and still need to for that day.
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+ `<Be specific and focus on a real person>` Our app will be for someone who takes a lot of medications and needs help keeping track of them or for someone like me who always forgets to take my vitamins and the one pill that I take daily.
     
 5. Github code repository: `<Create a Github Project>`
 6. Github Project/Trello Board: `<Post your link to your Kanban board>`
