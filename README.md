@@ -73,3 +73,5 @@ Take a step away from your computer and go for a walk. Your brain will continue 
     2. If you don't know how to do a task, add to research it (i.e: "Research: AVFoundation Video Thumbnails API" or "Read: Core Graphics Programming Guide")
 4. Start on your most difficult task first
 5. Re-evaluate your progress each day and plan what you'll work on the next day
+
+FINISHED: ??`https://trello.com/b/FRPYmYjt/bw-democracy-app`
