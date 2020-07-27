@@ -78,6 +78,8 @@ Take a step away from your computer and go for a walk. Your brain will continue 
     2. "Create Table View Controller for GIFCell rows" and "Create Custom GIFTableViewCell" are specific
 3. Organize your tasks (Drag and drop)
     1. Break down large tasks into subtasks
-    2. If you don't know how to do a task, add to research it (i.e: "Research: AVFoundation Video Thumbnails API" or "Read: Core Graphics Programming Guide")
+    2. If you don't know how to do a task, add to research it (i.e: "Research: AVFoundation Video Thumbnails API" or "Read: Core Graphics Programming Guide") 
+    
+    `<Added To-Do List to Trello board>`
 4. Start on your most difficult task first
 5. Re-evaluate your progress each day and plan what you'll work on the next day
