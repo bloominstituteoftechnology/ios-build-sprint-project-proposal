@@ -41,15 +41,19 @@ Add photos, notes, and sketches from your brain storming session.
         `< Same link for 1. and will be the same link for 4. Sketch>`
         
     3. Prioritize (5 minutes)
-        1. What features does your #1 customer need most?
+        1. What features does your #1 customer need most? `< The ability to draw whatever they want>` 
         2. Choose 3-5 features that make the core app experience
+        `< 1. Being able to insert your own photos 2. Being able to Choose stamps/stickers for different creative ideas. 3. An add text option. >`
         3. Add these features to your `## Top Features` section
+        
     4. Sketch (15 minutes)
         1. Draw a rectangle in the center of a paper
         2. Sketch a rough idea of what buttons, labels, images would be on the screen
         3. Repeat this for 3-5 of your top features
         4. Add annotations to your sketches (i.e.: point out how gesture interactions or animations might work)
         5. Take a photo of each mockup
+        
+        
     5. Share (15 minutes)
         1. Pair up with a fellow student and show them your idea (Screenshare on Zoom)
         2. Take notes and write down any of their ideas
@@ -60,9 +64,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. `<Feature 1: Be able to add their own photos for more personalized customization drawing.>`
+2. `<Feature 2 Being Able to add stickers/stamps to the canvas.>`
+3. `<Feature 3 Being able to add text to the canvas if the user wants to type something rather than just drawing. >`
 
 ## Part 2: Project Plan
 
