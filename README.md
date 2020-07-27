@@ -7,15 +7,15 @@
 ## Requirements
 
 1. Team Members: Nonye
-2. App Name: Noted
+2. App Name: monologue
 3. App Description (3-5 sentences):
-My app idea would include sections for people to create enteries and allow them to categorize them into journal vs. task enteries. If its a task, they can set up a future notification to alert them when the task is due. 
+My app idea would include sections for people to create enteries and allow them to categorize them into journal vs. task enteries. They can use their voice to record written messages and save them for future use. They will also be able to edit and delete notes.
 
 4. Your #1 Customer (Who would use your app? Why now?)
-My target customer is going to be those with busy schedules and need to balance information in an organized fashion.
+My target customer is going to be those with busy schedules and need to balance information in an organized fashion.Also for those wondering thinkers.
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: https://github.com/nonyeezekwo/monologue
+6. Github Project/Trello Board: https://trello.com/b/WlqwGRoN/monologue
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
