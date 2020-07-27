@@ -7,16 +7,16 @@
 ## Requirements
 
 1. Team Members: `Myself`
-2. App Name: `Calorie Tracker`
+2. App Name: `Gif Maker`
 3. App Description (3-5 sentences):
 
-`Users can add meals and their calorie counts to keep track of how much they consumed that day. Users can also set a goal and review logs of previous days.`
+`Users can make gifs from live photos and videos.`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
- `Anyone who wants to stay healthy and lose or maintain weight.`
+ `Any Instagrammers or TikTok user`
     
-5. Github code repository: `https://github.com/system787/Calorie-Tracker`
+5. Github code repository: `https://github.com/system787/GIFer`
 6. Github Project/Trello Board: `will update after starting`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
