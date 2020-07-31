@@ -6,19 +6,19 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members:  Dahna Buenrostro
+2. App Name: QuickScrpit
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+`The app will be able to listen and write a note in text to match what you say. You will be able to organize what kind of notes you want to make by category and share them. Saving and deleting will make it easy to use for quick thoughts.`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+ `This app would be ideal for people who want to stay organized but may struggle to write neatly or don't feel like fumbling with the keyboard.`
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
-7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
+5. Github code repository: `https://github.com/LambdaSchool/iOS-Build-Sprint-4`
+6. Github Project/Trello Board: `https://trello.com/b/Vn9Vlx4f/bw-quickscript`
+7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"Dahna
 
 ## Part 1: Brainstorming
 
@@ -38,7 +38,13 @@ Add photos, notes, and sketches from your brain storming session.
         4. Take a photo of your organized list and upload it to your proposal (YourName-List.jpg or YourName-List.md)
     3. Prioritize (5 minutes)
         1. What features does your #1 customer need most?
+            - Easy to use speech to text functionality
         2. Choose 3-5 features that make the core app experience
+            - Transcribe Notes correctly
+            - Organize Notes by Date/Category
+            - Easy to understand
+            - Export ability
+            - Delete
         3. Add these features to your `## Top Features` section
     4. Sketch (15 minutes)
         1. Draw a rectangle in the center of a paper
@@ -56,9 +62,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. `<Feature 1: Transcribe notes for user using speech-to-text api?>`
+2. `<Feature 2: Easy to use process to create, edit, organize and  delete notes`
+3. `<Feature 3: User's will have the ability to export notes to share or better keep up with`
 
 ## Part 2: Project Plan
 
