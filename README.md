@@ -10,7 +10,7 @@
 2. App Name: `Home Mortgage Calculator`
 3. App Description (3-5 sentences):
 
-`Enter basic information about a house purchase and loan info to create a breakdown of the loan for its entire life (monthly payments of principal + interest). Graphs could be shown to visualize the loan details. Perhaps even allow for different loan specs to be compared on a given house purchase to see how they compare.`
+`Enter basic information about a house purchase and loan info to create a breakdown of the loan for its entire life (monthly payments of principal + interest). Graphs could be shown to visualize the loan details. Perhaps even allow for different loan specs to be compared on a given house purchase to see how they compare. `
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
