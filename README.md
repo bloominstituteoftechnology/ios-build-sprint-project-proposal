@@ -7,21 +7,21 @@
 ## Requirements
 
 1. Team Members: `<Who's working on this app?>`
-    1. Matt Martindale 2. Juan Mariscal 3. Claudia Maciel
+    1. Matt Martindale 2. Chad Parker 3. Claudia Maciel
 2. App Name: `<What's the app name?>`
-    Moody Me (name WIP)
+    Speech-to-text note taking app
 3. App Description (3-5 sentences):
 
-    An app that lets you track your overall mood for that day. Helping people be more aware of their emotions and help them recognize patterns that might affect their moods in a negative way.
+    An app that lets you do speech to text notes and edit if desired. 
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    People who realize they let their emotions control them and want a better way to track their moods, while also giving them a way to stand back and see their overall mood for the month
+    People who are always on the go who want to quickly jot down their ideas and thoughts will use this app to catalog their ideas.
     
 5. Github code repository: `<Create a Github Project>`
-    https://github.com/iOSPT5-BW1/Mood-Tracker
+N/A
 6. Github Project/Trello Board: `<Post your link to your Kanban board>`
-    https://www.notion.so/3ee4fdd8057a423bb1e1eb3f8282cc6b?v=c7eff0fd505f465a830043392c30af9d
+https://trello.com/b/Lx8xpEQN/text-to-speech-app
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -60,9 +60,11 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. Speech to text View Controller
+2. Ability to edit the text
+3. Combine multiple recording sessions into one
+4. Collection/tableView to view and edit all notes they took.
+5. Ability to export/share file with others
 
 ## Part 2: Project Plan
 
