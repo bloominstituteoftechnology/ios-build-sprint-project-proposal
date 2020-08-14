@@ -6,18 +6,18 @@
 
 ## Requirements
 
-1. Team Members: `Kevin Stewart, John Holowesko`
-2. App Name: `Lunch-In`
+1. Team Members: `Kevin Stewart, Pravin Patel, Aaron Haughton`
+2. App Name: `Home Mortgage Calculator`
 3. App Description (3-5 sentences):
 
-`We're creating an app that allows users to suggest and vote on lunch locations for that day's lunch. Users have to place their votes before 11am the day of in order for their vote to count. At 11:30am notifications are sent out to all group memebers alerting them of the selected restaurant. `
+`Enter basic information about a house purchase and loan info to create a breakdown of the loan for its entire life (monthly payments of principal + interest). Graphs could be shown to visualize the loan details. Perhaps even allow for different loan specs to be compared on a given house purchase to see how they compare.`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
- `We believe that medium-to-large offices would be great candidates for this app. It's a daily struggle organizing lunches across departments and would help streamline an important part of the day :)`
+ `People that are buying their first house.`
     
-5. Github code repository: `https://github.com/jholowesko/Lunch-In`
-6. Github Project/Trello Board: `https://github.com/jholowesko/Lunch-In/projects/2`
+5. Github code repository: `To be set up`
+6. Github Project/Trello Board: `To be set up`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -56,9 +56,11 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. `<Feature 1: Quickly calculate the mortgage requirements for qualifying on a loan.>`
+2. `<Feature 2 By staying organized managing account. Gives the user a realistic view when home shopping.>`
+3. `<Feature 3 Save mortgage scenarios and sends user alerts/notifications.>`
+4. `<Feature 4 User will be able to login into an account.>`
+4. `<Feature 5 The system framework that we will use is MapKit that saves a location where the house is located on the map.>`
 
 ## Part 2: Project Plan
 
