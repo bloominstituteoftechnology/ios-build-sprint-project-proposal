@@ -6,18 +6,18 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `Jarren Campos & Conner Wells`
+2. App Name: `Blueprynt`
 3. App Description (3-5 sentences):
 
-    `<Explain your app to your Grandma (or a 5-year old child)>`
+`Blueprynt is a tool that users can use to stay organized, stay on budget and plan their home renovation needs. When working through a project whether it is a small bathroom remodel or a new build things can get complicated and the app can be the center of everything the user can reference.`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+ `The #1 customer for Blueprynt can be anyone who is working on a home project big or small. Can range from individual homeowners to contractors and professionals. I talk with potential users each day and can see the huge market and how this will be helpful to them.`
     
-5. Github code repository: `<Create a Github Project>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: `https://github.com/jarrencampos/ios-build-sprint-project-proposal`
+6. Github Project/Trello Board: `https://trello.com/b/uictWguj/bluprynthttps://www.notion.so/6094d74b056640e59f41618eda09a7e5?v=f68d4d247e324e2090fabf482699b04b`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -56,9 +56,14 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. `Be able to track expenses(date, amount, receipt)`
+2. `Track progress through the project.`
+3. `Capability to add different projects.`
+
+Bonus
+1. `Calendar feature that user can use to plan what will happen that day`
+2. `Ability to log in as a certain user and connect/colaborate with other users`
+
 
 ## Part 2: Project Plan
 
