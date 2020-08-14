@@ -6,18 +6,18 @@
 
 ## Requirements
 
-1. Team Members: `Jarren Campos & James McDougall`
-2. App Name: `Play Call`
+1. Team Members: `Jarren Campos & Conner Wells`
+2. App Name: `Blueprynt`
 3. App Description (3-5 sentences):
 
-`Play call will be an app designed to get athletes prepared for game time. It will use audio the user will listen to and have a timer for the user to choose the right answer. It will be a quiz based app with scoring and a result screen.`
+`Blueprynt is a tool that users can use to stay organized, stay on budget and plan their home renovation needs. When working through a project whether it is a small bathroom remodel or a new build things can get complicated and the app can be the center of everything the user can reference.`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
- `The #1 customer for Play Call will be anybody who plays sports and wants to be prepared fully for gametime.`
+ `The #1 customer for Blueprynt can be anyone who is working on a home project big or small. Can range from individual homeowners to contractors and professionals. I talk with potential users each day and can see the huge market and how this will be helpful to them.`
     
 5. Github code repository: `https://github.com/jarrencampos/ios-build-sprint-project-proposal`
-6. Github Project/Trello Board: `https://www.notion.so/6094d74b056640e59f41618eda09a7e5?v=f68d4d247e324e2090fabf482699b04b`
+6. Github Project/Trello Board: `https://trello.com/b/uictWguj/bluprynthttps://www.notion.so/6094d74b056640e59f41618eda09a7e5?v=f68d4d247e324e2090fabf482699b04b`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -56,9 +56,14 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `Be able to hear the sound and be accurate to the customer's sport.`
-2. `Quiz functions great and calculates out the user's score`
-3. `Navigation works and is able to help the user by personalizing the experience.`
+1. `Be able to track expenses(date, amount, receipt)`
+2. `Track progress through the project.`
+3. `Capability to add different projects.`
+
+Bonus
+1. `Calendar feature that user can use to plan what will happen that day`
+2. `Ability to log in as a certain user and connect/colaborate with other users`
+
 
 ## Part 2: Project Plan
 
