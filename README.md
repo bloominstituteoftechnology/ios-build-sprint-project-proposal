@@ -21,8 +21,8 @@
  
     `Anyone who's thinking about or looking into buying a home, maybe even someone in real estate who sometimes just needs to do some quick math for his customers, it can be a very reliable tool!`
     
-5. Github code repository: `We'll make one and add it here`
-6. Github Project/Trello Board: `We'll make one and add it here`
+5. Github code repository: https://github.com/iOSPT6-Mortgage-Calculator
+6. Github Project/Trello Board: https://github.com/orgs/iOSPT6-Mortgage-Calculator/projects/1
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
