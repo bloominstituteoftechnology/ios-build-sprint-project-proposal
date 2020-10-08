@@ -6,23 +6,23 @@
 
 ## Requirements
 
-1. Team Members: `<Waseem and Rob?>`
-2. App Name: `<Medication tracker>`
+1. Team Members: `<Waseem, Clayton, and Morgan>`
+2. App Name: `<Mortgage Calculator>`
 3. App Description (3-5 sentences):
 
-    Welcome to Medication Tracker!
+    Welcome to the Mortgage Calculator!
     
-     `You can use this app to help you manage, schedule, and track your medication. `
-     ` In this app, you can add whatever medication you're currently taking, and set up reminders to take that medication.`
-     ` That way, it can remind you when it's time to take your meds!`
-     ` Can't remember whether or not you've already had your pill, no problem! `
-      ` after you take your medication, you can then log that into the app, and it'll remember for you! Now you can just check back later when in doubt`
+     ` Essentially, this app will help you get a clear image of the financial investment you make when you decide to purchase a home and finance it with a mortgage. `
+     ` If you're trying to get an idea about what you can afford first before you start looking around for houses, this app would be perfect for that!`
+     ` In this app, you'll input a few details about your (hypothetical or actual) mortgage, like the total amount of the mortgage loan, the interest rate, and the term of the loan.`
+     ` It'll tell you how much you'll be spending on your mortgage in total (including interest), your monthly payment, `
+     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<my dad, becasue he takes a number of different pills>`
+    `Anyone who's thinking about or looking into buying a home, maybe even someone in real estate who sometimes just needs to do some quick math for his customers, it can be a very reliable tool!`
     
-5. Github code repository: `<https://github.com/iOSPT5-BW1/Medication-Tracker>`
-6. Github Project/Trello Board: `<Post your link to your Kanban board>`
+5. Github code repository: `We'll make one and add it here`
+6. Github Project/Trello Board: `We'll make one and add it here`
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
@@ -62,11 +62,11 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: Add medications with names and a number that displays how many times in a day you need to take them`
+1. ` The app will take the user's inputs and run calculations in the background to display to the user `
 
-2. `Tap on the medication cell to log doses that are taken, make changes, or take down some notes`
+2. ` return monthly payment `
 
-3. `The app can send reminders (even when the app is closed) to remind the user to take their meds`
+3. ` return total mortgage cost `
 
 ## Part 2: Project Plan
 
