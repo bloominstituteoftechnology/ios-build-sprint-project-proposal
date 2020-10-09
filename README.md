@@ -6,19 +6,15 @@
 
 ## Requirements
 
-1. Team Members: Breena Greek, Libby Thomas
-2. App Name: Water My Plant
+1. Team Members: Libby Thomas, Josh Kocsis
+2. App Name: Notes Transcriber
 3. App Description (3-5 sentences):
 
-    This app allows a user to create files that hold information about their plants. They can input a photo of their plant, a nickname for the plant, the type of plant that it is, and information about how to take care of it. The user will also have the option to edit or delete plants. 
+    This app allows a user to use their voice to take notes. This way, the user doesn't have to type out their notes, especially if they're going to be long notes. 
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    Plant hobbyists or gardeners. 
-    
-5. Github code repository: https://github.com/thomaslibby05/Plant-Reminder
-6. Github Project/Trello Board: https://www.notion.so/3d9ebfafe2f445a7a6510a72beda26b9?v=6b72d2ab175047bd9c9d1a242162e469
-7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
+    Individuals on the go, who appreciate the efficiency of being able to take notes rather quickly. 
 
     Done. :) 
 
@@ -58,9 +54,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. Speech to text will also users to use their voice to make notes. 
+2. Adding photos/video allows a user to referece something specific, if needed.
+3. A share feature would allow sharing of notes (i.e.: A spouse sharing a grocery list).
 
 ## Part 2: Project Plan
 
