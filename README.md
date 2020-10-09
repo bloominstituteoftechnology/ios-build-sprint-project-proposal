@@ -8,7 +8,7 @@
 
 1. Team Members: Kennedy Samarakody, Juan Mariscal, and Bronson Mullens
 2. App Name:  Home Mortgage Calculator 
-3. App Description (3-5 sentences): Anyone who is interested in purchasing houses, this app will benefit them. This app allows the user to enter basic information about the house purchase and the loan info to create a breakdown of the loan for the loan entire life. This will include the monthly payment, graphs that will represents as visual representation of the loan details. 
+3. App Description (3-5 sentences): Anyone who is interested in purchasing houses, this app will benefit them. This app allows the user to enter basic information about the house purchase and the loan info to create a breakdown of the loan for the loan entire life. This will include the monthly payment, graphs that will represents as visual representation of the loan details. We will allow the client a planner tool as well, which allow them to test various variables.
 4. Your #1 Customer (Who would use your app? Why now?) The target audience for this app would be anyone who is interested in purchasing a house. This app will help them organize and plan their purchase out down to the month. 
     
 5. Github code repository: TBD
