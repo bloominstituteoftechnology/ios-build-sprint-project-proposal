@@ -8,7 +8,7 @@
 
 1. Team Members: Kennedy Samarakody, Juan Mariscal, and Bronson Mullens
 2. App Name:  Home Mortgage Calculator 
-3. App Description (3-5 sentences): Anyone who is interested in purchasing houses, this app will benefit them. This app allows the user to enter basic information about the house purchase and the loan info to create a breakdown of the loan for the loan entire life. This will include the monthly payment, graphs that will represents as visual representation of the loan details. We 
+3. App Description (3-5 sentences): Anyone who is interested in purchasing houses, this app will benefit them. This app allows the user to enter basic information about the house purchase and the loan info to create a breakdown of the loan for the loan entire life. This will include the monthly payment, graphs that will represents as visual representation of the loan details. 
 4. Your #1 Customer (Who would use your app? Why now?) The target audience for this app would be anyone who is interested in purchasing a house. This app will help them organize and plan their purchase out down to the month. 
     
 5. Github code repository: TBD
@@ -51,9 +51,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. Show clients their monthly payment. This will highlight the principal and the interest.
+2. The app will also show their info as graphs.
+3. The app also allow the client to compare loans.
 
 ## Part 2: Project Plan
 
