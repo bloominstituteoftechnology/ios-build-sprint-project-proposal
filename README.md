@@ -6,14 +6,13 @@
 
 ## Requirements
 
-1. Team Members: Kennedy Samarakody and True Ballin
-2. App Name:  Unit Converter 
-3. App Description (3-5 sentences): This app is really basic, we are trying to create an app that does conversions. Our app will allow users to convert money to other currency and to bitcoins as well. It will also allow us to convert through the metric system. We will create a user friendly and dynamtic User Interface that is easy to use and navigate.
+1. Team Members: Kennedy Samarakody, Juan Mariscal, and Bronson Mullens
+2. App Name:  Home Mortgage Calculator 
+3. App Description (3-5 sentences): Anyone who is interested in purchasing houses, this app will benefit them. This app allows the user to enter basic information about the house purchase and the loan info to create a breakdown of the loan for the loan entire life. This will include the monthly payment, graphs that will represents as visual representation of the loan details. We 
+4. Your #1 Customer (Who would use your app? Why now?) The target audience for this app would be anyone who is interested in purchasing a house. This app will help them organize and plan their purchase out down to the month. 
     
-4. Your #1 Customer (Who would use your app? Why now?) In my opinion, anyone can use this app. It is very diverse because alot people uses unit converters. It is useful to everyone who wants to convert any value or metric.
-    
-5. Github code repository: https://github.com/kensam1/Unit-Convert-II
-6. Github Project/Trello Board: https://www.notion.so/84b37ced00b4477196bfc1a11ef7c78e?v=7a00b6845897424e9632e5cedd9962a4
+5. Github code repository: TBD
+6. Github Project/Trello Board: TBD
 7. Create a Slack DM Group with your partner, TL, and Instructor and say "hi!"
 
 ## Part 1: Brainstorming
