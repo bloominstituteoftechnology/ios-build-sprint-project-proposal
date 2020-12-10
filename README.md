@@ -6,15 +6,15 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: Zachary Thacker, Cora Jacobson & Gerardo Hernandez
+2. App Name: My Forage
 3. App Description (3-5 sentences):
 
-    `<Explain your app to someone you just met>`
+    This app is for the modern mushroom forager to log fruitful spots for future harvests. Users can geotag their favorite locations and track recent precipitation to predict the best times for foraging. Future app versions may include syncing between devices and sharing locations with other users.
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    Mushrooms foragers who want to remember and track their favorite spots
 
 ## Part 1: Brainstorming
 
@@ -27,11 +27,17 @@ Add photos, notes, and sketches from your brain storming session.
         3. Add as many ideas and connections (Don't stop early, keep going until the timer ends)
         4. If you still have ideas, reset the timer and do it again
         5. Take a photo of your mind map and upload it to your proposal (YourName-Mindmap.jpg)
+        
+        See AppMindMap.png
+        
     2. Organize a List (15 minutes)
         1. Set a timer for 15 minutes
         2. Make a list on paper (or Markdown) and capture all your ideas from the mindmap
         3. If new ideas appear, write those down too
         4. Take a photo of your organized list and upload it to your proposal (YourName-List.jpg or YourName-List.md)
+        
+        See MyForageOutline.pdf
+        
     3. Prioritize (5 minutes)
         1. What features does your #1 customer need most?
         2. Choose 3-5 features that make the core app experience
@@ -42,6 +48,13 @@ Add photos, notes, and sketches from your brain storming session.
         3. Repeat this for 3-5 of your top features
         4. Add annotations to your sketches (i.e.: point out how gesture interactions or animations might work)
         5. Take a photo of each mockup
+        
+        See  - StoryboardLayout.png
+                - HomeScreen.png
+                - MapView.png
+                - CollectionView.png
+                - DetailView.png
+        
     5. Share (15 minutes)
         1. Pair up with a fellow student and show them your idea (Screenshare on Zoom)
         2. Take notes and write down any of their ideas
@@ -52,9 +65,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. Record favorite foraging locations
+2. Add details, notes, images to locations
+3. Check recent weather to determine foraging favorability
 
 ## Part 2: Project Plan (once the project sprint starts)
 
