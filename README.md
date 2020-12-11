@@ -6,15 +6,15 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `<Bryson, Norlan, Sammy>`
+2. App Name: `<Quick Gif Maker>`
 3. App Description (3-5 sentences):
 
-    `<Explain your app to someone you just met>`
+    `<The app will be a mixture of the Gif Maker  and a photo editing app . This app will allow users to take images and life photos which will be turned into custom memes where we can share to any platform we want.>`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    `<The key demographic for this app is anyone who would like to take fun images and life photos to share when funny memes are needed.>`
 
 ## Part 1: Brainstorming
 
@@ -52,9 +52,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1. `<Feature 1: Photo Editing/custom camera when taking image>`
+2. `<Feature 2: Use of Custom Stickers>`
+3. `<Feature 3: Ability to share>`
 
 ## Part 2: Project Plan (once the project sprint starts)
 
