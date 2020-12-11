@@ -6,15 +6,15 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members:  James McDougall, Bohdan Tkachenko, Ian French
+2. App Name:  Wine Flight
 3. App Description (3-5 sentences):
 
-    `<Explain your app to someone you just met>`
+   I'm going to give you two scenarios.  One: you have just proposed to the woman of your dreams and she has said yes. Imagine her surprise in that magical moment when a drone sets down with a small package containing a bottle of champagne and two customized champagne flutes to celebrate?  Two: you are out fishing with the lads and have run out of beer. Why waste time heading back to the marina when you can simply get a sixer flown right to you on the lake, maybe even with a bag of Cool Ranch that you are suddently craving? Wine flight will make this a reality. 
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+At Wine Flight we don't have a #1 customer because all of our customers are #1. Be it a bridal shower, gender reveal, marriage proposal, hunting trip or just because. The reason is not important to us. Your satisfaction is. Now, more than ever, people are flocking to no contact delivery service and this one would have them all looking up. 
 
 ## Part 1: Brainstorming
 
@@ -52,9 +52,9 @@ Add photos, notes, and sketches from your brain storming session.
 
 Add your top 3-5 features (core functionality) from the Prioritize brainstorming step. These should be things that are part of the MVP (not a log in screen). Build for the demo day (i.e.: Apple never shows how to log into the Apple ID on stage).
 
-1. `<Feature 1: What will this help your #1 Customer do?>`
-2. `<Feature 2 (How will this help the customer?>`
-3. `<Feature 3 ...>`
+1.  Deliver a package (wine/beer/etc.) in a special manner and to areas that might be inaccessible to ground vehicles.
+2.  Helps them get what they want, where they want. 
+3. TBD
 
 ## Part 2: Project Plan (once the project sprint starts)
 
