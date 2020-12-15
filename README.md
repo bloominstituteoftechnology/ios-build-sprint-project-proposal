@@ -6,15 +6,15 @@
 
 ## Requirements
 
-1. Team Members: `<Who's working on this app?>`
-2. App Name: `<What's the app name?>`
+1. Team Members: `Kenneth Jones, Hannah Bain, Rob`
+2. App Name: `Budget Buddy`
 3. App Description (3-5 sentences):
 
-    `<Explain your app to someone you just met>`
+    `It's a budgeting app where you can enter in your budget each month in all the different expense categories and then at the end of each month you enter in your actual expenses in each category and the app tells you how close you matched with your budget. You can also set Reminders to pay certain bills if you need to.`
     
 4. Your #1 Customer (Who would use your app? Why now?)
  
-    `<Be specific and focus on a real person>`
+    `Someone who is good with their day-to-day spending, but they want a tool to plan and review their monthly spending to make sure it's on track.`
 
 ## Part 1: Brainstorming
 
