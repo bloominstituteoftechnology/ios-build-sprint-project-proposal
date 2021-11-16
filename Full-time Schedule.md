@@ -15,7 +15,7 @@
 * **Required**: Run your app on an iPhone or iPad (Show your TL with screenshot / photo)
 * **Required**: Set up your App Store Connect account
 * **Required**: Invite your instructors to TestFlight
-	* Paul Solt - paul.solt@LambdaSchool.com
+	* Paul Solt - paul.solt@bloomtech.com
 
 ## Wednesday
 
